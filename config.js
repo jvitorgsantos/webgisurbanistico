@@ -115,9 +115,9 @@ const CONFIG = {
     baseMaps: [
         {
             id: "satellite",
-            name: "Satélite HD (Esri)",
-            url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-            attribution: "&copy; Esri, Maxar, Earthstar Geographics, Earthstar",
+            name: "Satélite HD (Google)",
+            url: "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+            attribution: "&copy; Google",
             maxZoom: 20
         },
         {
