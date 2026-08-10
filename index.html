@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geoportal Urbanístico - Selagem Habitacional Favelas SP</title>
+    
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <!-- NAVBAR -->
+        <header class="navbar">
+            <div class="brand-container">
+                <div class="brand-logo">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <div class="brand-title">
+                    <h1>Geoportal Urbanístico <span>| Selagem & Intervenções</span></h1>
+                </div>
+            </div>
+
+            <div class="nav-controls">
+                <!-- Search Box -->
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="searchInput" placeholder="Buscar por COD_GERAL ou Selo...">
+                </div>
+
+                <!-- Action Buttons -->
+                <button class="btn-header" id="btnRefresh" title="Sincronizar com Status_Simplificado_v1.csv">
+                    <i class="fa-solid fa-rotate"></i> Atualizar Dados
+                </button>
+
+                <button class="btn-header btn-primary" id="btnOpenStats">
+                    <i class="fa-solid fa-chart-pie"></i> Painel de Estatísticas
+                </button>
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-content">
+            <!-- COLLAPSIBLE SIDEBAR -->
+            <aside class="sidebar" id="sidebar">
+                <button class="sidebar-toggle-btn" id="btnToggleSidebar" title="Ocultar/Exibir Painel">
+                    <i class="fa-solid fa-chevron-left" id="toggleIcon"></i>
+                </button>
+
+                <div class="sidebar-header">
+                    <h2><i class="fa-solid fa-sliders"></i> Camadas & Filtros</h2>
+                </div>
+
+                <div class="sidebar-body">
+                    <!-- BASEMAP SWITCHER -->
+                    <div class="filter-group">
+                        <label class="group-title"><i class="fa-solid fa-layer-group"></i> Mapa de Fundo</label>
+                        <div class="basemap-grid" id="basemapContainer">
+                            <!-- Populated dynamically from config.js -->
+                        </div>
+                    </div>
+
+                    <!-- AREA FILTER -->
+                    <div class="filter-group">
+                        <label class="group-title"><i class="fa-solid fa-city"></i> Área / Favela</label>
+                        <select id="selectArea" class="select-custom">
+                            <option value="ALL">Todas as Áreas (Consolidado)</option>
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- STATUS FILTER -->
+                    <div class="filter-group">
+                        <label class="group-title"><i class="fa-solid fa-tags"></i> Status Simplificado</label>
+                        <div class="status-checkbox-list" id="statusFilterContainer">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- CATEGORY FILTER -->
+                    <div class="filter-group">
+                        <label class="group-title"><i class="fa-solid fa-building"></i> Uso / Categoria</label>
+                        <select id="selectCategory" class="select-custom">
+                            <option value="ALL">Todas as Categorias</option>
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- LOTE FILTER -->
+                    <div class="filter-group">
+                        <label class="group-title"><i class="fa-solid fa-map-marked-alt"></i> Lote</label>
+                        <select id="selectLote" class="select-custom">
+                            <option value="ALL">Todos os Lotes</option>
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- EXTRA LAYERS -->
+                    <div class="filter-group">
+                        <label class="group-title"><i class="fa-solid fa-layer-group"></i> Camadas Adicionais</label>
+                        <div class="status-checkbox-list">
+                            <div class="status-item">
+                                <div class="status-label">
+                                    <input type="checkbox" id="toggleLimiteDTS">
+                                    <span>Limite DTS Extremo Sul</span>
+                                </div>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-label">
+                                    <input type="checkbox" id="toggleLotesMananciais">
+                                    <span>Lotes Mananciais</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DRAG & DROP NEW GEOJSON/KML/KMZ -->
+                    <div class="filter-group">
+                        <label class="group-title"><i class="fa-solid fa-file-import"></i> Adicionar Camadas</label>
+                        <div class="dropzone" id="dropzone">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                            <p><strong>Clique ou arraste um arquivo</strong> (.geojson, .kml, .kmz) aqui para carregar</p>
+                            <input type="file" id="fileInput" accept=".geojson,.json,.kml,.kmz" style="display: none;">
+                        </div>
+                        
+                        <!-- LISTA DE CAMADAS DO USUÁRIO -->
+                        <div id="userLayersContainer" style="margin-top: 10px; display: flex; flex-direction: column; gap: 8px;">
+                            <!-- Preenchido via JS -->
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- LEAFLET MAP CONTAINER -->
+            <div id="map"></div>
+
+            <!-- FLOATING MAP LEGEND -->
+            <div class="map-legend">
+                <div class="legend-title">Legenda de Status</div>
+                <div class="legend-items" id="legendContainer">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- STATISTICS MODAL / DRAWER -->
+    <div class="modal-overlay" id="statsModal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2>
+                    <i class="fa-solid fa-chart-column"></i> Indicadores de Selagem Habitacional
+                    <span class="area-badge-modal" id="statsModalAreaName">Todas as Áreas (Consolidado)</span>
+                </h2>
+                <button class="btn-close" id="btnCloseStats"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div class="modal-body">
+                <!-- KPI CARDS -->
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-title">Total de Domicílios</div>
+                        <div class="kpi-value" id="kpiTotal">0</div>
+                        <div class="kpi-percent" id="kpiTotalEdif">Base de cálculo</div>
+                    </div>
+                    <div class="kpi-card kpi-selado">
+                        <div class="kpi-title">Imóvel Selado</div>
+                        <div class="kpi-value" id="kpiSelado">0</div>
+                        <div class="kpi-percent" id="kpiSeladoPct">0%</div>
+                    </div>
+                    <div class="kpi-card kpi-obras">
+                        <div class="kpi-title">Frente de Obras</div>
+                        <div class="kpi-value" id="kpiObras">0</div>
+                        <div class="kpi-percent" id="kpiObrasPct">0%</div>
+                    </div>
+                    <div class="kpi-card kpi-removido">
+                        <div class="kpi-title">Removidos</div>
+                        <div class="kpi-value" id="kpiRemovido">0</div>
+                        <div class="kpi-percent" id="kpiRemovidoPct">0%</div>
+                    </div>
+                    <div class="kpi-card kpi-tratativas">
+                        <div class="kpi-title">Em Tratativas</div>
+                        <div class="kpi-value" id="kpiTratativas">0</div>
+                        <div class="kpi-percent" id="kpiTratativasPct">0%</div>
+                    </div>
+                    <div class="kpi-card kpi-resistente">
+                        <div class="kpi-title">Resistente</div>
+                        <div class="kpi-value" id="kpiResistente">0</div>
+                        <div class="kpi-percent" id="kpiResistentePct">0%</div>
+                    </div>
+                </div>
+
+                <!-- CHARTS GRID -->
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <h3><i class="fa-solid fa-chart-pie"></i> % Status Simplificado</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="donutChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <h3><i class="fa-solid fa-chart-bar"></i> Distribuição de Status por Área (Favela)</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="barChartArea"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMessage">Mensagem de notificação</span>
+    </div>
+
+    <!-- LIBRARIES: Leaflet, PapaParse, Chart.js, JSZip, toGeoJSON -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/togeojson/0.16.0/togeojson.min.js"></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
