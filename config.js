@@ -10,7 +10,7 @@ const CONFIG = {
     // Informações da última atualização
     lastUpdate: {
         date: "11/08/2026",
-        description: "Nova área: Chácara Flórida"
+        description: "Novas áreas: Chácara Flórida, Guaicuri e Alto da Alegria"
     },
 
     // Caminhos padrão dos arquivos na pasta
