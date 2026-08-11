@@ -36,7 +36,29 @@ document.addEventListener('DOMContentLoaded', () => {
     // INICIALIZAÇÃO DO GEOPORTAL
     initMap();
     setupEventListeners();
+    initUpdateBadge();
     loadData();
+
+    function initUpdateBadge() {
+        if (CONFIG.lastUpdate && CONFIG.lastUpdate.date) {
+            document.getElementById('updateDate').textContent = CONFIG.lastUpdate.date;
+            document.getElementById('updateDesc').textContent = CONFIG.lastUpdate.description || '';
+            
+            const badge = document.getElementById('updateInfoBadge');
+            badge.style.display = 'flex';
+            badge.style.opacity = '1';
+            
+            // Inicia o fade out após 4 segundos (para totalizar 5s com a transição de 1s)
+            setTimeout(() => {
+                badge.style.opacity = '0';
+                
+                // Remove do DOM visualmente após a transição terminar
+                setTimeout(() => {
+                    badge.style.display = 'none';
+                }, 1000);
+            }, 4000);
+        }
+    }
 
     /**
      * Helper para Normalização de Strings de Status (Inclui Resistente)
@@ -1037,20 +1059,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const uploadedLayer = L.geoJSON(newGeoJSON, {
             style: {
-                color: '#38bdf8',
+                color: 'var(--primary)',
                 weight: 3,
-                fillColor: '#38bdf8',
+                fillColor: 'var(--primary)',
                 fillOpacity: 0.2
             },
             onEachFeature: (feature, layer) => {
                 if (feature.properties) {
-                    let popupHtml = `<div style="font-family:Inter; font-size:12px; color:#f8fafc;"><b>Atributos (${fileName})</b><br><br>`;
+                    let popupHtml = `<div style="font-family:Inter; font-size:12px; color:var(--text-main);"><b>Atributos (${fileName})</b><br><br>`;
                     popupHtml += '<table style="width:100%; border-collapse: collapse; text-align: left;">';
                     for (let key in feature.properties) {
                         if (['styleUrl', 'styleHash', 'styleMapHash', 'stroke', 'stroke-opacity', 'stroke-width', 'fill', 'fill-opacity'].includes(key)) continue;
                         popupHtml += `<tr>
-                            <td style="border-bottom:1px solid #334155; padding:4px 8px 4px 0; color:#94a3b8;"><b>${key}:</b></td>
-                            <td style="border-bottom:1px solid #334155; padding:4px 0 4px 8px; color:#f8fafc;">${feature.properties[key]}</td>
+                            <td style="border-bottom:1px solid var(--border-color); padding:4px 8px 4px 0; color:var(--text-muted);"><b>${key}:</b></td>
+                            <td style="border-bottom:1px solid var(--border-color); padding:4px 0 4px 8px; color:var(--text-main);">${feature.properties[key]}</td>
                         </tr>`;
                     }
                     popupHtml += '</table></div>';

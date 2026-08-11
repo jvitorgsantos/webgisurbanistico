@@ -7,6 +7,12 @@ const CONFIG = {
     title: "GEOPORTAL - SELAGEM HABITACIONAL",
     subtitle: "Cobrape / Projeto Urbanístico - Favelas de São Paulo",
     
+    // Informações da última atualização
+    lastUpdate: {
+        date: "11/08/2026",
+        description: "novas áreas: Enlevo, Fumaça e Neblina"
+    },
+
     // Caminhos padrão dos arquivos na pasta
     geojsonPath: "./base_selagem.geojson",
     csvPath: "./Status_Simplificado_v1.csv",

@@ -6,19 +6,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700&display=swap');
 
 :root {
-    --bg-dark: #0f172a;
-    --bg-card: rgba(30, 41, 59, 0.85);
-    --bg-card-hover: rgba(51, 65, 85, 0.9);
-    --border-color: rgba(255, 255, 255, 0.12);
-    --border-accent: rgba(56, 189, 248, 0.4);
+    /* Cobrape Color Palette */
+    --bg-dark: #0d2b2d; /* Darker shade of Cobrape Dark Teal for contrast */
+    --bg-card: rgba(20, 98, 102, 0.55); /* #146266 - Mais translúcido para glassmorphism */
+    --bg-card-hover: rgba(86, 127, 132, 0.65); /* #567F84 */
+    --border-color: rgba(214, 227, 230, 0.15); /* #D6E3E6 with opacity */
+    --border-accent: rgba(0, 124, 131, 0.4); /* #007C83 with opacity */
     
     --text-main: #f8fafc;
-    --text-muted: #94a3b8;
-    --text-dim: #64748b;
+    --text-muted: #D6E3E6; /* #D6E3E6 - Light Greyish Teal */
+    --text-dim: #8da6a8;
     
-    --primary: #38bdf8;
-    --primary-hover: #0284c7;
-    --accent: #6366f1;
+    --primary: #007C83; /* #007C83 - Bright Teal */
+    --primary-hover: #567F84; /* #567F84 - Muted Teal */
+    --accent: #D6E3E6; /* #D6E3E6 - Light Greyish Teal */
     
     --color-selado: #00b894;
     --color-obras: #fdcb6e;
@@ -63,7 +64,7 @@ body, html {
 
 .navbar {
     height: 64px;
-    background: rgba(15, 23, 42, 0.92);
+    background: rgba(13, 43, 45, 0.75);
     backdrop-filter: var(--blur-glass);
     border-bottom: 1px solid var(--border-color);
     display: flex;
@@ -123,7 +124,7 @@ body, html {
 .search-box input {
     width: 100%;
     height: 38px;
-    background: rgba(30, 41, 59, 0.9);
+    background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-sm);
     padding: 0 14px 0 38px;
@@ -135,7 +136,7 @@ body, html {
 .search-box input:focus {
     outline: none;
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+    box-shadow: 0 0 0 3px var(--border-accent);
 }
 
 .search-box i {
@@ -150,7 +151,7 @@ body, html {
 .btn-header {
     height: 38px;
     padding: 0 16px;
-    background: rgba(30, 41, 59, 0.9);
+    background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-sm);
     color: var(--text-main);
@@ -170,7 +171,7 @@ body, html {
 }
 
 .btn-header.btn-primary {
-    background: linear-gradient(135deg, #0284c7, #4f46e5);
+    background: linear-gradient(135deg, var(--primary), var(--primary-hover));
     border: none;
     color: #fff;
     font-weight: 600;
@@ -406,13 +407,13 @@ body, html {
     border-radius: var(--radius-md);
     padding: 16px;
     text-align: center;
-    background: rgba(56, 189, 248, 0.05);
+    background: rgba(0, 124, 131, 0.05); /* Cobrape primary with low opacity */
     cursor: pointer;
     transition: var(--transition);
 }
 
 .dropzone:hover {
-    background: rgba(56, 189, 248, 0.12);
+    background: rgba(0, 124, 131, 0.15);
     border-color: var(--primary);
 }
 
@@ -437,7 +438,7 @@ body, html {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(13, 43, 45, 0.85); /* Cobrape dark with opacity */
     backdrop-filter: var(--blur-glass);
     z-index: 2000;
     display: flex;
@@ -457,7 +458,7 @@ body, html {
     width: 90%;
     max-width: 1100px;
     max-height: 90vh;
-    background: #0f172a;
+    background: var(--bg-dark);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
@@ -468,7 +469,7 @@ body, html {
 
 .modal-header {
     padding: 18px 24px;
-    background: rgba(30, 41, 59, 0.9);
+    background: var(--bg-card);
     border-bottom: 1px solid var(--border-color);
     display: flex;
     align-items: center;
@@ -742,4 +743,49 @@ body, html {
 
 .toast.show {
     transform: translateX(-50%) translateY(0);
+}
+/* FLOATING UPDATE INFO BADGE */
+.update-info-badge {
+    position: absolute;
+    top: 20px; /* Positioned at top */
+    left: 50%; /* Centered horizontally */
+    transform: translateX(-50%);
+    z-index: 1000;
+    background: var(--bg-card);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    color: var(--text-main);
+    max-width: 350px;
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.update-info-badge i {
+    font-size: 20px;
+    color: var(--primary);
+}
+.update-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.update-date {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.update-date strong {
+    color: var(--text-main);
+}
+.update-desc {
+    font-size: 12px;
+    color: var(--text-main);
+    line-height: 1.3;
 }

@@ -19,9 +19,7 @@
         <!-- NAVBAR -->
         <header class="navbar">
             <div class="brand-container">
-                <div class="brand-logo">
-                    <i class="fa-solid fa-map-location-dot"></i>
-                </div>
+                <img src="./assets/logo_cobrape.png" alt="Cobrape Logo" style="height: 38px; object-fit: contain; margin-right: 12px;">
                 <div class="brand-title">
                     <h1>Geoportal Urbanístico <span>| Selagem & Intervenções</span></h1>
                 </div>
@@ -145,6 +143,15 @@
                 <div class="legend-title">Legenda de Status</div>
                 <div class="legend-items" id="legendContainer">
                     <!-- Populated dynamically -->
+                </div>
+            </div>
+
+            <!-- FLOATING UPDATE INFO -->
+            <div class="update-info-badge" id="updateInfoBadge" style="display: none;">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <div class="update-content">
+                    <span class="update-date">Última atualização: <strong id="updateDate">--</strong></span>
+                    <span class="update-desc" id="updateDesc">--</span>
                 </div>
             </div>
         </main>
