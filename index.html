@@ -37,15 +37,16 @@
                 </div>
 
                 <!-- Action Buttons -->
-                <button class="btn-header" id="btnExport" title="Exportar Mapa para PDF ou PNG">
-                    <i class="fa-solid fa-file-export"></i> Exportar
-                </button>
                 <button class="btn-header" id="btnRefresh" title="Sincronizar com Status_Simplificado_v1.csv">
                     <i class="fa-solid fa-rotate"></i> Atualizar Dados
                 </button>
 
                 <button class="btn-header btn-primary" id="btnOpenStats" title="Abrir Dashboard de Estatísticas">
                     <i class="fa-solid fa-chart-pie"></i> Painel de Estatísticas
+                </button>
+
+                <button class="btn-header" id="btnExport" title="Exportar Mapa para PDF ou PNG" style="white-space: nowrap;">
+                    <i class="fa-solid fa-file-export"></i> Exportar
                 </button>
             </div>
         </header>
@@ -245,10 +246,9 @@
             </div>
             <div class="modal-content" style="padding: 20px;">
                 <div class="filter-group">
-                    <label class="group-title"><i class="fa-solid fa-location-dot"></i> Selecionar Área / Favela</label>
+                    <label class="group-title"><i class="fa-solid fa-location-dot"></i> Selecionar Favela / Área</label>
                     <select id="exportAreaSelect" class="styled-select">
-                        <option value="">Todas as Áreas (Consolidado)</option>
-                        <!-- Populated via JS -->
+                        <!-- Populated dynamically with specific areas only -->
                     </select>
                 </div>
                 <div class="filter-group" style="margin-top: 15px;">
@@ -267,33 +267,35 @@
         </div>
     </div>
 
-    <!-- HIDDEN PRINT LAYOUT (A4 Landscape aspect ratio approximation) -->
+    <!-- HIDDEN PRINT LAYOUT (A4 Landscape: 2970x2100) -->
     <div id="print-layout" class="print-layout" style="display: none;">
         <div class="print-header">
             <img src="./assets/logo_cobrape.png" alt="Logo Cobrape">
-            <div>
-                <h1 id="print-title">Geoportal Urbanístico</h1>
-                <h2 id="print-subtitle">Resumo de Área</h2>
+            <div class="print-header-text">
+                <h1 id="print-title">Geoportal Urbanístico — Favela</h1>
+                <h2 id="print-subtitle">Relatório de Selagem & Intervenções Habitacionais</h2>
+            </div>
+            <div class="print-header-meta">
+                <div class="print-meta-badge">COBRAPE GIS</div>
+                <div class="print-meta-date" id="print-date"></div>
             </div>
         </div>
-        <div class="print-body">
-            <div class="print-main">
-                <div id="print-map-container">
-                    <!-- Map snapshot goes here -->
-                </div>
-            </div>
-            <div class="print-sidebar">
-                <div id="print-legend-container">
-                    <!-- Legend goes here -->
-                </div>
-                <div id="print-stats-container">
-                    <!-- Stats go here -->
-                </div>
+
+        <!-- SEÇÃO SUPERIOR: MAPA OCUPANDO TODA A PARTE SUPERIOR (ÁREA AZUL) -->
+        <div class="print-map-section">
+            <div id="print-map-container">
+                <!-- High-res map snapshot -->
             </div>
         </div>
+
+        <!-- SEÇÃO INFERIOR: PAINEL DE ESTATÍSTICAS E LEGENDA HORIZONTAL (ÁREA VERMELHA) -->
+        <div class="print-bottom-section" id="print-bottom-container">
+            <!-- Full width horizontal layout with KPIs, Status and Legend -->
+        </div>
+
         <div class="print-footer">
-            <span id="print-date"></span>
-            <span>Companhia Brasileira de Projetos e Empreendimentos</span>
+            <span>Geoportal Urbanístico • Sistema de Informações Geográficas</span>
+            <span>Companhia Brasileira de Projetos e Empreendimentos — COBRAPE</span>
         </div>
     </div>
 

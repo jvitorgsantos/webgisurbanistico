@@ -118,7 +118,7 @@ body, html {
 
 .search-box {
     position: relative;
-    width: 280px;
+    width: 210px;
 }
 
 .search-box input {
@@ -178,8 +178,22 @@ body, html {
 }
 
 .btn-header.btn-primary:hover {
-    box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+    box-shadow: 0 0 15px rgba(0, 124, 131, 0.4);
     transform: translateY(-1px);
+}
+
+/* Export format button selected state */
+.export-format-btn {
+    opacity: 0.55;
+    border: 2px solid transparent !important;
+    transition: all 0.2s ease;
+}
+.export-format-btn.active {
+    opacity: 1;
+    border: 2px solid var(--primary) !important;
+    color: var(--primary) !important;
+    background: rgba(0, 124, 131, 0.18) !important;
+    font-weight: 700;
 }
 
 /* ==========================================================================
@@ -791,145 +805,334 @@ body, html {
 }
 
 /* ==========================================================================
-   PRINT / EXPORT LAYOUT
+   PRINT / EXPORT LAYOUT  —  A4 Paisagem @300dpi (2970 x 2100px)
    ========================================================================== */
 .print-layout {
-    width: 2970px; /* A4 Landscape at ~254 dpi */
+    width: 2970px;
     height: 2100px;
-    background: #ffffff; /* White background for print */
+    background: #ffffff;
     color: #0f172a;
     position: absolute;
-    top: -9999px; /* Hide from screen */
+    top: -9999px;
     left: -9999px;
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 44px 50px 32px 50px;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
     z-index: -100;
 }
 
 .print-header {
     display: flex;
     align-items: center;
-    gap: 40px;
-    border-bottom: 4px solid var(--primary);
-    padding-bottom: 30px;
-    margin-bottom: 40px;
+    justify-content: space-between;
+    gap: 30px;
+    border-bottom: 5px solid #007C83;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
 }
 
 .print-header img {
-    height: 120px;
+    height: 80px;
+    object-fit: contain;
 }
 
-.print-header h1 {
-    font-size: 64px;
+.print-header-text {
+    flex: 1;
+}
+
+.print-header-text h1 {
+    font-size: 46px;
     font-family: 'Outfit', sans-serif;
     color: #0d2b2d;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
+    font-weight: 700;
+    line-height: 1.15;
 }
 
-.print-header h2 {
-    font-size: 36px;
+.print-header-text h2 {
+    font-size: 23px;
     font-weight: 500;
-    color: var(--primary);
+    color: #007C83;
 }
 
-.print-body {
-    flex: 1;
-    display: flex;
-    gap: 40px;
-}
-
-.print-main {
-    flex: 2;
+.print-header-meta {
+    text-align: right;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.print-meta-badge {
+    background: #0d2b2d;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+}
+
+.print-meta-date {
+    font-size: 19px;
+    color: #567F84;
+    font-weight: 600;
+}
+
+/* TOP MAP SECTION (ÁREA AZUL - DESTAQUE PRINCIPAL FULL-WIDTH) */
+.print-map-section {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 20px;
+    display: flex;
 }
 
 #print-map-container {
     flex: 1;
-    border: 2px solid #cbd5e1;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #64748b;
     border-radius: 12px;
     overflow: hidden;
     position: relative;
+    background: #0b1329;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-#print-map-container canvas, 
-#print-map-container img {
+#print-map-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block;
+}
+
+/* BOTTOM SECTION (ÁREA VERMELHA - PAINEL HORIZONTAL COMPLETO) */
+.print-bottom-section {
+    height: 520px;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: flex;
+    gap: 20px;
+    flex-shrink: 0;
 }
 
-.print-sidebar {
-    flex: 1;
+/* Column Cards in Bottom Section */
+.print-col {
+    background: #f8fafc;
+    border: 2px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 16px 20px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 40px;
 }
 
-.print-footer {
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 2px solid #cbd5e1;
+.print-col-1 {
+    flex: 26; /* KPIs de destaque */
+}
+
+.print-col-2 {
+    flex: 44; /* Status Simplificado */
+}
+
+.print-col-3 {
+    flex: 30; /* Usos do Solo & Legenda */
+}
+
+.print-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0d2b2d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #007C83;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
-    color: #64748b;
+    align-items: center;
+    flex-shrink: 0;
 }
 
-/* Modifiers for elements cloned into the print layout */
-.print-layout .stat-card {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    padding: 30px;
-    border-radius: 16px;
-    margin-bottom: 20px;
+.print-card-title span.badge {
+    font-size: 14px;
+    background: #007C83;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 12px;
+    text-transform: none;
+    font-weight: 600;
 }
 
-.print-layout .stat-title {
-    color: #475569;
-    font-size: 32px;
-    margin-bottom: 15px;
+/* KPI Boxes inside Col 1 */
+.print-kpi-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    justify-content: space-between;
 }
 
-.print-layout .stat-value {
+.print-kpi-box {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.print-kpi-box.main-kpi {
+    background: #f0fdfa;
+    border-color: #007C83;
+}
+
+.print-kpi-label {
+    font-size: 15px;
+    font-weight: 700;
+    color: #334155;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.print-kpi-sub {
+    font-size: 13px;
+    font-weight: 600;
+    color: #007C83;
+    text-align: left;
+}
+
+.print-kpi-val {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0d2b2d;
+    line-height: 1;
+}
+
+/* Status Item Progress Bars inside Col 2 */
+.print-status-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.print-status-row {
+    margin-bottom: 2px;
+}
+
+.print-status-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
     color: #0f172a;
-    font-size: 64px;
+    margin-bottom: 3px;
 }
 
-.print-layout .chart-container {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    padding: 30px;
-    border-radius: 16px;
-    margin-bottom: 20px;
+.print-status-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.print-layout .map-legend {
-    position: static;
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    padding: 30px;
-    box-shadow: none;
-    border-radius: 16px;
+.print-status-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
 }
 
-.print-layout .legend-title {
-    font-size: 32px;
-    color: #475569;
-    margin-bottom: 20px;
+.print-progress-track {
+    background: #e2e8f0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
-.print-layout .legend-row {
-    font-size: 28px;
-    color: #0f172a;
-    gap: 20px;
+.print-progress-fill {
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Category Grid & Legend inside Col 3 */
+.print-cat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 10px;
     margin-bottom: 12px;
 }
 
-.print-layout .legend-box {
-    width: 40px;
-    height: 30px;
+.print-cat-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 5px 8px;
     border-radius: 6px;
+    font-size: 14px;
+}
+
+.print-cat-item-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.print-cat-swatch {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+.print-cat-val {
+    font-weight: 700;
+    color: #0d2b2d;
+}
+
+/* High Contrast Legend Grid inside Col 3 */
+.print-legend-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 10px;
+}
+
+.print-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.print-legend-swatch {
+    width: 20px;
+    height: 14px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+.print-footer {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 2px solid #cbd5e1;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #64748b;
+    font-weight: 500;
+    flex-shrink: 0;
 }

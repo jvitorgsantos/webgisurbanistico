@@ -117,7 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
         state.map = L.map('map', {
             center: [-23.5505, -46.6333],
             zoom: 13,
-            zoomControl: false
+            zoomControl: false,
+            preferCanvas: true // Renderiza vetores em Canvas HTML5, sincronizando com os tiles e evitando desencaixe no html2canvas
         });
 
         L.control.zoom({ position: 'topright' }).addTo(state.map);
@@ -1211,117 +1212,308 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function populateExportAreaSelect() {
-        const select = document.getElementById('exportAreaSelect');
-        select.innerHTML = '<option value="">Todas as Áreas (Consolidado)</option>';
-        const areas = Array.from(state.availableAreas).sort();
-        areas.forEach(area => {
-            const opt = document.createElement('option');
-            opt.value = area;
-            opt.textContent = area;
-            select.appendChild(opt);
-        });
+        const dest = document.getElementById('exportAreaSelect');
+        if (!dest) return;
+        dest.innerHTML = '';
+        
+        // Obter todas as áreas disponíveis e seus nomes a partir do selectArea da barra lateral
+        const source = document.getElementById('selectArea');
+        if (source && source.options.length > 0) {
+            Array.from(source.options).forEach(opt => {
+                // Apenas áreas específicas, nunca 'ALL' / 'Todas as Áreas'
+                if (opt.value && opt.value !== 'ALL') {
+                    const newOpt = document.createElement('option');
+                    newOpt.value = opt.value;
+                    newOpt.textContent = opt.textContent;
+                    dest.appendChild(newOpt);
+                }
+            });
+        }
+        
+        // Pré-seleciona a área ativa atual se houver, ou a primeira disponível
+        if (state.activeFilters.area && state.activeFilters.area !== 'ALL') {
+            dest.value = state.activeFilters.area;
+        } else if (dest.options.length > 0) {
+            dest.selectedIndex = 0;
+        }
     }
 
-    async function generateMapExport(area, format) {
-        showToast('Preparando mapa para exportação. Aguarde...', 'info');
+    async function generateMapExport(areaCode, format) {
+        if (!areaCode) {
+            const selectEl = document.getElementById('exportAreaSelect');
+            areaCode = selectEl ? selectEl.value : '';
+        }
+
+        if (!areaCode) {
+            showToast('Por favor, selecione uma favela para exportar.', 'error');
+            return;
+        }
+
+        showToast('Preparando mapa em alta definição...', 'info');
         
-        // 1. Filtrar mapa
-        const filterArea = document.getElementById('filterArea');
-        filterArea.value = area;
-        filterArea.dispatchEvent(new Event('change'));
+        // 1. Filtrar mapa para a área selecionada
+        const selectArea = document.getElementById('selectArea');
+        selectArea.value = areaCode;
+        selectArea.dispatchEvent(new Event('change'));
         
-        // Espera renderização do Leaflet e transições css
-        await new Promise(r => setTimeout(r, 1500));
-        
-        // 2. Preencher Layout Oculto
+        // Força sincronização de dimensões no Leaflet
+        state.map.invalidateSize(true);
+
+        // Aguarda processamento do filtro e GeoJSON
+        await new Promise(r => setTimeout(r, 600));
+
+        // Ajusta o zoom com precisão nos limites da favela (sem animação para manter o transform alinhado)
+        if (state.geojsonLayer) {
+            try {
+                const bounds = state.geojsonLayer.getBounds();
+                if (bounds.isValid()) {
+                    state.map.fitBounds(bounds, { padding: [35, 35], maxZoom: 18, animate: false });
+                }
+            } catch (e) { /* continua */ }
+        }
+
+        state.map.invalidateSize(true);
+
+        // Aguarda os tiles do satélite e o canvas do Leaflet renderizarem perfeitamente
+        await new Promise(r => setTimeout(r, 2400));
+
+        // 2. Extrair dados estatísticos da área selecionada
+        const areaFeatures = state.rawGeoJSON ? state.rawGeoJSON.features.filter(f => {
+            const props = f.properties || {};
+            const a = props.cod_area || props.COD_AREA;
+            return String(a).trim().toUpperCase() === String(areaCode).trim().toUpperCase();
+        }) : [];
+
+        const totalEdificacoes = areaFeatures.length;
+        const domicilioFeatures = areaFeatures.filter(f => {
+            const cat = f.properties.categoria || f.properties.CATEGORIA || 'Domicílio';
+            return cat === 'Domicílio';
+        });
+        const totalDomicilios = domicilioFeatures.length;
+        const totalNaoDomiciliares = totalEdificacoes - totalDomicilios;
+
+        // Contagem de status dos domicílios
+        const statusCounts = {
+            'Imóvel Selado': 0,
+            'Frente De Obras': 0,
+            'Removido': 0,
+            'Em Tratativas': 0,
+            'Resistente': 0,
+            'Não Informado': 0
+        };
+        domicilioFeatures.forEach(f => {
+            const st = f.properties._status_simplificado || 'Não Informado';
+            statusCounts[st] = (statusCounts[st] || 0) + 1;
+        });
+
+        // Contagem por categoria / uso do solo
+        const categoryCounts = {};
+        areaFeatures.forEach(f => {
+            const cat = f.properties.categoria || f.properties.CATEGORIA || 'Domicílio';
+            categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+        });
+
+        const areaName = state.csvCodeToAreaNameMap.get(areaCode) || CONFIG.areaNames[areaCode] || areaCode;
+
+        // 3. Montar HTML das listas e legendas
+        let statusListHtml = '';
+        Object.keys(CONFIG.statusColors).forEach(stKey => {
+            const cfg = CONFIG.statusColors[stKey];
+            const count = statusCounts[stKey] || 0;
+            const pct = totalDomicilios > 0 ? ((count / totalDomicilios) * 100).toFixed(1) : '0';
+            const borderStyle = (cfg.color === '#ffffff' || cfg.color === '#ffff00') ? 'border: 2px solid #64748b;' : `border: 1px solid ${cfg.border};`;
+            
+            statusListHtml += `
+                <div class="print-status-row">
+                    <div class="print-status-header">
+                        <div class="print-status-label">
+                            <span class="print-status-dot" style="background:${cfg.color}; ${borderStyle}"></span>
+                            <span>${cfg.label}</span>
+                        </div>
+                        <div style="font-weight:700;">${count.toLocaleString('pt-BR')} <span style="font-weight:500; font-size:14px; color:#567F84;">(${pct}%)</span></div>
+                    </div>
+                    <div class="print-progress-track">
+                        <div class="print-progress-fill" style="width:${pct}%; background:${cfg.color}; ${borderStyle}"></div>
+                    </div>
+                </div>
+            `;
+        });
+
+        let catListHtml = '';
+        Object.keys(CONFIG.categoryColors).forEach(catKey => {
+            const count = categoryCounts[catKey] || 0;
+            if (count > 0 || catKey === 'Domicílio') {
+                const catCfg = CONFIG.categoryColors[catKey] || { color: '#00b894', border: '#00a383' };
+                catListHtml += `
+                    <div class="print-cat-item">
+                        <div class="print-cat-item-left">
+                            <span class="print-cat-swatch" style="background:${catCfg.color}; border: 1px solid ${catCfg.border};"></span>
+                            <span>${catKey}</span>
+                        </div>
+                        <span class="print-cat-val">${count.toLocaleString('pt-BR')}</span>
+                    </div>
+                `;
+            }
+        });
+
+        let legendItemsHtml = '';
+        Object.keys(CONFIG.statusColors).forEach(stKey => {
+            const cfg = CONFIG.statusColors[stKey];
+            const borderStyle = (cfg.color === '#ffffff' || cfg.color === '#ffff00') ? 'border: 2px solid #475569;' : `border: 1px solid ${cfg.border};`;
+            legendItemsHtml += `
+                <div class="print-legend-item">
+                    <span class="print-legend-swatch" style="background:${cfg.color}; ${borderStyle}"></span>
+                    <span>${cfg.label}</span>
+                </div>
+            `;
+        });
+
+        const domPct = totalEdificacoes > 0 ? ((totalDomicilios / totalEdificacoes) * 100).toFixed(0) : '0';
+        const naoDomPct = totalEdificacoes > 0 ? ((totalNaoDomiciliares / totalEdificacoes) * 100).toFixed(0) : '0';
+
+        // 4. Injetar Seção Inferior Horizontal Completa
+        const bottomContainer = document.getElementById('print-bottom-container');
+        bottomContainer.innerHTML = `
+            <!-- COLUNA 1: RESUMO & KPIS -->
+            <div class="print-col print-col-1">
+                <div class="print-card-title">
+                    <span>Resumo Geral</span>
+                    <span class="badge">${areaName}</span>
+                </div>
+                <div class="print-kpi-stack">
+                    <div class="print-kpi-box main-kpi">
+                        <div>
+                            <div class="print-kpi-label">Edificações</div>
+                            <div class="print-kpi-sub">Total Mapeado</div>
+                        </div>
+                        <div class="print-kpi-val">${totalEdificacoes.toLocaleString('pt-BR')}</div>
+                    </div>
+                    <div class="print-kpi-box">
+                        <div>
+                            <div class="print-kpi-label">Domicílios</div>
+                            <div class="print-kpi-sub">${domPct}% do total</div>
+                        </div>
+                        <div class="print-kpi-val">${totalDomicilios.toLocaleString('pt-BR')}</div>
+                    </div>
+                    <div class="print-kpi-box">
+                        <div>
+                            <div class="print-kpi-label">Outros Usos</div>
+                            <div class="print-kpi-sub">${naoDomPct}% não-domiciliar</div>
+                        </div>
+                        <div class="print-kpi-val">${totalNaoDomiciliares.toLocaleString('pt-BR')}</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLUNA 2: STATUS SIMPLIFICADO -->
+            <div class="print-col print-col-2">
+                <div class="print-card-title">
+                    <span>Status Simplificado (Domicílios)</span>
+                    <span style="font-size:14px; font-weight:600; color:#567F84;">${totalDomicilios} Domicílios</span>
+                </div>
+                <div class="print-status-list">
+                    ${statusListHtml}
+                </div>
+            </div>
+
+            <!-- COLUNA 3: USOS DO SOLO & LEGENDA CARTOGRÁFICA -->
+            <div class="print-col print-col-3">
+                <div class="print-card-title">
+                    <span>Usos & Categorias</span>
+                </div>
+                <div class="print-cat-grid">
+                    ${catListHtml}
+                </div>
+
+                <div class="print-card-title" style="margin-top: 6px; font-size: 16px; margin-bottom: 6px; padding-bottom: 4px;">
+                    <span>Legenda Cartográfica</span>
+                </div>
+                <div class="print-legend-grid">
+                    ${legendItemsHtml}
+                </div>
+            </div>
+        `;
+
+        // 5. Capturar Mapa em Alta Resolução (Scale: 2 para máxima nitidez)
+        const mapEl = document.getElementById('map');
+        let mapCanvas;
+        try {
+            mapCanvas = await html2canvas(mapEl, {
+                useCORS: true,
+                allowTaint: false,
+                scale: 2,
+                logging: false,
+                ignoreElements: (node) => node.classList && (
+                    node.classList.contains('leaflet-control-container') ||
+                    node.classList.contains('map-legend') ||
+                    node.classList.contains('update-info-badge') ||
+                    node.classList.contains('sidebar') ||
+                    node.classList.contains('toast') ||
+                    node.classList.contains('modal-overlay')
+                )
+            });
+        } catch (err) {
+            console.error('[Exportar Mapa] Falha ao capturar canvas do Leaflet:', err);
+            showToast('Erro ao capturar mapa. Tente novamente.', 'error');
+            return;
+        }
+
+        // 6. Preencher Layout Oculto e Capturar Documento A4
         const printLayout = document.getElementById('print-layout');
         const printTitle = document.getElementById('print-title');
         const printDate = document.getElementById('print-date');
         const mapContainer = document.getElementById('print-map-container');
-        const statsContainer = document.getElementById('print-stats-container');
-        const legendContainer = document.getElementById('print-legend-container');
-        
-        printTitle.textContent = area ? `Área: ${area}` : 'Visão Geral (Todas as Áreas)';
+
+        printTitle.textContent = `Geoportal Urbanístico — ${areaName}`;
         printDate.textContent = `Atualizado em: ${CONFIG.lastUpdate ? CONFIG.lastUpdate.date : new Date().toLocaleDateString('pt-BR')}`;
-        
-        // Copia a legenda HTML
-        legendContainer.innerHTML = document.querySelector('.map-legend').outerHTML;
-        
-        // Clona e estiliza as barras de progresso (HTML nativo, fácil pro html2canvas)
-        const progressBars1 = document.getElementById('statusProgressContainer').innerHTML;
-        const progressBars2 = document.getElementById('usoProgressContainer').innerHTML;
-        
-        statsContainer.innerHTML = `
-            <div style="display:flex; gap:20px; margin-bottom: 30px;">
-                <div class="stat-card" style="flex:1;">
-                    <div class="stat-title">Total de Imóveis</div>
-                    <div class="stat-value" style="font-size:48px;">${document.getElementById('statTotalFeatures').textContent}</div>
-                </div>
-                <div class="stat-card" style="flex:1;">
-                    <div class="stat-title">Total Domicílios</div>
-                    <div class="stat-value" style="font-size:48px;">${document.getElementById('statTotalDomicilios').textContent}</div>
-                </div>
-            </div>
-            <div class="chart-container" style="background:#f8fafc; border:1px solid #e2e8f0; padding:20px; border-radius:12px; margin-bottom:20px;">
-                <h3 style="color:#0f172a; font-size:24px; margin-bottom:15px; font-family:'Outfit', sans-serif;">Status Simplificado</h3>
-                <div style="background:#0f172a; padding: 20px; border-radius: 8px;">${progressBars1}</div>
-            </div>
-            <div class="chart-container" style="background:#f8fafc; border:1px solid #e2e8f0; padding:20px; border-radius:12px;">
-                <h3 style="color:#0f172a; font-size:24px; margin-bottom:15px; font-family:'Outfit', sans-serif;">Uso / Categoria</h3>
-                <div style="background:#0f172a; padding: 20px; border-radius: 8px;">${progressBars2}</div>
-            </div>
-        `;
-        
-        // 3. Tirar o print do mapa original com html2canvas
-        const mapEl = document.getElementById('map');
-        
+
+        mapContainer.innerHTML = '';
+        mapCanvas.style.width = '100%';
+        mapCanvas.style.height = '100%';
+        mapCanvas.style.objectFit = 'cover';
+        mapContainer.appendChild(mapCanvas);
+
+        printLayout.style.display = 'flex';
+
         try {
-            const mapCanvas = await html2canvas(mapEl, {
-                useCORS: true,
-                allowTaint: false,
-                ignoreElements: (node) => node.classList && (node.classList.contains('leaflet-control-container') || node.classList.contains('map-legend') || node.classList.contains('update-info-badge'))
-            });
-            
-            mapContainer.innerHTML = '';
-            mapContainer.appendChild(mapCanvas);
-            
-            // Exibe o layout de impressão fora da tela para capturá-lo
-            printLayout.style.display = 'flex';
-            
-            // Tira o print final de todo o layout (A4)
             const finalCanvas = await html2canvas(printLayout, {
                 useCORS: true,
-                scale: 1
+                scale: 1,
+                width: 2970,
+                height: 2100,
+                logging: false
             });
-            
+
             printLayout.style.display = 'none';
-            mapContainer.innerHTML = ''; // Limpa memória
-            
-            const fileName = `Mapa_${area ? area.replace(/\s+/g, '_') : 'Geral'}`;
-            
+            mapContainer.innerHTML = ''; // Libera memória
+
+            const safeFileName = `Mapa_${areaName.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
+
             if (format === 'png') {
                 const link = document.createElement('a');
-                link.download = `${fileName}.png`;
+                link.download = `${safeFileName}.png`;
                 link.href = finalCanvas.toDataURL('image/png');
                 link.click();
-                showToast('Download do PNG finalizado!', 'success');
+                showToast(`Download de "${safeFileName}.png" concluído!`, 'success');
             } else if (format === 'pdf') {
                 const { jsPDF } = window.jspdf;
                 const pdf = new jsPDF({
                     orientation: 'landscape',
-                    unit: 'px',
-                    format: [2970, 2100] // A4 em ~254 dpi (pixels)
+                    unit: 'mm',
+                    format: 'a4'
                 });
-                
-                pdf.addImage(finalCanvas.toDataURL('image/jpeg', 0.95), 'JPEG', 0, 0, 2970, 2100);
-                pdf.save(`${fileName}.pdf`);
-                showToast('Download do PDF finalizado!', 'success');
+                const pdfW = pdf.internal.pageSize.getWidth();
+                const pdfH = pdf.internal.pageSize.getHeight();
+                pdf.addImage(finalCanvas.toDataURL('image/jpeg', 0.96), 'JPEG', 0, 0, pdfW, pdfH);
+                pdf.save(`${safeFileName}.pdf`);
+                showToast(`Download de "${safeFileName}.pdf" concluído!`, 'success');
             }
-            
+
         } catch (err) {
-            console.error(err);
+            console.error('[Exportar Final] Erro ao gerar documento:', err);
             printLayout.style.display = 'none';
-            showToast('Erro ao exportar o mapa. Verifique se o mapa base suporta CORS.', 'error');
+            mapContainer.innerHTML = '';
+            showToast('Erro ao compor o documento para exportação.', 'error');
         }
     }
 });
