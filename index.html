@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geoportal Urbanístico - Selagem Habitacional Favelas SP</title>
     
-    <!-- Google Fonts & FontAwesome -->
+    <!-- FontAwesome & Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- PDF & Canvas Export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -33,11 +37,14 @@
                 </div>
 
                 <!-- Action Buttons -->
+                <button class="btn-header" id="btnExport" title="Exportar Mapa para PDF ou PNG">
+                    <i class="fa-solid fa-file-export"></i> Exportar
+                </button>
                 <button class="btn-header" id="btnRefresh" title="Sincronizar com Status_Simplificado_v1.csv">
                     <i class="fa-solid fa-rotate"></i> Atualizar Dados
                 </button>
 
-                <button class="btn-header btn-primary" id="btnOpenStats">
+                <button class="btn-header btn-primary" id="btnOpenStats" title="Abrir Dashboard de Estatísticas">
                     <i class="fa-solid fa-chart-pie"></i> Painel de Estatísticas
                 </button>
             </div>
@@ -229,7 +236,68 @@
         <span id="toastMessage">Mensagem de notificação</span>
     </div>
 
-    <!-- LIBRARIES: Leaflet, PapaParse, Chart.js, JSZip, toGeoJSON -->
+    <!-- EXPORT MODAL -->
+    <div id="exportModal" class="modal-overlay">
+        <div class="modal-container" style="max-width: 500px;">
+            <div class="modal-header">
+                <h2><i class="fa-solid fa-file-export"></i> Exportar Mapa</h2>
+                <button class="btn-close" id="btnCloseExport"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-content" style="padding: 20px;">
+                <div class="filter-group">
+                    <label class="group-title"><i class="fa-solid fa-location-dot"></i> Selecionar Área / Favela</label>
+                    <select id="exportAreaSelect" class="styled-select">
+                        <option value="">Todas as Áreas (Consolidado)</option>
+                        <!-- Populated via JS -->
+                    </select>
+                </div>
+                <div class="filter-group" style="margin-top: 15px;">
+                    <label class="group-title"><i class="fa-solid fa-file-lines"></i> Formato do Arquivo</label>
+                    <div style="display: flex; gap: 10px;">
+                        <button class="btn-header export-format-btn active" data-format="pdf" style="flex: 1; justify-content: center;"><i class="fa-solid fa-file-pdf"></i> PDF</button>
+                        <button class="btn-header export-format-btn" data-format="png" style="flex: 1; justify-content: center;"><i class="fa-solid fa-file-image"></i> PNG</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-header" style="justify-content: flex-end; padding: 12px 20px;">
+                <button class="btn-header btn-primary" id="btnConfirmExport">
+                    <i class="fa-solid fa-print"></i> Gerar Arquivo
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- HIDDEN PRINT LAYOUT (A4 Landscape aspect ratio approximation) -->
+    <div id="print-layout" class="print-layout" style="display: none;">
+        <div class="print-header">
+            <img src="./assets/logo_cobrape.png" alt="Logo Cobrape">
+            <div>
+                <h1 id="print-title">Geoportal Urbanístico</h1>
+                <h2 id="print-subtitle">Resumo de Área</h2>
+            </div>
+        </div>
+        <div class="print-body">
+            <div class="print-main">
+                <div id="print-map-container">
+                    <!-- Map snapshot goes here -->
+                </div>
+            </div>
+            <div class="print-sidebar">
+                <div id="print-legend-container">
+                    <!-- Legend goes here -->
+                </div>
+                <div id="print-stats-container">
+                    <!-- Stats go here -->
+                </div>
+            </div>
+        </div>
+        <div class="print-footer">
+            <span id="print-date"></span>
+            <span>Companhia Brasileira de Projetos e Empreendimentos</span>
+        </div>
+    </div>
+
+    <!-- JS Libraries -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

@@ -128,7 +128,8 @@ document.addEventListener('DOMContentLoaded', () => {
         CONFIG.baseMaps.forEach((bm, idx) => {
             const tileLayer = L.tileLayer(bm.url, {
                 attribution: bm.attribution,
-                maxZoom: bm.maxZoom
+                maxZoom: bm.maxZoom,
+                crossOrigin: true
             });
             state.baseMapLayers[bm.id] = tileLayer;
 
@@ -973,6 +974,37 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
+        // Export Modal Listeners
+        const exportModal = document.getElementById('exportModal');
+        document.getElementById('btnExport').addEventListener('click', () => {
+            populateExportAreaSelect();
+            exportModal.classList.add('active');
+        });
+
+        document.getElementById('btnCloseExport').addEventListener('click', () => {
+            exportModal.classList.remove('active');
+        });
+
+        exportModal.addEventListener('click', (e) => {
+            if (e.target === exportModal) {
+                exportModal.classList.remove('active');
+            }
+        });
+
+        document.querySelectorAll('.export-format-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                document.querySelectorAll('.export-format-btn').forEach(b => b.classList.remove('active'));
+                e.currentTarget.classList.add('active');
+            });
+        });
+
+        document.getElementById('btnConfirmExport').addEventListener('click', async () => {
+            const area = document.getElementById('exportAreaSelect').value;
+            const format = document.querySelector('.export-format-btn.active').dataset.format;
+            exportModal.classList.remove('active');
+            await generateMapExport(area, format);
+        });
+
         const dropzone = document.getElementById('dropzone');
         const fileInput = document.getElementById('fileInput');
 
@@ -1176,5 +1208,120 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             toast.className = 'toast';
         }, 4000);
+    }
+
+    function populateExportAreaSelect() {
+        const select = document.getElementById('exportAreaSelect');
+        select.innerHTML = '<option value="">Todas as Áreas (Consolidado)</option>';
+        const areas = Array.from(state.availableAreas).sort();
+        areas.forEach(area => {
+            const opt = document.createElement('option');
+            opt.value = area;
+            opt.textContent = area;
+            select.appendChild(opt);
+        });
+    }
+
+    async function generateMapExport(area, format) {
+        showToast('Preparando mapa para exportação. Aguarde...', 'info');
+        
+        // 1. Filtrar mapa
+        const filterArea = document.getElementById('filterArea');
+        filterArea.value = area;
+        filterArea.dispatchEvent(new Event('change'));
+        
+        // Espera renderização do Leaflet e transições css
+        await new Promise(r => setTimeout(r, 1500));
+        
+        // 2. Preencher Layout Oculto
+        const printLayout = document.getElementById('print-layout');
+        const printTitle = document.getElementById('print-title');
+        const printDate = document.getElementById('print-date');
+        const mapContainer = document.getElementById('print-map-container');
+        const statsContainer = document.getElementById('print-stats-container');
+        const legendContainer = document.getElementById('print-legend-container');
+        
+        printTitle.textContent = area ? `Área: ${area}` : 'Visão Geral (Todas as Áreas)';
+        printDate.textContent = `Atualizado em: ${CONFIG.lastUpdate ? CONFIG.lastUpdate.date : new Date().toLocaleDateString('pt-BR')}`;
+        
+        // Copia a legenda HTML
+        legendContainer.innerHTML = document.querySelector('.map-legend').outerHTML;
+        
+        // Clona e estiliza as barras de progresso (HTML nativo, fácil pro html2canvas)
+        const progressBars1 = document.getElementById('statusProgressContainer').innerHTML;
+        const progressBars2 = document.getElementById('usoProgressContainer').innerHTML;
+        
+        statsContainer.innerHTML = `
+            <div style="display:flex; gap:20px; margin-bottom: 30px;">
+                <div class="stat-card" style="flex:1;">
+                    <div class="stat-title">Total de Imóveis</div>
+                    <div class="stat-value" style="font-size:48px;">${document.getElementById('statTotalFeatures').textContent}</div>
+                </div>
+                <div class="stat-card" style="flex:1;">
+                    <div class="stat-title">Total Domicílios</div>
+                    <div class="stat-value" style="font-size:48px;">${document.getElementById('statTotalDomicilios').textContent}</div>
+                </div>
+            </div>
+            <div class="chart-container" style="background:#f8fafc; border:1px solid #e2e8f0; padding:20px; border-radius:12px; margin-bottom:20px;">
+                <h3 style="color:#0f172a; font-size:24px; margin-bottom:15px; font-family:'Outfit', sans-serif;">Status Simplificado</h3>
+                <div style="background:#0f172a; padding: 20px; border-radius: 8px;">${progressBars1}</div>
+            </div>
+            <div class="chart-container" style="background:#f8fafc; border:1px solid #e2e8f0; padding:20px; border-radius:12px;">
+                <h3 style="color:#0f172a; font-size:24px; margin-bottom:15px; font-family:'Outfit', sans-serif;">Uso / Categoria</h3>
+                <div style="background:#0f172a; padding: 20px; border-radius: 8px;">${progressBars2}</div>
+            </div>
+        `;
+        
+        // 3. Tirar o print do mapa original com html2canvas
+        const mapEl = document.getElementById('map');
+        
+        try {
+            const mapCanvas = await html2canvas(mapEl, {
+                useCORS: true,
+                allowTaint: false,
+                ignoreElements: (node) => node.classList && (node.classList.contains('leaflet-control-container') || node.classList.contains('map-legend') || node.classList.contains('update-info-badge'))
+            });
+            
+            mapContainer.innerHTML = '';
+            mapContainer.appendChild(mapCanvas);
+            
+            // Exibe o layout de impressão fora da tela para capturá-lo
+            printLayout.style.display = 'flex';
+            
+            // Tira o print final de todo o layout (A4)
+            const finalCanvas = await html2canvas(printLayout, {
+                useCORS: true,
+                scale: 1
+            });
+            
+            printLayout.style.display = 'none';
+            mapContainer.innerHTML = ''; // Limpa memória
+            
+            const fileName = `Mapa_${area ? area.replace(/\s+/g, '_') : 'Geral'}`;
+            
+            if (format === 'png') {
+                const link = document.createElement('a');
+                link.download = `${fileName}.png`;
+                link.href = finalCanvas.toDataURL('image/png');
+                link.click();
+                showToast('Download do PNG finalizado!', 'success');
+            } else if (format === 'pdf') {
+                const { jsPDF } = window.jspdf;
+                const pdf = new jsPDF({
+                    orientation: 'landscape',
+                    unit: 'px',
+                    format: [2970, 2100] // A4 em ~254 dpi (pixels)
+                });
+                
+                pdf.addImage(finalCanvas.toDataURL('image/jpeg', 0.95), 'JPEG', 0, 0, 2970, 2100);
+                pdf.save(`${fileName}.pdf`);
+                showToast('Download do PDF finalizado!', 'success');
+            }
+            
+        } catch (err) {
+            console.error(err);
+            printLayout.style.display = 'none';
+            showToast('Erro ao exportar o mapa. Verifique se o mapa base suporta CORS.', 'error');
+        }
     }
 });
