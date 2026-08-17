@@ -4693,6 +4693,7 @@ GUA0010080G;GUA;Imóvel Selado;Guaicuri
 GUA0010080H;GUA;Imóvel Selado;Guaicuri
 GUA0010080I;GUA;Imóvel Selado;Guaicuri
 GUA0010080J;GUA;Imóvel Selado;Guaicuri
+GUA0030091A;GUA;Imóvel Selado;Guaicuri
 GUA0030042A;GUA;Imóvel Selado;Guaicuri
 GUA0030043A;GUA;Imóvel Selado;Guaicuri
 GUA0030043AA;GUA;Imóvel Selado;Guaicuri
@@ -4884,7 +4885,6 @@ GUA0030088A;GUA;Imóvel Selado;Guaicuri
 GUA0030088B;GUA;Imóvel Selado;Guaicuri
 GUA0030088C;GUA;Imóvel Selado;Guaicuri
 GUA0030088D;GUA;Imóvel Selado;Guaicuri
-GUA0030091A;GUA;Imóvel Selado;Guaicuri
 GUA0030091B;GUA;Imóvel Selado;Guaicuri
 GUA0030091C;GUA;Imóvel Selado;Guaicuri
 GUA0030092A;GUA;Imóvel Selado;Guaicuri
@@ -5033,7 +5033,6 @@ GUA0060013D;GUA;Imóvel Selado;Guaicuri
 GUA0060013E;GUA;Imóvel Selado;Guaicuri
 GUA0060013F;GUA;Imóvel Selado;Guaicuri
 GUA0060013G;GUA;Imóvel Selado;Guaicuri
-GUA0060014A;GUA;Imóvel Selado;Guaicuri
 GUA0060014B;GUA;Imóvel Selado;Guaicuri
 GUA0060014C;GUA;Imóvel Selado;Guaicuri
 GUA0060014D;GUA;Imóvel Selado;Guaicuri
@@ -5116,6 +5115,7 @@ GUA0060108A;GUA;Imóvel Selado;Guaicuri
 GUA0060109A;GUA;Imóvel Selado;Guaicuri
 GUA0060110A;GUA;Imóvel Selado;Guaicuri
 GUA0060111A;GUA;Imóvel Selado;Guaicuri
+GUA0060014A;GUA;Imóvel Selado;Guaicuri
 GUA0070001A;GUA;Imóvel Selado;Guaicuri
 GUA0070001B;GUA;Imóvel Selado;Guaicuri
 GUA0070001C;GUA;Imóvel Selado;Guaicuri
@@ -6654,6 +6654,201 @@ LNL0130002B;LNL;Imóvel Selado;Lar Novo Lar
 LNL0130002C;LNL;Imóvel Selado;Lar Novo Lar
 LNL0130003A;LNL;Imóvel Selado;Lar Novo Lar
 LNL0130004A;LNL;Imóvel Selado;Lar Novo Lar
+CDC0020001A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020001B;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020002A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020003A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020004A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020004B;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020005A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020005B;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020006A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020006B;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020007A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020007B;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020007C;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020064A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020064B;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020064C;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020065A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020066A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020066B;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020067A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020067B;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020067C;CDC;Imóvel Selado;Cantinho do Céu
+CDC0020067D;CDC;Imóvel Selado;Cantinho do Céu
+CDC0070020A;CDC;Imóvel Selado;Cantinho do Céu
+CDC0070020B;CDC;Imóvel Selado;Cantinho do Céu
+CDC0070020C;CDC;Imóvel Selado;Cantinho do Céu
+CDC0480055A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340006A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340006B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340007A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340008A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340008B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340009A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340010A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340011A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340011B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340012A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340013A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340014A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340014B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340014C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340015A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340015B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340015C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340015D;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340016A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340016B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340016C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340016D;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340016E;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340017A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340017B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340017C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340017D;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340017E;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340018A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340018B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340018C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340018D;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340018E;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340019A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340019B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340019C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340019D;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340019E;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340020A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340020B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340020C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340020D;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340021A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340021B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340021C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340022A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340022B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340022C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340022D;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340023A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340023B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340023C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340024A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340024B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340025A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340026A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340027A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340027B;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340027C;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340027D;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340028A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340029A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340030A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340031A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340032A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340033A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1340034A;CDC;Imóvel Selado;Cantinho do Céu
+CDC1480056A;CDC;Imóvel Selado;Cantinho do Céu
+CCJ0010052C;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0010080B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0010109B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0020001A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0020001B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0020001C;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0020001D;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0020002A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0020002B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0020002C;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030001A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030002A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030003A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030004A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030004B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030005A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030006A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030006B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030007A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030008A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030009A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030010A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030010B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030011A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030012A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030012B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030012C;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030012D;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030013A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030014A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030015A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030016A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030017A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030018A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030018B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030019A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030020A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030021A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030022A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030023A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0030024A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040006A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040007A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040008A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040008B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040009A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040009B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040009C;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040009D;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040009E;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040010A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040010B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040011A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040011B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040012A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040012B;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040013A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0040014A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0130002A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0130003A;CCJ;Imóvel Selado;Chácara do Conde
+CCJ0010042B;CCJ;Imóvel Selado;Chácara do Conde
+ENL0010019A;ENL;Removido;Enlevo
+LNL0030001A;LNL;Removido;Lar Novo Lar
+LNL0030001B;LNL;Removido;Lar Novo Lar
+LNL0030002B;LNL;Removido;Lar Novo Lar
+LNL0030003A;LNL;Removido;Lar Novo Lar
+LNL0030004A;LNL;Removido;Lar Novo Lar
+LNL0030004B;LNL;Removido;Lar Novo Lar
+LNL0030005A;LNL;Removido;Lar Novo Lar
+LNL0030005B;LNL;Removido;Lar Novo Lar
+LNL0030007A;LNL;Removido;Lar Novo Lar
+LNL0030008A;LNL;Removido;Lar Novo Lar
+LNL0030009A;LNL;Removido;Lar Novo Lar
+LNL0030010A;LNL;Removido;Lar Novo Lar
+LNL0030011A;LNL;Removido;Lar Novo Lar
+LNL0030012A;LNL;Removido;Lar Novo Lar
+LNL0030013A;LNL;Removido;Lar Novo Lar
+LNL0030014A;LNL;Removido;Lar Novo Lar
+LNL0030015A;LNL;Removido;Lar Novo Lar
+LNL0030017A;LNL;Removido;Lar Novo Lar
+LNL0030018A;LNL;Removido;Lar Novo Lar
+LNL0030018B;LNL;Removido;Lar Novo Lar
+LNL0030019A;LNL;Removido;Lar Novo Lar
+LNL0030020A;LNL;Removido;Lar Novo Lar
+LNL0030021A;LNL;Removido;Lar Novo Lar
+LNL0030022A;LNL;Removido;Lar Novo Lar
+LNL0030022B;LNL;Removido;Lar Novo Lar
+LNL0030023A;LNL;Removido;Lar Novo Lar
+LNL0030023B;LNL;Removido;Lar Novo Lar
+LNL0060002A;LNL;Removido;Lar Novo Lar
+LNL0060005A;LNL;Removido;Lar Novo Lar
+LNL0060006A;LNL;Removido;Lar Novo Lar
+LNL0060007A;LNL;Removido;Lar Novo Lar
+LNL0060008A;LNL;Removido;Lar Novo Lar
+LNL0030002A;LNL;Removido;Lar Novo Lar
+LNL0030006A;LNL;Removido;Lar Novo Lar
+LNL0030016A;LNL;Removido;Lar Novo Lar
+LNL0060001A;LNL;Removido;Lar Novo Lar
+LNL0060003A;LNL;Removido;Lar Novo Lar
+LNL0060004A;LNL;Removido;Lar Novo Lar
 CHF0020001A;CHF;Removido;Chácara Flórida
 CHF0020001B;CHF;Removido;Chácara Flórida
 CHF0020001C;CHF;Removido;Chácara Flórida
@@ -6779,45 +6974,6 @@ CHF0120013A;CHF;Removido;Chácara Flórida
 CHF0250006B;CHF;Removido;Chácara Flórida
 CHF0250033A;CHF;Removido;Chácara Flórida
 CHF0250033B;CHF;Removido;Chácara Flórida
-ENL0010019A;ENL;Removido;Enlevo
-LNL0030001A;LNL;Removido;Lar Novo Lar
-LNL0030001B;LNL;Removido;Lar Novo Lar
-LNL0030002B;LNL;Removido;Lar Novo Lar
-LNL0030003A;LNL;Removido;Lar Novo Lar
-LNL0030004A;LNL;Removido;Lar Novo Lar
-LNL0030004B;LNL;Removido;Lar Novo Lar
-LNL0030005A;LNL;Removido;Lar Novo Lar
-LNL0030005B;LNL;Removido;Lar Novo Lar
-LNL0030007A;LNL;Removido;Lar Novo Lar
-LNL0030008A;LNL;Removido;Lar Novo Lar
-LNL0030009A;LNL;Removido;Lar Novo Lar
-LNL0030010A;LNL;Removido;Lar Novo Lar
-LNL0030011A;LNL;Removido;Lar Novo Lar
-LNL0030012A;LNL;Removido;Lar Novo Lar
-LNL0030013A;LNL;Removido;Lar Novo Lar
-LNL0030014A;LNL;Removido;Lar Novo Lar
-LNL0030015A;LNL;Removido;Lar Novo Lar
-LNL0030017A;LNL;Removido;Lar Novo Lar
-LNL0030018A;LNL;Removido;Lar Novo Lar
-LNL0030018B;LNL;Removido;Lar Novo Lar
-LNL0030019A;LNL;Removido;Lar Novo Lar
-LNL0030020A;LNL;Removido;Lar Novo Lar
-LNL0030021A;LNL;Removido;Lar Novo Lar
-LNL0030022A;LNL;Removido;Lar Novo Lar
-LNL0030022B;LNL;Removido;Lar Novo Lar
-LNL0030023A;LNL;Removido;Lar Novo Lar
-LNL0030023B;LNL;Removido;Lar Novo Lar
-LNL0060002A;LNL;Removido;Lar Novo Lar
-LNL0060005A;LNL;Removido;Lar Novo Lar
-LNL0060006A;LNL;Removido;Lar Novo Lar
-LNL0060007A;LNL;Removido;Lar Novo Lar
-LNL0060008A;LNL;Removido;Lar Novo Lar
-LNL0030002A;LNL;Removido;Lar Novo Lar
-LNL0030006A;LNL;Removido;Lar Novo Lar
-LNL0030016A;LNL;Removido;Lar Novo Lar
-LNL0060001A;LNL;Removido;Lar Novo Lar
-LNL0060003A;LNL;Removido;Lar Novo Lar
-LNL0060004A;LNL;Removido;Lar Novo Lar
 AAL0050010A;AAL;Removido;Alto da Alegria
 AAL0050010B;AAL;Removido;Alto da Alegria
 AAL0050032A;AAL;Removido;Alto da Alegria
@@ -6917,21 +7073,6 @@ AAL0080015A;AAL;Removido;Alto da Alegria
 AAL0080018A;AAL;Removido;Alto da Alegria
 AAL0080019A;AAL;Removido;Alto da Alegria
 AAL0090009A;AAL;Removido;Alto da Alegria
-AAL0090010A;AAL;Removido;Alto da Alegria
-AAL0090010B;AAL;Removido;Alto da Alegria
-AAL0090011A;AAL;Removido;Alto da Alegria
-AAL0090012A;AAL;Removido;Alto da Alegria
-AAL0090013A;AAL;Removido;Alto da Alegria
-AAL0090013B;AAL;Removido;Alto da Alegria
-AAL0100012A;AAL;Removido;Alto da Alegria
-AAL0100013A;AAL;Removido;Alto da Alegria
-AAL0100013B;AAL;Removido;Alto da Alegria
-AAL0100014A;AAL;Removido;Alto da Alegria
-AAL0100015A;AAL;Removido;Alto da Alegria
-AAL0100016A;AAL;Removido;Alto da Alegria
-AAL0100017A;AAL;Removido;Alto da Alegria
-AAL0100018A;AAL;Removido;Alto da Alegria
-AAL0100019B;AAL;Removido;Alto da Alegria
 AAL0110012A;AAL;Removido;Alto da Alegria
 AAL0110012B;AAL;Removido;Alto da Alegria
 AAL0110014A;AAL;Removido;Alto da Alegria
@@ -6958,14 +7099,12 @@ AAL0110024C;AAL;Removido;Alto da Alegria
 AAL0110025A;AAL;Removido;Alto da Alegria
 AAL0110026A;AAL;Removido;Alto da Alegria
 AAL0110027A;AAL;Removido;Alto da Alegria
-AAL0110029A;AAL;Removido;Alto da Alegria
 AAL0110030A;AAL;Removido;Alto da Alegria
 AAL0110031A;AAL;Removido;Alto da Alegria
 AAL0110032A;AAL;Removido;Alto da Alegria
 AAL0110034A;AAL;Removido;Alto da Alegria
 AAL0110034B;AAL;Removido;Alto da Alegria
 AAL0110034C;AAL;Removido;Alto da Alegria
-AAL0110034D;AAL;Removido;Alto da Alegria
 AAL0120008A;AAL;Removido;Alto da Alegria
 AAL0120008B;AAL;Removido;Alto da Alegria
 AAL0120009A;AAL;Removido;Alto da Alegria
@@ -7268,17 +7407,423 @@ JA20060001H;JA2;Removido;Jardim Ângela II
 JA20060001I;JA2;Removido;Jardim Ângela II
 JA20060002A;JA2;Removido;Jardim Ângela II
 JA20060003A;JA2;Removido;Jardim Ângela II
-GUA0070024A;GUA;Removido;Guaicuri
-GUA0070024B;GUA;Removido;Guaicuri
-GUA0070024C;GUA;Removido;Guaicuri
-GUA0070024D;GUA;Removido;Guaicuri
-GUA0070024E;GUA;Removido;Guaicuri
-GUA0070024F;GUA;Removido;Guaicuri
-GUA0100007A;GUA;Removido;Guaicuri
-GUA0060066A;GUA;Removido;Guaicuri
-GUA0030114F;GUA;Removido;Guaicuri
-GUA0050025D;GUA;Removido;Guaicuri
-GUA0050059C;GUA;Removido;Guaicuri
+CCJ0010004A;CCJ;Removido;Chácara do Conde
+CCJ0010004B;CCJ;Removido;Chácara do Conde
+CCJ0010004C;CCJ;Removido;Chácara do Conde
+CCJ0010005B;CCJ;Removido;Chácara do Conde
+CCJ0010005C;CCJ;Removido;Chácara do Conde
+CCJ0010010A;CCJ;Removido;Chácara do Conde
+CCJ0010010B;CCJ;Removido;Chácara do Conde
+CCJ0010010C;CCJ;Removido;Chácara do Conde
+CCJ0010016A;CCJ;Removido;Chácara do Conde
+CCJ0010016B;CCJ;Removido;Chácara do Conde
+CCJ0010019A;CCJ;Removido;Chácara do Conde
+CCJ0010021A;CCJ;Removido;Chácara do Conde
+CCJ0010022A;CCJ;Removido;Chácara do Conde
+CCJ0010023A;CCJ;Removido;Chácara do Conde
+CCJ0010024A;CCJ;Removido;Chácara do Conde
+CCJ0010025A;CCJ;Removido;Chácara do Conde
+CCJ0010029A;CCJ;Removido;Chácara do Conde
+CCJ0010032B;CCJ;Removido;Chácara do Conde
+CCJ0010039C;CCJ;Removido;Chácara do Conde
+CCJ0010052B;CCJ;Removido;Chácara do Conde
+CCJ0010053A;CCJ;Removido;Chácara do Conde
+CCJ0010053B;CCJ;Removido;Chácara do Conde
+CCJ0010053C;CCJ;Removido;Chácara do Conde
+CCJ0010053D;CCJ;Removido;Chácara do Conde
+CCJ0010053E;CCJ;Removido;Chácara do Conde
+CCJ0010053F;CCJ;Removido;Chácara do Conde
+CCJ0010053G;CCJ;Removido;Chácara do Conde
+CCJ0010053H;CCJ;Removido;Chácara do Conde
+CCJ0010054B;CCJ;Removido;Chácara do Conde
+CCJ0010054C;CCJ;Removido;Chácara do Conde
+CCJ0010059B;CCJ;Removido;Chácara do Conde
+CCJ0010059C;CCJ;Removido;Chácara do Conde
+CCJ0010068A;CCJ;Removido;Chácara do Conde
+CCJ0010068B;CCJ;Removido;Chácara do Conde
+CCJ0010068C;CCJ;Removido;Chácara do Conde
+CCJ0010069A;CCJ;Removido;Chácara do Conde
+CCJ0010070A;CCJ;Removido;Chácara do Conde
+CCJ0010072A;CCJ;Removido;Chácara do Conde
+CCJ0010074B;CCJ;Removido;Chácara do Conde
+CCJ0010075B;CCJ;Removido;Chácara do Conde
+CCJ0010075C;CCJ;Removido;Chácara do Conde
+CCJ0010076B;CCJ;Removido;Chácara do Conde
+CCJ0010076C;CCJ;Removido;Chácara do Conde
+CCJ0010076D;CCJ;Removido;Chácara do Conde
+CCJ0010079B;CCJ;Removido;Chácara do Conde
+CCJ0010080A;CCJ;Removido;Chácara do Conde
+CCJ0010080C;CCJ;Removido;Chácara do Conde
+CCJ0010081A;CCJ;Removido;Chácara do Conde
+CCJ0010081B;CCJ;Removido;Chácara do Conde
+CCJ0010081C;CCJ;Removido;Chácara do Conde
+CCJ0010082B;CCJ;Removido;Chácara do Conde
+CCJ0010084C;CCJ;Removido;Chácara do Conde
+CCJ0010085B;CCJ;Removido;Chácara do Conde
+CCJ0010085C;CCJ;Removido;Chácara do Conde
+CCJ0010085D;CCJ;Removido;Chácara do Conde
+CCJ0010086A;CCJ;Removido;Chácara do Conde
+CCJ0010086B;CCJ;Removido;Chácara do Conde
+CCJ0010087A;CCJ;Removido;Chácara do Conde
+CCJ0010088A;CCJ;Removido;Chácara do Conde
+CCJ0010088B;CCJ;Removido;Chácara do Conde
+CCJ0010089A;CCJ;Removido;Chácara do Conde
+CCJ0010090A;CCJ;Removido;Chácara do Conde
+CCJ0010091A;CCJ;Removido;Chácara do Conde
+CCJ0010092A;CCJ;Removido;Chácara do Conde
+CCJ0010092B;CCJ;Removido;Chácara do Conde
+CCJ0010092C;CCJ;Removido;Chácara do Conde
+CCJ0010092D;CCJ;Removido;Chácara do Conde
+CCJ0010093A;CCJ;Removido;Chácara do Conde
+CCJ0010093B;CCJ;Removido;Chácara do Conde
+CCJ0010093C;CCJ;Removido;Chácara do Conde
+CCJ0010093D;CCJ;Removido;Chácara do Conde
+CCJ0010093E;CCJ;Removido;Chácara do Conde
+CCJ0010093F;CCJ;Removido;Chácara do Conde
+CCJ0010093G;CCJ;Removido;Chácara do Conde
+CCJ0010094A;CCJ;Removido;Chácara do Conde
+CCJ0010094B;CCJ;Removido;Chácara do Conde
+CCJ0010094C;CCJ;Removido;Chácara do Conde
+CCJ0010094D;CCJ;Removido;Chácara do Conde
+CCJ0010094E;CCJ;Removido;Chácara do Conde
+CCJ0010094F;CCJ;Removido;Chácara do Conde
+CCJ0010095A;CCJ;Removido;Chácara do Conde
+CCJ0010096A;CCJ;Removido;Chácara do Conde
+CCJ0010096B;CCJ;Removido;Chácara do Conde
+CCJ0010096C;CCJ;Removido;Chácara do Conde
+CCJ0010096D;CCJ;Removido;Chácara do Conde
+CCJ0010097B;CCJ;Removido;Chácara do Conde
+CCJ0010097C;CCJ;Removido;Chácara do Conde
+CCJ0010099B;CCJ;Removido;Chácara do Conde
+CCJ0010099C;CCJ;Removido;Chácara do Conde
+CCJ0010100B;CCJ;Removido;Chácara do Conde
+CCJ0010100C;CCJ;Removido;Chácara do Conde
+CCJ0010101B;CCJ;Removido;Chácara do Conde
+CCJ0010101C;CCJ;Removido;Chácara do Conde
+CCJ0010102A;CCJ;Removido;Chácara do Conde
+CCJ0010102B;CCJ;Removido;Chácara do Conde
+CCJ0010103B;CCJ;Removido;Chácara do Conde
+CCJ0010104A;CCJ;Removido;Chácara do Conde
+CCJ0010104B;CCJ;Removido;Chácara do Conde
+CCJ0010104C;CCJ;Removido;Chácara do Conde
+CCJ0010104E;CCJ;Removido;Chácara do Conde
+CCJ0010105A;CCJ;Removido;Chácara do Conde
+CCJ0010106A;CCJ;Removido;Chácara do Conde
+CCJ0010106C;CCJ;Removido;Chácara do Conde
+CCJ0010107A;CCJ;Removido;Chácara do Conde
+CCJ0010107B;CCJ;Removido;Chácara do Conde
+CCJ0010107C;CCJ;Removido;Chácara do Conde
+CCJ0010107D;CCJ;Removido;Chácara do Conde
+CCJ0010108A;CCJ;Removido;Chácara do Conde
+CCJ0010108B;CCJ;Removido;Chácara do Conde
+CCJ0010109A;CCJ;Removido;Chácara do Conde
+CCJ0010109C;CCJ;Removido;Chácara do Conde
+CCJ0010110A;CCJ;Removido;Chácara do Conde
+CCJ0010110B;CCJ;Removido;Chácara do Conde
+CCJ0010110C;CCJ;Removido;Chácara do Conde
+CCJ0010111A;CCJ;Removido;Chácara do Conde
+CCJ0010111B;CCJ;Removido;Chácara do Conde
+CCJ0010112A;CCJ;Removido;Chácara do Conde
+CCJ0010112B;CCJ;Removido;Chácara do Conde
+CCJ0010112C;CCJ;Removido;Chácara do Conde
+CCJ0010113A;CCJ;Removido;Chácara do Conde
+CCJ0010113B;CCJ;Removido;Chácara do Conde
+CCJ0010113C;CCJ;Removido;Chácara do Conde
+CCJ0010114A;CCJ;Removido;Chácara do Conde
+CCJ0010114B;CCJ;Removido;Chácara do Conde
+CCJ0010115A;CCJ;Removido;Chácara do Conde
+CCJ0010115B;CCJ;Removido;Chácara do Conde
+CCJ0010115C;CCJ;Removido;Chácara do Conde
+CCJ0010116A;CCJ;Removido;Chácara do Conde
+CCJ0010116B;CCJ;Removido;Chácara do Conde
+CCJ0010116C;CCJ;Removido;Chácara do Conde
+CCJ0010117A;CCJ;Removido;Chácara do Conde
+CCJ0010117B;CCJ;Removido;Chácara do Conde
+CCJ0010117C;CCJ;Removido;Chácara do Conde
+CCJ0010117D;CCJ;Removido;Chácara do Conde
+CCJ0010117E;CCJ;Removido;Chácara do Conde
+CCJ0010117F;CCJ;Removido;Chácara do Conde
+CCJ0010118A;CCJ;Removido;Chácara do Conde
+CCJ0010118B;CCJ;Removido;Chácara do Conde
+CCJ0010119A;CCJ;Removido;Chácara do Conde
+CCJ0010119B;CCJ;Removido;Chácara do Conde
+CCJ0010119C;CCJ;Removido;Chácara do Conde
+CCJ0010119D;CCJ;Removido;Chácara do Conde
+CCJ0010120A;CCJ;Removido;Chácara do Conde
+CCJ0010120B;CCJ;Removido;Chácara do Conde
+CCJ0010121A;CCJ;Removido;Chácara do Conde
+CCJ0010121B;CCJ;Removido;Chácara do Conde
+CCJ0010122A;CCJ;Removido;Chácara do Conde
+CCJ0010123A;CCJ;Removido;Chácara do Conde
+CCJ0010123B;CCJ;Removido;Chácara do Conde
+CCJ0010124A;CCJ;Removido;Chácara do Conde
+CCJ0010124B;CCJ;Removido;Chácara do Conde
+CCJ0010125A;CCJ;Removido;Chácara do Conde
+CCJ0010126A;CCJ;Removido;Chácara do Conde
+CCJ0010127A;CCJ;Removido;Chácara do Conde
+CCJ0010127B;CCJ;Removido;Chácara do Conde
+CCJ0010128A;CCJ;Removido;Chácara do Conde
+CCJ0010129A;CCJ;Removido;Chácara do Conde
+CCJ0010129B;CCJ;Removido;Chácara do Conde
+CCJ0010130A;CCJ;Removido;Chácara do Conde
+CCJ0010130B;CCJ;Removido;Chácara do Conde
+CCJ0010131A;CCJ;Removido;Chácara do Conde
+CCJ0010131B;CCJ;Removido;Chácara do Conde
+CCJ0010132A;CCJ;Removido;Chácara do Conde
+CCJ0010132B;CCJ;Removido;Chácara do Conde
+CCJ0010132C;CCJ;Removido;Chácara do Conde
+CCJ0010133A;CCJ;Removido;Chácara do Conde
+CCJ0010134A;CCJ;Removido;Chácara do Conde
+CCJ0010134B;CCJ;Removido;Chácara do Conde
+CCJ0010135A;CCJ;Removido;Chácara do Conde
+CCJ0010135B;CCJ;Removido;Chácara do Conde
+CCJ0010136A;CCJ;Removido;Chácara do Conde
+CCJ0010137A;CCJ;Removido;Chácara do Conde
+CCJ0010138A;CCJ;Removido;Chácara do Conde
+CCJ0010139A;CCJ;Removido;Chácara do Conde
+CCJ0010139B;CCJ;Removido;Chácara do Conde
+CCJ0010140A;CCJ;Removido;Chácara do Conde
+CCJ0010141A;CCJ;Removido;Chácara do Conde
+CCJ0010142A;CCJ;Removido;Chácara do Conde
+CCJ0010142B;CCJ;Removido;Chácara do Conde
+CCJ0010143A;CCJ;Removido;Chácara do Conde
+CCJ0010143B;CCJ;Removido;Chácara do Conde
+CCJ0010143C;CCJ;Removido;Chácara do Conde
+CCJ0010144A;CCJ;Removido;Chácara do Conde
+CCJ0010145A;CCJ;Removido;Chácara do Conde
+CCJ0010146A;CCJ;Removido;Chácara do Conde
+CCJ0010147A;CCJ;Removido;Chácara do Conde
+CCJ0010148A;CCJ;Removido;Chácara do Conde
+CCJ0010149A;CCJ;Removido;Chácara do Conde
+CCJ0010150A;CCJ;Removido;Chácara do Conde
+CCJ0010151A;CCJ;Removido;Chácara do Conde
+CCJ0010152A;CCJ;Removido;Chácara do Conde
+CCJ0010153A;CCJ;Removido;Chácara do Conde
+CCJ0010154A;CCJ;Removido;Chácara do Conde
+CCJ0010155A;CCJ;Removido;Chácara do Conde
+CCJ0010156A;CCJ;Removido;Chácara do Conde
+CCJ0010157A;CCJ;Removido;Chácara do Conde
+CCJ0010158A;CCJ;Removido;Chácara do Conde
+CCJ0010159A;CCJ;Removido;Chácara do Conde
+CCJ0010160A;CCJ;Removido;Chácara do Conde
+CCJ0010161A;CCJ;Removido;Chácara do Conde
+CCJ0010162A;CCJ;Removido;Chácara do Conde
+CCJ0010163A;CCJ;Removido;Chácara do Conde
+CCJ0010164A;CCJ;Removido;Chácara do Conde
+CCJ0010165A;CCJ;Removido;Chácara do Conde
+CCJ0010165B;CCJ;Removido;Chácara do Conde
+CCJ0010166A;CCJ;Removido;Chácara do Conde
+CCJ0010167A;CCJ;Removido;Chácara do Conde
+CCJ0010168A;CCJ;Removido;Chácara do Conde
+CCJ0010169A;CCJ;Removido;Chácara do Conde
+CCJ0010170A;CCJ;Removido;Chácara do Conde
+CCJ0010171A;CCJ;Removido;Chácara do Conde
+CCJ0010171B;CCJ;Removido;Chácara do Conde
+CCJ0010172A;CCJ;Removido;Chácara do Conde
+CCJ0010173A;CCJ;Removido;Chácara do Conde
+CCJ0010174A;CCJ;Removido;Chácara do Conde
+CCJ0010175A;CCJ;Removido;Chácara do Conde
+CCJ0010176A;CCJ;Removido;Chácara do Conde
+CCJ0010177A;CCJ;Removido;Chácara do Conde
+CCJ0010178A;CCJ;Removido;Chácara do Conde
+CCJ0010178B;CCJ;Removido;Chácara do Conde
+CCJ0010179A;CCJ;Removido;Chácara do Conde
+CCJ0010180A;CCJ;Removido;Chácara do Conde
+CCJ0010181A;CCJ;Removido;Chácara do Conde
+CCJ0010182A;CCJ;Removido;Chácara do Conde
+CCJ0010183A;CCJ;Removido;Chácara do Conde
+CCJ0010184A;CCJ;Removido;Chácara do Conde
+CCJ0010185A;CCJ;Removido;Chácara do Conde
+CCJ0010186A;CCJ;Removido;Chácara do Conde
+CCJ0010186B;CCJ;Removido;Chácara do Conde
+CCJ0010187A;CCJ;Removido;Chácara do Conde
+CCJ0010187B;CCJ;Removido;Chácara do Conde
+CCJ0010188A;CCJ;Removido;Chácara do Conde
+CCJ0010189A;CCJ;Removido;Chácara do Conde
+CCJ0010190A;CCJ;Removido;Chácara do Conde
+CCJ0010191A;CCJ;Removido;Chácara do Conde
+CCJ0010192A;CCJ;Removido;Chácara do Conde
+CCJ0010193A;CCJ;Removido;Chácara do Conde
+CCJ0010194A;CCJ;Removido;Chácara do Conde
+CCJ0010195A;CCJ;Removido;Chácara do Conde
+CCJ0010196A;CCJ;Removido;Chácara do Conde
+CCJ0010196B;CCJ;Removido;Chácara do Conde
+CCJ0010197A;CCJ;Removido;Chácara do Conde
+CCJ0010198A;CCJ;Removido;Chácara do Conde
+CCJ0010199A;CCJ;Removido;Chácara do Conde
+CCJ0010200A;CCJ;Removido;Chácara do Conde
+CCJ0010201A;CCJ;Removido;Chácara do Conde
+CCJ0010201B;CCJ;Removido;Chácara do Conde
+CCJ0010202A;CCJ;Removido;Chácara do Conde
+CCJ0010203A;CCJ;Removido;Chácara do Conde
+CCJ0010203B;CCJ;Removido;Chácara do Conde
+CCJ0010204A;CCJ;Removido;Chácara do Conde
+CCJ0010204B;CCJ;Removido;Chácara do Conde
+CCJ0010205A;CCJ;Removido;Chácara do Conde
+CCJ0010206A;CCJ;Removido;Chácara do Conde
+CCJ0010207A;CCJ;Removido;Chácara do Conde
+CCJ0010208A;CCJ;Removido;Chácara do Conde
+CCJ0010209A;CCJ;Removido;Chácara do Conde
+CCJ0010210A;CCJ;Removido;Chácara do Conde
+CCJ0010211A;CCJ;Removido;Chácara do Conde
+CCJ0010212A;CCJ;Removido;Chácara do Conde
+CCJ0010213A;CCJ;Removido;Chácara do Conde
+CCJ0010214A;CCJ;Removido;Chácara do Conde
+CCJ0010215A;CCJ;Removido;Chácara do Conde
+CCJ0010216A;CCJ;Removido;Chácara do Conde
+CCJ0010217A;CCJ;Removido;Chácara do Conde
+CCJ0010217B;CCJ;Removido;Chácara do Conde
+CCJ0010218A;CCJ;Removido;Chácara do Conde
+CCJ0060011B;CCJ;Removido;Chácara do Conde
+CCJ0060011C;CCJ;Removido;Chácara do Conde
+CCJ0060011D;CCJ;Removido;Chácara do Conde
+CCJ0060011E;CCJ;Removido;Chácara do Conde
+CCJ0110004A;CCJ;Removido;Chácara do Conde
+CCJ0110010B;CCJ;Removido;Chácara do Conde
+CCJ0120002A;CCJ;Removido;Chácara do Conde
+CCJ0120002B;CCJ;Removido;Chácara do Conde
+CCJ0120002C;CCJ;Removido;Chácara do Conde
+CCJ0120002D;CCJ;Removido;Chácara do Conde
+CCJ0120002E;CCJ;Removido;Chácara do Conde
+CCJ0120010A;CCJ;Removido;Chácara do Conde
+CCJ0120010B;CCJ;Removido;Chácara do Conde
+CCJ0120010C;CCJ;Removido;Chácara do Conde
+CCJ0120010D;CCJ;Removido;Chácara do Conde
+CCJ0120010E;CCJ;Removido;Chácara do Conde
+CCJ0120011A;CCJ;Removido;Chácara do Conde
+CCJ0120011B;CCJ;Removido;Chácara do Conde
+CCJ0120011C;CCJ;Removido;Chácara do Conde
+CCJ0120013B;CCJ;Removido;Chácara do Conde
+CCJ0120013C;CCJ;Removido;Chácara do Conde
+CCJ0120013D;CCJ;Removido;Chácara do Conde
+CCJ0120013E;CCJ;Removido;Chácara do Conde
+CCJ0120014A;CCJ;Removido;Chácara do Conde
+CCJ0120018A;CCJ;Removido;Chácara do Conde
+CCJ0120019A;CCJ;Removido;Chácara do Conde
+CCJ0120019B;CCJ;Removido;Chácara do Conde
+CCJ0120019C;CCJ;Removido;Chácara do Conde
+CCJ0130001A;CCJ;Removido;Chácara do Conde
+CCJ0130002B;CCJ;Removido;Chácara do Conde
+CCJ0130002C;CCJ;Removido;Chácara do Conde
+CCJ0130005A;CCJ;Removido;Chácara do Conde
+CCJ0130005B;CCJ;Removido;Chácara do Conde
+CCJ0010032A;CCJ;Removido;Chácara do Conde
+CCJ0010052A;CCJ;Removido;Chácara do Conde
+CCJ0010057A;CCJ;Removido;Chácara do Conde
+CCJ0010059A;CCJ;Removido;Chácara do Conde
+CCJ0010073A;CCJ;Removido;Chácara do Conde
+CCJ0010074A;CCJ;Removido;Chácara do Conde
+CCJ0010075A;CCJ;Removido;Chácara do Conde
+CCJ0010076A;CCJ;Removido;Chácara do Conde
+CCJ0010078A;CCJ;Removido;Chácara do Conde
+CCJ0010101A;CCJ;Removido;Chácara do Conde
+CCJ0040004A;CCJ;Removido;Chácara do Conde
+CCJ0040004C;CCJ;Removido;Chácara do Conde
+CCJ0060011A;CCJ;Removido;Chácara do Conde
+CCJ0120015A;CCJ;Removido;Chácara do Conde
+CCJ0130004A;CCJ;Removido;Chácara do Conde
+CCJ0010001A;CCJ;Removido;Chácara do Conde
+CCJ0010001B;CCJ;Removido;Chácara do Conde
+CCJ0010002A;CCJ;Removido;Chácara do Conde
+CCJ0010002B;CCJ;Removido;Chácara do Conde
+CCJ0010003A;CCJ;Removido;Chácara do Conde
+CCJ0010011A;CCJ;Removido;Chácara do Conde
+CCJ0010012A;CCJ;Removido;Chácara do Conde
+CCJ0010012B;CCJ;Removido;Chácara do Conde
+CCJ0010013A;CCJ;Removido;Chácara do Conde
+CCJ0010014A;CCJ;Removido;Chácara do Conde
+CCJ0010014B;CCJ;Removido;Chácara do Conde
+CCJ0010015A;CCJ;Removido;Chácara do Conde
+CCJ0010015B;CCJ;Removido;Chácara do Conde
+CCJ0010017A;CCJ;Removido;Chácara do Conde
+CCJ0010018A;CCJ;Removido;Chácara do Conde
+CCJ0010020A;CCJ;Removido;Chácara do Conde
+CCJ0010020B;CCJ;Removido;Chácara do Conde
+CCJ0010026A;CCJ;Removido;Chácara do Conde
+CCJ0010027A;CCJ;Removido;Chácara do Conde
+CCJ0010028A;CCJ;Removido;Chácara do Conde
+CCJ0010030A;CCJ;Removido;Chácara do Conde
+CCJ0010031A;CCJ;Removido;Chácara do Conde
+CCJ0010034A;CCJ;Removido;Chácara do Conde
+CCJ0010036B;CCJ;Removido;Chácara do Conde
+CCJ0010038A;CCJ;Removido;Chácara do Conde
+CCJ0010038B;CCJ;Removido;Chácara do Conde
+CCJ0040001A;CCJ;Removido;Chácara do Conde
+CCJ0040001B;CCJ;Removido;Chácara do Conde
+CCJ0040002A;CCJ;Removido;Chácara do Conde
+CCJ0040003B;CCJ;Removido;Chácara do Conde
+CCJ0040003C;CCJ;Removido;Chácara do Conde
+CCJ0040004B;CCJ;Removido;Chácara do Conde
+CCJ0040004D;CCJ;Removido;Chácara do Conde
+CCJ0040005A;CCJ;Removido;Chácara do Conde
+CCJ0050001A;CCJ;Removido;Chácara do Conde
+CCJ0050001B;CCJ;Removido;Chácara do Conde
+CCJ0050002A;CCJ;Removido;Chácara do Conde
+CCJ0050003A;CCJ;Removido;Chácara do Conde
+CCJ0050003B;CCJ;Removido;Chácara do Conde
+CCJ0050004A;CCJ;Removido;Chácara do Conde
+CCJ0050005A;CCJ;Removido;Chácara do Conde
+CCJ0050005B;CCJ;Removido;Chácara do Conde
+CCJ0050006A;CCJ;Removido;Chácara do Conde
+CCJ0050006B;CCJ;Removido;Chácara do Conde
+CCJ0060004A;CCJ;Removido;Chácara do Conde
+CCJ0060004B;CCJ;Removido;Chácara do Conde
+CCJ0060005A;CCJ;Removido;Chácara do Conde
+CCJ0060005B;CCJ;Removido;Chácara do Conde
+CCJ0060006A;CCJ;Removido;Chácara do Conde
+CCJ0060007A;CCJ;Removido;Chácara do Conde
+CCJ0060007B;CCJ;Removido;Chácara do Conde
+CCJ0060008A;CCJ;Removido;Chácara do Conde
+CCJ0060009A;CCJ;Removido;Chácara do Conde
+CCJ0060010A;CCJ;Removido;Chácara do Conde
+CCJ0060010B;CCJ;Removido;Chácara do Conde
+CCJ0060012A;CCJ;Removido;Chácara do Conde
+CCJ0060012B;CCJ;Removido;Chácara do Conde
+CCJ0060012C;CCJ;Removido;Chácara do Conde
+CCJ0060013A;CCJ;Removido;Chácara do Conde
+CCJ0060013B;CCJ;Removido;Chácara do Conde
+CCJ0060014A;CCJ;Removido;Chácara do Conde
+CCJ0060014B;CCJ;Removido;Chácara do Conde
+CCJ0060015A;CCJ;Removido;Chácara do Conde
+CCJ0060016A;CCJ;Removido;Chácara do Conde
+CCJ0060017A;CCJ;Removido;Chácara do Conde
+CCJ0060017B;CCJ;Removido;Chácara do Conde
+CCJ0070003A;CCJ;Removido;Chácara do Conde
+CCJ0070004A;CCJ;Removido;Chácara do Conde
+CCJ0070006A;CCJ;Removido;Chácara do Conde
+CCJ0070006B;CCJ;Removido;Chácara do Conde
+CCJ0070006C;CCJ;Removido;Chácara do Conde
+CCJ0070012A;CCJ;Removido;Chácara do Conde
+CCJ0070012C;CCJ;Removido;Chácara do Conde
+CCJ0070012D;CCJ;Removido;Chácara do Conde
+CCJ0080001A;CCJ;Removido;Chácara do Conde
+CCJ0090004A;CCJ;Removido;Chácara do Conde
+CCJ0090005A;CCJ;Removido;Chácara do Conde
+CCJ0090005B;CCJ;Removido;Chácara do Conde
+CCJ0090005C;CCJ;Removido;Chácara do Conde
+CCJ0090005D;CCJ;Removido;Chácara do Conde
+CCJ0090006A;CCJ;Removido;Chácara do Conde
+CCJ0090007A;CCJ;Removido;Chácara do Conde
+CCJ0090007B;CCJ;Removido;Chácara do Conde
+CCJ0090007C;CCJ;Removido;Chácara do Conde
+CCJ0100004A;CCJ;Removido;Chácara do Conde
+CCJ0100009A;CCJ;Removido;Chácara do Conde
+CCJ0100012A;CCJ;Removido;Chácara do Conde
+CCJ0100013A;CCJ;Removido;Chácara do Conde
+CCJ0100014A;CCJ;Removido;Chácara do Conde
+CCJ0100014B;CCJ;Removido;Chácara do Conde
+CCJ0100015A;CCJ;Removido;Chácara do Conde
+CCJ0100015B;CCJ;Removido;Chácara do Conde
+CCJ0100015C;CCJ;Removido;Chácara do Conde
+CCJ0110005A;CCJ;Removido;Chácara do Conde
+CCJ0110006A;CCJ;Removido;Chácara do Conde
+CCJ0110006B;CCJ;Removido;Chácara do Conde
+CCJ0110006C;CCJ;Removido;Chácara do Conde
+CCJ0110006D;CCJ;Removido;Chácara do Conde
+CCJ0110006E;CCJ;Removido;Chácara do Conde
+CCJ0110006F;CCJ;Removido;Chácara do Conde
+CCJ0110006G;CCJ;Removido;Chácara do Conde
+CCJ0110010A;CCJ;Removido;Chácara do Conde
 GUA0010011C;GUA;Removido;Guaicuri
 GUA0010018A;GUA;Removido;Guaicuri
 GUA0010019A;GUA;Removido;Guaicuri
@@ -7298,6 +7843,7 @@ GUA0010028A;GUA;Removido;Guaicuri
 GUA0010029A;GUA;Removido;Guaicuri
 GUA0010030A;GUA;Removido;Guaicuri
 GUA0010031B;GUA;Removido;Guaicuri
+GUA0010031A;GUA;Removido;Guaicuri
 GUA0010032A;GUA;Removido;Guaicuri
 GUA0010032B;GUA;Removido;Guaicuri
 GUA0010032C;GUA;Removido;Guaicuri
@@ -7306,13 +7852,16 @@ GUA0010050C;GUA;Removido;Guaicuri
 GUA0010050D;GUA;Removido;Guaicuri
 GUA0010051A;GUA;Removido;Guaicuri
 GUA0010051B;GUA;Removido;Guaicuri
+GUA0010055A;GUA;Removido;Guaicuri
 GUA0010056A;GUA;Removido;Guaicuri
 GUA0010056B;GUA;Removido;Guaicuri
+GUA0010058A;GUA;Removido;Guaicuri
 GUA0010059B;GUA;Removido;Guaicuri
 GUA0010059C;GUA;Removido;Guaicuri
 GUA0010059D;GUA;Removido;Guaicuri
 GUA0010059E;GUA;Removido;Guaicuri
 GUA0010059F;GUA;Removido;Guaicuri
+GUA0010059A;GUA;Removido;Guaicuri
 GUA0010060A;GUA;Removido;Guaicuri
 GUA0020007A;GUA;Removido;Guaicuri
 GUA0020008A;GUA;Removido;Guaicuri
@@ -7326,13 +7875,22 @@ GUA0020010A;GUA;Removido;Guaicuri
 GUA0020011A;GUA;Removido;Guaicuri
 GUA0020012A;GUA;Removido;Guaicuri
 GUA0020013A;GUA;Removido;Guaicuri
+GUA0020013B;GUA;Removido;Guaicuri
 GUA0020014A;GUA;Removido;Guaicuri
 GUA0020014C;GUA;Removido;Guaicuri
+GUA0020014B;GUA;Removido;Guaicuri
 GUA0020015B;GUA;Removido;Guaicuri
+GUA0020015A;GUA;Removido;Guaicuri
+GUA0020015C;GUA;Removido;Guaicuri
 GUA0020016A;GUA;Removido;Guaicuri
 GUA0020016B;GUA;Removido;Guaicuri
 GUA0020016C;GUA;Removido;Guaicuri
 GUA0020016D;GUA;Removido;Guaicuri
+GUA0020016E;GUA;Removido;Guaicuri
+GUA0020016F;GUA;Removido;Guaicuri
+GUA0020016G;GUA;Removido;Guaicuri
+GUA0020016H;GUA;Removido;Guaicuri
+GUA0030133D;GUA;Removido;Guaicuri
 GUA0030001A;GUA;Removido;Guaicuri
 GUA0030001B;GUA;Removido;Guaicuri
 GUA0030001C;GUA;Removido;Guaicuri
@@ -7343,16 +7901,22 @@ GUA0030002B;GUA;Removido;Guaicuri
 GUA0030003A;GUA;Removido;Guaicuri
 GUA0030003C;GUA;Removido;Guaicuri
 GUA0030003D;GUA;Removido;Guaicuri
+GUA0030003B;GUA;Removido;Guaicuri
 GUA0030004A;GUA;Removido;Guaicuri
 GUA0030005A;GUA;Removido;Guaicuri
 GUA0030005B;GUA;Removido;Guaicuri
 GUA0030006A;GUA;Removido;Guaicuri
+GUA0030075E;GUA;Removido;Guaicuri
 GUA0030007A;GUA;Removido;Guaicuri
 GUA0030007B;GUA;Removido;Guaicuri
 GUA0030007C;GUA;Removido;Guaicuri
 GUA0030007D;GUA;Removido;Guaicuri
 GUA0030008A;GUA;Removido;Guaicuri
+GUA0030008B;GUA;Removido;Guaicuri
 GUA0030009D;GUA;Removido;Guaicuri
+GUA0030009A;GUA;Removido;Guaicuri
+GUA0030009B;GUA;Removido;Guaicuri
+GUA0030009C;GUA;Removido;Guaicuri
 GUA0030010A;GUA;Removido;Guaicuri
 GUA0030010B;GUA;Removido;Guaicuri
 GUA0030010C;GUA;Removido;Guaicuri
@@ -7375,6 +7939,7 @@ GUA0030016A;GUA;Removido;Guaicuri
 GUA0030016B;GUA;Removido;Guaicuri
 GUA0030016D;GUA;Removido;Guaicuri
 GUA0030016E;GUA;Removido;Guaicuri
+GUA0030016C;GUA;Removido;Guaicuri
 GUA0030017A;GUA;Removido;Guaicuri
 GUA0030017B;GUA;Removido;Guaicuri
 GUA0030018A;GUA;Removido;Guaicuri
@@ -7393,6 +7958,9 @@ GUA0030026B;GUA;Removido;Guaicuri
 GUA0030027A;GUA;Removido;Guaicuri
 GUA0030027B;GUA;Removido;Guaicuri
 GUA0030028A;GUA;Removido;Guaicuri
+GUA0030029A;GUA;Removido;Guaicuri
+GUA0030029B;GUA;Removido;Guaicuri
+GUA0030030A;GUA;Removido;Guaicuri
 GUA0030031A;GUA;Removido;Guaicuri
 GUA0030032A;GUA;Removido;Guaicuri
 GUA0030032B;GUA;Removido;Guaicuri
@@ -7404,12 +7972,17 @@ GUA0030034C;GUA;Removido;Guaicuri
 GUA0030034D;GUA;Removido;Guaicuri
 GUA0030034F;GUA;Removido;Guaicuri
 GUA0030034I;GUA;Removido;Guaicuri
+GUA0030034G;GUA;Removido;Guaicuri
+GUA0030034H;GUA;Removido;Guaicuri
+GUA0030034E;GUA;Removido;Guaicuri
 GUA0030035A;GUA;Removido;Guaicuri
 GUA0030035B;GUA;Removido;Guaicuri
 GUA0030036A;GUA;Removido;Guaicuri
+GUA0030037A;GUA;Removido;Guaicuri
 GUA0030038A;GUA;Removido;Guaicuri
 GUA0030039A;GUA;Removido;Guaicuri
 GUA0030040A;GUA;Removido;Guaicuri
+GUA0030051H;GUA;Removido;Guaicuri
 GUA0030057A;GUA;Removido;Guaicuri
 GUA0030067J;GUA;Removido;Guaicuri
 GUA0030073A;GUA;Removido;Guaicuri
@@ -7419,9 +7992,12 @@ GUA0030074B;GUA;Removido;Guaicuri
 GUA0030075B;GUA;Removido;Guaicuri
 GUA0030075C;GUA;Removido;Guaicuri
 GUA0030075D;GUA;Removido;Guaicuri
-GUA0030075E;GUA;Removido;Guaicuri
 GUA0030075F;GUA;Removido;Guaicuri
 GUA0030075G;GUA;Removido;Guaicuri
+GUA0030075A;GUA;Removido;Guaicuri
+GUA0030075H;GUA;Removido;Guaicuri
+GUA0030075I;GUA;Removido;Guaicuri
+GUA0030075J;GUA;Removido;Guaicuri
 GUA0030076A;GUA;Removido;Guaicuri
 GUA0030076B;GUA;Removido;Guaicuri
 GUA0030076C;GUA;Removido;Guaicuri
@@ -7450,6 +8026,8 @@ GUA0030086E;GUA;Removido;Guaicuri
 GUA0030086F;GUA;Removido;Guaicuri
 GUA0030086G;GUA;Removido;Guaicuri
 GUA0030086H;GUA;Removido;Guaicuri
+GUA0030086A;GUA;Removido;Guaicuri
+GUA0030087A;GUA;Removido;Guaicuri
 GUA0030090A;GUA;Removido;Guaicuri
 GUA0030098A;GUA;Removido;Guaicuri
 GUA0030098B;GUA;Removido;Guaicuri
@@ -7490,13 +8068,18 @@ GUA0030104A;GUA;Removido;Guaicuri
 GUA0030104B;GUA;Removido;Guaicuri
 GUA0030104D;GUA;Removido;Guaicuri
 GUA0030104E;GUA;Removido;Guaicuri
+GUA0030104C;GUA;Removido;Guaicuri
 GUA0030106A;GUA;Removido;Guaicuri
 GUA0030107A;GUA;Removido;Guaicuri
 GUA0030108A;GUA;Removido;Guaicuri
+GUA0030109A;GUA;Removido;Guaicuri
 GUA0030110A;GUA;Removido;Guaicuri
+GUA0030111A;GUA;Removido;Guaicuri
 GUA0030112A;GUA;Removido;Guaicuri
 GUA0030112B;GUA;Removido;Guaicuri
 GUA0030112C;GUA;Removido;Guaicuri
+GUA0030112D;GUA;Removido;Guaicuri
+GUA0030114F;GUA;Removido;Guaicuri
 GUA0030114A;GUA;Removido;Guaicuri
 GUA0030114B;GUA;Removido;Guaicuri
 GUA0030114C;GUA;Removido;Guaicuri
@@ -7532,7 +8115,11 @@ GUA0030131D;GUA;Removido;Guaicuri
 GUA0030132A;GUA;Removido;Guaicuri
 GUA0030133A;GUA;Removido;Guaicuri
 GUA0030133C;GUA;Removido;Guaicuri
-GUA0030133D;GUA;Removido;Guaicuri
+GUA0030133B;GUA;Removido;Guaicuri
+GUA0030134A;GUA;Removido;Guaicuri
+GUA0030134B;GUA;Removido;Guaicuri
+GUA0030134C;GUA;Removido;Guaicuri
+GUA0030135A;GUA;Removido;Guaicuri
 GUA0030136A;GUA;Removido;Guaicuri
 GUA0030136B;GUA;Removido;Guaicuri
 GUA0030136C;GUA;Removido;Guaicuri
@@ -7554,11 +8141,19 @@ GUA0030143B;GUA;Removido;Guaicuri
 GUA0030144B;GUA;Removido;Guaicuri
 GUA0030144C;GUA;Removido;Guaicuri
 GUA0030144D;GUA;Removido;Guaicuri
+GUA0030144A;GUA;Removido;Guaicuri
 GUA0030145B;GUA;Removido;Guaicuri
+GUA0030145A;GUA;Removido;Guaicuri
 GUA0040001A;GUA;Removido;Guaicuri
 GUA0040002A;GUA;Removido;Guaicuri
 GUA0040002B;GUA;Removido;Guaicuri
+GUA0040002C;GUA;Removido;Guaicuri
 GUA0040003B;GUA;Removido;Guaicuri
+GUA0040003A;GUA;Removido;Guaicuri
+GUA0040004A;GUA;Removido;Guaicuri
+GUA0040005A;GUA;Removido;Guaicuri
+GUA0040006A;GUA;Removido;Guaicuri
+GUA0040007A;GUA;Removido;Guaicuri
 GUA0040008A;GUA;Removido;Guaicuri
 GUA0040008B;GUA;Removido;Guaicuri
 GUA0040009A;GUA;Removido;Guaicuri
@@ -7571,6 +8166,7 @@ GUA0040011D;GUA;Removido;Guaicuri
 GUA0040011E;GUA;Removido;Guaicuri
 GUA0040011F;GUA;Removido;Guaicuri
 GUA0040011G;GUA;Removido;Guaicuri
+GUA0040011B;GUA;Removido;Guaicuri
 GUA0040012A;GUA;Removido;Guaicuri
 GUA0040012B;GUA;Removido;Guaicuri
 GUA0040012C;GUA;Removido;Guaicuri
@@ -7580,6 +8176,7 @@ GUA0040013D;GUA;Removido;Guaicuri
 GUA0040013E;GUA;Removido;Guaicuri
 GUA0040013F;GUA;Removido;Guaicuri
 GUA0040013G;GUA;Removido;Guaicuri
+GUA0040013A;GUA;Removido;Guaicuri
 GUA0040014A;GUA;Removido;Guaicuri
 GUA0040014B;GUA;Removido;Guaicuri
 GUA0040014C;GUA;Removido;Guaicuri
@@ -7588,13 +8185,18 @@ GUA0040015B;GUA;Removido;Guaicuri
 GUA0040015C;GUA;Removido;Guaicuri
 GUA0040015D;GUA;Removido;Guaicuri
 GUA0040016A;GUA;Removido;Guaicuri
+GUA0040016B;GUA;Removido;Guaicuri
 GUA0040017B;GUA;Removido;Guaicuri
 GUA0040017C;GUA;Removido;Guaicuri
 GUA0040017D;GUA;Removido;Guaicuri
+GUA0040017A;GUA;Removido;Guaicuri
 GUA0050001A;GUA;Removido;Guaicuri
 GUA0050002A;GUA;Removido;Guaicuri
 GUA0050002B;GUA;Removido;Guaicuri
 GUA0050003A;GUA;Removido;Guaicuri
+GUA0050003B;GUA;Removido;Guaicuri
+GUA0050004A;GUA;Removido;Guaicuri
+GUA0050004B;GUA;Removido;Guaicuri
 GUA0050005A;GUA;Removido;Guaicuri
 GUA0050005B;GUA;Removido;Guaicuri
 GUA0050005C;GUA;Removido;Guaicuri
@@ -7610,20 +8212,38 @@ GUA0050008A;GUA;Removido;Guaicuri
 GUA0050008B;GUA;Removido;Guaicuri
 GUA0050008C;GUA;Removido;Guaicuri
 GUA0050008C;GUA;Removido;Guaicuri
+GUA0050009A;GUA;Removido;Guaicuri
+GUA0050010A;GUA;Removido;Guaicuri
+GUA0050010B;GUA;Removido;Guaicuri
 GUA0050011A;GUA;Removido;Guaicuri
 GUA0050011B;GUA;Removido;Guaicuri
 GUA0050011C;GUA;Removido;Guaicuri
 GUA0050011D;GUA;Removido;Guaicuri
 GUA0050012A;GUA;Removido;Guaicuri
+GUA0050013A;GUA;Removido;Guaicuri
+GUA0050013B;GUA;Removido;Guaicuri
+GUA0050013C;GUA;Removido;Guaicuri
+GUA0050013D;GUA;Removido;Guaicuri
 GUA0050014A;GUA;Removido;Guaicuri
+GUA0050015A;GUA;Removido;Guaicuri
 GUA0050016A;GUA;Removido;Guaicuri
 GUA0050017B;GUA;Removido;Guaicuri
 GUA0050018B;GUA;Removido;Guaicuri
 GUA0050018C;GUA;Removido;Guaicuri
+GUA0050018A;GUA;Removido;Guaicuri
 GUA0050019A;GUA;Removido;Guaicuri
+GUA0050019B;GUA;Removido;Guaicuri
+GUA0050020B;GUA;Removido;Guaicuri
+GUA0050023A;GUA;Removido;Guaicuri
+GUA0050023C;GUA;Removido;Guaicuri
+GUA0050023D;GUA;Removido;Guaicuri
+GUA0050025D;GUA;Removido;Guaicuri
 GUA0050025A;GUA;Removido;Guaicuri
+GUA0050025B;GUA;Removido;Guaicuri
+GUA0050025C;GUA;Removido;Guaicuri
 GUA0050027C;GUA;Removido;Guaicuri
 GUA0050027D;GUA;Removido;Guaicuri
+GUA0050027B;GUA;Removido;Guaicuri
 GUA0050028A;GUA;Removido;Guaicuri
 GUA0050029A;GUA;Removido;Guaicuri
 GUA0050030A;GUA;Removido;Guaicuri
@@ -7635,6 +8255,7 @@ GUA0050031C;GUA;Removido;Guaicuri
 GUA0050031D;GUA;Removido;Guaicuri
 GUA0050031E;GUA;Removido;Guaicuri
 GUA0050032B;GUA;Removido;Guaicuri
+GUA0050032A;GUA;Removido;Guaicuri
 GUA0050033A;GUA;Removido;Guaicuri
 GUA0050033B;GUA;Removido;Guaicuri
 GUA0050034A;GUA;Removido;Guaicuri
@@ -7667,10 +8288,19 @@ GUA0050052L;GUA;Removido;Guaicuri
 GUA0050052M;GUA;Removido;Guaicuri
 GUA0050052N;GUA;Removido;Guaicuri
 GUA0050052O;GUA;Removido;Guaicuri
+GUA0050052B;GUA;Removido;Guaicuri
+GUA0050052C;GUA;Removido;Guaicuri
+GUA0050052D;GUA;Removido;Guaicuri
+GUA0050052E;GUA;Removido;Guaicuri
+GUA0050052G;GUA;Removido;Guaicuri
+GUA0050052I;GUA;Removido;Guaicuri
 GUA0050053G;GUA;Removido;Guaicuri
+GUA0050059C;GUA;Removido;Guaicuri
 GUA0050060A;GUA;Removido;Guaicuri
 GUA0050061A;GUA;Removido;Guaicuri
 GUA0050061D;GUA;Removido;Guaicuri
+GUA0050061C;GUA;Removido;Guaicuri
+GUA0050062A;GUA;Removido;Guaicuri
 GUA0050063B;GUA;Removido;Guaicuri
 GUA0050064A;GUA;Removido;Guaicuri
 GUA0050064B;GUA;Removido;Guaicuri
@@ -7684,6 +8314,7 @@ GUA0050067B;GUA;Removido;Guaicuri
 GUA0050067C;GUA;Removido;Guaicuri
 GUA0050068A;GUA;Removido;Guaicuri
 GUA0050069B;GUA;Removido;Guaicuri
+GUA0050069A;GUA;Removido;Guaicuri
 GUA0050070A;GUA;Removido;Guaicuri
 GUA0050070B;GUA;Removido;Guaicuri
 GUA0050070C;GUA;Removido;Guaicuri
@@ -7692,6 +8323,7 @@ GUA0050076B;GUA;Removido;Guaicuri
 GUA0050076C;GUA;Removido;Guaicuri
 GUA0050076D;GUA;Removido;Guaicuri
 GUA0050076E;GUA;Removido;Guaicuri
+GUA0050077A;GUA;Removido;Guaicuri
 GUA0050078A;GUA;Removido;Guaicuri
 GUA0050078B;GUA;Removido;Guaicuri
 GUA0050079A;GUA;Removido;Guaicuri
@@ -7707,7 +8339,13 @@ GUA0050085A;GUA;Removido;Guaicuri
 GUA0050086A;GUA;Removido;Guaicuri
 GUA0050087A;GUA;Removido;Guaicuri
 GUA0050088A;GUA;Removido;Guaicuri
+GUA0060059B;GUA;Removido;Guaicuri
 GUA0060001E;GUA;Removido;Guaicuri
+GUA0060001C;GUA;Removido;Guaicuri
+GUA0060001D;GUA;Removido;Guaicuri
+GUA0060002E;GUA;Removido;Guaicuri
+GUA0060002F;GUA;Removido;Guaicuri
+GUA0060002G;GUA;Removido;Guaicuri
 GUA0060023B;GUA;Removido;Guaicuri
 GUA0060023C;GUA;Removido;Guaicuri
 GUA0060023D;GUA;Removido;Guaicuri
@@ -7733,6 +8371,12 @@ GUA0060026H;GUA;Removido;Guaicuri
 GUA0060026I;GUA;Removido;Guaicuri
 GUA0060026J;GUA;Removido;Guaicuri
 GUA0060027A;GUA;Removido;Guaicuri
+GUA0060027B;GUA;Removido;Guaicuri
+GUA0060027C;GUA;Removido;Guaicuri
+GUA0060027D;GUA;Removido;Guaicuri
+GUA0060027E;GUA;Removido;Guaicuri
+GUA0060027F;GUA;Removido;Guaicuri
+GUA0060027G;GUA;Removido;Guaicuri
 GUA0060028A;GUA;Removido;Guaicuri
 GUA0060028B;GUA;Removido;Guaicuri
 GUA0060028C;GUA;Removido;Guaicuri
@@ -7741,17 +8385,26 @@ GUA0060028E;GUA;Removido;Guaicuri
 GUA0060029A;GUA;Removido;Guaicuri
 GUA0060029B;GUA;Removido;Guaicuri
 GUA0060029E;GUA;Removido;Guaicuri
+GUA0060029C;GUA;Removido;Guaicuri
+GUA0060029D;GUA;Removido;Guaicuri
 GUA0060030A;GUA;Removido;Guaicuri
 GUA0060030B;GUA;Removido;Guaicuri
 GUA0060030C;GUA;Removido;Guaicuri
 GUA0060030D;GUA;Removido;Guaicuri
 GUA0060031A;GUA;Removido;Guaicuri
+GUA0060031B;GUA;Removido;Guaicuri
+GUA0060031C;GUA;Removido;Guaicuri
+GUA0060031D;GUA;Removido;Guaicuri
+GUA0060031E;GUA;Removido;Guaicuri
+GUA0060031F;GUA;Removido;Guaicuri
+GUA0060031G;GUA;Removido;Guaicuri
 GUA0060032A;GUA;Removido;Guaicuri
 GUA0060032B;GUA;Removido;Guaicuri
 GUA0060032C;GUA;Removido;Guaicuri
 GUA0060032D;GUA;Removido;Guaicuri
 GUA0060032E;GUA;Removido;Guaicuri
 GUA0060032F;GUA;Removido;Guaicuri
+GUA0060032G;GUA;Removido;Guaicuri
 GUA0060033A;GUA;Removido;Guaicuri
 GUA0060033B;GUA;Removido;Guaicuri
 GUA0060033C;GUA;Removido;Guaicuri
@@ -7765,6 +8418,9 @@ GUA0060035D;GUA;Removido;Guaicuri
 GUA0060035E;GUA;Removido;Guaicuri
 GUA0060036A;GUA;Removido;Guaicuri
 GUA0060036B;GUA;Removido;Guaicuri
+GUA0060036C;GUA;Removido;Guaicuri
+GUA0060036D;GUA;Removido;Guaicuri
+GUA0060036E;GUA;Removido;Guaicuri
 GUA0060037A;GUA;Removido;Guaicuri
 GUA0060037B;GUA;Removido;Guaicuri
 GUA0060038A;GUA;Removido;Guaicuri
@@ -7779,6 +8435,7 @@ GUA0060039E;GUA;Removido;Guaicuri
 GUA0060040A;GUA;Removido;Guaicuri
 GUA0060040C;GUA;Removido;Guaicuri
 GUA0060040D;GUA;Removido;Guaicuri
+GUA0060040B;GUA;Removido;Guaicuri
 GUA0060041A;GUA;Removido;Guaicuri
 GUA0060041B;GUA;Removido;Guaicuri
 GUA0060041C;GUA;Removido;Guaicuri
@@ -7794,6 +8451,7 @@ GUA0060045A;GUA;Removido;Guaicuri
 GUA0060045B;GUA;Removido;Guaicuri
 GUA0060045C;GUA;Removido;Guaicuri
 GUA0060046B;GUA;Removido;Guaicuri
+GUA0060046A;GUA;Removido;Guaicuri
 GUA0060047A;GUA;Removido;Guaicuri
 GUA0060047B;GUA;Removido;Guaicuri
 GUA0060048A;GUA;Removido;Guaicuri
@@ -7804,6 +8462,7 @@ GUA0060050A;GUA;Removido;Guaicuri
 GUA0060051A;GUA;Removido;Guaicuri
 GUA0060051B;GUA;Removido;Guaicuri
 GUA0060051D;GUA;Removido;Guaicuri
+GUA0060051C;GUA;Removido;Guaicuri
 GUA0060052A;GUA;Removido;Guaicuri
 GUA0060052B;GUA;Removido;Guaicuri
 GUA0060052C;GUA;Removido;Guaicuri
@@ -7826,6 +8485,7 @@ GUA0060057C;GUA;Removido;Guaicuri
 GUA0060058A;GUA;Removido;Guaicuri
 GUA0060058B;GUA;Removido;Guaicuri
 GUA0060058C;GUA;Removido;Guaicuri
+GUA0060059A;GUA;Removido;Guaicuri
 GUA0060060A;GUA;Removido;Guaicuri
 GUA0060060B;GUA;Removido;Guaicuri
 GUA0060062A;GUA;Removido;Guaicuri
@@ -7833,13 +8493,16 @@ GUA0060062B;GUA;Removido;Guaicuri
 GUA0060064A;GUA;Removido;Guaicuri
 GUA0060065A;GUA;Removido;Guaicuri
 GUA0060065B;GUA;Removido;Guaicuri
+GUA0060066A;GUA;Removido;Guaicuri
 GUA0060066B;GUA;Removido;Guaicuri
 GUA0060066C;GUA;Removido;Guaicuri
 GUA0060067A;GUA;Removido;Guaicuri
 GUA0060068A;GUA;Removido;Guaicuri
 GUA0060069A;GUA;Removido;Guaicuri
 GUA0060070A;GUA;Removido;Guaicuri
+GUA0060071A;GUA;Removido;Guaicuri
 GUA0060072B;GUA;Removido;Guaicuri
+GUA0060072A;GUA;Removido;Guaicuri
 GUA0060073A;GUA;Removido;Guaicuri
 GUA0060073B;GUA;Removido;Guaicuri
 GUA0060074A;GUA;Removido;Guaicuri
@@ -7848,6 +8511,7 @@ GUA0060075B;GUA;Removido;Guaicuri
 GUA0060075C;GUA;Removido;Guaicuri
 GUA0060075D;GUA;Removido;Guaicuri
 GUA0060076A;GUA;Removido;Guaicuri
+GUA0060077A;GUA;Removido;Guaicuri
 GUA0060078A;GUA;Removido;Guaicuri
 GUA0060078B;GUA;Removido;Guaicuri
 GUA0060078C;GUA;Removido;Guaicuri
@@ -7880,14 +8544,24 @@ GUA0070007B;GUA;Removido;Guaicuri
 GUA0070007C;GUA;Removido;Guaicuri
 GUA0070008A;GUA;Removido;Guaicuri
 GUA0070008B;GUA;Removido;Guaicuri
+GUA0070023C;GUA;Removido;Guaicuri
+GUA0070024A;GUA;Removido;Guaicuri
+GUA0070024B;GUA;Removido;Guaicuri
+GUA0070024C;GUA;Removido;Guaicuri
+GUA0070024D;GUA;Removido;Guaicuri
+GUA0070024E;GUA;Removido;Guaicuri
+GUA0070024F;GUA;Removido;Guaicuri
+GUA0070030A;GUA;Removido;Guaicuri
 GUA0070032A;GUA;Removido;Guaicuri
 GUA0070032B;GUA;Removido;Guaicuri
 GUA0070032C;GUA;Removido;Guaicuri
 GUA0070033C;GUA;Removido;Guaicuri
+GUA0070033B;GUA;Removido;Guaicuri
 GUA0070039A;GUA;Removido;Guaicuri
 GUA0070040A;GUA;Removido;Guaicuri
 GUA0070041A;GUA;Removido;Guaicuri
 GUA0070041B;GUA;Removido;Guaicuri
+GUA0070042A;GUA;Removido;Guaicuri
 GUA0070043A;GUA;Removido;Guaicuri
 GUA0070043B;GUA;Removido;Guaicuri
 GUA0070044A;GUA;Removido;Guaicuri
@@ -7918,38 +8592,58 @@ GUA0070056A;GUA;Removido;Guaicuri
 GUA0080004A;GUA;Removido;Guaicuri
 GUA0090001A;GUA;Removido;Guaicuri
 GUA0090001B;GUA;Removido;Guaicuri
+GUA0090001C;GUA;Removido;Guaicuri
+GUA0090001D;GUA;Removido;Guaicuri
 GUA0090002A;GUA;Removido;Guaicuri
 GUA0090002B;GUA;Removido;Guaicuri
+GUA0090002C;GUA;Removido;Guaicuri
 GUA0090003A;GUA;Removido;Guaicuri
+GUA0090003B;GUA;Removido;Guaicuri
+GUA0090003C;GUA;Removido;Guaicuri
 GUA0090004A;GUA;Removido;Guaicuri
 GUA0090004B;GUA;Removido;Guaicuri
 GUA0090005A;GUA;Removido;Guaicuri
 GUA0090006A;GUA;Removido;Guaicuri
+GUA0090006B;GUA;Removido;Guaicuri
+GUA0090006C;GUA;Removido;Guaicuri
 GUA0090007A;GUA;Removido;Guaicuri
 GUA0090007B;GUA;Removido;Guaicuri
 GUA0090007C;GUA;Removido;Guaicuri
 GUA0090007D;GUA;Removido;Guaicuri
 GUA0090007E;GUA;Removido;Guaicuri
 GUA0090007G;GUA;Removido;Guaicuri
+GUA0090007F;GUA;Removido;Guaicuri
 GUA0090008A;GUA;Removido;Guaicuri
 GUA0090008D;GUA;Removido;Guaicuri
+GUA0090008B;GUA;Removido;Guaicuri
+GUA0090008C;GUA;Removido;Guaicuri
 GUA0090009A;GUA;Removido;Guaicuri
 GUA0090010A;GUA;Removido;Guaicuri
 GUA0090010B;GUA;Removido;Guaicuri
 GUA0090011A;GUA;Removido;Guaicuri
 GUA0090011C;GUA;Removido;Guaicuri
 GUA0090011D;GUA;Removido;Guaicuri
+GUA0090011B;GUA;Removido;Guaicuri
 GUA0090012A;GUA;Removido;Guaicuri
 GUA0090012B;GUA;Removido;Guaicuri
 GUA0090012C;GUA;Removido;Guaicuri
 GUA0090013A;GUA;Removido;Guaicuri
+GUA0090013B;GUA;Removido;Guaicuri
 GUA0090014A;GUA;Removido;Guaicuri
+GUA0090014B;GUA;Removido;Guaicuri
+GUA0090014C;GUA;Removido;Guaicuri
 GUA0090015A;GUA;Removido;Guaicuri
 GUA0090015B;GUA;Removido;Guaicuri
 GUA0090015C;GUA;Removido;Guaicuri
+GUA0090015D;GUA;Removido;Guaicuri
+GUA0090015E;GUA;Removido;Guaicuri
 GUA0090016A;GUA;Removido;Guaicuri
 GUA0090016B;GUA;Removido;Guaicuri
+GUA0090016C;GUA;Removido;Guaicuri
+GUA0090016D;GUA;Removido;Guaicuri
 GUA0090017A;GUA;Removido;Guaicuri
+GUA0090017B;GUA;Removido;Guaicuri
+GUA0090017C;GUA;Removido;Guaicuri
 GUA0090018A;GUA;Removido;Guaicuri
 GUA0090018B;GUA;Removido;Guaicuri
 GUA0090018C;GUA;Removido;Guaicuri
@@ -7964,6 +8658,15 @@ GUA0090019E;GUA;Removido;Guaicuri
 GUA0090019F;GUA;Removido;Guaicuri
 GUA0090021B;GUA;Removido;Guaicuri
 GUA0090021C;GUA;Removido;Guaicuri
+GUA0090024B;GUA;Removido;Guaicuri
+GUA0090025B;GUA;Removido;Guaicuri
+GUA0090025C;GUA;Removido;Guaicuri
+GUA0090028B;GUA;Removido;Guaicuri
+GUA0090030B;GUA;Removido;Guaicuri
+GUA0090031B;GUA;Removido;Guaicuri
+GUA0090035B;GUA;Removido;Guaicuri
+GUA0090039B;GUA;Removido;Guaicuri
+GUA0090043B;GUA;Removido;Guaicuri
 GUA0090044C;GUA;Removido;Guaicuri
 GUA0090046B;GUA;Removido;Guaicuri
 GUA0090048B;GUA;Removido;Guaicuri
@@ -7976,20 +8679,45 @@ GUA0090055C;GUA;Removido;Guaicuri
 GUA0090057B;GUA;Removido;Guaicuri
 GUA0090059B;GUA;Removido;Guaicuri
 GUA0090060C;GUA;Removido;Guaicuri
+GUA0090062C;GUA;Removido;Guaicuri
+GUA0090069C;GUA;Removido;Guaicuri
 GUA0090070D;GUA;Removido;Guaicuri
+GUA0090072A;GUA;Removido;Guaicuri
+GUA0090072B;GUA;Removido;Guaicuri
+GUA0090072C;GUA;Removido;Guaicuri
 GUA0090073B;GUA;Removido;Guaicuri
+GUA0090073A;GUA;Removido;Guaicuri
 GUA0090074C;GUA;Removido;Guaicuri
+GUA0090074A;GUA;Removido;Guaicuri
+GUA0090074B;GUA;Removido;Guaicuri
+GUA0090075A;GUA;Removido;Guaicuri
+GUA0090075B;GUA;Removido;Guaicuri
+GUA0100001A;GUA;Removido;Guaicuri
+GUA0100001B;GUA;Removido;Guaicuri
+GUA0100001C;GUA;Removido;Guaicuri
 GUA0100002C;GUA;Removido;Guaicuri
 GUA0100002F;GUA;Removido;Guaicuri
+GUA0100002A;GUA;Removido;Guaicuri
+GUA0100002B;GUA;Removido;Guaicuri
+GUA0100002D;GUA;Removido;Guaicuri
+GUA0100002E;GUA;Removido;Guaicuri
 GUA0100003A;GUA;Removido;Guaicuri
 GUA0100003B;GUA;Removido;Guaicuri
 GUA0100003C;GUA;Removido;Guaicuri
 GUA0100004C;GUA;Removido;Guaicuri
+GUA0100004A;GUA;Removido;Guaicuri
+GUA0100004B;GUA;Removido;Guaicuri
 GUA0100005A;GUA;Removido;Guaicuri
 GUA0100005B;GUA;Removido;Guaicuri
 GUA0100005C;GUA;Removido;Guaicuri
 GUA0100006F;GUA;Removido;Guaicuri
 GUA0100006G;GUA;Removido;Guaicuri
+GUA0100006A;GUA;Removido;Guaicuri
+GUA0100006B;GUA;Removido;Guaicuri
+GUA0100006C;GUA;Removido;Guaicuri
+GUA0100006D;GUA;Removido;Guaicuri
+GUA0100006E;GUA;Removido;Guaicuri
+GUA0100007A;GUA;Removido;Guaicuri
 GUA0100007D;GUA;Removido;Guaicuri
 GUA0100008B;GUA;Removido;Guaicuri
 GUA0100008C;GUA;Removido;Guaicuri
@@ -8013,10 +8741,16 @@ GUA0100013C;GUA;Removido;Guaicuri
 GUA0100014A;GUA;Removido;Guaicuri
 GUA0100014C;GUA;Removido;Guaicuri
 GUA0100014D;GUA;Removido;Guaicuri
+GUA0100014B;GUA;Removido;Guaicuri
 GUA0100015A;GUA;Removido;Guaicuri
 GUA0100015C;GUA;Removido;Guaicuri
+GUA0100015B;GUA;Removido;Guaicuri
 GUA0100016D;GUA;Removido;Guaicuri
+GUA0100016A;GUA;Removido;Guaicuri
+GUA0100016B;GUA;Removido;Guaicuri
+GUA0100016C;GUA;Removido;Guaicuri
 GUA0100017B;GUA;Removido;Guaicuri
+GUA0100017A;GUA;Removido;Guaicuri
 GUA0100018A;GUA;Removido;Guaicuri
 GUA0100018B;GUA;Removido;Guaicuri
 GUA0100019A;GUA;Removido;Guaicuri
@@ -8025,107 +8759,66 @@ GUA0100020A;GUA;Removido;Guaicuri
 GUA0100020B;GUA;Removido;Guaicuri
 GUA0100021A;GUA;Removido;Guaicuri
 GUA0100021B;GUA;Removido;Guaicuri
+GUA0100021C;GUA;Removido;Guaicuri
+GUA0100021D;GUA;Removido;Guaicuri
 GUA0100022A;GUA;Removido;Guaicuri
 GUA0100022B;GUA;Removido;Guaicuri
 GUA0100022C;GUA;Removido;Guaicuri
 GUA0100023B;GUA;Removido;Guaicuri
+GUA0100023A;GUA;Removido;Guaicuri
 GUA0100024A;GUA;Removido;Guaicuri
 GUA0100024B;GUA;Removido;Guaicuri
 GUA0100024C;GUA;Removido;Guaicuri
 GUA0100024D;GUA;Removido;Guaicuri
 GUA0100025C;GUA;Removido;Guaicuri
 GUA0100025D;GUA;Removido;Guaicuri
+GUA0100025A;GUA;Removido;Guaicuri
+GUA0100025B;GUA;Removido;Guaicuri
 GUA0100026A;GUA;Removido;Guaicuri
 GUA0100026B;GUA;Removido;Guaicuri
 GUA0100026C;GUA;Removido;Guaicuri
 GUA0100026D;GUA;Removido;Guaicuri
 GUA0100027C;GUA;Removido;Guaicuri
+GUA0100027B;GUA;Removido;Guaicuri
+GUA0100027A;GUA;Removido;Guaicuri
+GUA0100027D;GUA;Removido;Guaicuri
 GUA0100028A;GUA;Removido;Guaicuri
+GUA0100028B;GUA;Removido;Guaicuri
+GUA0100028C;GUA;Removido;Guaicuri
+GUA0100029A;GUA;Removido;Guaicuri
+GUA0100029B;GUA;Removido;Guaicuri
 GUA0100030A;GUA;Removido;Guaicuri
 GUA0100030B;GUA;Removido;Guaicuri
 GUA0100030C;GUA;Removido;Guaicuri
+GUA0100030D;GUA;Removido;Guaicuri
+GUA0100030E;GUA;Removido;Guaicuri
 GUA0100031B;GUA;Removido;Guaicuri
 GUA0100031C;GUA;Removido;Guaicuri
 GUA0100031D;GUA;Removido;Guaicuri
+GUA0100031A;GUA;Removido;Guaicuri
+GUA0100031E;GUA;Removido;Guaicuri
 GUA0100032B;GUA;Removido;Guaicuri
 GUA0100032C;GUA;Removido;Guaicuri
+GUA0100032A;GUA;Removido;Guaicuri
 GUA0110001A;GUA;Removido;Guaicuri
 GUA0110001B;GUA;Removido;Guaicuri
 GUA0110001C;GUA;Removido;Guaicuri
+GUA0110001D;GUA;Removido;Guaicuri
+GUA0110002A;GUA;Removido;Guaicuri
 GUA0110025A;GUA;Removido;Guaicuri
 GUA0110025B;GUA;Removido;Guaicuri
 GUA0110025C;GUA;Removido;Guaicuri
 GUA0110026B;GUA;Removido;Guaicuri
+GUA0110026A;GUA;Removido;Guaicuri
 GUA0110027A;GUA;Removido;Guaicuri
 GUA0110028A;GUA;Removido;Guaicuri
 GUA0110028B;GUA;Removido;Guaicuri
 GUA0110029A;GUA;Removido;Guaicuri
-GUA0030034G;GUA;Removido;Guaicuri
-GUA0030034H;GUA;Removido;Guaicuri
-GUA0030037A;GUA;Removido;Guaicuri
-GUA0030075A;GUA;Removido;Guaicuri
-GUA0050062A;GUA;Removido;Guaicuri
-GUA0070033B;GUA;Removido;Guaicuri
-GUA0090074A;GUA;Removido;Guaicuri
-GUA0010031A;GUA;Removido;Guaicuri
-GUA0010055A;GUA;Removido;Guaicuri
-GUA0010058A;GUA;Removido;Guaicuri
-GUA0010059A;GUA;Removido;Guaicuri
-GUA0020013B;GUA;Removido;Guaicuri
-GUA0020016E;GUA;Removido;Guaicuri
-GUA0020016F;GUA;Removido;Guaicuri
-GUA0020016G;GUA;Removido;Guaicuri
-GUA0020016H;GUA;Removido;Guaicuri
-GUA0030003B;GUA;Removido;Guaicuri
-GUA0030008B;GUA;Removido;Guaicuri
-GUA0030016C;GUA;Removido;Guaicuri
-GUA0030051H;GUA;Removido;Guaicuri
-GUA0030087A;GUA;Removido;Guaicuri
-GUA0030109A;GUA;Removido;Guaicuri
-GUA0030111A;GUA;Removido;Guaicuri
-GUA0030112D;GUA;Removido;Guaicuri
-GUA0030134A;GUA;Removido;Guaicuri
-GUA0030134B;GUA;Removido;Guaicuri
-GUA0030134C;GUA;Removido;Guaicuri
-GUA0030135A;GUA;Removido;Guaicuri
-GUA0030144A;GUA;Removido;Guaicuri
-GUA0030145A;GUA;Removido;Guaicuri
-GUA0040002C;GUA;Removido;Guaicuri
-GUA0040003A;GUA;Removido;Guaicuri
-GUA0040004A;GUA;Removido;Guaicuri
-GUA0040005A;GUA;Removido;Guaicuri
-GUA0040007A;GUA;Removido;Guaicuri
-GUA0040011B;GUA;Removido;Guaicuri
-GUA0050010A;GUA;Removido;Guaicuri
-GUA0050010B;GUA;Removido;Guaicuri
-GUA0050013A;GUA;Removido;Guaicuri
-GUA0050015A;GUA;Removido;Guaicuri
-GUA0050018A;GUA;Removido;Guaicuri
-GUA0050019B;GUA;Removido;Guaicuri
-GUA0050023A;GUA;Removido;Guaicuri
-GUA0050025B;GUA;Removido;Guaicuri
-GUA0050069A;GUA;Removido;Guaicuri
-GUA0050077A;GUA;Removido;Guaicuri
-GUA0060029C;GUA;Removido;Guaicuri
-GUA0060059A;GUA;Removido;Guaicuri
-GUA0060059B;GUA;Removido;Guaicuri
-GUA0060077A;GUA;Removido;Guaicuri
-GUA0090015D;GUA;Removido;Guaicuri
-GUA0090072A;GUA;Removido;Guaicuri
-GUA0090072B;GUA;Removido;Guaicuri
-GUA0090072C;GUA;Removido;Guaicuri
-GUA0090073A;GUA;Removido;Guaicuri
-GUA0090075A;GUA;Removido;Guaicuri
-GUA0090075B;GUA;Removido;Guaicuri
-GUA0100015B;GUA;Removido;Guaicuri
-GUA0100027B;GUA;Removido;Guaicuri
-GUA0100029A;GUA;Removido;Guaicuri
-GUA0100029B;GUA;Removido;Guaicuri
-GUA0100031A;GUA;Removido;Guaicuri
-GUA0100032A;GUA;Removido;Guaicuri
-GUA0110001D;GUA;Removido;Guaicuri
-GUA0110002A;GUA;Removido;Guaicuri
 GUA0120003A;GUA;Removido;Guaicuri
+GUA0120001A;GUA;Removido;Guaicuri
+GUA0120001B;GUA;Removido;Guaicuri
+GUA0120002A;GUA;Removido;Guaicuri
+GUA0120002B;GUA;Removido;Guaicuri
 GUA0120004A;GUA;Removido;Guaicuri
 GUA0120004B;GUA;Removido;Guaicuri
 GUA0120005A;GUA;Removido;Guaicuri
@@ -8133,143 +8826,1610 @@ GUA0120006A;GUA;Removido;Guaicuri
 GUA0120007A;GUA;Removido;Guaicuri
 GUA0120008A;GUA;Removido;Guaicuri
 GUA0120009A;GUA;Removido;Guaicuri
-GUA0020014B;GUA;Removido;Guaicuri
-GUA0020015A;GUA;Removido;Guaicuri
-GUA0020015C;GUA;Removido;Guaicuri
-GUA0030009A;GUA;Removido;Guaicuri
-GUA0030009B;GUA;Removido;Guaicuri
-GUA0030009C;GUA;Removido;Guaicuri
-GUA0030029A;GUA;Removido;Guaicuri
-GUA0030029B;GUA;Removido;Guaicuri
-GUA0030030A;GUA;Removido;Guaicuri
-GUA0030034E;GUA;Removido;Guaicuri
-GUA0030075H;GUA;Removido;Guaicuri
-GUA0030075I;GUA;Removido;Guaicuri
-GUA0030075J;GUA;Removido;Guaicuri
-GUA0030086A;GUA;Removido;Guaicuri
-GUA0030104C;GUA;Removido;Guaicuri
-GUA0030133B;GUA;Removido;Guaicuri
-GUA0040006A;GUA;Removido;Guaicuri
-GUA0040013A;GUA;Removido;Guaicuri
-GUA0040016B;GUA;Removido;Guaicuri
-GUA0040017A;GUA;Removido;Guaicuri
-GUA0050003B;GUA;Removido;Guaicuri
-GUA0050004A;GUA;Removido;Guaicuri
-GUA0050004B;GUA;Removido;Guaicuri
-GUA0050009A;GUA;Removido;Guaicuri
-GUA0050013B;GUA;Removido;Guaicuri
-GUA0050013C;GUA;Removido;Guaicuri
-GUA0050013D;GUA;Removido;Guaicuri
-GUA0050020B;GUA;Removido;Guaicuri
-GUA0050023C;GUA;Removido;Guaicuri
-GUA0050023D;GUA;Removido;Guaicuri
-GUA0050027B;GUA;Removido;Guaicuri
-GUA0050032A;GUA;Removido;Guaicuri
-GUA0050052B;GUA;Removido;Guaicuri
-GUA0050052C;GUA;Removido;Guaicuri
-GUA0050052D;GUA;Removido;Guaicuri
-GUA0050052E;GUA;Removido;Guaicuri
-GUA0050052G;GUA;Removido;Guaicuri
-GUA0050052I;GUA;Removido;Guaicuri
-GUA0050061C;GUA;Removido;Guaicuri
-GUA0060001C;GUA;Removido;Guaicuri
-GUA0060001D;GUA;Removido;Guaicuri
-GUA0060002E;GUA;Removido;Guaicuri
-GUA0060002F;GUA;Removido;Guaicuri
-GUA0060002G;GUA;Removido;Guaicuri
-GUA0060027B;GUA;Removido;Guaicuri
-GUA0060027C;GUA;Removido;Guaicuri
-GUA0060027D;GUA;Removido;Guaicuri
-GUA0060027E;GUA;Removido;Guaicuri
-GUA0060027F;GUA;Removido;Guaicuri
-GUA0060027G;GUA;Removido;Guaicuri
-GUA0060029D;GUA;Removido;Guaicuri
-GUA0060031B;GUA;Removido;Guaicuri
-GUA0060031C;GUA;Removido;Guaicuri
-GUA0060031D;GUA;Removido;Guaicuri
-GUA0060031E;GUA;Removido;Guaicuri
-GUA0060031F;GUA;Removido;Guaicuri
-GUA0060031G;GUA;Removido;Guaicuri
-GUA0060032G;GUA;Removido;Guaicuri
-GUA0060036C;GUA;Removido;Guaicuri
-GUA0060036D;GUA;Removido;Guaicuri
-GUA0060036E;GUA;Removido;Guaicuri
-GUA0060040B;GUA;Removido;Guaicuri
-GUA0060046A;GUA;Removido;Guaicuri
-GUA0060051C;GUA;Removido;Guaicuri
-GUA0060071A;GUA;Removido;Guaicuri
-GUA0060072A;GUA;Removido;Guaicuri
-GUA0070023C;GUA;Removido;Guaicuri
-GUA0070030A;GUA;Removido;Guaicuri
-GUA0070042A;GUA;Removido;Guaicuri
-GUA0090001C;GUA;Removido;Guaicuri
-GUA0090001D;GUA;Removido;Guaicuri
-GUA0090002C;GUA;Removido;Guaicuri
-GUA0090003B;GUA;Removido;Guaicuri
-GUA0090003C;GUA;Removido;Guaicuri
-GUA0090006B;GUA;Removido;Guaicuri
-GUA0090006C;GUA;Removido;Guaicuri
-GUA0090007F;GUA;Removido;Guaicuri
-GUA0090008B;GUA;Removido;Guaicuri
-GUA0090008C;GUA;Removido;Guaicuri
-GUA0090011B;GUA;Removido;Guaicuri
-GUA0090013B;GUA;Removido;Guaicuri
-GUA0090014B;GUA;Removido;Guaicuri
-GUA0090014C;GUA;Removido;Guaicuri
-GUA0090015E;GUA;Removido;Guaicuri
-GUA0090016C;GUA;Removido;Guaicuri
-GUA0090016D;GUA;Removido;Guaicuri
-GUA0090017B;GUA;Removido;Guaicuri
-GUA0090017C;GUA;Removido;Guaicuri
-GUA0090024B;GUA;Removido;Guaicuri
-GUA0090025B;GUA;Removido;Guaicuri
-GUA0090025C;GUA;Removido;Guaicuri
-GUA0090028B;GUA;Removido;Guaicuri
-GUA0090030B;GUA;Removido;Guaicuri
-GUA0090031B;GUA;Removido;Guaicuri
-GUA0090035B;GUA;Removido;Guaicuri
-GUA0090039B;GUA;Removido;Guaicuri
-GUA0090043B;GUA;Removido;Guaicuri
-GUA0090062C;GUA;Removido;Guaicuri
-GUA0090069C;GUA;Removido;Guaicuri
-GUA0090074B;GUA;Removido;Guaicuri
-GUA0100001A;GUA;Removido;Guaicuri
-GUA0100001B;GUA;Removido;Guaicuri
-GUA0100001C;GUA;Removido;Guaicuri
-GUA0100002A;GUA;Removido;Guaicuri
-GUA0100002B;GUA;Removido;Guaicuri
-GUA0100002D;GUA;Removido;Guaicuri
-GUA0100002E;GUA;Removido;Guaicuri
-GUA0100004A;GUA;Removido;Guaicuri
-GUA0100004B;GUA;Removido;Guaicuri
-GUA0100006A;GUA;Removido;Guaicuri
-GUA0100006B;GUA;Removido;Guaicuri
-GUA0100006C;GUA;Removido;Guaicuri
-GUA0100006D;GUA;Removido;Guaicuri
-GUA0100006E;GUA;Removido;Guaicuri
-GUA0100014B;GUA;Removido;Guaicuri
-GUA0100016A;GUA;Removido;Guaicuri
-GUA0100016B;GUA;Removido;Guaicuri
-GUA0100016C;GUA;Removido;Guaicuri
-GUA0100017A;GUA;Removido;Guaicuri
-GUA0100021C;GUA;Removido;Guaicuri
-GUA0100021D;GUA;Removido;Guaicuri
-GUA0100023A;GUA;Removido;Guaicuri
-GUA0100025A;GUA;Removido;Guaicuri
-GUA0100025B;GUA;Removido;Guaicuri
-GUA0100027A;GUA;Removido;Guaicuri
-GUA0100027D;GUA;Removido;Guaicuri
-GUA0100028B;GUA;Removido;Guaicuri
-GUA0100028C;GUA;Removido;Guaicuri
-GUA0100030D;GUA;Removido;Guaicuri
-GUA0100030E;GUA;Removido;Guaicuri
-GUA0100031E;GUA;Removido;Guaicuri
-GUA0110026A;GUA;Removido;Guaicuri
-GUA0120001A;GUA;Removido;Guaicuri
-GUA0120001B;GUA;Removido;Guaicuri
-GUA0120002A;GUA;Removido;Guaicuri
-GUA0120002B;GUA;Removido;Guaicuri
-GUA0050025C;GUA;Removido;Guaicuri
+CDC0010001A;CDC;Removido;Cantinho do Céu
+CDC0010002A;CDC;Removido;Cantinho do Céu
+CDC0010002B;CDC;Removido;Cantinho do Céu
+CDC0010002C;CDC;Removido;Cantinho do Céu
+CDC0010003A;CDC;Removido;Cantinho do Céu
+CDC0010003B;CDC;Removido;Cantinho do Céu
+CDC0010004A;CDC;Removido;Cantinho do Céu
+CDC0010004B;CDC;Removido;Cantinho do Céu
+CDC0010004C;CDC;Removido;Cantinho do Céu
+CDC0010005A;CDC;Removido;Cantinho do Céu
+CDC0010005B;CDC;Removido;Cantinho do Céu
+CDC0010005C;CDC;Removido;Cantinho do Céu
+CDC0010006A;CDC;Removido;Cantinho do Céu
+CDC0010006B;CDC;Removido;Cantinho do Céu
+CDC0010006C;CDC;Removido;Cantinho do Céu
+CDC0010007A;CDC;Removido;Cantinho do Céu
+CDC0010007B;CDC;Removido;Cantinho do Céu
+CDC0010008A;CDC;Removido;Cantinho do Céu
+CDC0010008B;CDC;Removido;Cantinho do Céu
+CDC0010008C;CDC;Removido;Cantinho do Céu
+CDC0010009A;CDC;Removido;Cantinho do Céu
+CDC0010009B;CDC;Removido;Cantinho do Céu
+CDC0010010A;CDC;Removido;Cantinho do Céu
+CDC0010010B;CDC;Removido;Cantinho do Céu
+CDC0010011A;CDC;Removido;Cantinho do Céu
+CDC0010011B;CDC;Removido;Cantinho do Céu
+CDC0010012A;CDC;Removido;Cantinho do Céu
+CDC0010012B;CDC;Removido;Cantinho do Céu
+CDC0010012C;CDC;Removido;Cantinho do Céu
+CDC0010013A;CDC;Removido;Cantinho do Céu
+CDC0010013B;CDC;Removido;Cantinho do Céu
+CDC0010013C;CDC;Removido;Cantinho do Céu
+CDC0010014A;CDC;Removido;Cantinho do Céu
+CDC0010014B;CDC;Removido;Cantinho do Céu
+CDC0010014C;CDC;Removido;Cantinho do Céu
+CDC0010015B;CDC;Removido;Cantinho do Céu
+CDC0010016A;CDC;Removido;Cantinho do Céu
+CDC0010016B;CDC;Removido;Cantinho do Céu
+CDC0010016C;CDC;Removido;Cantinho do Céu
+CDC0010017B;CDC;Removido;Cantinho do Céu
+CDC0010018A;CDC;Removido;Cantinho do Céu
+CDC0010018B;CDC;Removido;Cantinho do Céu
+CDC0010019A;CDC;Removido;Cantinho do Céu
+CDC0010020A;CDC;Removido;Cantinho do Céu
+CDC0010020B;CDC;Removido;Cantinho do Céu
+CDC0010020C;CDC;Removido;Cantinho do Céu
+CDC0010020D;CDC;Removido;Cantinho do Céu
+CDC0010020E;CDC;Removido;Cantinho do Céu
+CDC0010021A;CDC;Removido;Cantinho do Céu
+CDC0010021B;CDC;Removido;Cantinho do Céu
+CDC0010021C;CDC;Removido;Cantinho do Céu
+CDC0010022A;CDC;Removido;Cantinho do Céu
+CDC0010022B;CDC;Removido;Cantinho do Céu
+CDC0010023A;CDC;Removido;Cantinho do Céu
+CDC0010023B;CDC;Removido;Cantinho do Céu
+CDC0010024A;CDC;Removido;Cantinho do Céu
+CDC0010024B;CDC;Removido;Cantinho do Céu
+CDC0010024C;CDC;Removido;Cantinho do Céu
+CDC0010025A;CDC;Removido;Cantinho do Céu
+CDC0010026A;CDC;Removido;Cantinho do Céu
+CDC0010026B;CDC;Removido;Cantinho do Céu
+CDC0010027A;CDC;Removido;Cantinho do Céu
+CDC0010028A;CDC;Removido;Cantinho do Céu
+CDC0010029A;CDC;Removido;Cantinho do Céu
+CDC0010029B;CDC;Removido;Cantinho do Céu
+CDC0010030A;CDC;Removido;Cantinho do Céu
+CDC0010031A;CDC;Removido;Cantinho do Céu
+CDC0010032A;CDC;Removido;Cantinho do Céu
+CDC0010033A;CDC;Removido;Cantinho do Céu
+CDC0010034A;CDC;Removido;Cantinho do Céu
+CDC0010035A;CDC;Removido;Cantinho do Céu
+CDC0010036A;CDC;Removido;Cantinho do Céu
+CDC0010036B;CDC;Removido;Cantinho do Céu
+CDC0010037A;CDC;Removido;Cantinho do Céu
+CDC0010037B;CDC;Removido;Cantinho do Céu
+CDC0010038A;CDC;Removido;Cantinho do Céu
+CDC0010039A;CDC;Removido;Cantinho do Céu
+CDC0010040A;CDC;Removido;Cantinho do Céu
+CDC0010040B;CDC;Removido;Cantinho do Céu
+CDC0010041A;CDC;Removido;Cantinho do Céu
+CDC0010041B;CDC;Removido;Cantinho do Céu
+CDC0010042A;CDC;Removido;Cantinho do Céu
+CDC0010043A;CDC;Removido;Cantinho do Céu
+CDC0010044A;CDC;Removido;Cantinho do Céu
+CDC0010044B;CDC;Removido;Cantinho do Céu
+CDC0010045A;CDC;Removido;Cantinho do Céu
+CDC0010045B;CDC;Removido;Cantinho do Céu
+CDC0010046A;CDC;Removido;Cantinho do Céu
+CDC0010046B;CDC;Removido;Cantinho do Céu
+CDC0010047A;CDC;Removido;Cantinho do Céu
+CDC0010047B;CDC;Removido;Cantinho do Céu
+CDC0010048A;CDC;Removido;Cantinho do Céu
+CDC0010048B;CDC;Removido;Cantinho do Céu
+CDC0010049A;CDC;Removido;Cantinho do Céu
+CDC0010049B;CDC;Removido;Cantinho do Céu
+CDC0010049C;CDC;Removido;Cantinho do Céu
+CDC0010050A;CDC;Removido;Cantinho do Céu
+CDC0010050B;CDC;Removido;Cantinho do Céu
+CDC0010051A;CDC;Removido;Cantinho do Céu
+CDC0010051B;CDC;Removido;Cantinho do Céu
+CDC0010052A;CDC;Removido;Cantinho do Céu
+CDC0010052B;CDC;Removido;Cantinho do Céu
+CDC0010053A;CDC;Removido;Cantinho do Céu
+CDC0010053B;CDC;Removido;Cantinho do Céu
+CDC0010054A;CDC;Removido;Cantinho do Céu
+CDC0010054B;CDC;Removido;Cantinho do Céu
+CDC0010055A;CDC;Removido;Cantinho do Céu
+CDC0010055B;CDC;Removido;Cantinho do Céu
+CDC0010056A;CDC;Removido;Cantinho do Céu
+CDC0010056B;CDC;Removido;Cantinho do Céu
+CDC0010057A;CDC;Removido;Cantinho do Céu
+CDC0010057B;CDC;Removido;Cantinho do Céu
+CDC0010058A;CDC;Removido;Cantinho do Céu
+CDC0010058B;CDC;Removido;Cantinho do Céu
+CDC0010059A;CDC;Removido;Cantinho do Céu
+CDC0010059B;CDC;Removido;Cantinho do Céu
+CDC0010060A;CDC;Removido;Cantinho do Céu
+CDC0010060B;CDC;Removido;Cantinho do Céu
+CDC0010061A;CDC;Removido;Cantinho do Céu
+CDC0010061B;CDC;Removido;Cantinho do Céu
+CDC0010062B;CDC;Removido;Cantinho do Céu
+CDC0010063B;CDC;Removido;Cantinho do Céu
+CDC0010064A;CDC;Removido;Cantinho do Céu
+CDC0010064B;CDC;Removido;Cantinho do Céu
+CDC0010064C;CDC;Removido;Cantinho do Céu
+CDC0010065A;CDC;Removido;Cantinho do Céu
+CDC0010065B;CDC;Removido;Cantinho do Céu
+CDC0010065C;CDC;Removido;Cantinho do Céu
+CDC0010066A;CDC;Removido;Cantinho do Céu
+CDC0010066B;CDC;Removido;Cantinho do Céu
+CDC0010066C;CDC;Removido;Cantinho do Céu
+CDC0010067A;CDC;Removido;Cantinho do Céu
+CDC0010067B;CDC;Removido;Cantinho do Céu
+CDC0010068B;CDC;Removido;Cantinho do Céu
+CDC0010069A;CDC;Removido;Cantinho do Céu
+CDC0010069B;CDC;Removido;Cantinho do Céu
+CDC0010070A;CDC;Removido;Cantinho do Céu
+CDC0010070B;CDC;Removido;Cantinho do Céu
+CDC0010071A;CDC;Removido;Cantinho do Céu
+CDC0010072A;CDC;Removido;Cantinho do Céu
+CDC0010073B;CDC;Removido;Cantinho do Céu
+CDC0010073C;CDC;Removido;Cantinho do Céu
+CDC0010074A;CDC;Removido;Cantinho do Céu
+CDC0010075A;CDC;Removido;Cantinho do Céu
+CDC0010076A;CDC;Removido;Cantinho do Céu
+CDC0010078A;CDC;Removido;Cantinho do Céu
+CDC0010079B;CDC;Removido;Cantinho do Céu
+CDC0010080A;CDC;Removido;Cantinho do Céu
+CDC0010082A;CDC;Removido;Cantinho do Céu
+CDC0010082B;CDC;Removido;Cantinho do Céu
+CDC0010084A;CDC;Removido;Cantinho do Céu
+CDC0010087A;CDC;Removido;Cantinho do Céu
+CDC0010087C;CDC;Removido;Cantinho do Céu
+CDC0010090B;CDC;Removido;Cantinho do Céu
+CDC0010091C;CDC;Removido;Cantinho do Céu
+CDC0010091D;CDC;Removido;Cantinho do Céu
+CDC0010093A;CDC;Removido;Cantinho do Céu
+CDC0010094A;CDC;Removido;Cantinho do Céu
+CDC0010094B;CDC;Removido;Cantinho do Céu
+CDC0010097B;CDC;Removido;Cantinho do Céu
+CDC0010097C;CDC;Removido;Cantinho do Céu
+CDC0010097D;CDC;Removido;Cantinho do Céu
+CDC0010097E;CDC;Removido;Cantinho do Céu
+CDC0010098C;CDC;Removido;Cantinho do Céu
+CDC0010098D;CDC;Removido;Cantinho do Céu
+CDC0010099C;CDC;Removido;Cantinho do Céu
+CDC0010100B;CDC;Removido;Cantinho do Céu
+CDC0010100C;CDC;Removido;Cantinho do Céu
+CDC0010100D;CDC;Removido;Cantinho do Céu
+CDC0010100E;CDC;Removido;Cantinho do Céu
+CDC0010101C;CDC;Removido;Cantinho do Céu
+CDC0010101D;CDC;Removido;Cantinho do Céu
+CDC0010103C;CDC;Removido;Cantinho do Céu
+CDC0010103F;CDC;Removido;Cantinho do Céu
+CDC0010104D;CDC;Removido;Cantinho do Céu
+CDC0010104E;CDC;Removido;Cantinho do Céu
+CDC0010105I;CDC;Removido;Cantinho do Céu
+CDC0010105J;CDC;Removido;Cantinho do Céu
+CDC0010105K;CDC;Removido;Cantinho do Céu
+CDC0010105L;CDC;Removido;Cantinho do Céu
+CDC0010105M;CDC;Removido;Cantinho do Céu
+CDC0010106C;CDC;Removido;Cantinho do Céu
+CDC0010106D;CDC;Removido;Cantinho do Céu
+CDC0010106E;CDC;Removido;Cantinho do Céu
+CDC0010106F;CDC;Removido;Cantinho do Céu
+CDC0010108I;CDC;Removido;Cantinho do Céu
+CDC0010108J;CDC;Removido;Cantinho do Céu
+CDC0010109C;CDC;Removido;Cantinho do Céu
+CDC0010109D;CDC;Removido;Cantinho do Céu
+CDC0010109E;CDC;Removido;Cantinho do Céu
+CDC0010110B;CDC;Removido;Cantinho do Céu
+CDC0010110C;CDC;Removido;Cantinho do Céu
+CDC0010110D;CDC;Removido;Cantinho do Céu
+CDC0010110E;CDC;Removido;Cantinho do Céu
+CDC0010110F;CDC;Removido;Cantinho do Céu
+CDC0010110G;CDC;Removido;Cantinho do Céu
+CDC0010111B;CDC;Removido;Cantinho do Céu
+CDC0010114B;CDC;Removido;Cantinho do Céu
+CDC0010117D;CDC;Removido;Cantinho do Céu
+CDC0010118A;CDC;Removido;Cantinho do Céu
+CDC0010118B;CDC;Removido;Cantinho do Céu
+CDC0010119A;CDC;Removido;Cantinho do Céu
+CDC0010119B;CDC;Removido;Cantinho do Céu
+CDC0010119C;CDC;Removido;Cantinho do Céu
+CDC0010120B;CDC;Removido;Cantinho do Céu
+CDC0010120C;CDC;Removido;Cantinho do Céu
+CDC0010122B;CDC;Removido;Cantinho do Céu
+CDC0010122C;CDC;Removido;Cantinho do Céu
+CDC0010125A;CDC;Removido;Cantinho do Céu
+CDC0010125B;CDC;Removido;Cantinho do Céu
+CDC0010126C;CDC;Removido;Cantinho do Céu
+CDC0010126D;CDC;Removido;Cantinho do Céu
+CDC0010126E;CDC;Removido;Cantinho do Céu
+CDC0010127A;CDC;Removido;Cantinho do Céu
+CDC0010127B;CDC;Removido;Cantinho do Céu
+CDC0010127C;CDC;Removido;Cantinho do Céu
+CDC0010127D;CDC;Removido;Cantinho do Céu
+CDC0010127E;CDC;Removido;Cantinho do Céu
+CDC0010127F;CDC;Removido;Cantinho do Céu
+CDC0010128C;CDC;Removido;Cantinho do Céu
+CDC0010128D;CDC;Removido;Cantinho do Céu
+CDC0010129B;CDC;Removido;Cantinho do Céu
+CDC0010129C;CDC;Removido;Cantinho do Céu
+CDC0010129D;CDC;Removido;Cantinho do Céu
+CDC0010130C;CDC;Removido;Cantinho do Céu
+CDC0010130D;CDC;Removido;Cantinho do Céu
+CDC0010130E;CDC;Removido;Cantinho do Céu
+CDC0010130F;CDC;Removido;Cantinho do Céu
+CDC0010130G;CDC;Removido;Cantinho do Céu
+CDC0010132B;CDC;Removido;Cantinho do Céu
+CDC0010132C;CDC;Removido;Cantinho do Céu
+CDC0010133A;CDC;Removido;Cantinho do Céu
+CDC0010134A;CDC;Removido;Cantinho do Céu
+CDC0010134B;CDC;Removido;Cantinho do Céu
+CDC0010135A;CDC;Removido;Cantinho do Céu
+CDC0010135B;CDC;Removido;Cantinho do Céu
+CDC0010136A;CDC;Removido;Cantinho do Céu
+CDC0010136B;CDC;Removido;Cantinho do Céu
+CDC0010136C;CDC;Removido;Cantinho do Céu
+CDC0010137A;CDC;Removido;Cantinho do Céu
+CDC0010137B;CDC;Removido;Cantinho do Céu
+CDC0010138A;CDC;Removido;Cantinho do Céu
+CDC0010138B;CDC;Removido;Cantinho do Céu
+CDC0010139A;CDC;Removido;Cantinho do Céu
+CDC0010139B;CDC;Removido;Cantinho do Céu
+CDC0010140A;CDC;Removido;Cantinho do Céu
+CDC0010140B;CDC;Removido;Cantinho do Céu
+CDC0010140C;CDC;Removido;Cantinho do Céu
+CDC0010140D;CDC;Removido;Cantinho do Céu
+CDC0010141A;CDC;Removido;Cantinho do Céu
+CDC0010141B;CDC;Removido;Cantinho do Céu
+CDC0010141C;CDC;Removido;Cantinho do Céu
+CDC0010142A;CDC;Removido;Cantinho do Céu
+CDC0010142B;CDC;Removido;Cantinho do Céu
+CDC0010143A;CDC;Removido;Cantinho do Céu
+CDC0010143B;CDC;Removido;Cantinho do Céu
+CDC0010143C;CDC;Removido;Cantinho do Céu
+CDC0010143D;CDC;Removido;Cantinho do Céu
+CDC0010144A;CDC;Removido;Cantinho do Céu
+CDC0010144B;CDC;Removido;Cantinho do Céu
+CDC0010144C;CDC;Removido;Cantinho do Céu
+CDC0010144D;CDC;Removido;Cantinho do Céu
+CDC0010145A;CDC;Removido;Cantinho do Céu
+CDC0010145B;CDC;Removido;Cantinho do Céu
+CDC0010145C;CDC;Removido;Cantinho do Céu
+CDC0010146A;CDC;Removido;Cantinho do Céu
+CDC0010146B;CDC;Removido;Cantinho do Céu
+CDC0010146C;CDC;Removido;Cantinho do Céu
+CDC0010147A;CDC;Removido;Cantinho do Céu
+CDC0010147B;CDC;Removido;Cantinho do Céu
+CDC0010147C;CDC;Removido;Cantinho do Céu
+CDC0010147D;CDC;Removido;Cantinho do Céu
+CDC0010147E;CDC;Removido;Cantinho do Céu
+CDC0010147F;CDC;Removido;Cantinho do Céu
+CDC0010147G;CDC;Removido;Cantinho do Céu
+CDC0010147H;CDC;Removido;Cantinho do Céu
+CDC0010147I;CDC;Removido;Cantinho do Céu
+CDC0010148A;CDC;Removido;Cantinho do Céu
+CDC0010148B;CDC;Removido;Cantinho do Céu
+CDC0010148C;CDC;Removido;Cantinho do Céu
+CDC0010148D;CDC;Removido;Cantinho do Céu
+CDC0010149A;CDC;Removido;Cantinho do Céu
+CDC0010149B;CDC;Removido;Cantinho do Céu
+CDC0010149C;CDC;Removido;Cantinho do Céu
+CDC0010150A;CDC;Removido;Cantinho do Céu
+CDC0010150B;CDC;Removido;Cantinho do Céu
+CDC0010150C;CDC;Removido;Cantinho do Céu
+CDC0010150D;CDC;Removido;Cantinho do Céu
+CDC0010151A;CDC;Removido;Cantinho do Céu
+CDC0010151B;CDC;Removido;Cantinho do Céu
+CDC0010152A;CDC;Removido;Cantinho do Céu
+CDC0010152B;CDC;Removido;Cantinho do Céu
+CDC0010152C;CDC;Removido;Cantinho do Céu
+CDC0010153A;CDC;Removido;Cantinho do Céu
+CDC0010153B;CDC;Removido;Cantinho do Céu
+CDC0010153C;CDC;Removido;Cantinho do Céu
+CDC0010153D;CDC;Removido;Cantinho do Céu
+CDC0010154A;CDC;Removido;Cantinho do Céu
+CDC0010154B;CDC;Removido;Cantinho do Céu
+CDC0010155A;CDC;Removido;Cantinho do Céu
+CDC0010155B;CDC;Removido;Cantinho do Céu
+CDC0010155D;CDC;Removido;Cantinho do Céu
+CDC0010155E;CDC;Removido;Cantinho do Céu
+CDC0010156A;CDC;Removido;Cantinho do Céu
+CDC0010156B;CDC;Removido;Cantinho do Céu
+CDC0010156C;CDC;Removido;Cantinho do Céu
+CDC0010156D;CDC;Removido;Cantinho do Céu
+CDC0010157A;CDC;Removido;Cantinho do Céu
+CDC0010158A;CDC;Removido;Cantinho do Céu
+CDC0010159A;CDC;Removido;Cantinho do Céu
+CDC0010159B;CDC;Removido;Cantinho do Céu
+CDC0010159C;CDC;Removido;Cantinho do Céu
+CDC0010159D;CDC;Removido;Cantinho do Céu
+CDC0010159E;CDC;Removido;Cantinho do Céu
+CDC0010160A;CDC;Removido;Cantinho do Céu
+CDC0010160B;CDC;Removido;Cantinho do Céu
+CDC0010160C;CDC;Removido;Cantinho do Céu
+CDC0010160D;CDC;Removido;Cantinho do Céu
+CDC0010160E;CDC;Removido;Cantinho do Céu
+CDC0010161A;CDC;Removido;Cantinho do Céu
+CDC0010161B;CDC;Removido;Cantinho do Céu
+CDC0010161C;CDC;Removido;Cantinho do Céu
+CDC0010161D;CDC;Removido;Cantinho do Céu
+CDC0010162B;CDC;Removido;Cantinho do Céu
+CDC0010162C;CDC;Removido;Cantinho do Céu
+CDC0010164A;CDC;Removido;Cantinho do Céu
+CDC0010164B;CDC;Removido;Cantinho do Céu
+CDC0010164C;CDC;Removido;Cantinho do Céu
+CDC0010165A;CDC;Removido;Cantinho do Céu
+CDC0010165C;CDC;Removido;Cantinho do Céu
+CDC0010165D;CDC;Removido;Cantinho do Céu
+CDC0010166A;CDC;Removido;Cantinho do Céu
+CDC0010166C;CDC;Removido;Cantinho do Céu
+CDC0010166D;CDC;Removido;Cantinho do Céu
+CDC0010166F;CDC;Removido;Cantinho do Céu
+CDC0010167A;CDC;Removido;Cantinho do Céu
+CDC0010167B;CDC;Removido;Cantinho do Céu
+CDC0010167C;CDC;Removido;Cantinho do Céu
+CDC0010168A;CDC;Removido;Cantinho do Céu
+CDC0010168B;CDC;Removido;Cantinho do Céu
+CDC0010168C;CDC;Removido;Cantinho do Céu
+CDC0010169C;CDC;Removido;Cantinho do Céu
+CDC0010169D;CDC;Removido;Cantinho do Céu
+CDC0010170B;CDC;Removido;Cantinho do Céu
+CDC0010170C;CDC;Removido;Cantinho do Céu
+CDC0010170D;CDC;Removido;Cantinho do Céu
+CDC0010170E;CDC;Removido;Cantinho do Céu
+CDC0020010B;CDC;Removido;Cantinho do Céu
+CDC0020010C;CDC;Removido;Cantinho do Céu
+CDC0020011A;CDC;Removido;Cantinho do Céu
+CDC0020011B;CDC;Removido;Cantinho do Céu
+CDC0020011C;CDC;Removido;Cantinho do Céu
+CDC0020011D;CDC;Removido;Cantinho do Céu
+CDC0020012B;CDC;Removido;Cantinho do Céu
+CDC0020012C;CDC;Removido;Cantinho do Céu
+CDC0020012D;CDC;Removido;Cantinho do Céu
+CDC0020012E;CDC;Removido;Cantinho do Céu
+CDC0020012F;CDC;Removido;Cantinho do Céu
+CDC0020014A;CDC;Removido;Cantinho do Céu
+CDC0020015A;CDC;Removido;Cantinho do Céu
+CDC0020016A;CDC;Removido;Cantinho do Céu
+CDC0020016B;CDC;Removido;Cantinho do Céu
+CDC0020016D;CDC;Removido;Cantinho do Céu
+CDC0020017B;CDC;Removido;Cantinho do Céu
+CDC0020017C;CDC;Removido;Cantinho do Céu
+CDC0020017D;CDC;Removido;Cantinho do Céu
+CDC0020017E;CDC;Removido;Cantinho do Céu
+CDC0020017F;CDC;Removido;Cantinho do Céu
+CDC0020017G;CDC;Removido;Cantinho do Céu
+CDC0020017H;CDC;Removido;Cantinho do Céu
+CDC0020017I;CDC;Removido;Cantinho do Céu
+CDC0020018B;CDC;Removido;Cantinho do Céu
+CDC0020019C;CDC;Removido;Cantinho do Céu
+CDC0020020A;CDC;Removido;Cantinho do Céu
+CDC0020020B;CDC;Removido;Cantinho do Céu
+CDC0020021C;CDC;Removido;Cantinho do Céu
+CDC0020021E;CDC;Removido;Cantinho do Céu
+CDC0020021H;CDC;Removido;Cantinho do Céu
+CDC0020025A;CDC;Removido;Cantinho do Céu
+CDC0020025B;CDC;Removido;Cantinho do Céu
+CDC0020025C;CDC;Removido;Cantinho do Céu
+CDC0020026A;CDC;Removido;Cantinho do Céu
+CDC0020027A;CDC;Removido;Cantinho do Céu
+CDC0020027B;CDC;Removido;Cantinho do Céu
+CDC0020027C;CDC;Removido;Cantinho do Céu
+CDC0020027D;CDC;Removido;Cantinho do Céu
+CDC0020027E;CDC;Removido;Cantinho do Céu
+CDC0020027F;CDC;Removido;Cantinho do Céu
+CDC0020027G;CDC;Removido;Cantinho do Céu
+CDC0020027H;CDC;Removido;Cantinho do Céu
+CDC0020027I;CDC;Removido;Cantinho do Céu
+CDC0020027J;CDC;Removido;Cantinho do Céu
+CDC0020028B;CDC;Removido;Cantinho do Céu
+CDC0020028C;CDC;Removido;Cantinho do Céu
+CDC0020028D;CDC;Removido;Cantinho do Céu
+CDC0020029A;CDC;Removido;Cantinho do Céu
+CDC0020029C;CDC;Removido;Cantinho do Céu
+CDC0020029D;CDC;Removido;Cantinho do Céu
+CDC0020029E;CDC;Removido;Cantinho do Céu
+CDC0020029F;CDC;Removido;Cantinho do Céu
+CDC0020030D;CDC;Removido;Cantinho do Céu
+CDC0020030E;CDC;Removido;Cantinho do Céu
+CDC0020030G;CDC;Removido;Cantinho do Céu
+CDC0020030H;CDC;Removido;Cantinho do Céu
+CDC0020030I;CDC;Removido;Cantinho do Céu
+CDC0020030J;CDC;Removido;Cantinho do Céu
+CDC0020031A;CDC;Removido;Cantinho do Céu
+CDC0020031B;CDC;Removido;Cantinho do Céu
+CDC0020031D;CDC;Removido;Cantinho do Céu
+CDC0020031E;CDC;Removido;Cantinho do Céu
+CDC0020031F;CDC;Removido;Cantinho do Céu
+CDC0020031G;CDC;Removido;Cantinho do Céu
+CDC0020032A;CDC;Removido;Cantinho do Céu
+CDC0020032B;CDC;Removido;Cantinho do Céu
+CDC0020032C;CDC;Removido;Cantinho do Céu
+CDC0020032D;CDC;Removido;Cantinho do Céu
+CDC0020033B;CDC;Removido;Cantinho do Céu
+CDC0020034A;CDC;Removido;Cantinho do Céu
+CDC0020034B;CDC;Removido;Cantinho do Céu
+CDC0020034C;CDC;Removido;Cantinho do Céu
+CDC0020035B;CDC;Removido;Cantinho do Céu
+CDC0020036A;CDC;Removido;Cantinho do Céu
+CDC0020036C;CDC;Removido;Cantinho do Céu
+CDC0020036D;CDC;Removido;Cantinho do Céu
+CDC0020037B;CDC;Removido;Cantinho do Céu
+CDC0020037C;CDC;Removido;Cantinho do Céu
+CDC0020037D;CDC;Removido;Cantinho do Céu
+CDC0020037E;CDC;Removido;Cantinho do Céu
+CDC0020038B;CDC;Removido;Cantinho do Céu
+CDC0020038C;CDC;Removido;Cantinho do Céu
+CDC0020038D;CDC;Removido;Cantinho do Céu
+CDC0020039B;CDC;Removido;Cantinho do Céu
+CDC0020040A;CDC;Removido;Cantinho do Céu
+CDC0020040B;CDC;Removido;Cantinho do Céu
+CDC0020040C;CDC;Removido;Cantinho do Céu
+CDC0020040D;CDC;Removido;Cantinho do Céu
+CDC0020041A;CDC;Removido;Cantinho do Céu
+CDC0020042B;CDC;Removido;Cantinho do Céu
+CDC0020042C;CDC;Removido;Cantinho do Céu
+CDC0020042D;CDC;Removido;Cantinho do Céu
+CDC0020042E;CDC;Removido;Cantinho do Céu
+CDC0020042F;CDC;Removido;Cantinho do Céu
+CDC0020043B;CDC;Removido;Cantinho do Céu
+CDC0020043C;CDC;Removido;Cantinho do Céu
+CDC0020043D;CDC;Removido;Cantinho do Céu
+CDC0020043E;CDC;Removido;Cantinho do Céu
+CDC0020043F;CDC;Removido;Cantinho do Céu
+CDC0020043G;CDC;Removido;Cantinho do Céu
+CDC0020043H;CDC;Removido;Cantinho do Céu
+CDC0020043I;CDC;Removido;Cantinho do Céu
+CDC0020043J;CDC;Removido;Cantinho do Céu
+CDC0020043K;CDC;Removido;Cantinho do Céu
+CDC0020043L;CDC;Removido;Cantinho do Céu
+CDC0020043M;CDC;Removido;Cantinho do Céu
+CDC0020043N;CDC;Removido;Cantinho do Céu
+CDC0020043O;CDC;Removido;Cantinho do Céu
+CDC0020044A;CDC;Removido;Cantinho do Céu
+CDC0020044B;CDC;Removido;Cantinho do Céu
+CDC0020044C;CDC;Removido;Cantinho do Céu
+CDC0020044D;CDC;Removido;Cantinho do Céu
+CDC0020044E;CDC;Removido;Cantinho do Céu
+CDC0020044F;CDC;Removido;Cantinho do Céu
+CDC0020045B;CDC;Removido;Cantinho do Céu
+CDC0020047B;CDC;Removido;Cantinho do Céu
+CDC0020047C;CDC;Removido;Cantinho do Céu
+CDC0020048A;CDC;Removido;Cantinho do Céu
+CDC0020048B;CDC;Removido;Cantinho do Céu
+CDC0020048C;CDC;Removido;Cantinho do Céu
+CDC0020048D;CDC;Removido;Cantinho do Céu
+CDC0020049A;CDC;Removido;Cantinho do Céu
+CDC0020049B;CDC;Removido;Cantinho do Céu
+CDC0020049C;CDC;Removido;Cantinho do Céu
+CDC0020049D;CDC;Removido;Cantinho do Céu
+CDC0020049E;CDC;Removido;Cantinho do Céu
+CDC0020050A;CDC;Removido;Cantinho do Céu
+CDC0020050B;CDC;Removido;Cantinho do Céu
+CDC0020050C;CDC;Removido;Cantinho do Céu
+CDC0020051A;CDC;Removido;Cantinho do Céu
+CDC0020051B;CDC;Removido;Cantinho do Céu
+CDC0020052A;CDC;Removido;Cantinho do Céu
+CDC0020052B;CDC;Removido;Cantinho do Céu
+CDC0020052C;CDC;Removido;Cantinho do Céu
+CDC0020052D;CDC;Removido;Cantinho do Céu
+CDC0020052E;CDC;Removido;Cantinho do Céu
+CDC0020053A;CDC;Removido;Cantinho do Céu
+CDC0020053B;CDC;Removido;Cantinho do Céu
+CDC0020053C;CDC;Removido;Cantinho do Céu
+CDC0020053D;CDC;Removido;Cantinho do Céu
+CDC0020054A;CDC;Removido;Cantinho do Céu
+CDC0020054B;CDC;Removido;Cantinho do Céu
+CDC0020054C;CDC;Removido;Cantinho do Céu
+CDC0020055A;CDC;Removido;Cantinho do Céu
+CDC0020055B;CDC;Removido;Cantinho do Céu
+CDC0020055C;CDC;Removido;Cantinho do Céu
+CDC0020055D;CDC;Removido;Cantinho do Céu
+CDC0020055E;CDC;Removido;Cantinho do Céu
+CDC0020056A;CDC;Removido;Cantinho do Céu
+CDC0020056B;CDC;Removido;Cantinho do Céu
+CDC0020057A;CDC;Removido;Cantinho do Céu
+CDC0020057B;CDC;Removido;Cantinho do Céu
+CDC0020057C;CDC;Removido;Cantinho do Céu
+CDC0020057D;CDC;Removido;Cantinho do Céu
+CDC0020059A;CDC;Removido;Cantinho do Céu
+CDC0020059B;CDC;Removido;Cantinho do Céu
+CDC0020059C;CDC;Removido;Cantinho do Céu
+CDC0020059D;CDC;Removido;Cantinho do Céu
+CDC0020060A;CDC;Removido;Cantinho do Céu
+CDC0020060B;CDC;Removido;Cantinho do Céu
+CDC0020060C;CDC;Removido;Cantinho do Céu
+CDC0020060D;CDC;Removido;Cantinho do Céu
+CDC0020060F;CDC;Removido;Cantinho do Céu
+CDC0020061A;CDC;Removido;Cantinho do Céu
+CDC0020061B;CDC;Removido;Cantinho do Céu
+CDC0020062A;CDC;Removido;Cantinho do Céu
+CDC0020062B;CDC;Removido;Cantinho do Céu
+CDC0020062C;CDC;Removido;Cantinho do Céu
+CDC0030001B;CDC;Removido;Cantinho do Céu
+CDC0030001C;CDC;Removido;Cantinho do Céu
+CDC0030001D;CDC;Removido;Cantinho do Céu
+CDC00300027F;CDC;Removido;Cantinho do Céu
+CDC0030002B;CDC;Removido;Cantinho do Céu
+CDC0030002C;CDC;Removido;Cantinho do Céu
+CDC0030002D;CDC;Removido;Cantinho do Céu
+CDC0030002E;CDC;Removido;Cantinho do Céu
+CDC0030003B;CDC;Removido;Cantinho do Céu
+CDC0030003C;CDC;Removido;Cantinho do Céu
+CDC0030003E;CDC;Removido;Cantinho do Céu
+CDC0030003F;CDC;Removido;Cantinho do Céu
+CDC0030003G;CDC;Removido;Cantinho do Céu
+CDC0030004C;CDC;Removido;Cantinho do Céu
+CDC0030004D;CDC;Removido;Cantinho do Céu
+CDC0030004E;CDC;Removido;Cantinho do Céu
+CDC0030004F;CDC;Removido;Cantinho do Céu
+CDC0030006B;CDC;Removido;Cantinho do Céu
+CDC0030007G;CDC;Removido;Cantinho do Céu
+CDC0030007H;CDC;Removido;Cantinho do Céu
+CDC0030009A;CDC;Removido;Cantinho do Céu
+CDC0030009B;CDC;Removido;Cantinho do Céu
+CDC0030009C;CDC;Removido;Cantinho do Céu
+CDC0030009D;CDC;Removido;Cantinho do Céu
+CDC0030009E;CDC;Removido;Cantinho do Céu
+CDC0030009F;CDC;Removido;Cantinho do Céu
+CDC0030009G;CDC;Removido;Cantinho do Céu
+CDC0030011A;CDC;Removido;Cantinho do Céu
+CDC0030011C;CDC;Removido;Cantinho do Céu
+CDC0030011D;CDC;Removido;Cantinho do Céu
+CDC0030012D;CDC;Removido;Cantinho do Céu
+CDC0030013C;CDC;Removido;Cantinho do Céu
+CDC0030015B;CDC;Removido;Cantinho do Céu
+CDC0030015C;CDC;Removido;Cantinho do Céu
+CDC0030015D;CDC;Removido;Cantinho do Céu
+CDC0030016A;CDC;Removido;Cantinho do Céu
+CDC0030016B;CDC;Removido;Cantinho do Céu
+CDC0030016C;CDC;Removido;Cantinho do Céu
+CDC0030016D;CDC;Removido;Cantinho do Céu
+CDC0030016E;CDC;Removido;Cantinho do Céu
+CDC0030017B;CDC;Removido;Cantinho do Céu
+CDC0030017C;CDC;Removido;Cantinho do Céu
+CDC0030017D;CDC;Removido;Cantinho do Céu
+CDC0030017E;CDC;Removido;Cantinho do Céu
+CDC0030017F;CDC;Removido;Cantinho do Céu
+CDC0030017G;CDC;Removido;Cantinho do Céu
+CDC0030018B;CDC;Removido;Cantinho do Céu
+CDC0030018C;CDC;Removido;Cantinho do Céu
+CDC0030018D;CDC;Removido;Cantinho do Céu
+CDC0030018E;CDC;Removido;Cantinho do Céu
+CDC0030019C;CDC;Removido;Cantinho do Céu
+CDC0030019D;CDC;Removido;Cantinho do Céu
+CDC0030019E;CDC;Removido;Cantinho do Céu
+CDC0030019F;CDC;Removido;Cantinho do Céu
+CDC0030020A;CDC;Removido;Cantinho do Céu
+CDC0030020B;CDC;Removido;Cantinho do Céu
+CDC0030020C;CDC;Removido;Cantinho do Céu
+CDC0030020D;CDC;Removido;Cantinho do Céu
+CDC0030020E;CDC;Removido;Cantinho do Céu
+CDC0030020F;CDC;Removido;Cantinho do Céu
+CDC0030023A;CDC;Removido;Cantinho do Céu
+CDC0030023B;CDC;Removido;Cantinho do Céu
+CDC0030023C;CDC;Removido;Cantinho do Céu
+CDC0030025B;CDC;Removido;Cantinho do Céu
+CDC0030026A;CDC;Removido;Cantinho do Céu
+CDC0030026B;CDC;Removido;Cantinho do Céu
+CDC0030026C;CDC;Removido;Cantinho do Céu
+CDC0030027A;CDC;Removido;Cantinho do Céu
+CDC0030027C;CDC;Removido;Cantinho do Céu
+CDC0030027D;CDC;Removido;Cantinho do Céu
+CDC0030027E;CDC;Removido;Cantinho do Céu
+CDC0030028B;CDC;Removido;Cantinho do Céu
+CDC0030028E;CDC;Removido;Cantinho do Céu
+CDC0030028F;CDC;Removido;Cantinho do Céu
+CDC0030028G;CDC;Removido;Cantinho do Céu
+CDC0030029B;CDC;Removido;Cantinho do Céu
+CDC0030029C;CDC;Removido;Cantinho do Céu
+CDC0030030C;CDC;Removido;Cantinho do Céu
+CDC0030031C;CDC;Removido;Cantinho do Céu
+CDC0030034B;CDC;Removido;Cantinho do Céu
+CDC0030034C;CDC;Removido;Cantinho do Céu
+CDC0030034D;CDC;Removido;Cantinho do Céu
+CDC0030036B;CDC;Removido;Cantinho do Céu
+CDC0030036C;CDC;Removido;Cantinho do Céu
+CDC0030036D;CDC;Removido;Cantinho do Céu
+CDC0030036E;CDC;Removido;Cantinho do Céu
+CDC0030036F;CDC;Removido;Cantinho do Céu
+CDC0040001A;CDC;Removido;Cantinho do Céu
+CDC0040001B;CDC;Removido;Cantinho do Céu
+CDC0040001C;CDC;Removido;Cantinho do Céu
+CDC0040001D;CDC;Removido;Cantinho do Céu
+CDC0040002A;CDC;Removido;Cantinho do Céu
+CDC0040002B;CDC;Removido;Cantinho do Céu
+CDC0040002C;CDC;Removido;Cantinho do Céu
+CDC0040002D;CDC;Removido;Cantinho do Céu
+CDC0040003A;CDC;Removido;Cantinho do Céu
+CDC0040003F;CDC;Removido;Cantinho do Céu
+CDC0040004B;CDC;Removido;Cantinho do Céu
+CDC0040004C;CDC;Removido;Cantinho do Céu
+CDC0040004D;CDC;Removido;Cantinho do Céu
+CDC0040004E;CDC;Removido;Cantinho do Céu
+CDC0040005A;CDC;Removido;Cantinho do Céu
+CDC0040005B;CDC;Removido;Cantinho do Céu
+CDC0040005C;CDC;Removido;Cantinho do Céu
+CDC0040005D;CDC;Removido;Cantinho do Céu
+CDC0040005E;CDC;Removido;Cantinho do Céu
+CDC0040006B;CDC;Removido;Cantinho do Céu
+CDC0040006C;CDC;Removido;Cantinho do Céu
+CDC0040006D;CDC;Removido;Cantinho do Céu
+CDC0040007C;CDC;Removido;Cantinho do Céu
+CDC0040007D;CDC;Removido;Cantinho do Céu
+CDC0040007E;CDC;Removido;Cantinho do Céu
+CDC0040007F;CDC;Removido;Cantinho do Céu
+CDC0040007G;CDC;Removido;Cantinho do Céu
+CDC0040007H;CDC;Removido;Cantinho do Céu
+CDC0040009B;CDC;Removido;Cantinho do Céu
+CDC0040009C;CDC;Removido;Cantinho do Céu
+CDC0040009D;CDC;Removido;Cantinho do Céu
+CDC0040016B;CDC;Removido;Cantinho do Céu
+CDC0040016C;CDC;Removido;Cantinho do Céu
+CDC0040016D;CDC;Removido;Cantinho do Céu
+CDC0040017B;CDC;Removido;Cantinho do Céu
+CDC0040017C;CDC;Removido;Cantinho do Céu
+CDC0040017D;CDC;Removido;Cantinho do Céu
+CDC0040017E;CDC;Removido;Cantinho do Céu
+CDC0040017F;CDC;Removido;Cantinho do Céu
+CDC0040017G;CDC;Removido;Cantinho do Céu
+CDC0040018B;CDC;Removido;Cantinho do Céu
+CDC0040018C;CDC;Removido;Cantinho do Céu
+CDC0040019B;CDC;Removido;Cantinho do Céu
+CDC0040019C;CDC;Removido;Cantinho do Céu
+CDC0040020B;CDC;Removido;Cantinho do Céu
+CDC0040020C;CDC;Removido;Cantinho do Céu
+CDC0040020E;CDC;Removido;Cantinho do Céu
+CDC0040020F;CDC;Removido;Cantinho do Céu
+CDC0040020G;CDC;Removido;Cantinho do Céu
+CDC0040020H;CDC;Removido;Cantinho do Céu
+CDC0040020I;CDC;Removido;Cantinho do Céu
+CDC0040020J;CDC;Removido;Cantinho do Céu
+CDC0040021A;CDC;Removido;Cantinho do Céu
+CDC0040021B;CDC;Removido;Cantinho do Céu
+CDC0040022C;CDC;Removido;Cantinho do Céu
+CDC0040022D;CDC;Removido;Cantinho do Céu
+CDC0040023A;CDC;Removido;Cantinho do Céu
+CDC0040023C;CDC;Removido;Cantinho do Céu
+CDC0040023D;CDC;Removido;Cantinho do Céu
+CDC0040024A;CDC;Removido;Cantinho do Céu
+CDC0040025A;CDC;Removido;Cantinho do Céu
+CDC0040025B;CDC;Removido;Cantinho do Céu
+CDC0040030A;CDC;Removido;Cantinho do Céu
+CDC0040030B;CDC;Removido;Cantinho do Céu
+CDC0040030C;CDC;Removido;Cantinho do Céu
+CDC0040032A;CDC;Removido;Cantinho do Céu
+CDC0040032B;CDC;Removido;Cantinho do Céu
+CDC0040032C;CDC;Removido;Cantinho do Céu
+CDC0040035E;CDC;Removido;Cantinho do Céu
+CDC0040035F;CDC;Removido;Cantinho do Céu
+CDC0040043D;CDC;Removido;Cantinho do Céu
+CDC0040044A;CDC;Removido;Cantinho do Céu
+CDC0060001A;CDC;Removido;Cantinho do Céu
+CDC0060001B;CDC;Removido;Cantinho do Céu
+CDC0060001C;CDC;Removido;Cantinho do Céu
+CDC0060001D;CDC;Removido;Cantinho do Céu
+CDC0060001E;CDC;Removido;Cantinho do Céu
+CDC0060002B;CDC;Removido;Cantinho do Céu
+CDC0060002C;CDC;Removido;Cantinho do Céu
+CDC0060002E;CDC;Removido;Cantinho do Céu
+CDC0060002F;CDC;Removido;Cantinho do Céu
+CDC0060003C;CDC;Removido;Cantinho do Céu
+CDC0060003D;CDC;Removido;Cantinho do Céu
+CDC0060004A;CDC;Removido;Cantinho do Céu
+CDC0060004B;CDC;Removido;Cantinho do Céu
+CDC0060005A;CDC;Removido;Cantinho do Céu
+CDC0060005B;CDC;Removido;Cantinho do Céu
+CDC0060006B;CDC;Removido;Cantinho do Céu
+CDC0060006C;CDC;Removido;Cantinho do Céu
+CDC0060007B;CDC;Removido;Cantinho do Céu
+CDC0060007D;CDC;Removido;Cantinho do Céu
+CDC0060008B;CDC;Removido;Cantinho do Céu
+CDC0060008C;CDC;Removido;Cantinho do Céu
+CDC0060009A;CDC;Removido;Cantinho do Céu
+CDC0060011A;CDC;Removido;Cantinho do Céu
+CDC0060011B;CDC;Removido;Cantinho do Céu
+CDC0060012A;CDC;Removido;Cantinho do Céu
+CDC0060012B;CDC;Removido;Cantinho do Céu
+CDC0060012C;CDC;Removido;Cantinho do Céu
+CDC0060013A;CDC;Removido;Cantinho do Céu
+CDC0060013B;CDC;Removido;Cantinho do Céu
+CDC0060014A;CDC;Removido;Cantinho do Céu
+CDC0060014C;CDC;Removido;Cantinho do Céu
+CDC0060015A;CDC;Removido;Cantinho do Céu
+CDC0060015B;CDC;Removido;Cantinho do Céu
+CDC0060016A;CDC;Removido;Cantinho do Céu
+CDC0060016B;CDC;Removido;Cantinho do Céu
+CDC0060017A;CDC;Removido;Cantinho do Céu
+CDC0060017B;CDC;Removido;Cantinho do Céu
+CDC0060018A;CDC;Removido;Cantinho do Céu
+CDC0060018B;CDC;Removido;Cantinho do Céu
+CDC0060019A;CDC;Removido;Cantinho do Céu
+CDC0060019B;CDC;Removido;Cantinho do Céu
+CDC0060019C;CDC;Removido;Cantinho do Céu
+CDC0060020A;CDC;Removido;Cantinho do Céu
+CDC0060020B;CDC;Removido;Cantinho do Céu
+CDC0060020C;CDC;Removido;Cantinho do Céu
+CDC0060021A;CDC;Removido;Cantinho do Céu
+CDC0060021B;CDC;Removido;Cantinho do Céu
+CDC0060022A;CDC;Removido;Cantinho do Céu
+CDC0060022B;CDC;Removido;Cantinho do Céu
+CDC0060023A;CDC;Removido;Cantinho do Céu
+CDC0060023B;CDC;Removido;Cantinho do Céu
+CDC0060024A;CDC;Removido;Cantinho do Céu
+CDC0070001A;CDC;Removido;Cantinho do Céu
+CDC0070002A;CDC;Removido;Cantinho do Céu
+CDC0070002B;CDC;Removido;Cantinho do Céu
+CDC0070003A;CDC;Removido;Cantinho do Céu
+CDC0070003B;CDC;Removido;Cantinho do Céu
+CDC0070004A;CDC;Removido;Cantinho do Céu
+CDC0070004B;CDC;Removido;Cantinho do Céu
+CDC0070005A;CDC;Removido;Cantinho do Céu
+CDC0070005B;CDC;Removido;Cantinho do Céu
+CDC0070006A;CDC;Removido;Cantinho do Céu
+CDC0070006B;CDC;Removido;Cantinho do Céu
+CDC0070006C;CDC;Removido;Cantinho do Céu
+CDC0070007A;CDC;Removido;Cantinho do Céu
+CDC0070007B;CDC;Removido;Cantinho do Céu
+CDC0070008A;CDC;Removido;Cantinho do Céu
+CDC0070008B;CDC;Removido;Cantinho do Céu
+CDC0070008C;CDC;Removido;Cantinho do Céu
+CDC0070008E;CDC;Removido;Cantinho do Céu
+CDC0070008F;CDC;Removido;Cantinho do Céu
+CDC0070008G;CDC;Removido;Cantinho do Céu
+CDC0070008H;CDC;Removido;Cantinho do Céu
+CDC0070008I;CDC;Removido;Cantinho do Céu
+CDC0070008J;CDC;Removido;Cantinho do Céu
+CDC0070009A;CDC;Removido;Cantinho do Céu
+CDC0070009B;CDC;Removido;Cantinho do Céu
+CDC0070010A;CDC;Removido;Cantinho do Céu
+CDC0070010B;CDC;Removido;Cantinho do Céu
+CDC0070010C;CDC;Removido;Cantinho do Céu
+CDC0070010F;CDC;Removido;Cantinho do Céu
+CDC0070010G;CDC;Removido;Cantinho do Céu
+CDC0070011A;CDC;Removido;Cantinho do Céu
+CDC0070011B;CDC;Removido;Cantinho do Céu
+CDC0070011C;CDC;Removido;Cantinho do Céu
+CDC0070011D;CDC;Removido;Cantinho do Céu
+CDC0070012A;CDC;Removido;Cantinho do Céu
+CDC0070012B;CDC;Removido;Cantinho do Céu
+CDC0070013A;CDC;Removido;Cantinho do Céu
+CDC0070014A;CDC;Removido;Cantinho do Céu
+CDC0070014B;CDC;Removido;Cantinho do Céu
+CDC0070015A;CDC;Removido;Cantinho do Céu
+CDC0070016A;CDC;Removido;Cantinho do Céu
+CDC0070017A;CDC;Removido;Cantinho do Céu
+CDC0070017B;CDC;Removido;Cantinho do Céu
+CDC0070017C;CDC;Removido;Cantinho do Céu
+CDC0070017D;CDC;Removido;Cantinho do Céu
+CDC0070017E;CDC;Removido;Cantinho do Céu
+CDC0070017F;CDC;Removido;Cantinho do Céu
+CDC0070018A;CDC;Removido;Cantinho do Céu
+CDC0070019A;CDC;Removido;Cantinho do Céu
+CDC0080001B;CDC;Removido;Cantinho do Céu
+CDC0080001C;CDC;Removido;Cantinho do Céu
+CDC0080002A;CDC;Removido;Cantinho do Céu
+CDC0080002B;CDC;Removido;Cantinho do Céu
+CDC0080004A;CDC;Removido;Cantinho do Céu
+CDC0080004B;CDC;Removido;Cantinho do Céu
+CDC0080004C;CDC;Removido;Cantinho do Céu
+CDC0080005A;CDC;Removido;Cantinho do Céu
+CDC0080005B;CDC;Removido;Cantinho do Céu
+CDC0080005C;CDC;Removido;Cantinho do Céu
+CDC0080005D;CDC;Removido;Cantinho do Céu
+CDC0080006A;CDC;Removido;Cantinho do Céu
+CDC0080006B;CDC;Removido;Cantinho do Céu
+CDC0080007A;CDC;Removido;Cantinho do Céu
+CDC0080007B;CDC;Removido;Cantinho do Céu
+CDC0080007C;CDC;Removido;Cantinho do Céu
+CDC0080008A;CDC;Removido;Cantinho do Céu
+CDC0080008B;CDC;Removido;Cantinho do Céu
+CDC0080008C;CDC;Removido;Cantinho do Céu
+CDC0080009A;CDC;Removido;Cantinho do Céu
+CDC0080009B;CDC;Removido;Cantinho do Céu
+CDC0080009C;CDC;Removido;Cantinho do Céu
+CDC0080009D;CDC;Removido;Cantinho do Céu
+CDC0080010A;CDC;Removido;Cantinho do Céu
+CDC0080010B;CDC;Removido;Cantinho do Céu
+CDC0080010C;CDC;Removido;Cantinho do Céu
+CDC0080010D;CDC;Removido;Cantinho do Céu
+CDC0090001A;CDC;Removido;Cantinho do Céu
+CDC0090001B;CDC;Removido;Cantinho do Céu
+CDC0090001C;CDC;Removido;Cantinho do Céu
+CDC0090001D;CDC;Removido;Cantinho do Céu
+CDC0090002A;CDC;Removido;Cantinho do Céu
+CDC0090002B;CDC;Removido;Cantinho do Céu
+CDC0090002C;CDC;Removido;Cantinho do Céu
+CDC0090003A;CDC;Removido;Cantinho do Céu
+CDC0090003B;CDC;Removido;Cantinho do Céu
+CDC0090003C;CDC;Removido;Cantinho do Céu
+CDC0090004A;CDC;Removido;Cantinho do Céu
+CDC0090004B;CDC;Removido;Cantinho do Céu
+CDC0090004C;CDC;Removido;Cantinho do Céu
+CDC0090005A;CDC;Removido;Cantinho do Céu
+CDC0090005B;CDC;Removido;Cantinho do Céu
+CDC0090005C;CDC;Removido;Cantinho do Céu
+CDC0090006A;CDC;Removido;Cantinho do Céu
+CDC0090006B;CDC;Removido;Cantinho do Céu
+CDC0090006C;CDC;Removido;Cantinho do Céu
+CDC0090007A;CDC;Removido;Cantinho do Céu
+CDC0090007B;CDC;Removido;Cantinho do Céu
+CDC0090007C;CDC;Removido;Cantinho do Céu
+CDC0090007D;CDC;Removido;Cantinho do Céu
+CDC0090008A;CDC;Removido;Cantinho do Céu
+CDC0090008B;CDC;Removido;Cantinho do Céu
+CDC0090008C;CDC;Removido;Cantinho do Céu
+CDC0090009A;CDC;Removido;Cantinho do Céu
+CDC0090009B;CDC;Removido;Cantinho do Céu
+CDC0090009C;CDC;Removido;Cantinho do Céu
+CDC0090009D;CDC;Removido;Cantinho do Céu
+CDC0090009E;CDC;Removido;Cantinho do Céu
+CDC0090010A;CDC;Removido;Cantinho do Céu
+CDC0090010B;CDC;Removido;Cantinho do Céu
+CDC0090010C;CDC;Removido;Cantinho do Céu
+CDC0090010D;CDC;Removido;Cantinho do Céu
+CDC0090010E;CDC;Removido;Cantinho do Céu
+CDC0090011A;CDC;Removido;Cantinho do Céu
+CDC0090011B;CDC;Removido;Cantinho do Céu
+CDC0090011C;CDC;Removido;Cantinho do Céu
+CDC0090011D;CDC;Removido;Cantinho do Céu
+CDC0090011E;CDC;Removido;Cantinho do Céu
+CDC0090012A;CDC;Removido;Cantinho do Céu
+CDC0090012B;CDC;Removido;Cantinho do Céu
+CDC0090012C;CDC;Removido;Cantinho do Céu
+CDC0090012D;CDC;Removido;Cantinho do Céu
+CDC0090012E;CDC;Removido;Cantinho do Céu
+CDC0090012F;CDC;Removido;Cantinho do Céu
+CDC0090013A;CDC;Removido;Cantinho do Céu
+CDC0090013B;CDC;Removido;Cantinho do Céu
+CDC0090014A;CDC;Removido;Cantinho do Céu
+CDC0090014B;CDC;Removido;Cantinho do Céu
+CDC0100001A;CDC;Removido;Cantinho do Céu
+CDC0100001B;CDC;Removido;Cantinho do Céu
+CDC0100001C;CDC;Removido;Cantinho do Céu
+CDC0100003A;CDC;Removido;Cantinho do Céu
+CDC1210006A;CDC;Removido;Cantinho do Céu
+CDC1210009C;CDC;Removido;Cantinho do Céu
+CDC1210009D;CDC;Removido;Cantinho do Céu
+CDC1210009E;CDC;Removido;Cantinho do Céu
+CDC1210009F;CDC;Removido;Cantinho do Céu
+CDC1210010D;CDC;Removido;Cantinho do Céu
+CDC1210010E;CDC;Removido;Cantinho do Céu
+CDC1210011C;CDC;Removido;Cantinho do Céu
+CDC1210016B;CDC;Removido;Cantinho do Céu
+CDC1210016C;CDC;Removido;Cantinho do Céu
+CDC1250022A;CDC;Removido;Cantinho do Céu
+CDC1340001A;CDC;Removido;Cantinho do Céu
+CDC1340002B;CDC;Removido;Cantinho do Céu
+CDC1340002C;CDC;Removido;Cantinho do Céu
+CDC1340003B;CDC;Removido;Cantinho do Céu
+CDC1340036A;CDC;Removido;Cantinho do Céu
+CDC1340037A;CDC;Removido;Cantinho do Céu
+CDC1370032A;CDC;Removido;Cantinho do Céu
+CDC1370032B;CDC;Removido;Cantinho do Céu
+CDC1370032C;CDC;Removido;Cantinho do Céu
+CDC1370033B;CDC;Removido;Cantinho do Céu
+CDC1370034A;CDC;Removido;Cantinho do Céu
+CDC1370034B;CDC;Removido;Cantinho do Céu
+CDC1370034C;CDC;Removido;Cantinho do Céu
+CDC1370034D;CDC;Removido;Cantinho do Céu
+CDC1370034E;CDC;Removido;Cantinho do Céu
+CDC1370035A;CDC;Removido;Cantinho do Céu
+CDC1370035B;CDC;Removido;Cantinho do Céu
+CDC1390057E;CDC;Removido;Cantinho do Céu
+CDC0010015A;CDC;Removido;Cantinho do Céu
+CDC0010015C;CDC;Removido;Cantinho do Céu
+CDC0010017A;CDC;Removido;Cantinho do Céu
+CDC0010062A;CDC;Removido;Cantinho do Céu
+CDC0010063A;CDC;Removido;Cantinho do Céu
+CDC0010068A;CDC;Removido;Cantinho do Céu
+CDC0010073A;CDC;Removido;Cantinho do Céu
+CDC0010077A;CDC;Removido;Cantinho do Céu
+CDC0010079A;CDC;Removido;Cantinho do Céu
+CDC0010081A;CDC;Removido;Cantinho do Céu
+CDC0010083A;CDC;Removido;Cantinho do Céu
+CDC0010085A;CDC;Removido;Cantinho do Céu
+CDC0010086A;CDC;Removido;Cantinho do Céu
+CDC0010087B;CDC;Removido;Cantinho do Céu
+CDC0010088A;CDC;Removido;Cantinho do Céu
+CDC0010089A;CDC;Removido;Cantinho do Céu
+CDC0010090A;CDC;Removido;Cantinho do Céu
+CDC0010091A;CDC;Removido;Cantinho do Céu
+CDC0010091B;CDC;Removido;Cantinho do Céu
+CDC0010092C;CDC;Removido;Cantinho do Céu
+CDC0010100A;CDC;Removido;Cantinho do Céu
+CDC0010101A;CDC;Removido;Cantinho do Céu
+CDC0010101B;CDC;Removido;Cantinho do Céu
+CDC0010102A;CDC;Removido;Cantinho do Céu
+CDC0010102B;CDC;Removido;Cantinho do Céu
+CDC0010104B;CDC;Removido;Cantinho do Céu
+CDC0010105A;CDC;Removido;Cantinho do Céu
+CDC0010105B;CDC;Removido;Cantinho do Céu
+CDC0010105C;CDC;Removido;Cantinho do Céu
+CDC0010105D;CDC;Removido;Cantinho do Céu
+CDC0010105E;CDC;Removido;Cantinho do Céu
+CDC0010105F;CDC;Removido;Cantinho do Céu
+CDC0010105G;CDC;Removido;Cantinho do Céu
+CDC0010105H;CDC;Removido;Cantinho do Céu
+CDC0010106B;CDC;Removido;Cantinho do Céu
+CDC0010108K;CDC;Removido;Cantinho do Céu
+CDC0010114A;CDC;Removido;Cantinho do Céu
+CDC0010116A;CDC;Removido;Cantinho do Céu
+CDC0010120A;CDC;Removido;Cantinho do Céu
+CDC0010121A;CDC;Removido;Cantinho do Céu
+CDC0010121B;CDC;Removido;Cantinho do Céu
+CDC0010122A;CDC;Removido;Cantinho do Céu
+CDC0010124A;CDC;Removido;Cantinho do Céu
+CDC0010124B;CDC;Removido;Cantinho do Céu
+CDC0010126A;CDC;Removido;Cantinho do Céu
+CDC0010126B;CDC;Removido;Cantinho do Céu
+CDC0010128A;CDC;Removido;Cantinho do Céu
+CDC0010128B;CDC;Removido;Cantinho do Céu
+CDC0010129A;CDC;Removido;Cantinho do Céu
+CDC0010130A;CDC;Removido;Cantinho do Céu
+CDC0010130B;CDC;Removido;Cantinho do Céu
+CDC0010131A;CDC;Removido;Cantinho do Céu
+CDC0010131B;CDC;Removido;Cantinho do Céu
+CDC0010162A;CDC;Removido;Cantinho do Céu
+CDC0010163A;CDC;Removido;Cantinho do Céu
+CDC0010165B;CDC;Removido;Cantinho do Céu
+CDC0010169A;CDC;Removido;Cantinho do Céu
+CDC0010169B;CDC;Removido;Cantinho do Céu
+CDC0010170A;CDC;Removido;Cantinho do Céu
+CDC0020010A;CDC;Removido;Cantinho do Céu
+CDC0020013A;CDC;Removido;Cantinho do Céu
+CDC0020013D;CDC;Removido;Cantinho do Céu
+CDC0020016C;CDC;Removido;Cantinho do Céu
+CDC0020017A;CDC;Removido;Cantinho do Céu
+CDC0020018A;CDC;Removido;Cantinho do Céu
+CDC0020019A;CDC;Removido;Cantinho do Céu
+CDC0020019B;CDC;Removido;Cantinho do Céu
+CDC0020019D;CDC;Removido;Cantinho do Céu
+CDC0020020C;CDC;Removido;Cantinho do Céu
+CDC0020023A;CDC;Removido;Cantinho do Céu
+CDC0020023B;CDC;Removido;Cantinho do Céu
+CDC0020023C;CDC;Removido;Cantinho do Céu
+CDC0020028A;CDC;Removido;Cantinho do Céu
+CDC0020029B;CDC;Removido;Cantinho do Céu
+CDC0020030A;CDC;Removido;Cantinho do Céu
+CDC0020030B;CDC;Removido;Cantinho do Céu
+CDC0020030C;CDC;Removido;Cantinho do Céu
+CDC0020030F;CDC;Removido;Cantinho do Céu
+CDC0020031C;CDC;Removido;Cantinho do Céu
+CDC0020033A;CDC;Removido;Cantinho do Céu
+CDC0020035A;CDC;Removido;Cantinho do Céu
+CDC0020036B;CDC;Removido;Cantinho do Céu
+CDC0020037A;CDC;Removido;Cantinho do Céu
+CDC0020038A;CDC;Removido;Cantinho do Céu
+CDC0020039A;CDC;Removido;Cantinho do Céu
+CDC0020042A;CDC;Removido;Cantinho do Céu
+CDC0020043A;CDC;Removido;Cantinho do Céu
+CDC0020047A;CDC;Removido;Cantinho do Céu
+CDC0020058A;CDC;Removido;Cantinho do Céu
+CDC0020063A;CDC;Removido;Cantinho do Céu
+CDC0020063B;CDC;Removido;Cantinho do Céu
+CDC0030001A;CDC;Removido;Cantinho do Céu
+CDC0030002A;CDC;Removido;Cantinho do Céu
+CDC0030005A;CDC;Removido;Cantinho do Céu
+CDC0030005B;CDC;Removido;Cantinho do Céu
+CDC0030005C;CDC;Removido;Cantinho do Céu
+CDC0030005D;CDC;Removido;Cantinho do Céu
+CDC0030007B;CDC;Removido;Cantinho do Céu
+CDC0030007C;CDC;Removido;Cantinho do Céu
+CDC0030007F;CDC;Removido;Cantinho do Céu
+CDC0030011B;CDC;Removido;Cantinho do Céu
+CDC0030012A;CDC;Removido;Cantinho do Céu
+CDC0030012B;CDC;Removido;Cantinho do Céu
+CDC0030013B;CDC;Removido;Cantinho do Céu
+CDC0030015A;CDC;Removido;Cantinho do Céu
+CDC0030019A;CDC;Removido;Cantinho do Céu
+CDC0030019B;CDC;Removido;Cantinho do Céu
+CDC0030021A;CDC;Removido;Cantinho do Céu
+CDC0030021B;CDC;Removido;Cantinho do Céu
+CDC0030022A;CDC;Removido;Cantinho do Céu
+CDC0030028D;CDC;Removido;Cantinho do Céu
+CDC0040011E;CDC;Removido;Cantinho do Céu
+CDC0040017A;CDC;Removido;Cantinho do Céu
+CDC0040018A;CDC;Removido;Cantinho do Céu
+CDC0040019A;CDC;Removido;Cantinho do Céu
+CDC0040020A;CDC;Removido;Cantinho do Céu
+CDC0040020D;CDC;Removido;Cantinho do Céu
+CDC0040022A;CDC;Removido;Cantinho do Céu
+CDC0040022B;CDC;Removido;Cantinho do Céu
+CDC0040023B;CDC;Removido;Cantinho do Céu
+CDC0040026A;CDC;Removido;Cantinho do Céu
+CDC0040027A;CDC;Removido;Cantinho do Céu
+CDC0040031A;CDC;Removido;Cantinho do Céu
+CDC0040031B;CDC;Removido;Cantinho do Céu
+CDC0040031C;CDC;Removido;Cantinho do Céu
+CDC0040035A;CDC;Removido;Cantinho do Céu
+CDC0040035B;CDC;Removido;Cantinho do Céu
+CDC0040035C;CDC;Removido;Cantinho do Céu
+CDC0040035D;CDC;Removido;Cantinho do Céu
+CDC0040036A;CDC;Removido;Cantinho do Céu
+CDC0040040A;CDC;Removido;Cantinho do Céu
+CDC0040040B;CDC;Removido;Cantinho do Céu
+CDC0040043A;CDC;Removido;Cantinho do Céu
+CDC0040043B;CDC;Removido;Cantinho do Céu
+CDC0040043E;CDC;Removido;Cantinho do Céu
+CDC0060002A;CDC;Removido;Cantinho do Céu
+CDC0060002D;CDC;Removido;Cantinho do Céu
+CDC0060003A;CDC;Removido;Cantinho do Céu
+CDC0060003B;CDC;Removido;Cantinho do Céu
+CDC0060006A;CDC;Removido;Cantinho do Céu
+CDC0060007A;CDC;Removido;Cantinho do Céu
+CDC0060007C;CDC;Removido;Cantinho do Céu
+CDC0060008A;CDC;Removido;Cantinho do Céu
+CDC0060010A;CDC;Removido;Cantinho do Céu
+CDC0070008D;CDC;Removido;Cantinho do Céu
+CDC0070010D;CDC;Removido;Cantinho do Céu
+CDC0070010E;CDC;Removido;Cantinho do Céu
+CDC0080001A;CDC;Removido;Cantinho do Céu
+CDC0080003A;CDC;Removido;Cantinho do Céu
+CDC1210009A;CDC;Removido;Cantinho do Céu
+CDC1210009B;CDC;Removido;Cantinho do Céu
+CDC1210010C;CDC;Removido;Cantinho do Céu
+CDC1210012B;CDC;Removido;Cantinho do Céu
+CDC1210017A;CDC;Removido;Cantinho do Céu
+CDC1210023A;CDC;Removido;Cantinho do Céu
+CDC1340002A;CDC;Removido;Cantinho do Céu
+CDC1340035A;CDC;Removido;Cantinho do Céu
+CDC1370033A;CDC;Removido;Cantinho do Céu
+CDC1370050A;CDC;Removido;Cantinho do Céu
+CDC1380015A;CDC;Removido;Cantinho do Céu
+CDC1210010A;CDC;Removido;Cantinho do Céu
+CDC1210010B;CDC;Removido;Cantinho do Céu
+CDC1210012A;CDC;Removido;Cantinho do Céu
+CDC0010092A;CDC;Resistente;Cantinho do Céu
+CDC0010092B;CDC;Resistente;Cantinho do Céu
+CDC0010095A;CDC;Resistente;Cantinho do Céu
+CDC0010096A;CDC;Resistente;Cantinho do Céu
+CDC0010096B;CDC;Resistente;Cantinho do Céu
+CDC0010097A;CDC;Resistente;Cantinho do Céu
+CDC0010099A;CDC;Resistente;Cantinho do Céu
+CDC0010099B;CDC;Resistente;Cantinho do Céu
+CDC0010103A;CDC;Resistente;Cantinho do Céu
+CDC0010103D;CDC;Resistente;Cantinho do Céu
+CDC0010103E;CDC;Resistente;Cantinho do Céu
+CDC0010104A;CDC;Resistente;Cantinho do Céu
+CDC0010104C;CDC;Resistente;Cantinho do Céu
+CDC0010106A;CDC;Resistente;Cantinho do Céu
+CDC0010107A;CDC;Resistente;Cantinho do Céu
+CDC0010109A;CDC;Resistente;Cantinho do Céu
+CDC0010109B;CDC;Resistente;Cantinho do Céu
+CDC0010110A;CDC;Resistente;Cantinho do Céu
+CDC0010111A;CDC;Resistente;Cantinho do Céu
+CDC0010112A;CDC;Resistente;Cantinho do Céu
+CDC0010113A;CDC;Resistente;Cantinho do Céu
+CDC0010115A;CDC;Resistente;Cantinho do Céu
+CDC0010117A;CDC;Resistente;Cantinho do Céu
+CDC0010117B;CDC;Resistente;Cantinho do Céu
+CDC0010117C;CDC;Resistente;Cantinho do Céu
+CDC0010123A;CDC;Resistente;Cantinho do Céu
+CDC0010125C;CDC;Resistente;Cantinho do Céu
+CDC0020008A;CDC;Resistente;Cantinho do Céu
+CDC0020008B;CDC;Resistente;Cantinho do Céu
+CDC0020008C;CDC;Resistente;Cantinho do Céu
+CDC0020008D;CDC;Resistente;Cantinho do Céu
+CDC0020009A;CDC;Resistente;Cantinho do Céu
+CDC0020009B;CDC;Resistente;Cantinho do Céu
+CDC0020009C;CDC;Resistente;Cantinho do Céu
+CDC0020009D;CDC;Resistente;Cantinho do Céu
+CDC0020012A;CDC;Resistente;Cantinho do Céu
+CDC0020013B;CDC;Resistente;Cantinho do Céu
+CDC0020013C;CDC;Resistente;Cantinho do Céu
+CDC0020013E;CDC;Resistente;Cantinho do Céu
+CDC0020021A;CDC;Resistente;Cantinho do Céu
+CDC0020021B;CDC;Resistente;Cantinho do Céu
+CDC0020021D;CDC;Resistente;Cantinho do Céu
+CDC0020021F;CDC;Resistente;Cantinho do Céu
+CDC0020021G;CDC;Resistente;Cantinho do Céu
+CDC0020022A;CDC;Resistente;Cantinho do Céu
+CDC0020022B;CDC;Resistente;Cantinho do Céu
+CDC0020022C;CDC;Resistente;Cantinho do Céu
+CDC0020024A;CDC;Resistente;Cantinho do Céu
+CDC0020024B;CDC;Resistente;Cantinho do Céu
+CDC0020045A;CDC;Resistente;Cantinho do Céu
+CDC0030003D;CDC;Resistente;Cantinho do Céu
+CDC0030004A;CDC;Resistente;Cantinho do Céu
+CDC0030004B;CDC;Resistente;Cantinho do Céu
+CDC0030006A;CDC;Resistente;Cantinho do Céu
+CDC0030007A;CDC;Resistente;Cantinho do Céu
+CDC0030007D;CDC;Resistente;Cantinho do Céu
+CDC0030010A;CDC;Resistente;Cantinho do Céu
+CDC0030012C;CDC;Resistente;Cantinho do Céu
+CDC0030017A;CDC;Resistente;Cantinho do Céu
+CDC0030024A;CDC;Resistente;Cantinho do Céu
+CDC0030025A;CDC;Resistente;Cantinho do Céu
+CDC0030027B;CDC;Resistente;Cantinho do Céu
+CDC0030028A;CDC;Resistente;Cantinho do Céu
+CDC0030028C;CDC;Resistente;Cantinho do Céu
+CDC0030029A;CDC;Resistente;Cantinho do Céu
+CDC0030031A;CDC;Resistente;Cantinho do Céu
+CDC0030031B;CDC;Resistente;Cantinho do Céu
+CDC0030032A;CDC;Resistente;Cantinho do Céu
+CDC0030032B;CDC;Resistente;Cantinho do Céu
+CDC0030032C;CDC;Resistente;Cantinho do Céu
+CDC0030033A;CDC;Resistente;Cantinho do Céu
+CDC0030033B;CDC;Resistente;Cantinho do Céu
+CDC0030033C;CDC;Resistente;Cantinho do Céu
+CDC0030034A;CDC;Resistente;Cantinho do Céu
+CDC0030035A;CDC;Resistente;Cantinho do Céu
+CDC0030035B;CDC;Resistente;Cantinho do Céu
+CDC0030035C;CDC;Resistente;Cantinho do Céu
+CDC0030035D;CDC;Resistente;Cantinho do Céu
+CDC0030035E;CDC;Resistente;Cantinho do Céu
+CDC0030036A;CDC;Resistente;Cantinho do Céu
+CDC0040003B;CDC;Resistente;Cantinho do Céu
+CDC0040003C;CDC;Resistente;Cantinho do Céu
+CDC0040003D;CDC;Resistente;Cantinho do Céu
+CDC0040003E;CDC;Resistente;Cantinho do Céu
+CDC0040004A;CDC;Resistente;Cantinho do Céu
+CDC0040007A;CDC;Resistente;Cantinho do Céu
+CDC0040007B;CDC;Resistente;Cantinho do Céu
+CDC0040008B;CDC;Resistente;Cantinho do Céu
+CDC0040008C;CDC;Resistente;Cantinho do Céu
+CDC0040008D;CDC;Resistente;Cantinho do Céu
+CDC0040009A;CDC;Resistente;Cantinho do Céu
+CDC0040010A;CDC;Resistente;Cantinho do Céu
+CDC0040010B;CDC;Resistente;Cantinho do Céu
+CDC0040011B;CDC;Resistente;Cantinho do Céu
+CDC0040011C;CDC;Resistente;Cantinho do Céu
+CDC0040011D;CDC;Resistente;Cantinho do Céu
+CDC0040012A;CDC;Resistente;Cantinho do Céu
+CDC0040013A;CDC;Resistente;Cantinho do Céu
+CDC0040013B;CDC;Resistente;Cantinho do Céu
+CDC0040014A;CDC;Resistente;Cantinho do Céu
+CDC0040015A;CDC;Resistente;Cantinho do Céu
+CDC0040016A;CDC;Resistente;Cantinho do Céu
+CDC0040028A;CDC;Resistente;Cantinho do Céu
+CDC0040029A;CDC;Resistente;Cantinho do Céu
+CDC0040033A;CDC;Resistente;Cantinho do Céu
+CDC0040034A;CDC;Resistente;Cantinho do Céu
+CDC0040038A;CDC;Resistente;Cantinho do Céu
+CDC0040039A;CDC;Resistente;Cantinho do Céu
+CDC0040041A;CDC;Resistente;Cantinho do Céu
+CDC0040042A;CDC;Resistente;Cantinho do Céu
+CDC0040043C;CDC;Resistente;Cantinho do Céu
+CDC0050001A;CDC;Resistente;Cantinho do Céu
+CDC0050002A;CDC;Resistente;Cantinho do Céu
+CDC0050002B;CDC;Resistente;Cantinho do Céu
+CDC0050002C;CDC;Resistente;Cantinho do Céu
+CDC0100002A;CDC;Resistente;Cantinho do Céu
+CDC1210004A;CDC;Resistente;Cantinho do Céu
+CDC1210005A;CDC;Resistente;Cantinho do Céu
+CDC1340004A;CDC;Resistente;Cantinho do Céu
+CDC1340005A;CDC;Resistente;Cantinho do Céu
+CDC0010046C;CDC;;Cantinho do Céu
+CDC0010080B;CDC;;Cantinho do Céu
+CDC0010081B;CDC;;Cantinho do Céu
+CDC0010081C;CDC;;Cantinho do Céu
+CDC0010132D;CDC;;Cantinho do Céu
+CDC0010155C;CDC;;Cantinho do Céu
+CDC0010155F;CDC;;Cantinho do Céu
+CDC0010156E;CDC;;Cantinho do Céu
+CDC0010160F;CDC;;Cantinho do Céu
+CDC0010160G;CDC;;Cantinho do Céu
+CDC0010160H;CDC;;Cantinho do Céu
+CDC0010162D;CDC;;Cantinho do Céu
+CDC0010166B;CDC;;Cantinho do Céu
+CDC0010166E;CDC;;Cantinho do Céu
+CDC0010167D;CDC;;Cantinho do Céu
+CDC0010167E;CDC;;Cantinho do Céu
+CDC0010168D;CDC;;Cantinho do Céu
+CDC0010168E;CDC;;Cantinho do Céu
+CDC0020010D;CDC;;Cantinho do Céu
+CDC0020025D;CDC;;Cantinho do Céu
+CDC0020028E;CDC;;Cantinho do Céu
+CDC0020028F;CDC;;Cantinho do Céu
+CDC0020044G;CDC;;Cantinho do Céu
+CDC0030008C;CDC;;Cantinho do Céu
+CDC0030008D;CDC;;Cantinho do Céu
+CDC0030008E;CDC;;Cantinho do Céu
+CDC0030008F;CDC;;Cantinho do Céu
+CDC0030008G;CDC;;Cantinho do Céu
+CDC0030009H;CDC;;Cantinho do Céu
+CDC0030010B;CDC;;Cantinho do Céu
+CDC0030010C;CDC;;Cantinho do Céu
+CDC0030010D;CDC;;Cantinho do Céu
+CDC0030010E;CDC;;Cantinho do Céu
+CDC0030010F;CDC;;Cantinho do Céu
+CDC0030011E;CDC;;Cantinho do Céu
+CDC0030011F;CDC;;Cantinho do Céu
+CDC0030011G;CDC;;Cantinho do Céu
+CDC0030011H;CDC;;Cantinho do Céu
+CDC0030012E;CDC;;Cantinho do Céu
+CDC0030013D;CDC;;Cantinho do Céu
+CDC0030013E;CDC;;Cantinho do Céu
+CDC0030013F;CDC;;Cantinho do Céu
+CDC0030013G;CDC;;Cantinho do Céu
+CDC0030014B;CDC;;Cantinho do Céu
+CDC0030014C;CDC;;Cantinho do Céu
+CDC0030014D;CDC;;Cantinho do Céu
+CDC0030014E;CDC;;Cantinho do Céu
+CDC0030014F;CDC;;Cantinho do Céu
+CDC0030014G;CDC;;Cantinho do Céu
+CDC0030015E;CDC;;Cantinho do Céu
+CDC0030015F;CDC;;Cantinho do Céu
+CDC0030015G;CDC;;Cantinho do Céu
+CDC0030015H;CDC;;Cantinho do Céu
+CDC0030021C;CDC;;Cantinho do Céu
+CDC0030021D;CDC;;Cantinho do Céu
+CDC0030022C;CDC;;Cantinho do Céu
+CDC0030022D;CDC;;Cantinho do Céu
+CDC0030024B;CDC;;Cantinho do Céu
+CDC0030024C;CDC;;Cantinho do Céu
+CDC0030024D;CDC;;Cantinho do Céu
+CDC0040033B;CDC;;Cantinho do Céu
+CDC0040033C;CDC;;Cantinho do Céu
+CDC0040033D;CDC;;Cantinho do Céu
+CDC0040033E;CDC;;Cantinho do Céu
+CDC0040036B;CDC;;Cantinho do Céu
+CDC0040036C;CDC;;Cantinho do Céu
+CDC0040036D;CDC;;Cantinho do Céu
+CDC0040036E;CDC;;Cantinho do Céu
+CDC0040039B;CDC;;Cantinho do Céu
+CDC0040039C;CDC;;Cantinho do Céu
+CDC0040039D;CDC;;Cantinho do Céu
+CDC0040040C;CDC;;Cantinho do Céu
+CDC0040040D;CDC;;Cantinho do Céu
+CDC0040040E;CDC;;Cantinho do Céu
+CDC0040044B;CDC;;Cantinho do Céu
+CDC0040044C;CDC;;Cantinho do Céu
+CDC0040044D;CDC;;Cantinho do Céu
+CDC0040044E;CDC;;Cantinho do Céu
+CDC1210012C;CDC;;Cantinho do Céu
+CDC;CDC;;Cantinho do Céu
+CDC;CDC;;Cantinho do Céu
+CDC0040011A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370001A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370001B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370001C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370002A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370002B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370003A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370003B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370003C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370004A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370004B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370004C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370005A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370005B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370006A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370007A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370008A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370008B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370009A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370010A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370010B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370011A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370011B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370012A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370013A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370014A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370014B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370015A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370015B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370015C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370016A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370016B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370016C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370016D;CDC;Frente De Obras;Cantinho do Céu
+CDC1370017A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370018A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370018B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370018C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370019A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370020A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370020B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370020C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370021A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370022A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370022B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370023A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370023B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370024A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370024B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370024C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370024D;CDC;Frente De Obras;Cantinho do Céu
+CDC1370025A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370025B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370025C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370026A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370026B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370027A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370027B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028D;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028E;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028F;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028G;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028H;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028I;CDC;Frente De Obras;Cantinho do Céu
+CDC1370028J;CDC;Frente De Obras;Cantinho do Céu
+CDC1370029A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370029B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370030A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370030B;CDC;Frente De Obras;Cantinho do Céu
+CDC1370030C;CDC;Frente De Obras;Cantinho do Céu
+CDC1370030D;CDC;Frente De Obras;Cantinho do Céu
+CDC1370030E;CDC;Frente De Obras;Cantinho do Céu
+CDC1370031A;CDC;Frente De Obras;Cantinho do Céu
+CDC1370031B;CDC;Frente De Obras;Cantinho do Céu
+CDC0010098A;CDC;Em Tratativas;Cantinho do Céu
+CDC0010098B;CDC;Em Tratativas;Cantinho do Céu
+CDC0010103B;CDC;Em Tratativas;Cantinho do Céu
+CDC0010108C;CDC;Em Tratativas;Cantinho do Céu
+CDC0010108L;CDC;Em Tratativas;Cantinho do Céu
+CDC0020046A;CDC;Em Tratativas;Cantinho do Céu
+CDC0020046B;CDC;Em Tratativas;Cantinho do Céu
+CDC0020046C;CDC;Em Tratativas;Cantinho do Céu
+CDC0030003A;CDC;Em Tratativas;Cantinho do Céu
+CDC0030022B;CDC;Em Tratativas;Cantinho do Céu
+CDC1340003A;CDC;Em Tratativas;Cantinho do Céu
+CDC0030008A;CDC;Em Tratativas;Cantinho do Céu
+CDC0030008B;CDC;Em Tratativas;Cantinho do Céu
+CDC0040008A;CDC;Em Tratativas;Cantinho do Céu
+CDC0040010C;CDC;Em Tratativas;Cantinho do Céu
+CDC0040012B;CDC;Em Tratativas;Cantinho do Céu
+CDC0040029B;CDC;Em Tratativas;Cantinho do Céu
+CDC0040029C;CDC;Em Tratativas;Cantinho do Céu
+CDC0040037A;CDC;Em Tratativas;Cantinho do Céu
+CDC0010095B;CDC;Em Tratativas;Cantinho do Céu
+CDC0010108A;CDC;Em Tratativas;Cantinho do Céu
+CDC0010108B;CDC;Em Tratativas;Cantinho do Céu
+CDC0010108D;CDC;Em Tratativas;Cantinho do Céu
+CDC0010108E;CDC;Em Tratativas;Cantinho do Céu
+CDC0010108F;CDC;Em Tratativas;Cantinho do Céu
+CDC0010108G;CDC;Em Tratativas;Cantinho do Céu
+CDC0010108H;CDC;Em Tratativas;Cantinho do Céu
+CDC0010132A;CDC;Em Tratativas;Cantinho do Céu
+CDC0030007E;CDC;Em Tratativas;Cantinho do Céu
+CDC0030007I;CDC;Em Tratativas;Cantinho do Céu
+CDC0030013A;CDC;Em Tratativas;Cantinho do Céu
+CDC0030014A;CDC;Em Tratativas;Cantinho do Céu
+CDC0030018A;CDC;Em Tratativas;Cantinho do Céu
+CDC0030030A;CDC;Em Tratativas;Cantinho do Céu
+CDC0030030B;CDC;Em Tratativas;Cantinho do Céu
+CDC0040006A;CDC;Em Tratativas;Cantinho do Céu
+GUA0020004A;GUA;Resistente;Guaicuri
+GUA0030105A;GUA;Resistente;Guaicuri
+GUA0030105B;GUA;Resistente;Guaicuri
+GUA0030105C;GUA;Resistente;Guaicuri
+GUA0030143C;GUA;Resistente;Guaicuri
+GUA0050017A;GUA;Resistente;Guaicuri
+GUA0050022A;GUA;Resistente;Guaicuri
+GUA0050022B;GUA;Resistente;Guaicuri
+GUA0050023B;GUA;Resistente;Guaicuri
+GUA0050023E;GUA;Resistente;Guaicuri
+GUA0050024A;GUA;Resistente;Guaicuri
+GUA0050024B;GUA;Resistente;Guaicuri
+GUA0050051A;GUA;Resistente;Guaicuri
+GUA0050061B;GUA;Resistente;Guaicuri
+GUA0050063A;GUA;Resistente;Guaicuri
+GUA0060009F;GUA;Resistente;Guaicuri
+GUA0060023A;GUA;Resistente;Guaicuri
+GUA0060037C;GUA;Resistente;Guaicuri
+GUA0060037D;GUA;Resistente;Guaicuri
+GUA0060037E;GUA;Resistente;Guaicuri
+GUA0060061A;GUA;Resistente;Guaicuri
+GUA0060063A;GUA;Resistente;Guaicuri
+GUA0060063C;GUA;Resistente;Guaicuri
+GUA0060094A;GUA;Resistente;Guaicuri
+GUA0090040B;GUA;Resistente;Guaicuri
+GUA0100007B;GUA;Resistente;Guaicuri
+GUA0100008A;GUA;Resistente;Guaicuri
+GUA0100009A;GUA;Resistente;Guaicuri
+GUA0100009B;GUA;Resistente;Guaicuri
+GUA0100010A;GUA;Resistente;Guaicuri
+GUA0100010B;GUA;Resistente;Guaicuri
+GUA0110015A;GUA;Resistente;Guaicuri
+GUA0110015B;GUA;Resistente;Guaicuri
+GUA0110018A;GUA;Resistente;Guaicuri
+GUA0110018B;GUA;Resistente;Guaicuri
+GUA0110018C;GUA;Resistente;Guaicuri
+GUA0010014A;GUA;Frente De Obras;Guaicuri
+GUA0010015A;GUA;Frente De Obras;Guaicuri
+GUA0010016A;GUA;Frente De Obras;Guaicuri
+GUA0010017A;GUA;Frente De Obras;Guaicuri
+GUA0010017B;GUA;Frente De Obras;Guaicuri
+GUA0010035A;GUA;Frente De Obras;Guaicuri
+GUA0010035B;GUA;Frente De Obras;Guaicuri
+GUA0010037A;GUA;Frente De Obras;Guaicuri
+GUA0010037B;GUA;Frente De Obras;Guaicuri
+GUA0010037C;GUA;Frente De Obras;Guaicuri
+GUA0010038A;GUA;Frente De Obras;Guaicuri
+GUA0010039A;GUA;Frente De Obras;Guaicuri
+GUA0010040B;GUA;Frente De Obras;Guaicuri
+GUA0010040C;GUA;Frente De Obras;Guaicuri
+GUA0010040D;GUA;Frente De Obras;Guaicuri
+GUA0010042A;GUA;Frente De Obras;Guaicuri
+GUA0010045A;GUA;Frente De Obras;Guaicuri
+GUA0010045B;GUA;Frente De Obras;Guaicuri
+GUA0010045C;GUA;Frente De Obras;Guaicuri
+GUA0010045D;GUA;Frente De Obras;Guaicuri
+GUA0010057B;GUA;Frente De Obras;Guaicuri
+GUA0010063A;GUA;Frente De Obras;Guaicuri
+GUA0010063B;GUA;Frente De Obras;Guaicuri
+GUA0010063C;GUA;Frente De Obras;Guaicuri
+GUA0010065A;GUA;Frente De Obras;Guaicuri
+GUA0010065B;GUA;Frente De Obras;Guaicuri
+GUA0010065C;GUA;Frente De Obras;Guaicuri
+GUA0010065D;GUA;Frente De Obras;Guaicuri
+GUA0010065E;GUA;Frente De Obras;Guaicuri
+GUA0010065F;GUA;Frente De Obras;Guaicuri
+GUA0010065G;GUA;Frente De Obras;Guaicuri
+GUA0010066A;GUA;Frente De Obras;Guaicuri
+GUA0010066B;GUA;Frente De Obras;Guaicuri
+GUA0010066C;GUA;Frente De Obras;Guaicuri
+GUA0010066D;GUA;Frente De Obras;Guaicuri
+GUA0010066E;GUA;Frente De Obras;Guaicuri
+GUA0010066F;GUA;Frente De Obras;Guaicuri
+GUA0010067A;GUA;Frente De Obras;Guaicuri
+GUA0010067B;GUA;Frente De Obras;Guaicuri
+GUA0010067C;GUA;Frente De Obras;Guaicuri
+GUA0010067D;GUA;Frente De Obras;Guaicuri
+GUA0010067E;GUA;Frente De Obras;Guaicuri
+GUA0010068A;GUA;Frente De Obras;Guaicuri
+GUA0010068B;GUA;Frente De Obras;Guaicuri
+GUA0010069A;GUA;Frente De Obras;Guaicuri
+GUA0010069B;GUA;Frente De Obras;Guaicuri
+GUA0010069C;GUA;Frente De Obras;Guaicuri
+GUA0010069D;GUA;Frente De Obras;Guaicuri
+GUA0010069E;GUA;Frente De Obras;Guaicuri
+GUA0010070A;GUA;Frente De Obras;Guaicuri
+GUA0010070B;GUA;Frente De Obras;Guaicuri
+GUA0010070C;GUA;Frente De Obras;Guaicuri
+GUA0010070D;GUA;Frente De Obras;Guaicuri
+GUA0010070E;GUA;Frente De Obras;Guaicuri
+GUA0010070F;GUA;Frente De Obras;Guaicuri
+GUA0010070G;GUA;Frente De Obras;Guaicuri
+GUA0010070H;GUA;Frente De Obras;Guaicuri
+GUA0010070I;GUA;Frente De Obras;Guaicuri
+GUA0010071A;GUA;Frente De Obras;Guaicuri
+GUA0010071B;GUA;Frente De Obras;Guaicuri
+GUA0010071C;GUA;Frente De Obras;Guaicuri
+GUA0010071D;GUA;Frente De Obras;Guaicuri
+GUA0010072A;GUA;Frente De Obras;Guaicuri
+GUA0010073A;GUA;Frente De Obras;Guaicuri
+GUA0010074A;GUA;Frente De Obras;Guaicuri
+GUA0010075A;GUA;Frente De Obras;Guaicuri
+GUA0010076A;GUA;Frente De Obras;Guaicuri
+GUA0010077A;GUA;Frente De Obras;Guaicuri
+GUA0020001A;GUA;Frente De Obras;Guaicuri
+GUA0020017B;GUA;Frente De Obras;Guaicuri
+GUA0030041A;GUA;Frente De Obras;Guaicuri
+GUA0030041B;GUA;Frente De Obras;Guaicuri
+GUA0030041C;GUA;Frente De Obras;Guaicuri
+GUA0030142A;GUA;Frente De Obras;Guaicuri
+GUA0030142B;GUA;Frente De Obras;Guaicuri
+GUA0070028A;GUA;Frente De Obras;Guaicuri
+GUA0070028B;GUA;Frente De Obras;Guaicuri
+GUA0010033A;GUA;Em Tratativas;Guaicuri
+GUA0010033B;GUA;Em Tratativas;Guaicuri
+GUA0010034A;GUA;Em Tratativas;Guaicuri
+GUA0010034B;GUA;Em Tratativas;Guaicuri
+GUA0010035C;GUA;Em Tratativas;Guaicuri
+GUA0010035D;GUA;Em Tratativas;Guaicuri
+GUA0010035E;GUA;Em Tratativas;Guaicuri
+GUA0010036A;GUA;Em Tratativas;Guaicuri
+GUA0010040A;GUA;Em Tratativas;Guaicuri
+GUA0010041A;GUA;Em Tratativas;Guaicuri
+GUA0010042B;GUA;Em Tratativas;Guaicuri
+GUA0010043A;GUA;Em Tratativas;Guaicuri
+GUA0010044A;GUA;Em Tratativas;Guaicuri
+GUA0010044B;GUA;Em Tratativas;Guaicuri
+GUA0010044C;GUA;Em Tratativas;Guaicuri
+GUA0010044D;GUA;Em Tratativas;Guaicuri
+GUA0010046A;GUA;Em Tratativas;Guaicuri
+GUA0010046B;GUA;Em Tratativas;Guaicuri
+GUA0010047A;GUA;Em Tratativas;Guaicuri
+GUA0010048A;GUA;Em Tratativas;Guaicuri
+GUA0010049A;GUA;Em Tratativas;Guaicuri
+GUA0010050A;GUA;Em Tratativas;Guaicuri
+GUA0010050B;GUA;Em Tratativas;Guaicuri
+GUA0010052A;GUA;Em Tratativas;Guaicuri
+GUA0010053A;GUA;Em Tratativas;Guaicuri
+GUA0010054A;GUA;Em Tratativas;Guaicuri
+GUA0010054B;GUA;Em Tratativas;Guaicuri
+GUA0010057A;GUA;Em Tratativas;Guaicuri
+GUA0010057C;GUA;Em Tratativas;Guaicuri
+GUA0010061A;GUA;Em Tratativas;Guaicuri
+GUA0010061B;GUA;Em Tratativas;Guaicuri
+GUA0010062A;GUA;Em Tratativas;Guaicuri
+GUA0010062B;GUA;Em Tratativas;Guaicuri
+GUA0010062C;GUA;Em Tratativas;Guaicuri
+GUA0010062D;GUA;Em Tratativas;Guaicuri
+GUA0010064A;GUA;Em Tratativas;Guaicuri
+GUA0010064B;GUA;Em Tratativas;Guaicuri
+GUA0010064C;GUA;Em Tratativas;Guaicuri
+GUA0010064D;GUA;Em Tratativas;Guaicuri
+GUA0020001B;GUA;Em Tratativas;Guaicuri
+GUA0020002A;GUA;Em Tratativas;Guaicuri
+GUA0020003A;GUA;Em Tratativas;Guaicuri
+GUA0020005A;GUA;Em Tratativas;Guaicuri
+GUA0020006A;GUA;Em Tratativas;Guaicuri
+GUA0020017A;GUA;Em Tratativas;Guaicuri
+GUA0030070A;GUA;Em Tratativas;Guaicuri
+GUA0030070B;GUA;Em Tratativas;Guaicuri
+GUA0030070C;GUA;Em Tratativas;Guaicuri
+GUA0030070D;GUA;Em Tratativas;Guaicuri
+GUA0030072A;GUA;Em Tratativas;Guaicuri
+GUA0030072B;GUA;Em Tratativas;Guaicuri
+GUA0030072C;GUA;Em Tratativas;Guaicuri
+GUA0030072D;GUA;Em Tratativas;Guaicuri
+GUA0030087B;GUA;Em Tratativas;Guaicuri
+GUA0030087C;GUA;Em Tratativas;Guaicuri
+GUA0030087D;GUA;Em Tratativas;Guaicuri
+GUA0030089A;GUA;Em Tratativas;Guaicuri
+GUA0030118A;GUA;Em Tratativas;Guaicuri
+GUA0030140A;GUA;Em Tratativas;Guaicuri
+GUA0030142C;GUA;Em Tratativas;Guaicuri
+GUA0050020C;GUA;Em Tratativas;Guaicuri
+GUA0050020A;GUA;Em Tratativas;Guaicuri
+GUA0050021A;GUA;Em Tratativas;Guaicuri
+GUA0050021B;GUA;Em Tratativas;Guaicuri
+GUA0050021C;GUA;Em Tratativas;Guaicuri
+GUA0050027A;GUA;Em Tratativas;Guaicuri
+GUA0050065C;GUA;Em Tratativas;Guaicuri
+GUA0050066A;GUA;Em Tratativas;Guaicuri
+GUA0050066B;GUA;Em Tratativas;Guaicuri
+GUA0060063B;GUA;Em Tratativas;Guaicuri
+GUA0060092A;GUA;Em Tratativas;Guaicuri
+GUA0060093A;GUA;Em Tratativas;Guaicuri
+GUA0060093B;GUA;Em Tratativas;Guaicuri
+GUA0060093C;GUA;Em Tratativas;Guaicuri
+GUA0060094B;GUA;Em Tratativas;Guaicuri
+GUA0060094C;GUA;Em Tratativas;Guaicuri
+GUA0060095A;GUA;Em Tratativas;Guaicuri
+GUA0070033A;GUA;Em Tratativas;Guaicuri
+GUA0070025D;GUA;Em Tratativas;Guaicuri
+GUA0070025A;GUA;Em Tratativas;Guaicuri
+GUA0070025B;GUA;Em Tratativas;Guaicuri
+GUA0070025C;GUA;Em Tratativas;Guaicuri
+GUA0070026A;GUA;Em Tratativas;Guaicuri
+GUA0070026B;GUA;Em Tratativas;Guaicuri
+GUA0070027A;GUA;Em Tratativas;Guaicuri
+GUA0070029A;GUA;Em Tratativas;Guaicuri
+GUA0070031A;GUA;Em Tratativas;Guaicuri
+GUA0070031B;GUA;Em Tratativas;Guaicuri
+GUA0070031C;GUA;Em Tratativas;Guaicuri
+GUA0070034A;GUA;Em Tratativas;Guaicuri
+GUA0070035A;GUA;Em Tratativas;Guaicuri
+GUA0070035B;GUA;Em Tratativas;Guaicuri
+GUA0070035C;GUA;Em Tratativas;Guaicuri
+GUA0080001A;GUA;Em Tratativas;Guaicuri
+GUA0080001B;GUA;Em Tratativas;Guaicuri
+GUA0080001C;GUA;Em Tratativas;Guaicuri
+GUA0080001D;GUA;Em Tratativas;Guaicuri
+GUA0080001E;GUA;Em Tratativas;Guaicuri
+GUA0080001F;GUA;Em Tratativas;Guaicuri
+GUA0080001G;GUA;Em Tratativas;Guaicuri
+GUA0080001H;GUA;Em Tratativas;Guaicuri
+GUA0080001I;GUA;Em Tratativas;Guaicuri
+GUA0080001J;GUA;Em Tratativas;Guaicuri
+GUA0090020A;GUA;Em Tratativas;Guaicuri
+GUA0090020B;GUA;Em Tratativas;Guaicuri
+GUA0090020C;GUA;Em Tratativas;Guaicuri
+GUA0090020D;GUA;Em Tratativas;Guaicuri
+GUA0090021A;GUA;Em Tratativas;Guaicuri
+GUA0090022A;GUA;Em Tratativas;Guaicuri
+GUA0090022B;GUA;Em Tratativas;Guaicuri
+GUA0090022C;GUA;Em Tratativas;Guaicuri
+GUA0090040A;GUA;Em Tratativas;Guaicuri
+GUA0090040C;GUA;Em Tratativas;Guaicuri
+GUA0100007C;GUA;Em Tratativas;Guaicuri
+GUA0110014A;GUA;Em Tratativas;Guaicuri
+GUA0110014B;GUA;Em Tratativas;Guaicuri
+GUA0110014C;GUA;Em Tratativas;Guaicuri
+GUA0110016A;GUA;Em Tratativas;Guaicuri
+GUA0110016B;GUA;Em Tratativas;Guaicuri
+GUA0110016C;GUA;Em Tratativas;Guaicuri
+GUA0110016D;GUA;Em Tratativas;Guaicuri
+GUA0110016E;GUA;Em Tratativas;Guaicuri
+GUA0110016F;GUA;Em Tratativas;Guaicuri
+GUA0110017A;GUA;Em Tratativas;Guaicuri
+GUA0110017B;GUA;Em Tratativas;Guaicuri
+GUA0110017C;GUA;Em Tratativas;Guaicuri
+GUA0110017D;GUA;Em Tratativas;Guaicuri
 AAL0040004A;AAL;Frente De Obras;Alto da Alegria
 AAL0040004B;AAL;Frente De Obras;Alto da Alegria
 AAL0040005A;AAL;Frente De Obras;Alto da Alegria
@@ -8434,83 +10594,165 @@ AAL0150056F;AAL;Frente De Obras;Alto da Alegria
 AAL0150072A;AAL;Frente De Obras;Alto da Alegria
 AAL0150073A;AAL;Frente De Obras;Alto da Alegria
 AAL0150073B;AAL;Frente De Obras;Alto da Alegria
-GUA0010014A;GUA;Frente De Obras;Guaicuri
-GUA0010015A;GUA;Frente De Obras;Guaicuri
-GUA0010016A;GUA;Frente De Obras;Guaicuri
-GUA0010017A;GUA;Frente De Obras;Guaicuri
-GUA0010017B;GUA;Frente De Obras;Guaicuri
-GUA0010035A;GUA;Frente De Obras;Guaicuri
-GUA0010035B;GUA;Frente De Obras;Guaicuri
-GUA0010037A;GUA;Frente De Obras;Guaicuri
-GUA0010037B;GUA;Frente De Obras;Guaicuri
-GUA0010037C;GUA;Frente De Obras;Guaicuri
-GUA0010038A;GUA;Frente De Obras;Guaicuri
-GUA0010039A;GUA;Frente De Obras;Guaicuri
-GUA0010040B;GUA;Frente De Obras;Guaicuri
-GUA0010040C;GUA;Frente De Obras;Guaicuri
-GUA0010040D;GUA;Frente De Obras;Guaicuri
-GUA0010042A;GUA;Frente De Obras;Guaicuri
-GUA0010045A;GUA;Frente De Obras;Guaicuri
-GUA0010045B;GUA;Frente De Obras;Guaicuri
-GUA0010045C;GUA;Frente De Obras;Guaicuri
-GUA0010045D;GUA;Frente De Obras;Guaicuri
-GUA0010057B;GUA;Frente De Obras;Guaicuri
-GUA0010063A;GUA;Frente De Obras;Guaicuri
-GUA0010063B;GUA;Frente De Obras;Guaicuri
-GUA0010063C;GUA;Frente De Obras;Guaicuri
-GUA0010065A;GUA;Frente De Obras;Guaicuri
-GUA0010065B;GUA;Frente De Obras;Guaicuri
-GUA0010065C;GUA;Frente De Obras;Guaicuri
-GUA0010065D;GUA;Frente De Obras;Guaicuri
-GUA0010065E;GUA;Frente De Obras;Guaicuri
-GUA0010065F;GUA;Frente De Obras;Guaicuri
-GUA0010065G;GUA;Frente De Obras;Guaicuri
-GUA0010066A;GUA;Frente De Obras;Guaicuri
-GUA0010066B;GUA;Frente De Obras;Guaicuri
-GUA0010066C;GUA;Frente De Obras;Guaicuri
-GUA0010066D;GUA;Frente De Obras;Guaicuri
-GUA0010066E;GUA;Frente De Obras;Guaicuri
-GUA0010066F;GUA;Frente De Obras;Guaicuri
-GUA0010067A;GUA;Frente De Obras;Guaicuri
-GUA0010067B;GUA;Frente De Obras;Guaicuri
-GUA0010067C;GUA;Frente De Obras;Guaicuri
-GUA0010067D;GUA;Frente De Obras;Guaicuri
-GUA0010067E;GUA;Frente De Obras;Guaicuri
-GUA0010068A;GUA;Frente De Obras;Guaicuri
-GUA0010068B;GUA;Frente De Obras;Guaicuri
-GUA0010069A;GUA;Frente De Obras;Guaicuri
-GUA0010069B;GUA;Frente De Obras;Guaicuri
-GUA0010069C;GUA;Frente De Obras;Guaicuri
-GUA0010069D;GUA;Frente De Obras;Guaicuri
-GUA0010069E;GUA;Frente De Obras;Guaicuri
-GUA0010070A;GUA;Frente De Obras;Guaicuri
-GUA0010070B;GUA;Frente De Obras;Guaicuri
-GUA0010070C;GUA;Frente De Obras;Guaicuri
-GUA0010070D;GUA;Frente De Obras;Guaicuri
-GUA0010070E;GUA;Frente De Obras;Guaicuri
-GUA0010070F;GUA;Frente De Obras;Guaicuri
-GUA0010070G;GUA;Frente De Obras;Guaicuri
-GUA0010070H;GUA;Frente De Obras;Guaicuri
-GUA0010070I;GUA;Frente De Obras;Guaicuri
-GUA0010071A;GUA;Frente De Obras;Guaicuri
-GUA0010071B;GUA;Frente De Obras;Guaicuri
-GUA0010071C;GUA;Frente De Obras;Guaicuri
-GUA0010071D;GUA;Frente De Obras;Guaicuri
-GUA0010072A;GUA;Frente De Obras;Guaicuri
-GUA0010073A;GUA;Frente De Obras;Guaicuri
-GUA0010074A;GUA;Frente De Obras;Guaicuri
-GUA0010075A;GUA;Frente De Obras;Guaicuri
-GUA0010076A;GUA;Frente De Obras;Guaicuri
-GUA0010077A;GUA;Frente De Obras;Guaicuri
-GUA0020001A;GUA;Frente De Obras;Guaicuri
-GUA0020017B;GUA;Frente De Obras;Guaicuri
-GUA0030041A;GUA;Frente De Obras;Guaicuri
-GUA0030041B;GUA;Frente De Obras;Guaicuri
-GUA0030041C;GUA;Frente De Obras;Guaicuri
-GUA0030142A;GUA;Frente De Obras;Guaicuri
-GUA0030142B;GUA;Frente De Obras;Guaicuri
-GUA0070028A;GUA;Frente De Obras;Guaicuri
-GUA0070028B;GUA;Frente De Obras;Guaicuri
+AAL0050011A;AAL;Resistente;Alto da Alegria
+AAL0050045B;AAL;Resistente;Alto da Alegria
+AAL0050045C;AAL;Resistente;Alto da Alegria
+AAL0050053B;AAL;Resistente;Alto da Alegria
+AAL0050053C;AAL;Resistente;Alto da Alegria
+AAL0050055A;AAL;Em Tratativas;Alto da Alegria
+AAL0050074B;AAL;Resistente;Alto da Alegria
+AAL0050074C;AAL;Resistente;Alto da Alegria
+AAL0090010A;AAL;;Alto da Alegria
+AAL0090010B;AAL;;Alto da Alegria
+AAL0090011A;AAL;;Alto da Alegria
+AAL0090012A;AAL;;Alto da Alegria
+AAL0090013A;AAL;;Alto da Alegria
+AAL0090013B;AAL;;Alto da Alegria
+AAL0100012A;AAL;;Alto da Alegria
+AAL0100013A;AAL;;Alto da Alegria
+AAL0100013B;AAL;;Alto da Alegria
+AAL0100014A;AAL;;Alto da Alegria
+AAL0100015A;AAL;;Alto da Alegria
+AAL0100016A;AAL;;Alto da Alegria
+AAL0100017A;AAL;;Alto da Alegria
+AAL0100018A;AAL;;Alto da Alegria
+AAL0100019A;AAL;;Alto da Alegria
+AAL0100019B;AAL;;Alto da Alegria
+AAL0110028A;AAL;;Alto da Alegria
+AAL0110029A;AAL;;Alto da Alegria
+AAL0110033A;AAL;Resistente;Alto da Alegria
+AAL0110034D;AAL;;Alto da Alegria
+AAL0110035A;AAL;;Alto da Alegria
+AAL0110036A;AAL;Resistente;Alto da Alegria
+CCJ0010033A;CCJ;Em Tratativas;Chácara do Conde
+CCJ0010051A;CCJ;Em Tratativas;Chácara do Conde
+CCJ0010057B;CCJ;Em Tratativas;Chácara do Conde
+CCJ0010103A;CCJ;Em Tratativas;Chácara do Conde
+CCJ0010104D;CCJ;Em Tratativas;Chácara do Conde
+CCJ0010097A;CCJ;Em Tratativas;Chácara do Conde
+CCJ0010037A;CCJ;Em Tratativas;Chácara do Conde
+CCJ0010049A;CCJ;Em Tratativas;Chácara do Conde
+CCJ0010067A;CCJ;Em Tratativas;Chácara do Conde
+CCJ0010005A;CCJ;Resistente;Chácara do Conde
+CCJ0010006A;CCJ;Resistente;Chácara do Conde
+CCJ0010006B;CCJ;Resistente;Chácara do Conde
+CCJ0010006C;CCJ;Resistente;Chácara do Conde
+CCJ0010007A;CCJ;Resistente;Chácara do Conde
+CCJ0010007B;CCJ;Resistente;Chácara do Conde
+CCJ0010008A;CCJ;Resistente;Chácara do Conde
+CCJ0010009A;CCJ;Resistente;Chácara do Conde
+CCJ0010035A;CCJ;Resistente;Chácara do Conde
+CCJ0010035B;CCJ;Resistente;Chácara do Conde
+CCJ0010035C;CCJ;Resistente;Chácara do Conde
+CCJ0010036A;CCJ;Resistente;Chácara do Conde
+CCJ0010037B;CCJ;Resistente;Chácara do Conde
+CCJ0010037C;CCJ;Resistente;Chácara do Conde
+CCJ0010039A;CCJ;Resistente;Chácara do Conde
+CCJ0010039B;CCJ;Resistente;Chácara do Conde
+CCJ0010039D;CCJ;Resistente;Chácara do Conde
+CCJ0010039E;CCJ;Resistente;Chácara do Conde
+CCJ0010039F;CCJ;Resistente;Chácara do Conde
+CCJ0010039G;CCJ;Resistente;Chácara do Conde
+CCJ0010039H;CCJ;Resistente;Chácara do Conde
+CCJ0010040A;CCJ;Resistente;Chácara do Conde
+CCJ0010041A;CCJ;Resistente;Chácara do Conde
+CCJ0010042A;CCJ;Resistente;Chácara do Conde
+CCJ0010043A;CCJ;Resistente;Chácara do Conde
+CCJ0010043B;CCJ;Resistente;Chácara do Conde
+CCJ0010044A;CCJ;Resistente;Chácara do Conde
+CCJ0010045A;CCJ;Resistente;Chácara do Conde
+CCJ0010046A;CCJ;Resistente;Chácara do Conde
+CCJ0010047A;CCJ;Resistente;Chácara do Conde
+CCJ0010048A;CCJ;Resistente;Chácara do Conde
+CCJ0010050A;CCJ;Resistente;Chácara do Conde
+CCJ0010054A;CCJ;Resistente;Chácara do Conde
+CCJ0010055A;CCJ;Resistente;Chácara do Conde
+CCJ0010056A;CCJ;Resistente;Chácara do Conde
+CCJ0010058A;CCJ;Resistente;Chácara do Conde
+CCJ0010060A;CCJ;Resistente;Chácara do Conde
+CCJ0010061A;CCJ;Resistente;Chácara do Conde
+CCJ0010062A;CCJ;Resistente;Chácara do Conde
+CCJ0010062B;CCJ;Resistente;Chácara do Conde
+CCJ0010063A;CCJ;Resistente;Chácara do Conde
+CCJ0010064A;CCJ;Resistente;Chácara do Conde
+CCJ0010064B;CCJ;Resistente;Chácara do Conde
+CCJ0010065A;CCJ;Resistente;Chácara do Conde
+CCJ0010065B;CCJ;Resistente;Chácara do Conde
+CCJ0010066A;CCJ;Resistente;Chácara do Conde
+CCJ0010071A;CCJ;Resistente;Chácara do Conde
+CCJ0010077A;CCJ;Resistente;Chácara do Conde
+CCJ0010079A;CCJ;Resistente;Chácara do Conde
+CCJ0010082A;CCJ;Resistente;Chácara do Conde
+CCJ0010083A;CCJ;Resistente;Chácara do Conde
+CCJ0010084A;CCJ;Resistente;Chácara do Conde
+CCJ0010084B;CCJ;Resistente;Chácara do Conde
+CCJ0010085A;CCJ;Resistente;Chácara do Conde
+CCJ0010098A;CCJ;Resistente;Chácara do Conde
+CCJ0010099A;CCJ;Resistente;Chácara do Conde
+CCJ0010100A;CCJ;Resistente;Chácara do Conde
+CCJ0040003A;CCJ;Resistente;Chácara do Conde
+CCJ0060001A;CCJ;Resistente;Chácara do Conde
+CCJ0060001B;CCJ;Resistente;Chácara do Conde
+CCJ0060002A;CCJ;Resistente;Chácara do Conde
+CCJ0060003A;CCJ;Resistente;Chácara do Conde
+CCJ0070001A;CCJ;Resistente;Chácara do Conde
+CCJ0070001B;CCJ;Resistente;Chácara do Conde
+CCJ0070001C;CCJ;Resistente;Chácara do Conde
+CCJ0070001D;CCJ;Resistente;Chácara do Conde
+CCJ0070002A;CCJ;Resistente;Chácara do Conde
+CCJ0070003B;CCJ;Resistente;Chácara do Conde
+CCJ0070003C;CCJ;Resistente;Chácara do Conde
+CCJ0070003D;CCJ;Resistente;Chácara do Conde
+CCJ0070003E;CCJ;Resistente;Chácara do Conde
+CCJ0070005A;CCJ;Resistente;Chácara do Conde
+CCJ0070006D;CCJ;Resistente;Chácara do Conde
+CCJ0070007A;CCJ;Resistente;Chácara do Conde
+CCJ0070008A;CCJ;Resistente;Chácara do Conde
+CCJ0070009A;CCJ;Resistente;Chácara do Conde
+CCJ0070010A;CCJ;Resistente;Chácara do Conde
+CCJ0070011A;CCJ;Resistente;Chácara do Conde
+CCJ0070011B;CCJ;Resistente;Chácara do Conde
+CCJ0070012B;CCJ;Resistente;Chácara do Conde
+CCJ0070013A;CCJ;Resistente;Chácara do Conde
+CCJ0090001A;CCJ;Resistente;Chácara do Conde
+CCJ0090002A;CCJ;Resistente;Chácara do Conde
+CCJ0090003A;CCJ;Resistente;Chácara do Conde
+CCJ0090003B;CCJ;Resistente;Chácara do Conde
+CCJ0100001A;CCJ;Resistente;Chácara do Conde
+CCJ0100002A;CCJ;Resistente;Chácara do Conde
+CCJ0100003A;CCJ;Resistente;Chácara do Conde
+CCJ0100005A;CCJ;Resistente;Chácara do Conde
+CCJ0100006A;CCJ;Resistente;Chácara do Conde
+CCJ0100006B;CCJ;Resistente;Chácara do Conde
+CCJ0100007A;CCJ;Resistente;Chácara do Conde
+CCJ0100007B;CCJ;Resistente;Chácara do Conde
+CCJ0100008A;CCJ;Resistente;Chácara do Conde
+CCJ0100010A;CCJ;Resistente;Chácara do Conde
+CCJ0100011A;CCJ;Resistente;Chácara do Conde
+CCJ0110001A;CCJ;Resistente;Chácara do Conde
+CCJ0110001B;CCJ;Resistente;Chácara do Conde
+CCJ0110002A;CCJ;Resistente;Chácara do Conde
+CCJ0110002B;CCJ;Resistente;Chácara do Conde
+CCJ0110003A;CCJ;Resistente;Chácara do Conde
+CCJ0110007A;CCJ;Resistente;Chácara do Conde
+CCJ0110008A;CCJ;Resistente;Chácara do Conde
+CCJ0110009A;CCJ;Resistente;Chácara do Conde
+CCJ0120001A;CCJ;Resistente;Chácara do Conde
+CCJ0120001B;CCJ;Resistente;Chácara do Conde
+CCJ0120003A;CCJ;Resistente;Chácara do Conde
+CCJ0120004A;CCJ;Resistente;Chácara do Conde
+CCJ0120005A;CCJ;Resistente;Chácara do Conde
+CCJ0120005B;CCJ;Resistente;Chácara do Conde
+CCJ0120005C;CCJ;Resistente;Chácara do Conde
+CCJ0120006A;CCJ;Resistente;Chácara do Conde
+CCJ0120007A;CCJ;Resistente;Chácara do Conde
+CCJ0120008A;CCJ;Resistente;Chácara do Conde
+CCJ0120009A;CCJ;Resistente;Chácara do Conde
+CCJ0120012A;CCJ;Resistente;Chácara do Conde
+CCJ0120013A;CCJ;Resistente;Chácara do Conde
+CCJ0120016A;CCJ;Resistente;Chácara do Conde
+CCJ0120017A;CCJ;Resistente;Chácara do Conde
+CCJ0120020A;CCJ;Resistente;Chácara do Conde
 CDV0010001A;CDV;Frente De Obras;Costa do Valado
 CDV0010002A;CDV;Frente De Obras;Costa do Valado
 CDV0010002B;CDV;Frente De Obras;Costa do Valado
@@ -8519,21 +10761,6 @@ CDV0010002D;CDV;Frente De Obras;Costa do Valado
 CDV0010002E;CDV;Frente De Obras;Costa do Valado
 CDV0010003A;CDV;Frente De Obras;Costa do Valado
 CDV0010003B;CDV;Frente De Obras;Costa do Valado
-JAR0030006A;JAR;Frente De Obras;Jararaú
-JAR0030006B;JAR;Frente De Obras;Jararaú
-JAR0030007A;JAR;Frente De Obras;Jararaú
-JAR0030007B;JAR;Frente De Obras;Jararaú
-JAR0030047A;JAR;Frente De Obras;Jararaú
-JAR0030049B;JAR;Frente De Obras;Jararaú
-JAR0030049C;JAR;Frente De Obras;Jararaú
-JAR0030076A;JAR;Frente De Obras;Jararaú
-CHF0450015A;CHF;Frente De Obras;Chácara Flórida
-CHF0450016A;CHF;Frente De Obras;Chácara Flórida
-CHF0450018A;CHF;Frente De Obras;Chácara Flórida
-CHF0450020A;CHF;Frente De Obras;Chácara Flórida
-CHF0450021A;CHF;Frente De Obras;Chácara Flórida
-CHF0450022A;CHF;Frente De Obras;Chácara Flórida
-CHF0450023B;CHF;Frente De Obras;Chácara Flórida
 JA20010002A;JA2;Em Tratativas;Jardim Ângela II
 JA20010002B;JA2;Em Tratativas;Jardim Ângela II
 JA20010002C;JA2;Em Tratativas;Jardim Ângela II
@@ -8557,185 +10784,24 @@ JA20040069B;JA2;Em Tratativas;Jardim Ângela II
 JA20040070A;JA2;Em Tratativas;Jardim Ângela II
 JA20040071A;JA2;Em Tratativas;Jardim Ângela II
 JA20040071B;JA2;Em Tratativas;Jardim Ângela II
+JAR0030006A;JAR;Frente De Obras;Jararaú
+JAR0030006B;JAR;Frente De Obras;Jararaú
+JAR0030007A;JAR;Frente De Obras;Jararaú
+JAR0030007B;JAR;Frente De Obras;Jararaú
+JAR0030047A;JAR;Frente De Obras;Jararaú
+JAR0030049B;JAR;Frente De Obras;Jararaú
+JAR0030049C;JAR;Frente De Obras;Jararaú
+JAR0030076A;JAR;Frente De Obras;Jararaú
 LNL0010007A;LNL;Em Tratativas;Lar Novo Lar
 CHF0050003A;CHF;Resistente;Chácara Flórida
 CHF0090002A;CHF;Resistente;Chácara Flórida
 CHF0100001B;CHF;Em Tratativas;Chácara Flórida
 CHF0120004A;CHF;Resistente;Chácara Flórida
 CHF0250006C;CHF;Em Tratativas;Chácara Flórida
-AAL0050011A;AAL;Resistente;Alto da Alegria
-AAL0050045B;AAL;Resistente;Alto da Alegria
-AAL0050045C;AAL;Resistente;Alto da Alegria
-AAL0050053B;AAL;Resistente;Alto da Alegria
-AAL0050053C;AAL;Resistente;Alto da Alegria
-AAL0050055A;AAL;Em Tratativas;Alto da Alegria
-AAL0050074B;AAL;Resistente;Alto da Alegria
-AAL0050074C;AAL;Resistente;Alto da Alegria
-AAL0100019A;AAL;Em Tratativas;Alto da Alegria
-AAL0110028A;AAL;Em Tratativas;Alto da Alegria
-AAL0110033A;AAL;Resistente;Alto da Alegria
-AAL0110035A;AAL;Em Tratativas;Alto da Alegria
-AAL0110036A;AAL;Resistente;Alto da Alegria
-GUA0010062B;GUA;Resistente;Guaicuri
-GUA0060063A;GUA;Resistente;Guaicuri
-GUA0020004A;GUA;Resistente;Guaicuri
-GUA0030105A;GUA;Resistente;Guaicuri
-GUA0030105B;GUA;Resistente;Guaicuri
-GUA0030105C;GUA;Resistente;Guaicuri
-GUA0030143C;GUA;Resistente;Guaicuri
-GUA0050017A;GUA;Resistente;Guaicuri
-GUA0050022A;GUA;Resistente;Guaicuri
-GUA0050022B;GUA;Resistente;Guaicuri
-GUA0050023B;GUA;Resistente;Guaicuri
-GUA0050023E;GUA;Resistente;Guaicuri
-GUA0050024A;GUA;Resistente;Guaicuri
-GUA0050024B;GUA;Resistente;Guaicuri
-GUA0050051A;GUA;Resistente;Guaicuri
-GUA0050061B;GUA;Resistente;Guaicuri
-GUA0050063A;GUA;Resistente;Guaicuri
-GUA0060009F;GUA;Resistente;Guaicuri
-GUA0060023A;GUA;Resistente;Guaicuri
-GUA0060037C;GUA;Resistente;Guaicuri
-GUA0060037D;GUA;Resistente;Guaicuri
-GUA0060037E;GUA;Resistente;Guaicuri
-GUA0060061A;GUA;Resistente;Guaicuri
-GUA0060063C;GUA;Resistente;Guaicuri
-GUA0060094A;GUA;Resistente;Guaicuri
-GUA0090040B;GUA;Resistente;Guaicuri
-GUA0100007B;GUA;Resistente;Guaicuri
-GUA0100008A;GUA;Resistente;Guaicuri
-GUA0100009A;GUA;Resistente;Guaicuri
-GUA0100009B;GUA;Resistente;Guaicuri
-GUA0100010A;GUA;Resistente;Guaicuri
-GUA0100010B;GUA;Resistente;Guaicuri
-GUA0110015A;GUA;Resistente;Guaicuri
-GUA0110015B;GUA;Resistente;Guaicuri
-GUA0110018A;GUA;Resistente;Guaicuri
-GUA0110018B;GUA;Resistente;Guaicuri
-GUA0110018C;GUA;Resistente;Guaicuri
-GUA0010033A;GUA;Em Tratativas;Guaicuri
-GUA0010033B;GUA;Em Tratativas;Guaicuri
-GUA0010034A;GUA;Em Tratativas;Guaicuri
-GUA0010034B;GUA;Em Tratativas;Guaicuri
-GUA0010035C;GUA;Em Tratativas;Guaicuri
-GUA0010035D;GUA;Em Tratativas;Guaicuri
-GUA0010035E;GUA;Em Tratativas;Guaicuri
-GUA0010036A;GUA;Em Tratativas;Guaicuri
-GUA0010040A;GUA;Em Tratativas;Guaicuri
-GUA0010041A;GUA;Em Tratativas;Guaicuri
-GUA0010042B;GUA;Em Tratativas;Guaicuri
-GUA0010043A;GUA;Em Tratativas;Guaicuri
-GUA0010044A;GUA;Em Tratativas;Guaicuri
-GUA0010044B;GUA;Em Tratativas;Guaicuri
-GUA0010044C;GUA;Em Tratativas;Guaicuri
-GUA0010044D;GUA;Em Tratativas;Guaicuri
-GUA0010046A;GUA;Em Tratativas;Guaicuri
-GUA0010046B;GUA;Em Tratativas;Guaicuri
-GUA0010047A;GUA;Em Tratativas;Guaicuri
-GUA0010048A;GUA;Em Tratativas;Guaicuri
-GUA0010049A;GUA;Em Tratativas;Guaicuri
-GUA0010050A;GUA;Em Tratativas;Guaicuri
-GUA0010050B;GUA;Em Tratativas;Guaicuri
-GUA0010052A;GUA;Em Tratativas;Guaicuri
-GUA0010053A;GUA;Em Tratativas;Guaicuri
-GUA0010054A;GUA;Em Tratativas;Guaicuri
-GUA0010054B;GUA;Em Tratativas;Guaicuri
-GUA0010057A;GUA;Em Tratativas;Guaicuri
-GUA0010057C;GUA;Em Tratativas;Guaicuri
-GUA0010061A;GUA;Em Tratativas;Guaicuri
-GUA0010061B;GUA;Em Tratativas;Guaicuri
-GUA0010062A;GUA;Em Tratativas;Guaicuri
-GUA0010062C;GUA;Em Tratativas;Guaicuri
-GUA0010062D;GUA;Em Tratativas;Guaicuri
-GUA0010064A;GUA;Em Tratativas;Guaicuri
-GUA0010064B;GUA;Em Tratativas;Guaicuri
-GUA0010064C;GUA;Em Tratativas;Guaicuri
-GUA0010064D;GUA;Em Tratativas;Guaicuri
-GUA0020001B;GUA;Em Tratativas;Guaicuri
-GUA0020002A;GUA;Em Tratativas;Guaicuri
-GUA0020003A;GUA;Em Tratativas;Guaicuri
-GUA0020005A;GUA;Em Tratativas;Guaicuri
-GUA0020006A;GUA;Em Tratativas;Guaicuri
-GUA0020017A;GUA;Em Tratativas;Guaicuri
-GUA0030070A;GUA;Em Tratativas;Guaicuri
-GUA0030070B;GUA;Em Tratativas;Guaicuri
-GUA0030070C;GUA;Em Tratativas;Guaicuri
-GUA0030070D;GUA;Em Tratativas;Guaicuri
-GUA0030072A;GUA;Em Tratativas;Guaicuri
-GUA0030072B;GUA;Em Tratativas;Guaicuri
-GUA0030072C;GUA;Em Tratativas;Guaicuri
-GUA0030072D;GUA;Em Tratativas;Guaicuri
-GUA0030087B;GUA;Em Tratativas;Guaicuri
-GUA0030087C;GUA;Em Tratativas;Guaicuri
-GUA0030087D;GUA;Em Tratativas;Guaicuri
-GUA0030089A;GUA;Em Tratativas;Guaicuri
-GUA0030118A;GUA;Em Tratativas;Guaicuri
-GUA0030140A;GUA;Em Tratativas;Guaicuri
-GUA0030142C;GUA;Em Tratativas;Guaicuri
-GUA0050020C;GUA;Em Tratativas;Guaicuri
-GUA0050021A;GUA;Em Tratativas;Guaicuri
-GUA0050021B;GUA;Em Tratativas;Guaicuri
-GUA0050021C;GUA;Em Tratativas;Guaicuri
-GUA0050065C;GUA;Em Tratativas;Guaicuri
-GUA0050066A;GUA;Em Tratativas;Guaicuri
-GUA0060063B;GUA;Em Tratativas;Guaicuri
-GUA0060092A;GUA;Em Tratativas;Guaicuri
-GUA0060093A;GUA;Em Tratativas;Guaicuri
-GUA0060093B;GUA;Em Tratativas;Guaicuri
-GUA0060093C;GUA;Em Tratativas;Guaicuri
-GUA0060094B;GUA;Em Tratativas;Guaicuri
-GUA0060094C;GUA;Em Tratativas;Guaicuri
-GUA0060095A;GUA;Em Tratativas;Guaicuri
-GUA0070025D;GUA;Em Tratativas;Guaicuri
-GUA0070026A;GUA;Em Tratativas;Guaicuri
-GUA0070026B;GUA;Em Tratativas;Guaicuri
-GUA0070027A;GUA;Em Tratativas;Guaicuri
-GUA0070029A;GUA;Em Tratativas;Guaicuri
-GUA0070031A;GUA;Em Tratativas;Guaicuri
-GUA0070031B;GUA;Em Tratativas;Guaicuri
-GUA0070031C;GUA;Em Tratativas;Guaicuri
-GUA0070033A;GUA;Em Tratativas;Guaicuri
-GUA0070034A;GUA;Em Tratativas;Guaicuri
-GUA0070035A;GUA;Em Tratativas;Guaicuri
-GUA0070035B;GUA;Em Tratativas;Guaicuri
-GUA0070035C;GUA;Em Tratativas;Guaicuri
-GUA0080001A;GUA;Em Tratativas;Guaicuri
-GUA0080001B;GUA;Em Tratativas;Guaicuri
-GUA0080001C;GUA;Em Tratativas;Guaicuri
-GUA0080001D;GUA;Em Tratativas;Guaicuri
-GUA0080001E;GUA;Em Tratativas;Guaicuri
-GUA0080001F;GUA;Em Tratativas;Guaicuri
-GUA0080001G;GUA;Em Tratativas;Guaicuri
-GUA0080001H;GUA;Em Tratativas;Guaicuri
-GUA0080001I;GUA;Em Tratativas;Guaicuri
-GUA0080001J;GUA;Em Tratativas;Guaicuri
-GUA0090020A;GUA;Em Tratativas;Guaicuri
-GUA0090020B;GUA;Em Tratativas;Guaicuri
-GUA0090020C;GUA;Em Tratativas;Guaicuri
-GUA0090020D;GUA;Em Tratativas;Guaicuri
-GUA0090021A;GUA;Em Tratativas;Guaicuri
-GUA0090022A;GUA;Em Tratativas;Guaicuri
-GUA0090022B;GUA;Em Tratativas;Guaicuri
-GUA0090022C;GUA;Em Tratativas;Guaicuri
-GUA0090040A;GUA;Em Tratativas;Guaicuri
-GUA0090040C;GUA;Em Tratativas;Guaicuri
-GUA0100007C;GUA;Em Tratativas;Guaicuri
-GUA0110017A;GUA;Em Tratativas;Guaicuri
-GUA0110017B;GUA;Em Tratativas;Guaicuri
-GUA0110017C;GUA;Em Tratativas;Guaicuri
-GUA0110017D;GUA;Em Tratativas;Guaicuri
-GUA0070025A;GUA;Em Tratativas;Guaicuri
-GUA0070025B;GUA;Em Tratativas;Guaicuri
-GUA0070025C;GUA;Em Tratativas;Guaicuri
-GUA0050020A;GUA;Em Tratativas;Guaicuri
-GUA0050027A;GUA;Em Tratativas;Guaicuri
-GUA0050066B;GUA;Em Tratativas;Guaicuri
-GUA0110014A;GUA;Em Tratativas;Guaicuri
-GUA0110014B;GUA;Em Tratativas;Guaicuri
-GUA0110014C;GUA;Em Tratativas;Guaicuri
-GUA0110016A;GUA;Em Tratativas;Guaicuri
-GUA0110016B;GUA;Em Tratativas;Guaicuri
-GUA0110016C;GUA;Em Tratativas;Guaicuri
-GUA0110016D;GUA;Em Tratativas;Guaicuri
-GUA0110016E;GUA;Em Tratativas;Guaicuri
-GUA0110016F;GUA;Em Tratativas;Guaicuri
+CHF0450015A;CHF;Frente De Obras;Chácara Flórida
+CHF0450016A;CHF;Frente De Obras;Chácara Flórida
+CHF0450018A;CHF;Frente De Obras;Chácara Flórida
+CHF0450020A;CHF;Frente De Obras;Chácara Flórida
+CHF0450021A;CHF;Frente De Obras;Chácara Flórida
+CHF0450022A;CHF;Frente De Obras;Chácara Flórida
+CHF0450023B;CHF;Frente De Obras;Chácara Flórida
