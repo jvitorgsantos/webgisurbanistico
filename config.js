@@ -10,7 +10,7 @@ const CONFIG = {
     // Informações da última atualização
     lastUpdate: {
         date: "18/08/2026",
-        description: "Novas áreas: Bosque do Sol e Tomás Sandrino (Lote 8)"
+        description: "Novas áreas: Bosque do Sol e Tomás Sandrino (Lote 8); Boulevard da Paz (Lote 1)"
     },
 
     // Caminhos padrão dos arquivos na pasta

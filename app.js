@@ -697,22 +697,18 @@ document.addEventListener('DOMContentLoaded', () => {
      * Renderiza a Legenda Flutuante no Mapa (Cores de Status e Categorias)
      */
     function renderMapLegend() {
-        const container = document.getElementById('mapLegendContainer');
+        const container = document.getElementById('legendContainer');
         if (!container) return;
         container.innerHTML = '';
-
-        const title = document.createElement('div');
-        title.className = 'legend-title';
-        title.textContent = 'Legenda de Status';
-        container.appendChild(title);
 
         // Status dos Domicílios
         Object.keys(CONFIG.statusColors).forEach(stKey => {
             const cfg = CONFIG.statusColors[stKey];
             const row = document.createElement('div');
             row.className = 'legend-row';
+            row.title = cfg.desc || '';
             row.innerHTML = `
-                <div class="legend-box" style="background:${cfg.color}; border:1px solid ${cfg.border}"></div>
+                <div class="legend-box" style="background:${cfg.color}; border:1px solid ${cfg.border}; opacity:${cfg.opacity !== undefined ? cfg.opacity : 1}"></div>
                 <span>${cfg.label}</span>
             `;
             container.appendChild(row);
@@ -720,7 +716,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Separador para categorias
         const sep = document.createElement('div');
-        sep.style.cssText = 'border-top:1px dashed rgba(255,255,255,0.15); margin:8px 0 6px 0; padding-top:6px; font-size:9px; color:#94a3b8; text-transform:uppercase; letter-spacing:0.5px; font-weight:700;';
+        sep.style.cssText = 'border-top:1px dashed rgba(255,255,255,0.15); margin:6px 0; padding-top:4px; font-size:9px; color:#94a3b8; text-transform:uppercase; letter-spacing:0.5px; font-weight:700;';
         sep.textContent = 'Outras Categorias';
         container.appendChild(sep);
 
@@ -730,7 +726,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const row = document.createElement('div');
             row.className = 'legend-row';
             row.innerHTML = `
-                <div class="legend-box" style="background:${cfg.color}; border:1px solid ${cfg.border}"></div>
+                <div class="legend-box" style="background:${cfg.color}; border:1px solid ${cfg.border}; opacity:${cfg.opacity !== undefined ? cfg.opacity : 1}"></div>
                 <span>${cfg.label}</span>
             `;
             container.appendChild(row);
