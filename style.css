@@ -567,11 +567,38 @@ body, html {
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--primary);
-    background: rgba(56, 189, 248, 0.15);
+    background: rgba(0, 124, 131, 0.15);
     border: 1px solid var(--primary);
     padding: 4px 12px;
     border-radius: 20px;
     margin-left: 10px;
+}
+
+.lote-badge-modal {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #007C83, #005a60);
+    border: 1px solid #38bdf8;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-left: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 0 10px rgba(0, 124, 131, 0.3);
+}
+
+.stats-filter-banner {
+    background: rgba(13, 43, 45, 0.7);
+    border: 1px solid var(--primary);
+    border-radius: var(--radius-sm);
+    padding: 10px 16px;
+    font-size: 0.88rem;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .kpi-title {

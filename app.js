@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             barArea: null
         },
         csvLoteMap: new Map(),        // Chave: COD_GERAL => LOTE
+        areaToLoteMap: new Map(),     // Chave: COD_AREA => LOTE (relação 1:1)
         extraLayers: {
             limiteDTS: null,
             lotesMananciais: null
@@ -227,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         const rawStatus = row['Status Simplificado'] || row['status_simplificado'] || row['Status'];
                         const areaCode = row['COD_AREA'] || row['cod_area'];
                         const areaName = row['AREA_NOME'] || row['area_nome'] || row['NOME_AREA'] || row['nome_area'];
-                        const lote = row['Lote'] || row['lote'] || row['LOTE'];
+                        const lote = row['nome_lote'] || row['NOME_LOTE'] || row['Nome_Lote'] || row['Nome_lote'] || row['Lote'] || row['lote'] || row['LOTE'];
 
                         if (code) {
                             const cleanCode = String(code).trim().toUpperCase();
@@ -285,8 +286,20 @@ document.addEventListener('DOMContentLoaded', () => {
             props._status_simplificado = status || 'Não Informado';
             props._nome_area_resolvido = resolveAreaName(props);
             
-            // Pega o lote diretamente da coluna nome_lote do GeoJSON (base_selagem)
-            props._lote_resolvido = props.nome_lote || props.NOME_LOTE || props.lote || props.LOTE || props.Lote || 'N/A';
+            // Pega o lote a partir do CSV ou diretamente da coluna nome_lote do GeoJSON
+            let resolvedLote = null;
+            if (code1) resolvedLote = state.csvLoteMap.get(String(code1).trim().toUpperCase());
+            if (!resolvedLote && code2) resolvedLote = state.csvLoteMap.get(String(code2).trim().toUpperCase());
+            if (!resolvedLote) {
+                resolvedLote = props.nome_lote || props.NOME_LOTE || props.Nome_Lote || props.Nome_lote || props.lote || props.LOTE || props.Lote;
+            }
+            props._lote_resolvido = resolvedLote ? String(resolvedLote).trim() : 'N/A';
+
+            // Mapeia a Área / Favela para o seu respectivo Lote (relação 1:1)
+            const areaCode = props.cod_area || props.COD_AREA;
+            if (areaCode && props._lote_resolvido && props._lote_resolvido !== 'N/A' && props._lote_resolvido !== '-') {
+                state.areaToLoteMap.set(String(areaCode).trim(), props._lote_resolvido);
+            }
         });
 
         filterFeatures();
@@ -310,8 +323,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 return false;
             }
             
-            if (state.activeFilters.lote !== 'ALL' && lote !== state.activeFilters.lote) {
-                return false;
+            if (state.activeFilters.lote !== 'ALL') {
+                const filterLote = String(state.activeFilters.lote).trim().toUpperCase();
+                const featLote = String(props._lote_resolvido || '').trim().toUpperCase();
+                if (featLote !== filterLote) {
+                    return false;
+                }
             }
 
             if (!state.activeFilters.statuses.has(status)) {
@@ -379,7 +396,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const status = props._status_simplificado;
         const selo = props.cod_selo || props.COD_SELO || 'N/A';
         const cat = props.categoria || props.CATEGORIA || 'Domicílio';
-        const lote = props.nome_lote || props.NOME_LOTE || '-';
+        const rawLote = props._lote_resolvido || props.nome_lote || props.NOME_LOTE || props.lote || props.LOTE || '-';
+
+        let loteFormatted = '-';
+        if (rawLote && rawLote !== '-' && rawLote !== 'N/A') {
+            loteFormatted = String(rawLote).trim().toLowerCase().startsWith('lote')
+                ? String(rawLote).trim()
+                : `Lote ${String(rawLote).trim()}`;
+        }
 
         // Determina cores para tooltip/popup: categoria tem prioridade para não-domicílios
         let tooltipBg, tooltipBorder, tooltipTextColor;
@@ -398,14 +422,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const configColor = CONFIG.statusColors[status] || CONFIG.statusColors['Não Informado'];
         const badgeTextColor = (configColor.color === '#ffffff' || configColor.color === '#ffff00') ? '#1e293b' : '#ffffff';
 
+        // Linha do Lote no tooltip (exibida logo abaixo de Favela/Área)
+        const loteLine = (loteFormatted && loteFormatted !== '-')
+            ? `<div style="font-size:11px; color:#1e293b; font-weight:600;">Lote: ${loteFormatted}</div>`
+            : '';
+
         // Linha de tipo no tooltip: categoria real (nunca N/A)
         const catLabel = (cat && cat !== 'Domicílio') ? `<div style="font-size:10px; color:#475569; font-weight:600; margin-top:1px;">Categoria: ${cat}</div>` : '';
 
         layer.bindTooltip(`
             <div style="font-weight:700; font-size:12px;">${code}</div>
             <div style="font-size:11px; color:#1e293b; font-weight:600;">Favela/Área: ${areaName} (${areaCode})</div>
+            ${loteLine}
             ${catLabel}
-            <div style="font-size:11px; margin-top:2px;">
+            <div style="font-size:11px; margin-top:3px;">
                 <span class="badge-status" style="background:${tooltipBg}; color:${tooltipTextColor}; border:1px solid ${tooltipBorder}">${cat !== 'Domicílio' ? cat : status}</span>
             </div>
         `, { sticky: true });
@@ -455,12 +485,12 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="popup-val">${areaName} (${areaCode})</span>
                         </div>
                         <div class="popup-row">
-                            <span class="popup-label">Uso / Categoria:</span>
-                            <span class="popup-val">${cat}</span>
+                            <span class="popup-label">Lote:</span>
+                            <span class="popup-val">${loteFormatted}</span>
                         </div>
                         <div class="popup-row">
-                            <span class="popup-label">Lote:</span>
-                            <span class="popup-val">${lote}</span>
+                            <span class="popup-label">Uso / Categoria:</span>
+                            <span class="popup-val">${cat}</span>
                         </div>
                         ${statusRow}
                     </div>
@@ -476,52 +506,24 @@ document.addEventListener('DOMContentLoaded', () => {
     function populateFilterOptions() {
         if (!state.rawGeoJSON) return;
 
-        const areas = new Map();
         const categories = new Set();
-        const lotes = new Set();
-
         state.rawGeoJSON.features.forEach(f => {
             const props = f.properties || {};
-            const areaCode = props.cod_area || props.COD_AREA;
-            if (areaCode) {
-                const name = props._nome_area_resolvido || resolveAreaName(props);
-                areas.set(areaCode, name);
-            }
-
             const cat = props.categoria || props.CATEGORIA;
             if (cat) categories.add(cat);
-            
-            const lote = props._lote_resolvido;
-            if (lote && lote !== 'N/A') lotes.add(lote);
         });
 
-        const selectArea = document.getElementById('selectArea');
-        selectArea.innerHTML = '<option value="ALL">Todas as Áreas (Consolidado)</option>';
-        areas.forEach((name, code) => {
-            const opt = document.createElement('option');
-            opt.value = code;
-            opt.textContent = `${name} (${code})`;
-            selectArea.appendChild(opt);
-        });
+        populateLoteFilter();
+        populateAreaFilter(state.activeFilters.lote);
 
         const selectCat = document.getElementById('selectCategory');
-        selectCat.innerHTML = '<option value="ALL">Todas as Categorias</option>';
-        categories.forEach(cat => {
-            const opt = document.createElement('option');
-            opt.value = cat;
-            opt.textContent = cat;
-            selectCat.appendChild(opt);
-        });
-
-        const selectLote = document.getElementById('selectLote');
-        if (selectLote) {
-            selectLote.innerHTML = '<option value="ALL">Todos os Lotes</option>';
-            // Ordena lotes alfabeticamente/numericamente
-            [...lotes].sort((a, b) => String(a).localeCompare(String(b), undefined, {numeric: true})).forEach(l => {
+        if (selectCat) {
+            selectCat.innerHTML = '<option value="ALL">Todas as Categorias</option>';
+            categories.forEach(cat => {
                 const opt = document.createElement('option');
-                opt.value = l;
-                opt.textContent = String(l).toLowerCase().includes('lote') ? l : `Lote ${l}`;
-                selectLote.appendChild(opt);
+                opt.value = cat;
+                opt.textContent = cat;
+                selectCat.appendChild(opt);
             });
         }
 
@@ -530,7 +532,100 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * Renderiza a lista de Status na Barra Lateral com Quantitativos Dinâmicos por Área
+     * Popula a lista de Lotes principais
+     */
+    function populateLoteFilter() {
+        const selectLote = document.getElementById('selectLote');
+        if (!selectLote || !state.rawGeoJSON) return;
+
+        const lotes = new Set();
+        state.rawGeoJSON.features.forEach(f => {
+            const props = f.properties || {};
+            const lote = props._lote_resolvido;
+            if (lote && lote !== 'N/A' && lote !== '-') {
+                lotes.add(lote);
+            }
+        });
+
+        const currentVal = state.activeFilters.lote;
+        selectLote.innerHTML = '<option value="ALL">Todos os Lotes (Visão Geral)</option>';
+
+        const sortedLotes = [...lotes].sort((a, b) => {
+            const numA = parseInt(String(a).replace(/\D/g, ''), 10) || 0;
+            const numB = parseInt(String(b).replace(/\D/g, ''), 10) || 0;
+            if (numA !== numB) return numA - numB;
+            return String(a).localeCompare(String(b), undefined, { numeric: true });
+        });
+
+        sortedLotes.forEach(l => {
+            const opt = document.createElement('option');
+            opt.value = l;
+            opt.textContent = String(l).toLowerCase().startsWith('lote') ? l : `Lote ${l}`;
+            selectLote.appendChild(opt);
+        });
+
+        if (currentVal !== 'ALL' && lotes.has(currentVal)) {
+            selectLote.value = currentVal;
+        } else {
+            selectLote.value = 'ALL';
+            state.activeFilters.lote = 'ALL';
+        }
+    }
+
+    /**
+     * Popula dinamicamente a lista de Áreas/Favelas de acordo com o Lote selecionado
+     * (Como cada área/favela pertence exclusivamente a 1 lote, filtra em cascata)
+     */
+    function populateAreaFilter(selectedLote = 'ALL') {
+        const selectArea = document.getElementById('selectArea');
+        if (!selectArea || !state.rawGeoJSON) return;
+
+        const areas = new Map(); // areaCode => areaName
+
+        state.rawGeoJSON.features.forEach(f => {
+            const props = f.properties || {};
+            const areaCode = props.cod_area || props.COD_AREA;
+            const featLote = props._lote_resolvido;
+
+            if (areaCode) {
+                const isMatch = (selectedLote === 'ALL') || 
+                    (featLote && String(featLote).trim().toUpperCase() === String(selectedLote).trim().toUpperCase());
+                
+                if (isMatch) {
+                    const name = props._nome_area_resolvido || resolveAreaName(props);
+                    areas.set(String(areaCode).trim(), name);
+                }
+            }
+        });
+
+        const currentArea = state.activeFilters.area;
+        const loteLabel = selectedLote !== 'ALL' 
+            ? ` (${String(selectedLote).trim().toLowerCase().startsWith('lote') ? selectedLote : 'Lote ' + selectedLote})` 
+            : ' (Consolidado)';
+            
+        selectArea.innerHTML = `<option value="ALL">Todas as Favelas${loteLabel}</option>`;
+
+        // Ordena áreas alfabeticamente pelo nome da favela
+        const sortedAreas = [...areas.entries()].sort((a, b) => a[1].localeCompare(b[1]));
+
+        sortedAreas.forEach(([code, name]) => {
+            const opt = document.createElement('option');
+            opt.value = code;
+            opt.textContent = `${name} (${code})`;
+            selectArea.appendChild(opt);
+        });
+
+        // Se a favela selecionada anteriormente ainda pertence ao lote atual, mantém selecionada
+        if (currentArea !== 'ALL' && areas.has(currentArea)) {
+            selectArea.value = currentArea;
+        } else {
+            selectArea.value = 'ALL';
+            state.activeFilters.area = 'ALL';
+        }
+    }
+
+    /**
+     * Renderiza a lista de Status na Barra Lateral com Quantitativos Dinâmicos por Área e Lote
      */
     function renderStatusFilterList() {
         const container = document.getElementById('statusFilterContainer');
@@ -543,7 +638,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const props = f.properties || {};
             const area = props.cod_area || props.COD_AREA || 'OUTROS';
             const category = props.categoria || props.CATEGORIA || 'N/A';
-            const lote = props._lote_resolvido || 'N/A';
 
             if (state.activeFilters.area !== 'ALL' && area !== state.activeFilters.area) {
                 return false;
@@ -553,8 +647,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 return false;
             }
             
-            if (state.activeFilters.lote !== 'ALL' && lote !== state.activeFilters.lote) {
-                return false;
+            if (state.activeFilters.lote !== 'ALL') {
+                const filterLote = String(state.activeFilters.lote).trim().toUpperCase();
+                const featLote = String(props._lote_resolvido || '').trim().toUpperCase();
+                if (featLote !== filterLote) return false;
             }
 
             return true;
@@ -597,27 +693,35 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    /**
+     * Renderiza a Legenda Flutuante no Mapa (Cores de Status e Categorias)
+     */
     function renderMapLegend() {
-        const container = document.getElementById('legendContainer');
+        const container = document.getElementById('mapLegendContainer');
+        if (!container) return;
         container.innerHTML = '';
 
-        // Status dos domicílios
+        const title = document.createElement('div');
+        title.className = 'legend-title';
+        title.textContent = 'Legenda de Status';
+        container.appendChild(title);
+
+        // Status dos Domicílios
         Object.keys(CONFIG.statusColors).forEach(stKey => {
             const cfg = CONFIG.statusColors[stKey];
             const row = document.createElement('div');
             row.className = 'legend-row';
-            row.title = cfg.desc || '';
             row.innerHTML = `
-                <div class="legend-box" style="background:${cfg.color}; border:1px solid ${cfg.border}; opacity:${cfg.opacity}"></div>
+                <div class="legend-box" style="background:${cfg.color}; border:1px solid ${cfg.border}"></div>
                 <span>${cfg.label}</span>
             `;
             container.appendChild(row);
         });
 
-        // Separador
+        // Separador para categorias
         const sep = document.createElement('div');
-        sep.style.cssText = 'border-top:1px solid rgba(255,255,255,0.1); margin:6px 0; padding-top:4px; font-size:0.7rem; color:#64748b; font-weight:700; text-transform:uppercase; letter-spacing:0.05em;';
-        sep.textContent = 'Outras categorias';
+        sep.style.cssText = 'border-top:1px dashed rgba(255,255,255,0.15); margin:8px 0 6px 0; padding-top:6px; font-size:9px; color:#94a3b8; text-transform:uppercase; letter-spacing:0.5px; font-weight:700;';
+        sep.textContent = 'Outras Categorias';
         container.appendChild(sep);
 
         // Categorias não-domiciliares
@@ -626,7 +730,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const row = document.createElement('div');
             row.className = 'legend-row';
             row.innerHTML = `
-                <div class="legend-box" style="background:${cfg.color}; border:1px solid ${cfg.border}; opacity:${cfg.opacity}"></div>
+                <div class="legend-box" style="background:${cfg.color}; border:1px solid ${cfg.border}"></div>
                 <span>${cfg.label}</span>
             `;
             container.appendChild(row);
@@ -634,29 +738,76 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * 5. Painel de Estatísticas — base de cálculo: apenas Domicílios (excluindo garagens, anexos etc.)
+     * 5. Painel de Estatísticas — base de cálculo: apenas Domicílios
      */
     function updateStatistics() {
         const features = state.filteredFeatures || (state.rawGeoJSON ? state.rawGeoJSON.features : []);
-        // Base de porcentagem: apenas domicílios (imóveis selados de fato)
+        // Base de porcentagem: apenas domicílios
         const domicilioFeatures = features.filter(f => {
             const cat = f.properties.categoria || f.properties.CATEGORIA || 'Domicílio';
             return cat === 'Domicílio';
         });
         const total = domicilioFeatures.length;
 
-        // Atualiza o nome da área no cabeçalho do Modal de Estatísticas
+        // Identifica área e lote ativos
         const selectedAreaCode = state.activeFilters.area;
+        const selectedLote = state.activeFilters.lote;
+
         let areaDisplayName = 'Todas as Áreas (Consolidado)';
-        
         if (selectedAreaCode !== 'ALL') {
             const areaNameFound = state.csvCodeToAreaNameMap.get(selectedAreaCode) || CONFIG.areaNames[selectedAreaCode] || selectedAreaCode;
             areaDisplayName = `${areaNameFound} (${selectedAreaCode})`;
         }
         
         const areaBadge = document.getElementById('statsModalAreaName');
-        if (areaBadge) {
-            areaBadge.textContent = areaDisplayName;
+        const loteBadge = document.getElementById('statsModalLoteName');
+        const filterBanner = document.getElementById('statsFilterBanner');
+        const filterBannerText = document.getElementById('statsFilterBannerText');
+
+        // Determina o lote associado à seleção
+        let resolvedLote = selectedLote;
+        if (selectedAreaCode !== 'ALL' && (!resolvedLote || resolvedLote === 'ALL')) {
+            resolvedLote = state.areaToLoteMap.get(selectedAreaCode) || 'ALL';
+        }
+
+        if (selectedAreaCode !== 'ALL') {
+            // Favela específica
+            if (areaBadge) areaBadge.textContent = areaDisplayName;
+
+            if (resolvedLote && resolvedLote !== 'ALL') {
+                const loteFmt = String(resolvedLote).trim().toLowerCase().startsWith('lote') ? resolvedLote : `Lote ${resolvedLote}`;
+                if (loteBadge) {
+                    loteBadge.innerHTML = `<i class="fa-solid fa-layer-group"></i> ${loteFmt}`;
+                    loteBadge.style.display = 'inline-flex';
+                }
+                if (filterBanner && filterBannerText) {
+                    filterBanner.style.display = 'flex';
+                    filterBannerText.innerHTML = `Exibindo indicadores da favela <strong>${areaDisplayName}</strong> (pertencente ao <strong>${loteFmt}</strong>).`;
+                }
+            } else {
+                if (loteBadge) loteBadge.style.display = 'none';
+                if (filterBanner && filterBannerText) {
+                    filterBanner.style.display = 'flex';
+                    filterBannerText.innerHTML = `Exibindo indicadores da favela <strong>${areaDisplayName}</strong>.`;
+                }
+            }
+        } else if (resolvedLote && resolvedLote !== 'ALL') {
+            // Visão consolidada de todas as favelas do lote
+            const loteFmt = String(resolvedLote).trim().toLowerCase().startsWith('lote') ? resolvedLote : `Lote ${resolvedLote}`;
+            if (areaBadge) areaBadge.textContent = `Favelas do ${loteFmt} (Consolidado)`;
+            if (loteBadge) {
+                loteBadge.innerHTML = `<i class="fa-solid fa-layer-group"></i> ${loteFmt}`;
+                loteBadge.style.display = 'inline-flex';
+            }
+            if (filterBanner && filterBannerText) {
+                filterBanner.style.display = 'flex';
+                filterBannerText.innerHTML = `Exibindo indicadores consolidados de todas as favelas pertencentes ao <strong>${loteFmt}</strong>.`;
+            }
+        } else {
+            // Visão consolidada geral de todas as áreas
+            if (areaBadge) areaBadge.textContent = 'Todas as Áreas (Consolidado)';
+            if (loteBadge) loteBadge.style.display = 'none';
+            if (filterBanner) filterBanner.style.display = 'none';
         }
 
         const counts = {
@@ -668,19 +819,19 @@ document.addEventListener('DOMContentLoaded', () => {
             'Não Informado': 0
         };
 
-        const areaCounts = {};
+        const groupCounts = {};
 
-        // Contabiliza apenas domicílios nos KPIs e gráficos de status
+        // Contabiliza apenas domicílios nos KPIs e agrupa por favela
         domicilioFeatures.forEach(f => {
             const st = f.properties._status_simplificado || 'Não Informado';
             counts[st] = (counts[st] || 0) + 1;
 
             const area = f.properties.cod_area || f.properties.COD_AREA || 'OUTROS';
-            if (!areaCounts[area]) {
-                areaCounts[area] = { 'Imóvel Selado': 0, 'Frente De Obras': 0, 'Removido': 0, 'Em Tratativas': 0, 'Resistente': 0, 'Não Informado': 0 };
+            if (!groupCounts[area]) {
+                groupCounts[area] = { 'Imóvel Selado': 0, 'Frente De Obras': 0, 'Removido': 0, 'Em Tratativas': 0, 'Resistente': 0, 'Não Informado': 0 };
             }
-            if (areaCounts[area][st] !== undefined) {
-                areaCounts[area][st]++;
+            if (groupCounts[area][st] !== undefined) {
+                groupCounts[area][st]++;
             }
         });
 
@@ -688,7 +839,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const totalGeral = features.length;
         const kpiTotalEl = document.getElementById('kpiTotal');
         if (kpiTotalEl) kpiTotalEl.textContent = total.toLocaleString('pt-BR');
-        const kpiTotalDesc = kpiTotalEl ? kpiTotalEl.closest('.kpi-card').querySelector('.kpi-percent') : null;
+        const kpiTotalDesc = document.getElementById('kpiTotalEdif') || (kpiTotalEl ? kpiTotalEl.closest('.kpi-card').querySelector('.kpi-percent') : null);
         if (kpiTotalDesc) kpiTotalDesc.textContent = `${totalGeral.toLocaleString('pt-BR')} edificações no total`;
         
         const updateKpiCard = (valId, pctId, key) => {
@@ -707,7 +858,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateKpiCard('kpiResistente', 'kpiResistentePct', 'Resistente');
 
         renderDonutChart(counts, total);
-        renderBarChartArea(areaCounts);
+        renderBarChartArea(groupCounts, resolvedLote !== 'ALL' ? resolvedLote : null, selectedAreaCode !== 'ALL' ? areaDisplayName : null);
     }
 
     function renderDonutChart(counts, total) {
@@ -769,39 +920,49 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function renderBarChartArea(areaCounts) {
+    function renderBarChartArea(groupCounts, activeLote = null, activeAreaName = null) {
         const ctx = document.getElementById('barChartArea').getContext('2d');
-        const areaCodes = Object.keys(areaCounts);
+        const keys = Object.keys(groupCounts);
 
-        const labels = areaCodes.map(code => {
-            const resolvedName = state.csvCodeToAreaNameMap.get(code) || CONFIG.areaNames[code] || code;
-            return `${resolvedName} (${code})`;
+        const barCardTitle = document.querySelector('.chart-card:nth-child(2) h3');
+        if (activeAreaName) {
+            if (barCardTitle) barCardTitle.innerHTML = `<i class="fa-solid fa-chart-bar"></i> Distribuição de Status — ${activeAreaName}`;
+        } else if (activeLote) {
+            const loteFmt = String(activeLote).trim().toLowerCase().startsWith('lote') ? activeLote : `Lote ${activeLote}`;
+            if (barCardTitle) barCardTitle.innerHTML = `<i class="fa-solid fa-chart-bar"></i> Distribuição de Status por Favela (${loteFmt})`;
+        } else {
+            if (barCardTitle) barCardTitle.innerHTML = `<i class="fa-solid fa-chart-bar"></i> Distribuição de Status por Área (Favela)`;
+        }
+
+        const labels = keys.map(k => {
+            const resolvedName = state.csvCodeToAreaNameMap.get(k) || CONFIG.areaNames[k] || k;
+            return `${resolvedName} (${k})`;
         });
 
         const datasets = [
             {
                 label: 'Imóvel Selado',
-                data: areaCodes.map(code => areaCounts[code]['Imóvel Selado']),
+                data: keys.map(k => groupCounts[k]['Imóvel Selado'] || 0),
                 backgroundColor: CONFIG.statusColors['Imóvel Selado'].color
             },
             {
                 label: 'Frente de Obras',
-                data: areaCodes.map(code => areaCounts[code]['Frente De Obras']),
+                data: keys.map(k => groupCounts[k]['Frente De Obras'] || 0),
                 backgroundColor: CONFIG.statusColors['Frente De Obras'].color
             },
             {
                 label: 'Removido',
-                data: areaCodes.map(code => areaCounts[code]['Removido']),
+                data: keys.map(k => groupCounts[k]['Removido'] || 0),
                 backgroundColor: CONFIG.statusColors['Removido'].color
             },
             {
                 label: 'Em Tratativas',
-                data: areaCodes.map(code => areaCounts[code]['Em Tratativas']),
+                data: keys.map(k => groupCounts[k]['Em Tratativas'] || 0),
                 backgroundColor: CONFIG.statusColors['Em Tratativas'].color
             },
             {
                 label: 'Resistente',
-                data: areaCodes.map(code => areaCounts[code]['Resistente']),
+                data: keys.map(k => groupCounts[k]['Resistente'] || 0),
                 backgroundColor: CONFIG.statusColors['Resistente'].color
             }
         ];
@@ -821,18 +982,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 maintainAspectRatio: false,
                 scales: {
                     x: {
-                        ticks: { color: '#94a3b8', font: { family: 'Inter', size: 10 } },
-                        grid: { color: 'rgba(255,255,255,0.05)' }
+                        stacked: true,
+                        ticks: { color: '#94a3b8', font: { family: 'Inter', size: 11 } },
+                        grid: { display: false }
                     },
                     y: {
-                        ticks: { color: '#94a3b8', font: { family: 'Inter', size: 10 } },
-                        grid: { color: 'rgba(255,255,255,0.05)' }
+                        stacked: true,
+                        ticks: { color: '#94a3b8', font: { family: 'Inter', size: 11 } },
+                        grid: { color: 'rgba(255,255,255,0.06)' }
                     }
                 },
                 plugins: {
                     legend: {
-                        position: 'bottom',
-                        labels: { color: '#f8fafc', font: { family: 'Inter', size: 11 } }
+                        position: 'top',
+                        labels: { color: '#f8fafc', font: { family: 'Inter', size: 11 }, boxWidth: 12 }
                     }
                 }
             }
@@ -856,8 +1019,27 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
+        const selectLote = document.getElementById('selectLote');
+        if (selectLote) {
+            selectLote.addEventListener('change', (e) => {
+                state.activeFilters.lote = e.target.value;
+                populateAreaFilter(state.activeFilters.lote);
+                processAndRenderGeoJSON();
+                renderStatusFilterList();
+                updateStatistics();
+            });
+        }
+
         document.getElementById('selectArea').addEventListener('change', (e) => {
             state.activeFilters.area = e.target.value;
+            // Se o usuário selecionou uma favela específica, sincroniza o lote correspondente
+            if (state.activeFilters.area !== 'ALL') {
+                const autoLote = state.areaToLoteMap.get(state.activeFilters.area);
+                if (autoLote && autoLote !== 'N/A') {
+                    state.activeFilters.lote = autoLote;
+                    if (selectLote) selectLote.value = autoLote;
+                }
+            }
             processAndRenderGeoJSON();
             renderStatusFilterList();
             updateStatistics();
@@ -869,16 +1051,6 @@ document.addEventListener('DOMContentLoaded', () => {
             renderStatusFilterList();
             updateStatistics();
         });
-
-        const selectLote = document.getElementById('selectLote');
-        if (selectLote) {
-            selectLote.addEventListener('change', (e) => {
-                state.activeFilters.lote = e.target.value;
-                processAndRenderGeoJSON();
-                renderStatusFilterList();
-                updateStatistics();
-            });
-        }
 
         // Toggles para as camadas adicionais
         let layerLimiteDTS = null;
@@ -1213,25 +1385,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function populateExportAreaSelect() {
         const dest = document.getElementById('exportAreaSelect');
-        if (!dest) return;
+        if (!dest || !state.rawGeoJSON) return;
         dest.innerHTML = '';
-        
-        // Obter todas as áreas disponíveis e seus nomes a partir do selectArea da barra lateral
-        const source = document.getElementById('selectArea');
-        if (source && source.options.length > 0) {
-            Array.from(source.options).forEach(opt => {
-                // Apenas áreas específicas, nunca 'ALL' / 'Todas as Áreas'
-                if (opt.value && opt.value !== 'ALL') {
-                    const newOpt = document.createElement('option');
-                    newOpt.value = opt.value;
-                    newOpt.textContent = opt.textContent;
-                    dest.appendChild(newOpt);
+
+        const areas = new Map(); // areaCode => { name, lote }
+
+        state.rawGeoJSON.features.forEach(f => {
+            const props = f.properties || {};
+            const code = props.cod_area || props.COD_AREA;
+            if (code) {
+                const cleanCode = String(code).trim();
+                if (!areas.has(cleanCode)) {
+                    const name = props._nome_area_resolvido || resolveAreaName(props);
+                    const lote = props._lote_resolvido || state.areaToLoteMap.get(cleanCode) || '';
+                    const loteFmt = (lote && lote !== 'N/A' && lote !== '-') 
+                        ? (String(lote).toLowerCase().startsWith('lote') ? lote : `Lote ${lote}`) 
+                        : '';
+                    areas.set(cleanCode, { name, lote: loteFmt });
                 }
-            });
-        }
-        
-        // Pré-seleciona a área ativa atual se houver, ou a primeira disponível
-        if (state.activeFilters.area && state.activeFilters.area !== 'ALL') {
+            }
+        });
+
+        // Ordena por lote e depois por nome
+        const sorted = [...areas.entries()].sort((a, b) => {
+            if (a[1].lote && b[1].lote && a[1].lote !== b[1].lote) {
+                return a[1].lote.localeCompare(b[1].lote, undefined, { numeric: true });
+            }
+            return a[1].name.localeCompare(b[1].name);
+        });
+
+        sorted.forEach(([code, data]) => {
+            const opt = document.createElement('option');
+            opt.value = code;
+            opt.textContent = data.lote ? `[${data.lote}] ${data.name} (${code})` : `${data.name} (${code})`;
+            dest.appendChild(opt);
+        });
+
+        // Pré-seleciona a área ativa atual se for específica
+        if (state.activeFilters.area && state.activeFilters.area !== 'ALL' && areas.has(state.activeFilters.area)) {
             dest.value = state.activeFilters.area;
         } else if (dest.options.length > 0) {
             dest.selectedIndex = 0;

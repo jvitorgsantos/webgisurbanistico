@@ -72,6 +72,15 @@
                         </div>
                     </div>
 
+                    <!-- LOTE FILTER -->
+                    <div class="filter-group">
+                        <label class="group-title"><i class="fa-solid fa-layer-group"></i> Lote (Contrato)</label>
+                        <select id="selectLote" class="select-custom">
+                            <option value="ALL">Todos os Lotes</option>
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+
                     <!-- AREA FILTER -->
                     <div class="filter-group">
                         <label class="group-title"><i class="fa-solid fa-city"></i> Área / Favela</label>
@@ -94,15 +103,6 @@
                         <label class="group-title"><i class="fa-solid fa-building"></i> Uso / Categoria</label>
                         <select id="selectCategory" class="select-custom">
                             <option value="ALL">Todas as Categorias</option>
-                            <!-- Populated dynamically -->
-                        </select>
-                    </div>
-
-                    <!-- LOTE FILTER -->
-                    <div class="filter-group">
-                        <label class="group-title"><i class="fa-solid fa-map-marked-alt"></i> Lote</label>
-                        <select id="selectLote" class="select-custom">
-                            <option value="ALL">Todos os Lotes</option>
                             <!-- Populated dynamically -->
                         </select>
                     </div>
@@ -172,11 +172,18 @@
                 <h2>
                     <i class="fa-solid fa-chart-column"></i> Indicadores de Selagem Habitacional
                     <span class="area-badge-modal" id="statsModalAreaName">Todas as Áreas (Consolidado)</span>
+                    <span class="lote-badge-modal" id="statsModalLoteName" style="display: none;"></span>
                 </h2>
                 <button class="btn-close" id="btnCloseStats"><i class="fa-solid fa-xmark"></i></button>
             </div>
 
             <div class="modal-body">
+                <!-- BANNER INFORMATIVO DE FILTRO ATIVO -->
+                <div id="statsFilterBanner" class="stats-filter-banner" style="display: none;">
+                    <i class="fa-solid fa-layer-group" style="color: var(--primary); font-size: 1.1rem;"></i>
+                    <span id="statsFilterBannerText">Visualizando dados</span>
+                </div>
+
                 <!-- KPI CARDS -->
                 <div class="kpi-grid">
                     <div class="kpi-card">
