@@ -9,8 +9,8 @@ const CONFIG = {
     
     // Informações da última atualização
     lastUpdate: {
-        date: "17/08/2026",
-        description: "Nova área: Chácara do Conde (Lote 7)"
+        date: "18/08/2026",
+        description: "Novas áreas: Bosque do Sol e Tomás Sandrino (Lote 8)"
     },
 
     // Caminhos padrão dos arquivos na pasta
