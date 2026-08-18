@@ -7250,6 +7250,45 @@ BDS0010015C;BDS;Imóvel Selado;Bosque do Sol
 BDS0010016A;BDS;Imóvel Selado;Bosque do Sol
 BDS0010017A;BDS;Imóvel Selado;Bosque do Sol
 BDS0010018A;BDS;Imóvel Selado;Bosque do Sol
+BPA0140082A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0140083A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0140083B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290001A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290002A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290002B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290003A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290003B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290003C;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290003D;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290004A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290004B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290004C;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290005A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290005B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290005C;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290006A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290006B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290006C;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290007A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290007B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290007C;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290008A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290009A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290009B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290009C;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290010A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290011A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290012A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290013A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290013B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290026A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290026B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290026C;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290026D;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290026E;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290027A;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290027B;BPA;Imóvel Selado;Boulevard da Paz
+BPA0290027C;BPA;Imóvel Selado;Boulevard da Paz
 ENL0010019A;ENL;Removido;Enlevo
 LNL0030001A;LNL;Removido;Lar Novo Lar
 LNL0030001B;LNL;Removido;Lar Novo Lar
@@ -7874,6 +7913,406 @@ JA20060001H;JA2;Removido;Jardim Ângela II
 JA20060001I;JA2;Removido;Jardim Ângela II
 JA20060002A;JA2;Removido;Jardim Ângela II
 JA20060003A;JA2;Removido;Jardim Ângela II
+BPA0140023A;BPA;Removido;Boulevard da Paz
+BPA0140024A;BPA;Removido;Boulevard da Paz
+BPA0140025A;BPA;Removido;Boulevard da Paz
+BPA0140025B;BPA;Removido;Boulevard da Paz
+BPA0140025C;BPA;Removido;Boulevard da Paz
+BPA0140025D;BPA;Removido;Boulevard da Paz
+BPA0140025E;BPA;Removido;Boulevard da Paz
+BPA0140025F;BPA;Removido;Boulevard da Paz
+BPA0140025G;BPA;Removido;Boulevard da Paz
+BPA0140026A;BPA;Removido;Boulevard da Paz
+BPA0140026C;BPA;Removido;Boulevard da Paz
+BPA0140027A;BPA;Removido;Boulevard da Paz
+BPA0140030A;BPA;Removido;Boulevard da Paz
+BPA0140030B;BPA;Removido;Boulevard da Paz
+BPA0140032A;BPA;Removido;Boulevard da Paz
+BPA0140032B;BPA;Removido;Boulevard da Paz
+BPA0140033A;BPA;Removido;Boulevard da Paz
+BPA0140034A;BPA;Removido;Boulevard da Paz
+BPA0140035A;BPA;Removido;Boulevard da Paz
+BPA0140037A;BPA;Removido;Boulevard da Paz
+BPA0140040A;BPA;Removido;Boulevard da Paz
+BPA0140041A;BPA;Removido;Boulevard da Paz
+BPA0140042A;BPA;Removido;Boulevard da Paz
+BPA0140043A;BPA;Removido;Boulevard da Paz
+BPA0140044A;BPA;Removido;Boulevard da Paz
+BPA0140044B;BPA;Removido;Boulevard da Paz
+BPA0140045A;BPA;Removido;Boulevard da Paz
+BPA0140045B;BPA;Removido;Boulevard da Paz
+BPA0140049A;BPA;Removido;Boulevard da Paz
+BPA0140050A;BPA;Removido;Boulevard da Paz
+BPA0140050B;BPA;Removido;Boulevard da Paz
+BPA0140051A;BPA;Removido;Boulevard da Paz
+BPA0140051B;BPA;Removido;Boulevard da Paz
+BPA0140052B;BPA;Removido;Boulevard da Paz
+BPA0140052C;BPA;Removido;Boulevard da Paz
+BPA0140084A;BPA;Removido;Boulevard da Paz
+BPA0140084B;BPA;Removido;Boulevard da Paz
+BPA0140084C;BPA;Removido;Boulevard da Paz
+BPA0140084D;BPA;Removido;Boulevard da Paz
+BPA0140084F;BPA;Removido;Boulevard da Paz
+BPA0140085A;BPA;Removido;Boulevard da Paz
+BPA0140085B;BPA;Removido;Boulevard da Paz
+BPA0140109A;BPA;Removido;Boulevard da Paz
+BPA0140110A;BPA;Removido;Boulevard da Paz
+BPA0140111A;BPA;Removido;Boulevard da Paz
+BPA0140112A;BPA;Removido;Boulevard da Paz
+BPA0140113A;BPA;Removido;Boulevard da Paz
+BPA0140114A;BPA;Removido;Boulevard da Paz
+BPA0140115A;BPA;Removido;Boulevard da Paz
+BPA0140116A;BPA;Removido;Boulevard da Paz
+BPA0140117A;BPA;Removido;Boulevard da Paz
+BPA0140118A;BPA;Removido;Boulevard da Paz
+BPA0140119A;BPA;Removido;Boulevard da Paz
+BPA0140120A;BPA;Removido;Boulevard da Paz
+BPA0140120B;BPA;Removido;Boulevard da Paz
+BPA0140120C;BPA;Removido;Boulevard da Paz
+BPA0140120D;BPA;Removido;Boulevard da Paz
+BPA0140120E;BPA;Removido;Boulevard da Paz
+BPA0140120F;BPA;Removido;Boulevard da Paz
+BPA0210001A;BPA;Removido;Boulevard da Paz
+BPA0210001B;BPA;Removido;Boulevard da Paz
+BPA0210001C;BPA;Removido;Boulevard da Paz
+BPA0210002A;BPA;Removido;Boulevard da Paz
+BPA0210003A;BPA;Removido;Boulevard da Paz
+BPA0210003B;BPA;Removido;Boulevard da Paz
+BPA0210003C;BPA;Removido;Boulevard da Paz
+BPA0210003D;BPA;Removido;Boulevard da Paz
+BPA0210003E;BPA;Removido;Boulevard da Paz
+BPA0210003F;BPA;Removido;Boulevard da Paz
+BPA0210004A;BPA;Removido;Boulevard da Paz
+BPA0210005A;BPA;Removido;Boulevard da Paz
+BPA0210005B;BPA;Removido;Boulevard da Paz
+BPA0210006A;BPA;Removido;Boulevard da Paz
+BPA0210006B;BPA;Removido;Boulevard da Paz
+BPA0210006C;BPA;Removido;Boulevard da Paz
+BPA0210006D;BPA;Removido;Boulevard da Paz
+BPA0210006E;BPA;Removido;Boulevard da Paz
+BPA0210006F;BPA;Removido;Boulevard da Paz
+BPA0210006G;BPA;Removido;Boulevard da Paz
+BPA0210007A;BPA;Removido;Boulevard da Paz
+BPA0210007B;BPA;Removido;Boulevard da Paz
+BPA0210007C;BPA;Removido;Boulevard da Paz
+BPA0210008A;BPA;Removido;Boulevard da Paz
+BPA0210009A;BPA;Removido;Boulevard da Paz
+BPA0210010A;BPA;Removido;Boulevard da Paz
+BPA0210010B;BPA;Removido;Boulevard da Paz
+BPA0210010C;BPA;Removido;Boulevard da Paz
+BPA0210011A;BPA;Removido;Boulevard da Paz
+BPA0210011B;BPA;Removido;Boulevard da Paz
+BPA0210011C;BPA;Removido;Boulevard da Paz
+BPA0210012A;BPA;Removido;Boulevard da Paz
+BPA0210012B;BPA;Removido;Boulevard da Paz
+BPA0210013A;BPA;Removido;Boulevard da Paz
+BPA0210014B;BPA;Removido;Boulevard da Paz
+BPA0210014C;BPA;Removido;Boulevard da Paz
+BPA0210014D;BPA;Removido;Boulevard da Paz
+BPA0210015A;BPA;Removido;Boulevard da Paz
+BPA0210015B;BPA;Removido;Boulevard da Paz
+BPA0210016B;BPA;Removido;Boulevard da Paz
+BPA0210016C;BPA;Removido;Boulevard da Paz
+BPA0210019A;BPA;Removido;Boulevard da Paz
+BPA0210019B;BPA;Removido;Boulevard da Paz
+BPA0210019C;BPA;Removido;Boulevard da Paz
+BPA0210019D;BPA;Removido;Boulevard da Paz
+BPA0210020A;BPA;Removido;Boulevard da Paz
+BPA0210021A;BPA;Removido;Boulevard da Paz
+BPA0210021B;BPA;Removido;Boulevard da Paz
+BPA0210021D;BPA;Removido;Boulevard da Paz
+BPA0210021E;BPA;Removido;Boulevard da Paz
+BPA0210021F;BPA;Removido;Boulevard da Paz
+BPA0210021G;BPA;Removido;Boulevard da Paz
+BPA0210021H;BPA;Removido;Boulevard da Paz
+BPA0210022A;BPA;Removido;Boulevard da Paz
+BPA0210022C;BPA;Removido;Boulevard da Paz
+BPA0210022D;BPA;Removido;Boulevard da Paz
+BPA0210022E;BPA;Removido;Boulevard da Paz
+BPA0210023A;BPA;Removido;Boulevard da Paz
+BPA0210023B;BPA;Removido;Boulevard da Paz
+BPA0210023C;BPA;Removido;Boulevard da Paz
+BPA0210024A;BPA;Removido;Boulevard da Paz
+BPA0210024B;BPA;Removido;Boulevard da Paz
+BPA0210024C;BPA;Removido;Boulevard da Paz
+BPA0210025A;BPA;Removido;Boulevard da Paz
+BPA0210025B;BPA;Removido;Boulevard da Paz
+BPA0210025C;BPA;Removido;Boulevard da Paz
+BPA0210025D;BPA;Removido;Boulevard da Paz
+"BPA022
+0036
+C";BPA;Removido;Boulevard da Paz
+BPA0220001A;BPA;Removido;Boulevard da Paz
+BPA0220002A;BPA;Removido;Boulevard da Paz
+BPA0220002B;BPA;Removido;Boulevard da Paz
+BPA0220002C;BPA;Removido;Boulevard da Paz
+BPA0220003A;BPA;Removido;Boulevard da Paz
+BPA0220003B;BPA;Removido;Boulevard da Paz
+BPA0220003C;BPA;Removido;Boulevard da Paz
+BPA0220004A;BPA;Removido;Boulevard da Paz
+BPA0220004B;BPA;Removido;Boulevard da Paz
+BPA0220004C;BPA;Removido;Boulevard da Paz
+BPA0220005A;BPA;Removido;Boulevard da Paz
+BPA0220005B;BPA;Removido;Boulevard da Paz
+BPA0220005C;BPA;Removido;Boulevard da Paz
+BPA0220006A;BPA;Removido;Boulevard da Paz
+BPA0220007A;BPA;Removido;Boulevard da Paz
+BPA0220007B;BPA;Removido;Boulevard da Paz
+BPA0220007C;BPA;Removido;Boulevard da Paz
+BPA0220008A;BPA;Removido;Boulevard da Paz
+BPA0220008B;BPA;Removido;Boulevard da Paz
+BPA0220008C;BPA;Removido;Boulevard da Paz
+BPA0220009A;BPA;Removido;Boulevard da Paz
+BPA0220009B;BPA;Removido;Boulevard da Paz
+BPA0220009C;BPA;Removido;Boulevard da Paz
+BPA0220009D;BPA;Removido;Boulevard da Paz
+BPA0220009E;BPA;Removido;Boulevard da Paz
+BPA0220009F;BPA;Removido;Boulevard da Paz
+BPA0220009G;BPA;Removido;Boulevard da Paz
+BPA0220010A;BPA;Removido;Boulevard da Paz
+BPA0220010C;BPA;Removido;Boulevard da Paz
+BPA0220010D;BPA;Removido;Boulevard da Paz
+BPA0220010E;BPA;Removido;Boulevard da Paz
+BPA0220010F;BPA;Removido;Boulevard da Paz
+BPA0220011A;BPA;Removido;Boulevard da Paz
+BPA0220011B;BPA;Removido;Boulevard da Paz
+BPA0220011C;BPA;Removido;Boulevard da Paz
+BPA0220011D;BPA;Removido;Boulevard da Paz
+BPA0220012A;BPA;Removido;Boulevard da Paz
+BPA0220012B;BPA;Removido;Boulevard da Paz
+BPA0220013A;BPA;Removido;Boulevard da Paz
+BPA0220014A;BPA;Removido;Boulevard da Paz
+BPA0220015A;BPA;Removido;Boulevard da Paz
+BPA0220015B;BPA;Removido;Boulevard da Paz
+BPA0220016A;BPA;Removido;Boulevard da Paz
+BPA0220016B;BPA;Removido;Boulevard da Paz
+BPA0220016C;BPA;Removido;Boulevard da Paz
+BPA0220018A;BPA;Removido;Boulevard da Paz
+BPA0220018B;BPA;Removido;Boulevard da Paz
+BPA0220018C;BPA;Removido;Boulevard da Paz
+BPA0220019A;BPA;Removido;Boulevard da Paz
+BPA0220020A;BPA;Removido;Boulevard da Paz
+BPA0220020B;BPA;Removido;Boulevard da Paz
+BPA0220021A;BPA;Removido;Boulevard da Paz
+BPA0230003A;BPA;Removido;Boulevard da Paz
+BPA0230003B;BPA;Removido;Boulevard da Paz
+BPA0230003C;BPA;Removido;Boulevard da Paz
+BPA0230004A;BPA;Removido;Boulevard da Paz
+BPA0230005A;BPA;Removido;Boulevard da Paz
+BPA0230006A;BPA;Removido;Boulevard da Paz
+BPA0230007A;BPA;Removido;Boulevard da Paz
+BPA0230007B;BPA;Removido;Boulevard da Paz
+BPA0230008A;BPA;Removido;Boulevard da Paz
+BPA0230008B;BPA;Removido;Boulevard da Paz
+BPA0230008C;BPA;Removido;Boulevard da Paz
+BPA0230008D;BPA;Removido;Boulevard da Paz
+BPA0230008E;BPA;Removido;Boulevard da Paz
+BPA0230008F;BPA;Removido;Boulevard da Paz
+BPA0230009A;BPA;Removido;Boulevard da Paz
+BPA0230010A;BPA;Removido;Boulevard da Paz
+BPA0230011A;BPA;Removido;Boulevard da Paz
+BPA0230011B;BPA;Removido;Boulevard da Paz
+BPA0230011C;BPA;Removido;Boulevard da Paz
+BPA0230011D;BPA;Removido;Boulevard da Paz
+BPA0230012A;BPA;Removido;Boulevard da Paz
+BPA0230013A;BPA;Removido;Boulevard da Paz
+BPA0230013B;BPA;Removido;Boulevard da Paz
+BPA0230014A;BPA;Removido;Boulevard da Paz
+BPA0230014B;BPA;Removido;Boulevard da Paz
+BPA0230014C;BPA;Removido;Boulevard da Paz
+BPA0230015A;BPA;Removido;Boulevard da Paz
+BPA0230016A;BPA;Removido;Boulevard da Paz
+BPA0230016B;BPA;Removido;Boulevard da Paz
+BPA0230016C;BPA;Removido;Boulevard da Paz
+BPA0230017A;BPA;Removido;Boulevard da Paz
+BPA0230017B;BPA;Removido;Boulevard da Paz
+BPA0230018A;BPA;Removido;Boulevard da Paz
+BPA0230019A;BPA;Removido;Boulevard da Paz
+BPA0230019B;BPA;Removido;Boulevard da Paz
+BPA0230020A;BPA;Removido;Boulevard da Paz
+BPA0240001A;BPA;Removido;Boulevard da Paz
+BPA0240001B;BPA;Removido;Boulevard da Paz
+BPA0240001C;BPA;Removido;Boulevard da Paz
+BPA0240001D;BPA;Removido;Boulevard da Paz
+BPA0240001E;BPA;Removido;Boulevard da Paz
+BPA0240002A;BPA;Removido;Boulevard da Paz
+BPA0240003A;BPA;Removido;Boulevard da Paz
+BPA0240004A;BPA;Removido;Boulevard da Paz
+BPA0240004B;BPA;Removido;Boulevard da Paz
+BPA0240004C;BPA;Removido;Boulevard da Paz
+BPA0240005A;BPA;Removido;Boulevard da Paz
+BPA0240005B;BPA;Removido;Boulevard da Paz
+BPA0240006A;BPA;Removido;Boulevard da Paz
+BPA0240006B;BPA;Removido;Boulevard da Paz
+BPA0240006C;BPA;Removido;Boulevard da Paz
+BPA0240007A;BPA;Removido;Boulevard da Paz
+BPA0240007B;BPA;Removido;Boulevard da Paz
+BPA0240008A;BPA;Removido;Boulevard da Paz
+BPA0240008AA;BPA;Removido;Boulevard da Paz
+BPA0240008AB;BPA;Removido;Boulevard da Paz
+BPA0240008AC;BPA;Removido;Boulevard da Paz
+BPA0240008AD;BPA;Removido;Boulevard da Paz
+BPA0240008AE;BPA;Removido;Boulevard da Paz
+BPA0240008AF;BPA;Removido;Boulevard da Paz
+BPA0240008AG;BPA;Removido;Boulevard da Paz
+BPA0240008AH;BPA;Removido;Boulevard da Paz
+BPA0240008AI;BPA;Removido;Boulevard da Paz
+BPA0240008AJ;BPA;Removido;Boulevard da Paz
+BPA0240008AK;BPA;Removido;Boulevard da Paz
+BPA0240008AL;BPA;Removido;Boulevard da Paz
+BPA0240008AM;BPA;Removido;Boulevard da Paz
+BPA0240008AN;BPA;Removido;Boulevard da Paz
+BPA0240008AO;BPA;Removido;Boulevard da Paz
+BPA0240008AP;BPA;Removido;Boulevard da Paz
+BPA0240008B;BPA;Removido;Boulevard da Paz
+BPA0240008C;BPA;Removido;Boulevard da Paz
+BPA0240008D;BPA;Removido;Boulevard da Paz
+BPA0240008E;BPA;Removido;Boulevard da Paz
+BPA0240008F;BPA;Removido;Boulevard da Paz
+BPA0240008G;BPA;Removido;Boulevard da Paz
+BPA0240008H;BPA;Removido;Boulevard da Paz
+BPA0240008I;BPA;Removido;Boulevard da Paz
+BPA0240008J;BPA;Removido;Boulevard da Paz
+BPA0240008K;BPA;Removido;Boulevard da Paz
+BPA0240008L;BPA;Removido;Boulevard da Paz
+BPA0240008M;BPA;Removido;Boulevard da Paz
+BPA0240008N;BPA;Removido;Boulevard da Paz
+BPA0240008O;BPA;Removido;Boulevard da Paz
+BPA0240008P;BPA;Removido;Boulevard da Paz
+BPA0240008Q;BPA;Removido;Boulevard da Paz
+BPA0240008R;BPA;Removido;Boulevard da Paz
+BPA0240008S;BPA;Removido;Boulevard da Paz
+BPA0240008T;BPA;Removido;Boulevard da Paz
+BPA0240008U;BPA;Removido;Boulevard da Paz
+BPA0240008V;BPA;Removido;Boulevard da Paz
+BPA0240008W;BPA;Removido;Boulevard da Paz
+BPA0240008X;BPA;Removido;Boulevard da Paz
+BPA0240008Y;BPA;Removido;Boulevard da Paz
+BPA0240008Z;BPA;Removido;Boulevard da Paz
+BPA0240015A;BPA;Removido;Boulevard da Paz
+BPA0240015B;BPA;Removido;Boulevard da Paz
+BPA0240016A;BPA;Removido;Boulevard da Paz
+BPA0240016B;BPA;Removido;Boulevard da Paz
+BPA0240017A;BPA;Removido;Boulevard da Paz
+BPA0240017B;BPA;Removido;Boulevard da Paz
+BPA0240018A;BPA;Removido;Boulevard da Paz
+BPA0240018B;BPA;Removido;Boulevard da Paz
+BPA0240019A;BPA;Removido;Boulevard da Paz
+BPA0240020A;BPA;Removido;Boulevard da Paz
+BPA0240020B;BPA;Removido;Boulevard da Paz
+BPA0240021A;BPA;Removido;Boulevard da Paz
+BPA0240022A;BPA;Removido;Boulevard da Paz
+BPA0240022B;BPA;Removido;Boulevard da Paz
+BPA0240022C;BPA;Removido;Boulevard da Paz
+BPA0240023A;BPA;Removido;Boulevard da Paz
+BPA0240023B;BPA;Removido;Boulevard da Paz
+BPA0240024A;BPA;Removido;Boulevard da Paz
+BPA0240024B;BPA;Removido;Boulevard da Paz
+BPA0240024C;BPA;Removido;Boulevard da Paz
+BPA0240024D;BPA;Removido;Boulevard da Paz
+BPA0240025A;BPA;Removido;Boulevard da Paz
+BPA0240026A;BPA;Removido;Boulevard da Paz
+BPA0240026B;BPA;Removido;Boulevard da Paz
+BPA0240027A;BPA;Removido;Boulevard da Paz
+BPA0240028A;BPA;Removido;Boulevard da Paz
+BPA0240028B;BPA;Removido;Boulevard da Paz
+BPA0240029A;BPA;Removido;Boulevard da Paz
+BPA0240029B;BPA;Removido;Boulevard da Paz
+BPA0240030A;BPA;Removido;Boulevard da Paz
+BPA0240030B;BPA;Removido;Boulevard da Paz
+BPA0240030C;BPA;Removido;Boulevard da Paz
+BPA0250001A;BPA;Removido;Boulevard da Paz
+BPA0250001B;BPA;Removido;Boulevard da Paz
+BPA0250001C;BPA;Removido;Boulevard da Paz
+BPA0250001D;BPA;Removido;Boulevard da Paz
+BPA0250002A;BPA;Removido;Boulevard da Paz
+BPA0250002B;BPA;Removido;Boulevard da Paz
+BPA0250004A;BPA;Removido;Boulevard da Paz
+BPA0250005A;BPA;Removido;Boulevard da Paz
+BPA0250005B;BPA;Removido;Boulevard da Paz
+BPA0250005C;BPA;Removido;Boulevard da Paz
+BPA0250005D;BPA;Removido;Boulevard da Paz
+BPA0250006A;BPA;Removido;Boulevard da Paz
+BPA0250006B;BPA;Removido;Boulevard da Paz
+BPA0250006C;BPA;Removido;Boulevard da Paz
+BPA0250006D;BPA;Removido;Boulevard da Paz
+BPA0250006E;BPA;Removido;Boulevard da Paz
+BPA0250006F;BPA;Removido;Boulevard da Paz
+BPA0250006G;BPA;Removido;Boulevard da Paz
+BPA0250006H;BPA;Removido;Boulevard da Paz
+BPA0250006I;BPA;Removido;Boulevard da Paz
+BPA0250007A;BPA;Removido;Boulevard da Paz
+BPA0250007B;BPA;Removido;Boulevard da Paz
+BPA0250008A;BPA;Removido;Boulevard da Paz
+BPA0250008B;BPA;Removido;Boulevard da Paz
+BPA0250008C;BPA;Removido;Boulevard da Paz
+BPA0250008D;BPA;Removido;Boulevard da Paz
+BPA0260001C;BPA;Removido;Boulevard da Paz
+BPA0260002A;BPA;Removido;Boulevard da Paz
+BPA0260002B;BPA;Removido;Boulevard da Paz
+BPA0260003A;BPA;Removido;Boulevard da Paz
+BPA0260003B;BPA;Removido;Boulevard da Paz
+BPA0260003C;BPA;Removido;Boulevard da Paz
+BPA0260003D;BPA;Removido;Boulevard da Paz
+BPA0260003E;BPA;Removido;Boulevard da Paz
+BPA0260003F;BPA;Removido;Boulevard da Paz
+BPA0260004A;BPA;Removido;Boulevard da Paz
+BPA0260004B;BPA;Removido;Boulevard da Paz
+BPA0260004C;BPA;Removido;Boulevard da Paz
+BPA0260004D;BPA;Removido;Boulevard da Paz
+BPA0260004E;BPA;Removido;Boulevard da Paz
+BPA0260004F;BPA;Removido;Boulevard da Paz
+BPA0260005A;BPA;Removido;Boulevard da Paz
+BPA0260005B;BPA;Removido;Boulevard da Paz
+BPA0260005C;BPA;Removido;Boulevard da Paz
+BPA0260006A;BPA;Removido;Boulevard da Paz
+BPA0260006B;BPA;Removido;Boulevard da Paz
+BPA0260006C;BPA;Removido;Boulevard da Paz
+BPA0260006D;BPA;Removido;Boulevard da Paz
+BPA0260006E;BPA;Removido;Boulevard da Paz
+BPA0260006F;BPA;Removido;Boulevard da Paz
+BPA0260007A;BPA;Removido;Boulevard da Paz
+BPA0260007B;BPA;Removido;Boulevard da Paz
+BPA0260007C;BPA;Removido;Boulevard da Paz
+BPA0260007D;BPA;Removido;Boulevard da Paz
+BPA0260008A;BPA;Removido;Boulevard da Paz
+BPA0260008B;BPA;Removido;Boulevard da Paz
+BPA0260009A;BPA;Removido;Boulevard da Paz
+BPA0260009B;BPA;Removido;Boulevard da Paz
+BPA0260009C;BPA;Removido;Boulevard da Paz
+BPA0260009D;BPA;Removido;Boulevard da Paz
+BPA0260009E;BPA;Removido;Boulevard da Paz
+BPA0260010A;BPA;Removido;Boulevard da Paz
+BPA0260010B;BPA;Removido;Boulevard da Paz
+BPA0260011A;BPA;Removido;Boulevard da Paz
+BPA0260011B;BPA;Removido;Boulevard da Paz
+BPA0260012A;BPA;Removido;Boulevard da Paz
+BPA0260013A;BPA;Removido;Boulevard da Paz
+BPA0260014A;BPA;Removido;Boulevard da Paz
+BPA0260014B;BPA;Removido;Boulevard da Paz
+BPA0260015A;BPA;Removido;Boulevard da Paz
+BPA0260015B;BPA;Removido;Boulevard da Paz
+BPA0260015C;BPA;Removido;Boulevard da Paz
+BPA0260016A;BPA;Removido;Boulevard da Paz
+BPA0260016B;BPA;Removido;Boulevard da Paz
+BPA0260016C;BPA;Removido;Boulevard da Paz
+BPA0260017A;BPA;Removido;Boulevard da Paz
+BPA0260018A;BPA;Removido;Boulevard da Paz
+BPA0260018B;BPA;Removido;Boulevard da Paz
+BPA0260019A;BPA;Removido;Boulevard da Paz
+BPA0260020A;BPA;Removido;Boulevard da Paz
+BPA0260021A;BPA;Removido;Boulevard da Paz
+BPA0260022A;BPA;Removido;Boulevard da Paz
+BPA0260023A;BPA;Removido;Boulevard da Paz
+BPA0260024A;BPA;Removido;Boulevard da Paz
+BPA0310078A;BPA;Removido;Boulevard da Paz
+BPA0310078B;BPA;Removido;Boulevard da Paz
+BPA0310078C;BPA;Removido;Boulevard da Paz
+BPA0310078D;BPA;Removido;Boulevard da Paz
+BPA0310078E;BPA;Removido;Boulevard da Paz
+BPA0310079A;BPA;Removido;Boulevard da Paz
+BPA0310079B;BPA;Removido;Boulevard da Paz
+BPA0310080A;BPA;Removido;Boulevard da Paz
 CCJ0010004A;CCJ;Removido;Chácara do Conde
 CCJ0010004B;CCJ;Removido;Chácara do Conde
 CCJ0010004C;CCJ;Removido;Chácara do Conde
@@ -11220,14 +11659,6 @@ CCJ0120013A;CCJ;Resistente;Chácara do Conde
 CCJ0120016A;CCJ;Resistente;Chácara do Conde
 CCJ0120017A;CCJ;Resistente;Chácara do Conde
 CCJ0120020A;CCJ;Resistente;Chácara do Conde
-CDV0010001A;CDV;Frente De Obras;Costa do Valado
-CDV0010002A;CDV;Frente De Obras;Costa do Valado
-CDV0010002B;CDV;Frente De Obras;Costa do Valado
-CDV0010002C;CDV;Frente De Obras;Costa do Valado
-CDV0010002D;CDV;Frente De Obras;Costa do Valado
-CDV0010002E;CDV;Frente De Obras;Costa do Valado
-CDV0010003A;CDV;Frente De Obras;Costa do Valado
-CDV0010003B;CDV;Frente De Obras;Costa do Valado
 JA20010002A;JA2;Em Tratativas;Jardim Ângela II
 JA20010002B;JA2;Em Tratativas;Jardim Ângela II
 JA20010002C;JA2;Em Tratativas;Jardim Ângela II
@@ -11251,30 +11682,9 @@ JA20040069B;JA2;Em Tratativas;Jardim Ângela II
 JA20040070A;JA2;Em Tratativas;Jardim Ângela II
 JA20040071A;JA2;Em Tratativas;Jardim Ângela II
 JA20040071B;JA2;Em Tratativas;Jardim Ângela II
-JAR0030006A;JAR;Frente De Obras;Jararaú
-JAR0030006B;JAR;Frente De Obras;Jararaú
-JAR0030007A;JAR;Frente De Obras;Jararaú
-JAR0030007B;JAR;Frente De Obras;Jararaú
-JAR0030047A;JAR;Frente De Obras;Jararaú
-JAR0030049B;JAR;Frente De Obras;Jararaú
-JAR0030049C;JAR;Frente De Obras;Jararaú
-JAR0030076A;JAR;Frente De Obras;Jararaú
 LNL0010007A;LNL;Em Tratativas;Lar Novo Lar
-CHF0050003A;CHF;Resistente;Chácara Flórida
-CHF0090002A;CHF;Resistente;Chácara Flórida
 CHF0100001B;CHF;Em Tratativas;Chácara Flórida
-CHF0120004A;CHF;Resistente;Chácara Flórida
 CHF0250006C;CHF;Em Tratativas;Chácara Flórida
-CHF0450015A;CHF;Frente De Obras;Chácara Flórida
-CHF0450016A;CHF;Frente De Obras;Chácara Flórida
-CHF0450018A;CHF;Frente De Obras;Chácara Flórida
-CHF0450020A;CHF;Frente De Obras;Chácara Flórida
-CHF0450021A;CHF;Frente De Obras;Chácara Flórida
-CHF0450022A;CHF;Frente De Obras;Chácara Flórida
-CHF0450023B;CHF;Frente De Obras;Chácara Flórida
-BDS0010019A;BDS;Resistente;Bosque do Sol
-BDS0010019B;BDS;Resistente;Bosque do Sol
-BDS0010031A;BDS;Resistente;Bosque do Sol
 BDS0010033A;BDS;Em Tratativas;Bosque do Sol
 TMS0030063A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030056A;TMS;Em Tratativas;Tomás Sandrino
@@ -11309,7 +11719,66 @@ TMS0030062A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030064A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030065A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030065B;TMS;Em Tratativas;Tomás Sandrino
-TMS0020003A;TMS;Resistente;Tomás Sandrino
-TMS0030054B;TMS;Resistente;Tomás Sandrino
 TMS0030052A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030060A;TMS;Em Tratativas;Tomás Sandrino
+BPA0030001A;BPA;Em Tratativas;Boulevard da Paz
+BPA0030001B;BPA;Em Tratativas;Boulevard da Paz
+BPA0030001C;BPA;Em Tratativas;Boulevard da Paz
+BPA0140020A;BPA;Em Tratativas;Boulevard da Paz
+BPA0140021A;BPA;Em Tratativas;Boulevard da Paz
+BPA0140022A;BPA;Em Tratativas;Boulevard da Paz
+BPA0140027B;BPA;Em Tratativas;Boulevard da Paz
+BPA0140028A;BPA;Em Tratativas;Boulevard da Paz
+BPA0140029A;BPA;Em Tratativas;Boulevard da Paz
+BPA0140031A;BPA;Em Tratativas;Boulevard da Paz
+BPA0140031B;BPA;Em Tratativas;Boulevard da Paz
+BPA0140043B;BPA;Em Tratativas;Boulevard da Paz
+BPA0140048A;BPA;Em Tratativas;Boulevard da Paz
+BPA0210014A;BPA;Em Tratativas;Boulevard da Paz
+BPA0210014E;BPA;Em Tratativas;Boulevard da Paz
+BPA0210016A;BPA;Em Tratativas;Boulevard da Paz
+CDV0010001A;CDV;Frente De Obras;Costa do Valado
+CDV0010002A;CDV;Frente De Obras;Costa do Valado
+CDV0010002B;CDV;Frente De Obras;Costa do Valado
+CDV0010002C;CDV;Frente De Obras;Costa do Valado
+CDV0010002D;CDV;Frente De Obras;Costa do Valado
+CDV0010002E;CDV;Frente De Obras;Costa do Valado
+CDV0010003A;CDV;Frente De Obras;Costa do Valado
+CDV0010003B;CDV;Frente De Obras;Costa do Valado
+JAR0030006A;JAR;Frente De Obras;Jararaú
+JAR0030006B;JAR;Frente De Obras;Jararaú
+JAR0030007A;JAR;Frente De Obras;Jararaú
+JAR0030007B;JAR;Frente De Obras;Jararaú
+JAR0030047A;JAR;Frente De Obras;Jararaú
+JAR0030049B;JAR;Frente De Obras;Jararaú
+JAR0030049C;JAR;Frente De Obras;Jararaú
+JAR0030076A;JAR;Frente De Obras;Jararaú
+CHF0050003A;CHF;Resistente;Chácara Flórida
+CHF0090002A;CHF;Resistente;Chácara Flórida
+CHF0120004A;CHF;Resistente;Chácara Flórida
+CHF0450015A;CHF;Frente De Obras;Chácara Flórida
+CHF0450016A;CHF;Frente De Obras;Chácara Flórida
+CHF0450018A;CHF;Frente De Obras;Chácara Flórida
+CHF0450020A;CHF;Frente De Obras;Chácara Flórida
+CHF0450021A;CHF;Frente De Obras;Chácara Flórida
+CHF0450022A;CHF;Frente De Obras;Chácara Flórida
+CHF0450023B;CHF;Frente De Obras;Chácara Flórida
+BDS0010019A;BDS;Resistente;Bosque do Sol
+BDS0010019B;BDS;Resistente;Bosque do Sol
+BDS0010031A;BDS;Resistente;Bosque do Sol
+TMS0020003A;TMS;Resistente;Tomás Sandrino
+TMS0030054B;TMS;Resistente;Tomás Sandrino
+BPA0140021B;BPA;Resistente;Boulevard da Paz
+BPA0140026B;BPA;Resistente;Boulevard da Paz
+BPA0140027D;BPA;Resistente;Boulevard da Paz
+BPA0140030C;BPA;Resistente;Boulevard da Paz
+BPA0140030D;BPA;Resistente;Boulevard da Paz
+BPA0140052A;BPA;Resistente;Boulevard da Paz
+BPA0210017A;BPA;Resistente;Boulevard da Paz
+BPA0210017B;BPA;Resistente;Boulevard da Paz
+BPA0210017C;BPA;Resistente;Boulevard da Paz
+BPA0210018A;BPA;Resistente;Boulevard da Paz
+BPA0210018B;BPA;Resistente;Boulevard da Paz
+BPA0210018C;BPA;Resistente;Boulevard da Paz
+BPA0210018D;BPA;Resistente;Boulevard da Paz
+BPA0220010B;BPA;;Boulevard da Paz
