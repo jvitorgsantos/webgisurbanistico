@@ -1163,3 +1163,26 @@ body, html {
     font-weight: 500;
     flex-shrink: 0;
 }
+
+/* Rótulos dos Limites de Macro-Lotes no Mapa */
+.leaflet-tooltip.lote-map-label {
+    pointer-events: none !important;
+    background: rgba(13, 43, 45, 0.90) !important;
+    border: 1.5px solid #38bdf8 !important;
+    color: #ffffff !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    padding: 3px 8px !important;
+    border-radius: 6px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6) !important;
+    letter-spacing: 0.5px !important;
+    text-transform: uppercase !important;
+    backdrop-filter: blur(4px) !important;
+    white-space: nowrap !important;
+    user-select: none !important;
+}
+
+.leaflet-tooltip.lote-map-label::before {
+    display: none !important;
+}

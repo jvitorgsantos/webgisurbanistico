@@ -7913,7 +7913,6 @@ BDS0010009B;BDS;Imóvel Selado;Bosque do Sol
 BDS0010010A;BDS;Imóvel Selado;Bosque do Sol
 BDS0010011A;BDS;Imóvel Selado;Bosque do Sol
 BDS0010015A;BDS;Imóvel Selado;Bosque do Sol
-BDS0010015B;BDS;Imóvel Selado;Bosque do Sol
 BDS0010015C;BDS;Imóvel Selado;Bosque do Sol
 BDS0010016A;BDS;Imóvel Selado;Bosque do Sol
 BDS0010017A;BDS;Imóvel Selado;Bosque do Sol
@@ -8016,6 +8015,7 @@ BDS0010029A;BDS;Removido;Bosque do Sol
 BDS0010030A;BDS;Removido;Bosque do Sol
 BDS0010032A;BDS;Removido;Bosque do Sol
 BDS0010032B;BDS;Removido;Bosque do Sol
+BDS0010033A;BDS;Removido;Bosque do Sol
 BDS0010034A;BDS;Removido;Bosque do Sol
 BDS0010035A;BDS;Removido;Bosque do Sol
 BDS0010036A;BDS;Removido;Bosque do Sol
@@ -12768,7 +12768,6 @@ BDS0010019A;BDS;Resistente;Bosque do Sol
 BDS0010019B;BDS;Resistente;Bosque do Sol
 BDS0010031A;BDS;Resistente;Bosque do Sol
 TMS0020003A;TMS;Resistente;Tomás Sandrino
-TMS0030054B;TMS;Resistente;Tomás Sandrino
 BPA0140021B;BPA;Resistente;Boulevard da Paz
 BPA0140026B;BPA;Resistente;Boulevard da Paz
 BPA0140027D;BPA;Resistente;Boulevard da Paz
@@ -13280,7 +13279,7 @@ CDC0030018A;CDC;Em Tratativas;Cantinho do Céu
 CDC0030030A;CDC;Em Tratativas;Cantinho do Céu
 CDC0030030B;CDC;Em Tratativas;Cantinho do Céu
 CDC0040006A;CDC;Em Tratativas;Cantinho do Céu
-BDS0010033A;BDS;Em Tratativas;Bosque do Sol
+BDS0010015B;BDS;Em Tratativas;Bosque do Sol
 TMS0030063A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030056A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030046A;TMS;Em Tratativas;Tomás Sandrino
@@ -13314,6 +13313,7 @@ TMS0030062A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030064A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030065A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030065B;TMS;Em Tratativas;Tomás Sandrino
+TMS0030054B;TMS;Em Tratativas;Tomás Sandrino
 TMS0030052A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030060A;TMS;Em Tratativas;Tomás Sandrino
 BPA0030001A;BPA;Em Tratativas;Boulevard da Paz

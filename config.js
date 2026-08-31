@@ -9,7 +9,7 @@ const CONFIG = {
     
     // Informações da última atualização
     lastUpdate: {
-        date: "19/08/2026",
+        date: "31/08/2026",
         description: "Novas áreas: Monte Verde e Pabreu Prainha (Lote 7)"
     },
 

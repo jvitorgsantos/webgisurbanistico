@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
             limiteDTS: null,
             lotesMananciais: null
         },
+        extraLayersInstances: {
+            limiteDTS: null,
+            lotesMananciais: null
+        },
         userLayers: []                // Camadas enviadas pelo usuário
     };
 
@@ -345,6 +349,14 @@ document.addEventListener('DOMContentLoaded', () => {
             style: styleFeature,
             onEachFeature: onEachFeature
         }).addTo(state.map);
+
+        // Mantém as camadas de limites no fundo para nunca obstruir os cliques na selagem
+        if (state.extraLayersInstances.lotesMananciais) {
+            state.extraLayersInstances.lotesMananciais.bringToBack();
+        }
+        if (state.extraLayersInstances.limiteDTS) {
+            state.extraLayersInstances.limiteDTS.bringToBack();
+        }
 
         if (state.filteredFeatures.length > 0) {
             const bounds = state.geojsonLayer.getBounds();
@@ -1049,20 +1061,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // Toggles para as camadas adicionais
-        let layerLimiteDTS = null;
-        let layerLotesMananciais = null;
-
         const toggleDTS = document.getElementById('toggleLimiteDTS');
         if (toggleDTS) {
             toggleDTS.addEventListener('change', (e) => {
                 if (e.target.checked && state.extraLayers.limiteDTS) {
-                    layerLimiteDTS = L.geoJSON(state.extraLayers.limiteDTS, {
+                    if (state.extraLayersInstances.limiteDTS) {
+                        state.map.removeLayer(state.extraLayersInstances.limiteDTS);
+                    }
+                    state.extraLayersInstances.limiteDTS = L.geoJSON(state.extraLayers.limiteDTS, {
                         style: CONFIG.extraLayers.limiteDTS.style,
-                        interactive: false // não bloqueia o mouse
+                        interactive: false // Não intercepta nenhum clique/hover
                     }).addTo(state.map);
-                    layerLimiteDTS.bringToBack();
-                } else if (layerLimiteDTS) {
-                    state.map.removeLayer(layerLimiteDTS);
+                    state.extraLayersInstances.limiteDTS.bringToBack();
+                } else if (state.extraLayersInstances.limiteDTS) {
+                    state.map.removeLayer(state.extraLayersInstances.limiteDTS);
+                    state.extraLayersInstances.limiteDTS = null;
                 }
             });
         }
@@ -1071,7 +1084,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (toggleLotes) {
             toggleLotes.addEventListener('change', (e) => {
                 if (e.target.checked && state.extraLayers.lotesMananciais) {
-                    layerLotesMananciais = L.geoJSON(state.extraLayers.lotesMananciais, {
+                    if (state.extraLayersInstances.lotesMananciais) {
+                        state.map.removeLayer(state.extraLayersInstances.lotesMananciais);
+                    }
+                    state.extraLayersInstances.lotesMananciais = L.geoJSON(state.extraLayers.lotesMananciais, {
                         style: (feature) => {
                             const code = feature.properties.Codigo || feature.properties.codigo || feature.properties.lote || '1';
                             const color = CONFIG.extraLayers.lotesMananciais.colors[code] || '#333333';
@@ -1081,11 +1097,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 fillColor: color
                             };
                         },
-                        interactive: false // A camada de lotes serve apenas de visualização de fundo
+                        onEachFeature: (feature, layer) => {
+                            const p = feature.properties || {};
+                            const nome = p.Name || p.name || (p.Codigo ? `Lote ${p.Codigo}` : 'Lote');
+                            // Rótulo permanente no centro do lote, totalmente transparente ao mouse (sem conflito com selagem)
+                            layer.bindTooltip(nome, {
+                                permanent: true,
+                                direction: 'center',
+                                className: 'lote-map-label',
+                                interactive: false
+                            });
+                        },
+                        interactive: false // Não intercepta nenhum clique/hover do mouse
                     }).addTo(state.map);
-                    layerLotesMananciais.bringToBack();
-                } else if (layerLotesMananciais) {
-                    state.map.removeLayer(layerLotesMananciais);
+                    state.extraLayersInstances.lotesMananciais.bringToBack();
+                } else if (state.extraLayersInstances.lotesMananciais) {
+                    state.map.removeLayer(state.extraLayersInstances.lotesMananciais);
+                    state.extraLayersInstances.lotesMananciais = null;
                 }
             });
         }
