@@ -6781,6 +6781,342 @@ TMS0110009A;TMS;Imóvel Selado;Tomás Sandrino
 TMS0110010A;TMS;Imóvel Selado;Tomás Sandrino
 TMS0110011A;TMS;Imóvel Selado;Tomás Sandrino
 TMS0110012A;TMS;Imóvel Selado;Tomás Sandrino
+FUM0040001A;FUM;Imóvel Selado;Fumaça
+FUM0040001B;FUM;Imóvel Selado;Fumaça
+FUM0040001C;FUM;Imóvel Selado;Fumaça
+FUM0040001D;FUM;Imóvel Selado;Fumaça
+FUM0040002A;FUM;Imóvel Selado;Fumaça
+FUM0040003A;FUM;Imóvel Selado;Fumaça
+FUM0040004A;FUM;Imóvel Selado;Fumaça
+FUM0040005A;FUM;Imóvel Selado;Fumaça
+FUM0040005B;FUM;Imóvel Selado;Fumaça
+FUM0040005C;FUM;Imóvel Selado;Fumaça
+FUM0040005D;FUM;Imóvel Selado;Fumaça
+FUM0040006A;FUM;Imóvel Selado;Fumaça
+FUM0040006B;FUM;Imóvel Selado;Fumaça
+FUM0040006C;FUM;Imóvel Selado;Fumaça
+FUM0040006D;FUM;Imóvel Selado;Fumaça
+FUM0040006E;FUM;Imóvel Selado;Fumaça
+FUM0040006F;FUM;Imóvel Selado;Fumaça
+FUM0040006G;FUM;Imóvel Selado;Fumaça
+FUM0040006H;FUM;Imóvel Selado;Fumaça
+FUM0040006I;FUM;Imóvel Selado;Fumaça
+FUM0040007A;FUM;Imóvel Selado;Fumaça
+FUM0040008A;FUM;Imóvel Selado;Fumaça
+FUM0040008B;FUM;Imóvel Selado;Fumaça
+FUM0040008C;FUM;Imóvel Selado;Fumaça
+FUM0040009A;FUM;Imóvel Selado;Fumaça
+FUM0040010A;FUM;Imóvel Selado;Fumaça
+FUM0040010B;FUM;Imóvel Selado;Fumaça
+FUM0040011A;FUM;Imóvel Selado;Fumaça
+FUM0040011B;FUM;Imóvel Selado;Fumaça
+FUM0040012A;FUM;Imóvel Selado;Fumaça
+FUM0040013A;FUM;Imóvel Selado;Fumaça
+FUM0040014A;FUM;Imóvel Selado;Fumaça
+FUM0040014B;FUM;Imóvel Selado;Fumaça
+FUM0040015A;FUM;Imóvel Selado;Fumaça
+FUM0040015B;FUM;Imóvel Selado;Fumaça
+FUM0040015C;FUM;Imóvel Selado;Fumaça
+FUM0040016A;FUM;Imóvel Selado;Fumaça
+FUM0040016B;FUM;Imóvel Selado;Fumaça
+FUM0040017A;FUM;Imóvel Selado;Fumaça
+FUM0040018A;FUM;Imóvel Selado;Fumaça
+FUM0040018B;FUM;Imóvel Selado;Fumaça
+FUM0040018C;FUM;Imóvel Selado;Fumaça
+FUM0040018D;FUM;Imóvel Selado;Fumaça
+FUM0040018E;FUM;Imóvel Selado;Fumaça
+FUM0040018F;FUM;Imóvel Selado;Fumaça
+FUM0040018G;FUM;Imóvel Selado;Fumaça
+FUM0040019A;FUM;Imóvel Selado;Fumaça
+FUM0040020A;FUM;Imóvel Selado;Fumaça
+FUM0040021A;FUM;Imóvel Selado;Fumaça
+FUM0040022A;FUM;Imóvel Selado;Fumaça
+FUM0040023A;FUM;Imóvel Selado;Fumaça
+FUM0040023B;FUM;Imóvel Selado;Fumaça
+FUM0040023C;FUM;Imóvel Selado;Fumaça
+FUM0040024A;FUM;Imóvel Selado;Fumaça
+FUM0040025A;FUM;Imóvel Selado;Fumaça
+FUM0040025B;FUM;Imóvel Selado;Fumaça
+FUM0040025C;FUM;Imóvel Selado;Fumaça
+FUM0040025D;FUM;Imóvel Selado;Fumaça
+FUM0040026A;FUM;Imóvel Selado;Fumaça
+FUM0040026B;FUM;Imóvel Selado;Fumaça
+FUM0040026C;FUM;Imóvel Selado;Fumaça
+FUM0040027A;FUM;Imóvel Selado;Fumaça
+FUM0040028A;FUM;Imóvel Selado;Fumaça
+FUM0040028B;FUM;Imóvel Selado;Fumaça
+FUM0040029A;FUM;Imóvel Selado;Fumaça
+FUM0040029B;FUM;Imóvel Selado;Fumaça
+FUM0040030A;FUM;Imóvel Selado;Fumaça
+FUM0040030B;FUM;Imóvel Selado;Fumaça
+FUM0040031A;FUM;Imóvel Selado;Fumaça
+FUM0040032A;FUM;Imóvel Selado;Fumaça
+FUM0040032B;FUM;Imóvel Selado;Fumaça
+FUM0040032C;FUM;Imóvel Selado;Fumaça
+FUM0040033A;FUM;Imóvel Selado;Fumaça
+FUM0040033B;FUM;Imóvel Selado;Fumaça
+FUM0040033C;FUM;Imóvel Selado;Fumaça
+FUM0040033D;FUM;Imóvel Selado;Fumaça
+FUM0040033E;FUM;Imóvel Selado;Fumaça
+FUM0040033F;FUM;Imóvel Selado;Fumaça
+FUM0040033G;FUM;Imóvel Selado;Fumaça
+FUM0040033H;FUM;Imóvel Selado;Fumaça
+FUM0040033I;FUM;Imóvel Selado;Fumaça
+FUM0040033J;FUM;Imóvel Selado;Fumaça
+FUM0040034A;FUM;Imóvel Selado;Fumaça
+FUM0040034B;FUM;Imóvel Selado;Fumaça
+FUM0040034C;FUM;Imóvel Selado;Fumaça
+FUM0040035A;FUM;Imóvel Selado;Fumaça
+FUM0040035B;FUM;Imóvel Selado;Fumaça
+FUM0040035C;FUM;Imóvel Selado;Fumaça
+FUM0040035D;FUM;Imóvel Selado;Fumaça
+FUM0040035E;FUM;Imóvel Selado;Fumaça
+FUM0040035F;FUM;Imóvel Selado;Fumaça
+FUM0040036A;FUM;Imóvel Selado;Fumaça
+FUM0040036B;FUM;Imóvel Selado;Fumaça
+FUM0040036C;FUM;Imóvel Selado;Fumaça
+FUM0040036D;FUM;Imóvel Selado;Fumaça
+FUM0040037A;FUM;Imóvel Selado;Fumaça
+FUM0040038A;FUM;Imóvel Selado;Fumaça
+FUM0040039A;FUM;Imóvel Selado;Fumaça
+FUM0040040A;FUM;Imóvel Selado;Fumaça
+FUM0040041A;FUM;Imóvel Selado;Fumaça
+FUM0040041B;FUM;Imóvel Selado;Fumaça
+FUM0040042A;FUM;Imóvel Selado;Fumaça
+FUM0040042B;FUM;Imóvel Selado;Fumaça
+FUM0040043A;FUM;Imóvel Selado;Fumaça
+FUM0040043B;FUM;Imóvel Selado;Fumaça
+FUM0040044A;FUM;Imóvel Selado;Fumaça
+FUM0040044B;FUM;Imóvel Selado;Fumaça
+FUM0040045A;FUM;Imóvel Selado;Fumaça
+FUM0040045B;FUM;Imóvel Selado;Fumaça
+FUM0040046A;FUM;Imóvel Selado;Fumaça
+FUM0040046B;FUM;Imóvel Selado;Fumaça
+FUM0040046C;FUM;Imóvel Selado;Fumaça
+FUM0040046D;FUM;Imóvel Selado;Fumaça
+FUM0040047A;FUM;Imóvel Selado;Fumaça
+FUM0040048A;FUM;Imóvel Selado;Fumaça
+FUM0040049A;FUM;Imóvel Selado;Fumaça
+FUM0040050A;FUM;Imóvel Selado;Fumaça
+FUM0040051A;FUM;Imóvel Selado;Fumaça
+FUM0040052A;FUM;Imóvel Selado;Fumaça
+FUM0040052B;FUM;Imóvel Selado;Fumaça
+FUM0040052C;FUM;Imóvel Selado;Fumaça
+FUM0040053A;FUM;Imóvel Selado;Fumaça
+FUM0040053B;FUM;Imóvel Selado;Fumaça
+FUM0040054A;FUM;Imóvel Selado;Fumaça
+FUM0040055A;FUM;Imóvel Selado;Fumaça
+FUM0040056A;FUM;Imóvel Selado;Fumaça
+FUM0040057A;FUM;Imóvel Selado;Fumaça
+FUM0040057B;FUM;Imóvel Selado;Fumaça
+FUM0040057C;FUM;Imóvel Selado;Fumaça
+FUM0040057D;FUM;Imóvel Selado;Fumaça
+FUM0040057E;FUM;Imóvel Selado;Fumaça
+FUM0040057F;FUM;Imóvel Selado;Fumaça
+FUM0040057G;FUM;Imóvel Selado;Fumaça
+FUM0040058A;FUM;Imóvel Selado;Fumaça
+FUM0040058B;FUM;Imóvel Selado;Fumaça
+FUM0040059A;FUM;Imóvel Selado;Fumaça
+FUM0040059B;FUM;Imóvel Selado;Fumaça
+FUM0040059C;FUM;Imóvel Selado;Fumaça
+FUM0040060A;FUM;Imóvel Selado;Fumaça
+FUM0040061A;FUM;Imóvel Selado;Fumaça
+FUM0040062A;FUM;Imóvel Selado;Fumaça
+FUM0040062B;FUM;Imóvel Selado;Fumaça
+FUM0040062C;FUM;Imóvel Selado;Fumaça
+FUM0040063A;FUM;Imóvel Selado;Fumaça
+FUM0040064A;FUM;Imóvel Selado;Fumaça
+FUM0040065A;FUM;Imóvel Selado;Fumaça
+FUM0040066A;FUM;Imóvel Selado;Fumaça
+FUM0040067A;FUM;Imóvel Selado;Fumaça
+FUM0040067B;FUM;Imóvel Selado;Fumaça
+FUM0040067C;FUM;Imóvel Selado;Fumaça
+FUM0040067D;FUM;Imóvel Selado;Fumaça
+FUM0040067E;FUM;Imóvel Selado;Fumaça
+FUM0040067F;FUM;Imóvel Selado;Fumaça
+FUM0040068A;FUM;Imóvel Selado;Fumaça
+FUM0040069A;FUM;Imóvel Selado;Fumaça
+FUM0040070A;FUM;Imóvel Selado;Fumaça
+FUM0040070B;FUM;Imóvel Selado;Fumaça
+FUM0040070C;FUM;Imóvel Selado;Fumaça
+FUM0040070D;FUM;Imóvel Selado;Fumaça
+FUM0040071A;FUM;Imóvel Selado;Fumaça
+FUM0040072A;FUM;Imóvel Selado;Fumaça
+FUM0040073A;FUM;Imóvel Selado;Fumaça
+FUM0040073B;FUM;Imóvel Selado;Fumaça
+FUM0040074A;FUM;Imóvel Selado;Fumaça
+FUM0040075A;FUM;Imóvel Selado;Fumaça
+FUM0040076A;FUM;Imóvel Selado;Fumaça
+FUM0040077A;FUM;Imóvel Selado;Fumaça
+FUM0040077B;FUM;Imóvel Selado;Fumaça
+FUM0040078A;FUM;Imóvel Selado;Fumaça
+FUM0040079A;FUM;Imóvel Selado;Fumaça
+FUM0040079B;FUM;Imóvel Selado;Fumaça
+FUM0040079C;FUM;Imóvel Selado;Fumaça
+FUM0040080A;FUM;Imóvel Selado;Fumaça
+FUM0040081A;FUM;Imóvel Selado;Fumaça
+FUM0040081B;FUM;Imóvel Selado;Fumaça
+FUM0040082A;FUM;Imóvel Selado;Fumaça
+FUM0040083A;FUM;Imóvel Selado;Fumaça
+FUM0040084A;FUM;Imóvel Selado;Fumaça
+FUM0040085A;FUM;Imóvel Selado;Fumaça
+FUM0040086A;FUM;Imóvel Selado;Fumaça
+FUM0040087A;FUM;Imóvel Selado;Fumaça
+FUM0040088A;FUM;Imóvel Selado;Fumaça
+FUM0040088B;FUM;Imóvel Selado;Fumaça
+FUM0040089A;FUM;Imóvel Selado;Fumaça
+FUM0040090A;FUM;Imóvel Selado;Fumaça
+FUM0040091A;FUM;Imóvel Selado;Fumaça
+FUM0040092A;FUM;Imóvel Selado;Fumaça
+FUM0040093A;FUM;Imóvel Selado;Fumaça
+FUM0040094A;FUM;Imóvel Selado;Fumaça
+FUM0040095A;FUM;Imóvel Selado;Fumaça
+FUM0040096A;FUM;Imóvel Selado;Fumaça
+FUM0040096B;FUM;Imóvel Selado;Fumaça
+FUM0040097A;FUM;Imóvel Selado;Fumaça
+FUM0040098A;FUM;Imóvel Selado;Fumaça
+FUM0040099A;FUM;Imóvel Selado;Fumaça
+FUM0040100A;FUM;Imóvel Selado;Fumaça
+FUM0040101A;FUM;Imóvel Selado;Fumaça
+FUM0040102A;FUM;Imóvel Selado;Fumaça
+FUM0040103A;FUM;Imóvel Selado;Fumaça
+FUM0040104A;FUM;Imóvel Selado;Fumaça
+FUM0040104B;FUM;Imóvel Selado;Fumaça
+FUM0040104C;FUM;Imóvel Selado;Fumaça
+FUM0040105A;FUM;Imóvel Selado;Fumaça
+FUM0040105B;FUM;Imóvel Selado;Fumaça
+FUM0040106A;FUM;Imóvel Selado;Fumaça
+FUM0040106B;FUM;Imóvel Selado;Fumaça
+FUM0040107A;FUM;Imóvel Selado;Fumaça
+FUM0040108A;FUM;Imóvel Selado;Fumaça
+FUM0040108B;FUM;Imóvel Selado;Fumaça
+FUM0040108C;FUM;Imóvel Selado;Fumaça
+FUM0040108D;FUM;Imóvel Selado;Fumaça
+FUM0040108E;FUM;Imóvel Selado;Fumaça
+FUM0040108F;FUM;Imóvel Selado;Fumaça
+FUM0040109A;FUM;Imóvel Selado;Fumaça
+FUM0040110A;FUM;Imóvel Selado;Fumaça
+FUM0040110B;FUM;Imóvel Selado;Fumaça
+FUM0040110C;FUM;Imóvel Selado;Fumaça
+FUM0040110D;FUM;Imóvel Selado;Fumaça
+FUM0040111A;FUM;Imóvel Selado;Fumaça
+FUM0040112A;FUM;Imóvel Selado;Fumaça
+FUM0040112B;FUM;Imóvel Selado;Fumaça
+FUM0040113A;FUM;Imóvel Selado;Fumaça
+FUM0040114A;FUM;Imóvel Selado;Fumaça
+FUM0040115A;FUM;Imóvel Selado;Fumaça
+FUM0040116A;FUM;Imóvel Selado;Fumaça
+FUM0040117A;FUM;Imóvel Selado;Fumaça
+FUM0040118A;FUM;Imóvel Selado;Fumaça
+FUM0040118B;FUM;Imóvel Selado;Fumaça
+FUM0040119A;FUM;Imóvel Selado;Fumaça
+FUM0040120A;FUM;Imóvel Selado;Fumaça
+FUM0040121A;FUM;Imóvel Selado;Fumaça
+FUM0040122A;FUM;Imóvel Selado;Fumaça
+FUM0040123A;FUM;Imóvel Selado;Fumaça
+FUM0040124A;FUM;Imóvel Selado;Fumaça
+FUM0040124B;FUM;Imóvel Selado;Fumaça
+FUM0040125A;FUM;Imóvel Selado;Fumaça
+FUM0040126A;FUM;Imóvel Selado;Fumaça
+FUM0040127A;FUM;Imóvel Selado;Fumaça
+FUM0040127B;FUM;Imóvel Selado;Fumaça
+FUM0040128A;FUM;Imóvel Selado;Fumaça
+FUM0040129A;FUM;Imóvel Selado;Fumaça
+FUM0040130A;FUM;Imóvel Selado;Fumaça
+FUM0040130B;FUM;Imóvel Selado;Fumaça
+FUM0040130C;FUM;Imóvel Selado;Fumaça
+FUM0040131A;FUM;Imóvel Selado;Fumaça
+FUM0040132A;FUM;Imóvel Selado;Fumaça
+FUM0040132B;FUM;Imóvel Selado;Fumaça
+FUM0040133A;FUM;Imóvel Selado;Fumaça
+FUM0040134A;FUM;Imóvel Selado;Fumaça
+FUM0040135A;FUM;Imóvel Selado;Fumaça
+FUM0040136A;FUM;Imóvel Selado;Fumaça
+FUM0040137A;FUM;Imóvel Selado;Fumaça
+FUM0040138A;FUM;Imóvel Selado;Fumaça
+FUM0040139A;FUM;Imóvel Selado;Fumaça
+FUM0040140A;FUM;Imóvel Selado;Fumaça
+FUM0040141A;FUM;Imóvel Selado;Fumaça
+FUM0040142A;FUM;Imóvel Selado;Fumaça
+FUM0040142B;FUM;Imóvel Selado;Fumaça
+FUM0040143A;FUM;Imóvel Selado;Fumaça
+FUM0040144A;FUM;Imóvel Selado;Fumaça
+FUM0040145A;FUM;Imóvel Selado;Fumaça
+FUM0040146A;FUM;Imóvel Selado;Fumaça
+FUM0040147A;FUM;Imóvel Selado;Fumaça
+FUM0040148A;FUM;Imóvel Selado;Fumaça
+FUM0040148B;FUM;Imóvel Selado;Fumaça
+FUM0040149A;FUM;Imóvel Selado;Fumaça
+FUM0040150A;FUM;Imóvel Selado;Fumaça
+FUM0040151A;FUM;Imóvel Selado;Fumaça
+FUM0040152A;FUM;Imóvel Selado;Fumaça
+FUM0040153A;FUM;Imóvel Selado;Fumaça
+FUM0040154A;FUM;Imóvel Selado;Fumaça
+FUM0040155A;FUM;Imóvel Selado;Fumaça
+FUM0040156A;FUM;Imóvel Selado;Fumaça
+FUM0040156B;FUM;Imóvel Selado;Fumaça
+FUM0040156C;FUM;Imóvel Selado;Fumaça
+FUM0040157A;FUM;Imóvel Selado;Fumaça
+FUM0040158A;FUM;Imóvel Selado;Fumaça
+FUM0040159A;FUM;Imóvel Selado;Fumaça
+FUM0040159B;FUM;Imóvel Selado;Fumaça
+FUM0040160A;FUM;Imóvel Selado;Fumaça
+FUM0040161A;FUM;Imóvel Selado;Fumaça
+FUM0040162A;FUM;Imóvel Selado;Fumaça
+FUM0040163A;FUM;Imóvel Selado;Fumaça
+FUM0040164A;FUM;Imóvel Selado;Fumaça
+FUM0040165A;FUM;Imóvel Selado;Fumaça
+FUM0040166A;FUM;Imóvel Selado;Fumaça
+FUM0040167A;FUM;Imóvel Selado;Fumaça
+FUM0040168A;FUM;Imóvel Selado;Fumaça
+FUM0040169A;FUM;Imóvel Selado;Fumaça
+FUM0040169B;FUM;Imóvel Selado;Fumaça
+FUM0040170A;FUM;Imóvel Selado;Fumaça
+FUM0040171A;FUM;Imóvel Selado;Fumaça
+FUM0040172A;FUM;Imóvel Selado;Fumaça
+FUM0040173A;FUM;Imóvel Selado;Fumaça
+FUM0040173B;FUM;Imóvel Selado;Fumaça
+FUM0040173C;FUM;Imóvel Selado;Fumaça
+FUM0040173D;FUM;Imóvel Selado;Fumaça
+FUM0040173E;FUM;Imóvel Selado;Fumaça
+FUM0040173F;FUM;Imóvel Selado;Fumaça
+FUM0040174A;FUM;Imóvel Selado;Fumaça
+FUM0040175A;FUM;Imóvel Selado;Fumaça
+FUM0040176A;FUM;Imóvel Selado;Fumaça
+FUM0040177A;FUM;Imóvel Selado;Fumaça
+FUM0040178A;FUM;Imóvel Selado;Fumaça
+FUM0040179A;FUM;Imóvel Selado;Fumaça
+FUM0040180A;FUM;Imóvel Selado;Fumaça
+FUM0040180B;FUM;Imóvel Selado;Fumaça
+FUM0040181A;FUM;Imóvel Selado;Fumaça
+FUM0040182A;FUM;Imóvel Selado;Fumaça
+FUM0040183A;FUM;Imóvel Selado;Fumaça
+FUM0040184A;FUM;Imóvel Selado;Fumaça
+FUM0040185A;FUM;Imóvel Selado;Fumaça
+FUM0040186A;FUM;Imóvel Selado;Fumaça
+FUM0040187A;FUM;Imóvel Selado;Fumaça
+FUM0040188A;FUM;Imóvel Selado;Fumaça
+FUM0040189A;FUM;Imóvel Selado;Fumaça
+FUM0040190A;FUM;Imóvel Selado;Fumaça
+FUM0040191A;FUM;Imóvel Selado;Fumaça
+FUM0040192A;FUM;Imóvel Selado;Fumaça
+FUM0040193A;FUM;Imóvel Selado;Fumaça
+FUM0040194A;FUM;Imóvel Selado;Fumaça
+FUM0040195A;FUM;Imóvel Selado;Fumaça
+FUM0040196A;FUM;Imóvel Selado;Fumaça
+FUM0040197A;FUM;Imóvel Selado;Fumaça
+FUM0040197B;FUM;Imóvel Selado;Fumaça
+FUM0050036A;FUM;Imóvel Selado;Fumaça
+FUM0050037A;FUM;Imóvel Selado;Fumaça
+FUM0050046A;FUM;Imóvel Selado;Fumaça
+FUM0050047A;FUM;Imóvel Selado;Fumaça
+FUM0050048A;FUM;Imóvel Selado;Fumaça
+FUM0050049A;FUM;Imóvel Selado;Fumaça
+FUM0050050A;FUM;Imóvel Selado;Fumaça
+FUM0050050B;FUM;Imóvel Selado;Fumaça
+FUM0050053A;FUM;Imóvel Selado;Fumaça
+FUM0050054A;FUM;Imóvel Selado;Fumaça
+FUM0050055A;FUM;Imóvel Selado;Fumaça
 JAR0010001A;JAR;Imóvel Selado;Jararaú
 JAR0010001B;JAR;Imóvel Selado;Jararaú
 JAR0010001C;JAR;Imóvel Selado;Jararaú
@@ -8148,6 +8484,151 @@ CHF0120013A;CHF;Removido;Chácara Flórida
 CHF0250006B;CHF;Removido;Chácara Flórida
 CHF0250033A;CHF;Removido;Chácara Flórida
 CHF0250033B;CHF;Removido;Chácara Flórida
+FUM0010001A;FUM;Removido;Fumaça
+FUM0010003A;FUM;Removido;Fumaça
+FUM0010004A;FUM;Removido;Fumaça
+FUM0010006A;FUM;Removido;Fumaça
+FUM0010009A;FUM;Removido;Fumaça
+FUM0010010A;FUM;Removido;Fumaça
+FUM0010011A;FUM;Removido;Fumaça
+FUM0010013B;FUM;Removido;Fumaça
+FUM0010015A;FUM;Removido;Fumaça
+FUM0010016A;FUM;Removido;Fumaça
+FUM0010017A;FUM;Removido;Fumaça
+FUM0010019A;FUM;Removido;Fumaça
+FUM0010019B;FUM;Removido;Fumaça
+FUM0010021A;FUM;Removido;Fumaça
+FUM0010022A;FUM;Removido;Fumaça
+FUM0010023A;FUM;Removido;Fumaça
+FUM0010024A;FUM;Removido;Fumaça
+FUM0010024B;FUM;Removido;Fumaça
+FUM0010025A;FUM;Removido;Fumaça
+FUM0010026A;FUM;Removido;Fumaça
+FUM0010027A;FUM;Removido;Fumaça
+FUM0010028A;FUM;Removido;Fumaça
+FUM0010029A;FUM;Removido;Fumaça
+FUM0020001A;FUM;Removido;Fumaça
+FUM0020002A;FUM;Removido;Fumaça
+FUM0020003A;FUM;Removido;Fumaça
+FUM0020004A;FUM;Removido;Fumaça
+FUM0020005A;FUM;Removido;Fumaça
+FUM0020006A;FUM;Removido;Fumaça
+FUM0020008A;FUM;Removido;Fumaça
+FUM0020010A;FUM;Removido;Fumaça
+FUM0020012A;FUM;Removido;Fumaça
+FUM0020013A;FUM;Removido;Fumaça
+FUM0020013B;FUM;Removido;Fumaça
+FUM0020014A;FUM;Removido;Fumaça
+FUM0020015A;FUM;Removido;Fumaça
+FUM0020016A;FUM;Removido;Fumaça
+FUM0020017A;FUM;Removido;Fumaça
+FUM0020018A;FUM;Removido;Fumaça
+FUM0020019A;FUM;Removido;Fumaça
+FUM0020020A;FUM;Removido;Fumaça
+FUM0020021A;FUM;Removido;Fumaça
+FUM0030001A;FUM;Removido;Fumaça
+FUM0030002A;FUM;Removido;Fumaça
+FUM0030003A;FUM;Removido;Fumaça
+FUM0030004A;FUM;Removido;Fumaça
+FUM0030005A;FUM;Removido;Fumaça
+FUM0030007A;FUM;Removido;Fumaça
+FUM0030010A;FUM;Removido;Fumaça
+FUM0030011A;FUM;Removido;Fumaça
+FUM0030011B;FUM;Removido;Fumaça
+FUM0030011C;FUM;Removido;Fumaça
+FUM0030011D;FUM;Removido;Fumaça
+FUM0030011E;FUM;Removido;Fumaça
+FUM0030015A;FUM;Removido;Fumaça
+FUM0030016A;FUM;Removido;Fumaça
+FUM0030017A;FUM;Removido;Fumaça
+FUM0030018A;FUM;Removido;Fumaça
+FUM0030019A;FUM;Removido;Fumaça
+FUM0030020A;FUM;Removido;Fumaça
+FUM0030021A;FUM;Removido;Fumaça
+FUM0030022A;FUM;Removido;Fumaça
+FUM0030023A;FUM;Removido;Fumaça
+FUM0030024A;FUM;Removido;Fumaça
+FUM0030026A;FUM;Removido;Fumaça
+FUM0030027A;FUM;Removido;Fumaça
+FUM0030028A;FUM;Removido;Fumaça
+FUM0050001A;FUM;Removido;Fumaça
+FUM0050002A;FUM;Removido;Fumaça
+FUM0050003A;FUM;Removido;Fumaça
+FUM0050003B;FUM;Removido;Fumaça
+FUM0050003C;FUM;Removido;Fumaça
+FUM0050004A;FUM;Removido;Fumaça
+FUM0050005A;FUM;Removido;Fumaça
+FUM0050006A;FUM;Removido;Fumaça
+FUM0050007A;FUM;Removido;Fumaça
+FUM0050008A;FUM;Removido;Fumaça
+FUM0050009A;FUM;Removido;Fumaça
+FUM0050010A;FUM;Removido;Fumaça
+FUM0050011A;FUM;Removido;Fumaça
+FUM0050012A;FUM;Removido;Fumaça
+FUM0050013A;FUM;Removido;Fumaça
+FUM0050014A;FUM;Removido;Fumaça
+FUM0050015A;FUM;Removido;Fumaça
+FUM0050016A;FUM;Removido;Fumaça
+FUM0050016B;FUM;Removido;Fumaça
+FUM0050016C;FUM;Removido;Fumaça
+FUM0050016D;FUM;Removido;Fumaça
+FUM0050016E;FUM;Removido;Fumaça
+FUM0050016F;FUM;Removido;Fumaça
+FUM0050016G;FUM;Removido;Fumaça
+FUM0050017A;FUM;Removido;Fumaça
+FUM0050017B;FUM;Removido;Fumaça
+FUM0050018A;FUM;Removido;Fumaça
+FUM0050019A;FUM;Removido;Fumaça
+FUM0050020A;FUM;Removido;Fumaça
+FUM0050021A;FUM;Removido;Fumaça
+FUM0050022A;FUM;Removido;Fumaça
+FUM0050023A;FUM;Removido;Fumaça
+FUM0050023B;FUM;Removido;Fumaça
+FUM0050024A;FUM;Removido;Fumaça
+FUM0050025A;FUM;Removido;Fumaça
+FUM0050026A;FUM;Removido;Fumaça
+FUM0050027A;FUM;Removido;Fumaça
+FUM0050028A;FUM;Removido;Fumaça
+FUM0050028B;FUM;Removido;Fumaça
+FUM0050029A;FUM;Removido;Fumaça
+FUM0050030A;FUM;Removido;Fumaça
+FUM0050031A;FUM;Removido;Fumaça
+FUM0050032A;FUM;Removido;Fumaça
+FUM0050033A;FUM;Removido;Fumaça
+FUM0050034A;FUM;Removido;Fumaça
+FUM0050035A;FUM;Removido;Fumaça
+FUM0050038A;FUM;Removido;Fumaça
+FUM0050039A;FUM;Removido;Fumaça
+FUM0050040A;FUM;Removido;Fumaça
+FUM0050040B;FUM;Removido;Fumaça
+FUM0050041A;FUM;Removido;Fumaça
+FUM0050042A;FUM;Removido;Fumaça
+FUM0050043A;FUM;Removido;Fumaça
+FUM0050043B;FUM;Removido;Fumaça
+FUM0050044A;FUM;Removido;Fumaça
+FUM0050045A;FUM;Removido;Fumaça
+FUM0050051A;FUM;Removido;Fumaça
+FUM0050052A;FUM;Removido;Fumaça
+FUM0060001A;FUM;Removido;Fumaça
+FUM0060002A;FUM;Removido;Fumaça
+FUM0060003A;FUM;Removido;Fumaça
+FUM0060004A;FUM;Removido;Fumaça
+FUM0060005A;FUM;Removido;Fumaça
+FUM0060006A;FUM;Removido;Fumaça
+FUM0060007A;FUM;Removido;Fumaça
+FUM0060008A;FUM;Removido;Fumaça
+FUM0060009A;FUM;Removido;Fumaça
+FUM0060009B;FUM;Removido;Fumaça
+FUM0060010A;FUM;Removido;Fumaça
+FUM0060011A;FUM;Removido;Fumaça
+FUM0060012A;FUM;Removido;Fumaça
+FUM0060013A;FUM;Removido;Fumaça
+FUM0060014A;FUM;Removido;Fumaça
+FUM0060015A;FUM;Removido;Fumaça
+FUM0060016A;FUM;Removido;Fumaça
+FUM0060017A;FUM;Removido;Fumaça
+FUM0060018A;FUM;Removido;Fumaça
+FUM0060019A;FUM;Removido;Fumaça
 AAL0050010A;AAL;Removido;Alto da Alegria
 AAL0050010B;AAL;Removido;Alto da Alegria
 AAL0050032A;AAL;Removido;Alto da Alegria
@@ -12363,14 +12844,6 @@ AAL0090007A;AAL;Frente De Obras;Alto da Alegria
 AAL0090007B;AAL;Frente De Obras;Alto da Alegria
 AAL0090008A;AAL;Frente De Obras;Alto da Alegria
 AAL0090008B;AAL;Frente De Obras;Alto da Alegria
-AAL0090008C;AAL;Frente De Obras;Alto da Alegria
-AAL0090014A;AAL;Frente De Obras;Alto da Alegria
-AAL0090014B;AAL;Frente De Obras;Alto da Alegria
-AAL0090015A;AAL;Frente De Obras;Alto da Alegria
-AAL0090015B;AAL;Frente De Obras;Alto da Alegria
-AAL0090016A;AAL;Frente De Obras;Alto da Alegria
-AAL0090016B;AAL;Frente De Obras;Alto da Alegria
-AAL0090017A;AAL;Frente De Obras;Alto da Alegria
 AAL0090018A;AAL;Frente De Obras;Alto da Alegria
 AAL0090018B;AAL;Frente De Obras;Alto da Alegria
 AAL0090018C;AAL;Frente De Obras;Alto da Alegria
@@ -12840,6 +13313,7 @@ MVE0160065D;MVE;Resistente;Monte Verde
 MVE0160065E;MVE;Resistente;Monte Verde
 MVE0170001A;MVE;Resistente;Monte Verde
 MVE0170003B;MVE;Resistente;Monte Verde
+FUM0030008A;FUM;Resistente;Fumaça
 CDC0010092A;CDC;Resistente;Cantinho do Céu
 CDC0010092B;CDC;Resistente;Cantinho do Céu
 CDC0010095A;CDC;Resistente;Cantinho do Céu
@@ -13234,6 +13708,14 @@ LNL0010007A;LNL;Em Tratativas;Lar Novo Lar
 CHF0100001B;CHF;Em Tratativas;Chácara Flórida
 CHF0250006C;CHF;Em Tratativas;Chácara Flórida
 AAL0050055A;AAL;Em Tratativas;Alto da Alegria
+AAL0090008C;AAL;Em Tratativas;Alto da Alegria
+AAL0090014A;AAL;Em Tratativas;Alto da Alegria
+AAL0090014B;AAL;Em Tratativas;Alto da Alegria
+AAL0090015A;AAL;Em Tratativas;Alto da Alegria
+AAL0090015B;AAL;Em Tratativas;Alto da Alegria
+AAL0090016A;AAL;Em Tratativas;Alto da Alegria
+AAL0090016B;AAL;Em Tratativas;Alto da Alegria
+AAL0090017A;AAL;Em Tratativas;Alto da Alegria
 CCJ0010033A;CCJ;Em Tratativas;Chácara do Conde
 CCJ0010051A;CCJ;Em Tratativas;Chácara do Conde
 CCJ0010057B;CCJ;Em Tratativas;Chácara do Conde
@@ -13359,6 +13841,28 @@ MVE0160062B;MVE;Em Tratativas;Monte Verde
 MVE0170003A;MVE;Em Tratativas;Monte Verde
 PBP0070003A;PBP;Em Tratativas;Pabreu Prainha
 PBP0070004A;PBP;Em Tratativas;Pabreu Prainha
+FUM0010002A;FUM;Em Tratativas;Fumaça
+FUM0010005A;FUM;Em Tratativas;Fumaça
+FUM0010007A;FUM;Em Tratativas;Fumaça
+FUM0010008A;FUM;Em Tratativas;Fumaça
+FUM0010012A;FUM;Em Tratativas;Fumaça
+FUM0010012B;FUM;Em Tratativas;Fumaça
+FUM0010013A;FUM;Em Tratativas;Fumaça
+FUM0010014A;FUM;Em Tratativas;Fumaça
+FUM0010018A;FUM;Em Tratativas;Fumaça
+FUM0010020A;FUM;Em Tratativas;Fumaça
+FUM0020007A;FUM;Em Tratativas;Fumaça
+FUM0020009A;FUM;Em Tratativas;Fumaça
+FUM0020011A;FUM;Em Tratativas;Fumaça
+FUM0030006A;FUM;Em Tratativas;Fumaça
+FUM0030009A;FUM;Em Tratativas;Fumaça
+FUM0030009B;FUM;Em Tratativas;Fumaça
+FUM0030009C;FUM;Em Tratativas;Fumaça
+FUM0030009D;FUM;Em Tratativas;Fumaça
+FUM0030012A;FUM;Em Tratativas;Fumaça
+FUM0030013A;FUM;Em Tratativas;Fumaça
+FUM0030014A;FUM;Em Tratativas;Fumaça
+FUM0030025A;FUM;Em Tratativas;Fumaça
 AAL0090010A;AAL;;Alto da Alegria
 AAL0090010B;AAL;;Alto da Alegria
 AAL0090011A;AAL;;Alto da Alegria
