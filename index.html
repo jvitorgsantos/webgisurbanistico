@@ -246,9 +246,9 @@
 
     <!-- EXPORT MODAL -->
     <div id="exportModal" class="modal-overlay">
-        <div class="modal-container" style="max-width: 500px;">
+        <div class="modal-container" style="max-width: 520px;">
             <div class="modal-header">
-                <h2><i class="fa-solid fa-file-export"></i> Exportar Mapa</h2>
+                <h2><i class="fa-solid fa-file-export"></i> Exportar Prancha A2</h2>
                 <button class="btn-close" id="btnCloseExport"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <div class="modal-content" style="padding: 20px;">
@@ -261,26 +261,37 @@
                 <div class="filter-group" style="margin-top: 15px;">
                     <label class="group-title"><i class="fa-solid fa-file-lines"></i> Formato do Arquivo</label>
                     <div style="display: flex; gap: 10px;">
-                        <button class="btn-header export-format-btn active" data-format="pdf" style="flex: 1; justify-content: center;"><i class="fa-solid fa-file-pdf"></i> PDF</button>
-                        <button class="btn-header export-format-btn" data-format="png" style="flex: 1; justify-content: center;"><i class="fa-solid fa-file-image"></i> PNG</button>
+                        <button class="btn-header export-format-btn active" data-format="pdf" style="flex: 1; justify-content: center;"><i class="fa-solid fa-file-pdf"></i> PDF (Prancha A2)</button>
+                        <button class="btn-header export-format-btn" data-format="png" style="flex: 1; justify-content: center;"><i class="fa-solid fa-file-image"></i> PNG (Ultra HD)</button>
                     </div>
+                </div>
+                <div class="filter-group" style="margin-top: 15px; background: rgba(0, 124, 131, 0.08); padding: 12px 14px; border-radius: 8px; border: 1px solid rgba(0, 124, 131, 0.25);">
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <span style="font-size: 0.82rem; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+                            <i class="fa-solid fa-compass-drafting" style="color: var(--primary);"></i> Dimensões da Prancha
+                        </span>
+                        <span style="background: var(--primary); color: #fff; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 10px;">A2 Paisagem (594 × 420 mm)</span>
+                    </div>
+                    <p style="font-size: 0.76rem; color: var(--text-muted); margin: 6px 0 0 0; line-height: 1.35;">
+                        Renderização em altíssima resolução (7016 × 4960 px / 300 DPI A2), gerando pranchas técnicas prontas para plotagem e relatórios executivos.
+                    </p>
                 </div>
             </div>
             <div class="modal-header" style="justify-content: flex-end; padding: 12px 20px;">
                 <button class="btn-header btn-primary" id="btnConfirmExport">
-                    <i class="fa-solid fa-print"></i> Gerar Arquivo
+                    <i class="fa-solid fa-print"></i> Gerar Prancha A2
                 </button>
             </div>
         </div>
     </div>
 
-    <!-- HIDDEN PRINT LAYOUT (A4 Landscape: 2970x2100) -->
+    <!-- HIDDEN PRINT LAYOUT (A2 Landscape: 3508x2480 @scale 2 -> 7016x4960 px) -->
     <div id="print-layout" class="print-layout" style="display: none;">
         <div class="print-header">
             <img src="./assets/logo_cobrape.png" alt="Logo Cobrape">
             <div class="print-header-text">
                 <h1 id="print-title">Geoportal Urbanístico — Favela</h1>
-                <h2 id="print-subtitle">Relatório de Selagem & Intervenções Habitacionais</h2>
+                <h2 id="print-subtitle">Prancha Técnica de Selagem & Intervenções Habitacionais — Formato A2 (594 × 420 mm)</h2>
             </div>
             <div class="print-header-meta">
                 <div class="print-meta-badge">COBRAPE GIS</div>
@@ -301,7 +312,7 @@
         </div>
 
         <div class="print-footer">
-            <span>Geoportal Urbanístico • Sistema de Informações Geográficas</span>
+            <span>Prancha Técnica de Selagem Habitacional • Formato A2 (594 × 420 mm) • COBRAPE GIS</span>
             <span>Companhia Brasileira de Projetos e Empreendimentos — COBRAPE</span>
         </div>
     </div>

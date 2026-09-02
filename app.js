@@ -1464,40 +1464,19 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        showToast('Preparando mapa em alta definição...', 'info');
-        
-        // 1. Filtrar mapa para a área selecionada
-        const selectArea = document.getElementById('selectArea');
-        selectArea.value = areaCode;
-        selectArea.dispatchEvent(new Event('change'));
-        
-        // Força sincronização de dimensões no Leaflet
-        state.map.invalidateSize(true);
+        showToast('Renderizando mapa-satélite em 600 DPI Ultra HD...', 'info');
 
-        // Aguarda processamento do filtro e GeoJSON
-        await new Promise(r => setTimeout(r, 600));
-
-        // Ajusta o zoom com precisão nos limites da favela (sem animação para manter o transform alinhado)
-        if (state.geojsonLayer) {
-            try {
-                const bounds = state.geojsonLayer.getBounds();
-                if (bounds.isValid()) {
-                    state.map.fitBounds(bounds, { padding: [35, 35], maxZoom: 18, animate: false });
-                }
-            } catch (e) { /* continua */ }
-        }
-
-        state.map.invalidateSize(true);
-
-        // Aguarda os tiles do satélite e o canvas do Leaflet renderizarem perfeitamente
-        await new Promise(r => setTimeout(r, 2400));
-
-        // 2. Extrair dados estatísticos da área selecionada
+        // 1. Extrair dados estatísticos da área selecionada
         const areaFeatures = state.rawGeoJSON ? state.rawGeoJSON.features.filter(f => {
             const props = f.properties || {};
             const a = props.cod_area || props.COD_AREA;
             return String(a).trim().toUpperCase() === String(areaCode).trim().toUpperCase();
         }) : [];
+
+        if (areaFeatures.length === 0) {
+            showToast('Nenhuma edificação encontrada para a área selecionada.', 'error');
+            return;
+        }
 
         const totalEdificacoes = areaFeatures.length;
         const domicilioFeatures = areaFeatures.filter(f => {
@@ -1530,7 +1509,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const areaName = state.csvCodeToAreaNameMap.get(areaCode) || CONFIG.areaNames[areaCode] || areaCode;
 
-        // 3. Montar HTML das listas e legendas
+        // 2. Montar HTML das listas e legendas
         let statusListHtml = '';
         Object.keys(CONFIG.statusColors).forEach(stKey => {
             const cfg = CONFIG.statusColors[stKey];
@@ -1545,7 +1524,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="print-status-dot" style="background:${cfg.color}; ${borderStyle}"></span>
                             <span>${cfg.label}</span>
                         </div>
-                        <div style="font-weight:700;">${count.toLocaleString('pt-BR')} <span style="font-weight:500; font-size:14px; color:#567F84;">(${pct}%)</span></div>
+                        <div style="font-weight:700;">${count.toLocaleString('pt-BR')} <span style="font-weight:500; font-size:15px; color:#567F84;">(${pct}%)</span></div>
                     </div>
                     <div class="print-progress-track">
                         <div class="print-progress-fill" style="width:${pct}%; background:${cfg.color}; ${borderStyle}"></div>
@@ -1586,7 +1565,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const domPct = totalEdificacoes > 0 ? ((totalDomicilios / totalEdificacoes) * 100).toFixed(0) : '0';
         const naoDomPct = totalEdificacoes > 0 ? ((totalNaoDomiciliares / totalEdificacoes) * 100).toFixed(0) : '0';
 
-        // 4. Injetar Seção Inferior Horizontal Completa
+        // 3. Injetar Seção Inferior Horizontal Completa
         const bottomContainer = document.getElementById('print-bottom-container');
         bottomContainer.innerHTML = `
             <!-- COLUNA 1: RESUMO & KPIS -->
@@ -1624,7 +1603,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="print-col print-col-2">
                 <div class="print-card-title">
                     <span>Status Simplificado (Domicílios)</span>
-                    <span style="font-size:14px; font-weight:600; color:#567F84;">${totalDomicilios} Domicílios</span>
+                    <span style="font-size:15px; font-weight:600; color:#567F84;">${totalDomicilios} Domicílios</span>
                 </div>
                 <div class="print-status-list">
                     ${statusListHtml}
@@ -1640,7 +1619,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${catListHtml}
                 </div>
 
-                <div class="print-card-title" style="margin-top: 6px; font-size: 16px; margin-bottom: 6px; padding-bottom: 4px;">
+                <div class="print-card-title" style="margin-top: 8px; font-size: 18px; margin-bottom: 8px; padding-bottom: 4px;">
                     <span>Legenda Cartográfica</span>
                 </div>
                 <div class="print-legend-grid">
@@ -1649,31 +1628,140 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
 
-        // 5. Capturar Mapa em Alta Resolução (Scale: 2 para máxima nitidez)
-        const mapEl = document.getElementById('map');
+        // 4. Renderização do Mapa-Satélite Dedicado em Alta Definição (600 DPI)
+        // Criamos um container offscreen com resolução nativa (3396 x 1600 px)
+        const exportMapDiv = document.createElement('div');
+        exportMapDiv.id = 'export-map-renderer-hd';
+        exportMapDiv.style.cssText = 'position:fixed; left:-99999px; top:-99999px; width:3396px; height:1600px; z-index:-9999; visibility:visible; overflow:hidden; background:#0b1329;';
+        document.body.appendChild(exportMapDiv);
+
         let mapCanvas;
         try {
-            mapCanvas = await html2canvas(mapEl, {
+            const exportMap = L.map(exportMapDiv, {
+                center: [-23.5505, -46.6333],
+                zoom: 18,
+                zoomControl: false,
+                attributionControl: false,
+                preferCanvas: true
+            });
+
+            // Base map: Sempre utiliza Satélite HD para garantir máxima nitidez no documento impresso
+            const satBm = CONFIG.baseMaps.find(b => b.id === 'satellite') || CONFIG.baseMaps[0];
+            const tileLayer = L.tileLayer(satBm.url, {
+                attribution: satBm.attribution,
+                maxZoom: 22,
+                maxNativeZoom: 20,
+                crossOrigin: true
+            }).addTo(exportMap);
+
+            // Camada Vetorial de Edificações com cores fiéis
+            const exportGeoJsonLayer = L.geoJSON({
+                type: 'FeatureCollection',
+                features: areaFeatures
+            }, {
+                style: (feature) => {
+                    const props = feature.properties || {};
+                    const st = props._status_simplificado;
+                    const cat = props.categoria || props.CATEGORIA || 'Domicílio';
+
+                    let configColor;
+                    if (cat !== 'Domicílio' && CONFIG.categoryColors[cat]) {
+                        configColor = CONFIG.categoryColors[cat];
+                    } else {
+                        configColor = CONFIG.statusColors[st] || CONFIG.statusColors['Não Informado'];
+                    }
+
+                    return {
+                        color: configColor.border || '#000000',
+                        weight: 2.2,
+                        opacity: 1.0,
+                        fillColor: configColor.color || '#ffffff',
+                        fillOpacity: configColor.opacity !== undefined ? configColor.opacity : 0.88
+                    };
+                }
+            }).addTo(exportMap);
+
+            // Camadas Adicionais de Limites (se ativas na interface)
+            if (state.extraLayersInstances && state.extraLayersInstances.limiteDTS && state.extraLayers.limiteDTS) {
+                L.geoJSON(state.extraLayers.limiteDTS, {
+                    style: CONFIG.extraLayers.limiteDTS.style,
+                    interactive: false
+                }).addTo(exportMap).bringToBack();
+            }
+
+            if (state.extraLayersInstances && state.extraLayersInstances.lotesMananciais && state.extraLayers.lotesMananciais) {
+                L.geoJSON(state.extraLayers.lotesMananciais, {
+                    style: (feature) => {
+                        const code = feature.properties.Codigo || feature.properties.codigo || feature.properties.lote || '1';
+                        const color = CONFIG.extraLayers.lotesMananciais.colors[code] || '#333333';
+                        return {
+                            ...CONFIG.extraLayers.lotesMananciais.defaultStyle,
+                            color: color,
+                            fillColor: color
+                        };
+                    },
+                    onEachFeature: (feature, layer) => {
+                        const p = feature.properties || {};
+                        const nome = p.Name || p.name || (p.Codigo ? `Lote ${p.Codigo}` : 'Lote');
+                        layer.bindTooltip(nome, {
+                            permanent: true,
+                            direction: 'center',
+                            className: 'lote-map-label',
+                            interactive: false
+                        });
+                    },
+                    interactive: false
+                }).addTo(exportMap).bringToBack();
+            }
+
+            // Ajusta o enquadramento na favela com resolução proporcional
+            const bounds = exportGeoJsonLayer.getBounds();
+            if (bounds.isValid()) {
+                exportMap.fitBounds(bounds, { padding: [60, 60], maxZoom: 20, animate: false });
+            }
+            exportMap.invalidateSize(true);
+
+            // Aguarda o download completo de todos os tiles de satélite em resolução máxima (Zoom 19/20)
+            await new Promise((resolve) => {
+                let resolved = false;
+                const timer = setTimeout(() => {
+                    if (!resolved) {
+                        resolved = true;
+                        resolve();
+                    }
+                }, 5000); // 5s fallback de segurança
+
+                tileLayer.once('load', () => {
+                    if (!resolved) {
+                        resolved = true;
+                        clearTimeout(timer);
+                        setTimeout(resolve, 400); // delay para sincronização do canvas
+                    }
+                });
+            });
+
+            // Captura o mapa renderizado em alta definição (3396x1600 * 2 = 6792 x 3200 px)
+            mapCanvas = await html2canvas(exportMapDiv, {
                 useCORS: true,
                 allowTaint: false,
                 scale: 2,
-                logging: false,
-                ignoreElements: (node) => node.classList && (
-                    node.classList.contains('leaflet-control-container') ||
-                    node.classList.contains('map-legend') ||
-                    node.classList.contains('update-info-badge') ||
-                    node.classList.contains('sidebar') ||
-                    node.classList.contains('toast') ||
-                    node.classList.contains('modal-overlay')
-                )
+                logging: false
             });
+
+            // Libera o mapa offscreen da memória
+            exportMap.remove();
+            exportMapDiv.remove();
+
         } catch (err) {
-            console.error('[Exportar Mapa] Falha ao capturar canvas do Leaflet:', err);
-            showToast('Erro ao capturar mapa. Tente novamente.', 'error');
+            console.error('[Exportar Mapa] Falha na renderização de alta resolução:', err);
+            if (document.getElementById('export-map-renderer-hd')) {
+                document.getElementById('export-map-renderer-hd').remove();
+            }
+            showToast('Erro ao renderizar mapa em alta resolução.', 'error');
             return;
         }
 
-        // 6. Preencher Layout Oculto e Capturar Documento A4
+        // 5. Preencher Layout A4 (3508 x 2480 px) e Capturar Documento em 600 DPI (7016 x 4960 px)
         const printLayout = document.getElementById('print-layout');
         const printTitle = document.getElementById('print-title');
         const printDate = document.getElementById('print-date');
@@ -1691,37 +1779,44 @@ document.addEventListener('DOMContentLoaded', () => {
         printLayout.style.display = 'flex';
 
         try {
+            showToast('Processando Prancha A2 (594 × 420 mm) em alta resolução...', 'info');
+
+            // Renderiza o documento completo A2 com scale 2: 3508x2480 * 2 = 7016 x 4960 px
             const finalCanvas = await html2canvas(printLayout, {
                 useCORS: true,
-                scale: 1,
-                width: 2970,
-                height: 2100,
+                allowTaint: false,
+                scale: 2,
+                width: 3508,
+                height: 2480,
                 logging: false
             });
 
             printLayout.style.display = 'none';
             mapContainer.innerHTML = ''; // Libera memória
 
-            const safeFileName = `Mapa_${areaName.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
+            const safeFileName = `Prancha_A2_${areaName.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
 
             if (format === 'png') {
                 const link = document.createElement('a');
                 link.download = `${safeFileName}.png`;
                 link.href = finalCanvas.toDataURL('image/png');
                 link.click();
-                showToast(`Download de "${safeFileName}.png" concluído!`, 'success');
+                showToast(`Download de "${safeFileName}.png" (Prancha A2) concluído com sucesso!`, 'success');
             } else if (format === 'pdf') {
                 const { jsPDF } = window.jspdf;
                 const pdf = new jsPDF({
                     orientation: 'landscape',
                     unit: 'mm',
-                    format: 'a4'
+                    format: 'a2',
+                    compress: true
                 });
-                const pdfW = pdf.internal.pageSize.getWidth();
-                const pdfH = pdf.internal.pageSize.getHeight();
-                pdf.addImage(finalCanvas.toDataURL('image/jpeg', 0.96), 'JPEG', 0, 0, pdfW, pdfH);
+                const pdfW = pdf.internal.pageSize.getWidth();  // 594 mm
+                const pdfH = pdf.internal.pageSize.getHeight(); // 420 mm
+
+                // Insere imagem de 7016 x 4960 px na página A2 (594 x 420 mm) com qualidade máxima JPEG (0.98)
+                pdf.addImage(finalCanvas.toDataURL('image/jpeg', 0.98), 'JPEG', 0, 0, pdfW, pdfH, undefined, 'FAST');
                 pdf.save(`${safeFileName}.pdf`);
-                showToast(`Download de "${safeFileName}.pdf" concluído!`, 'success');
+                showToast(`Download de "${safeFileName}.pdf" (Prancha A2) concluído com sucesso!`, 'success');
             }
 
         } catch (err) {

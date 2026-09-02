@@ -9,8 +9,8 @@ const CONFIG = {
     
     // Informações da última atualização
     lastUpdate: {
-        date: "31/08/2026",
-        description: "Nova área: Fumaça (Lote 5)"
+        date: "02/09/2026",
+        description: "Nova área: Cocaia I (Lote 6)"
     },
 
     // Caminhos padrão dos arquivos na pasta
