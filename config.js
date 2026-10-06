@@ -9,7 +9,7 @@ const CONFIG = {
     
     // Informações da última atualização
     lastUpdate: {
-        date: "02/09/2026",
+        date: "06/10/2026",
         description: "Nova área: Cocaia I (Lote 6)"
     },
 

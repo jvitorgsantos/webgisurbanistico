@@ -7216,6 +7216,9 @@ AAL0150069A;AAL;Imóvel Selado;Alto da Alegria
 AAL0150070A;AAL;Imóvel Selado;Alto da Alegria
 AAL0150070B;AAL;Imóvel Selado;Alto da Alegria
 AAL0150071A;AAL;Imóvel Selado;Alto da Alegria
+AAL0090015C;AAL;Imóvel Selado;Alto da Alegria
+AAL0090017B;AAL;Imóvel Selado;Alto da Alegria
+AAL0120087NO;AAL;Imóvel Selado;Alto da Alegria
 PBP0040001A;PBP;Imóvel Selado;Pabreu Prainha
 PBP0040001B;PBP;Imóvel Selado;Pabreu Prainha
 PBP0040001C;PBP;Imóvel Selado;Pabreu Prainha
@@ -9857,12 +9860,14 @@ FUM0010001A;FUM;Removido;Fumaça
 FUM0010002A;FUM;Removido;Fumaça
 FUM0010003A;FUM;Removido;Fumaça
 FUM0010004A;FUM;Removido;Fumaça
+FUM0010005A;FUM;Removido;Fumaça
 FUM0010006A;FUM;Removido;Fumaça
 FUM0010009A;FUM;Removido;Fumaça
 FUM0010010A;FUM;Removido;Fumaça
 FUM0010011A;FUM;Removido;Fumaça
 FUM0010012A;FUM;Removido;Fumaça
 FUM0010012B;FUM;Removido;Fumaça
+FUM0010013A;FUM;Removido;Fumaça
 FUM0010013B;FUM;Removido;Fumaça
 FUM0010014A;FUM;Removido;Fumaça
 FUM0010015A;FUM;Removido;Fumaça
@@ -9871,6 +9876,7 @@ FUM0010017A;FUM;Removido;Fumaça
 FUM0010018A;FUM;Removido;Fumaça
 FUM0010019A;FUM;Removido;Fumaça
 FUM0010019B;FUM;Removido;Fumaça
+FUM0010020A;FUM;Removido;Fumaça
 FUM0010021A;FUM;Removido;Fumaça
 FUM0010022A;FUM;Removido;Fumaça
 FUM0010023A;FUM;Removido;Fumaça
@@ -9889,7 +9895,9 @@ FUM0020005A;FUM;Removido;Fumaça
 FUM0020006A;FUM;Removido;Fumaça
 FUM0020007A;FUM;Removido;Fumaça
 FUM0020008A;FUM;Removido;Fumaça
+FUM0020009A;FUM;Removido;Fumaça
 FUM0020010A;FUM;Removido;Fumaça
+FUM0020011A;FUM;Removido;Fumaça
 FUM0020012A;FUM;Removido;Fumaça
 FUM0020013A;FUM;Removido;Fumaça
 FUM0020013B;FUM;Removido;Fumaça
@@ -9908,6 +9916,10 @@ FUM0030004A;FUM;Removido;Fumaça
 FUM0030005A;FUM;Removido;Fumaça
 FUM0030006A;FUM;Removido;Fumaça
 FUM0030007A;FUM;Removido;Fumaça
+FUM0030009A;FUM;Removido;Fumaça
+FUM0030009B;FUM;Removido;Fumaça
+FUM0030009C;FUM;Removido;Fumaça
+FUM0030009D;FUM;Removido;Fumaça
 FUM0030010A;FUM;Removido;Fumaça
 FUM0030011A;FUM;Removido;Fumaça
 FUM0030011B;FUM;Removido;Fumaça
@@ -9927,6 +9939,7 @@ FUM0030021A;FUM;Removido;Fumaça
 FUM0030022A;FUM;Removido;Fumaça
 FUM0030023A;FUM;Removido;Fumaça
 FUM0030024A;FUM;Removido;Fumaça
+FUM0030025A;FUM;Removido;Fumaça
 FUM0030026A;FUM;Removido;Fumaça
 FUM0030027A;FUM;Removido;Fumaça
 FUM0030028A;FUM;Removido;Fumaça
@@ -10008,39 +10021,23 @@ FUM0060016A;FUM;Removido;Fumaça
 FUM0060017A;FUM;Removido;Fumaça
 FUM0060018A;FUM;Removido;Fumaça
 FUM0060019A;FUM;Removido;Fumaça
-AAL0050010A;AAL;Removido;Alto da Alegria
-AAL0050010B;AAL;Removido;Alto da Alegria
 AAL0050032A;AAL;Removido;Alto da Alegria
 AAL0050032B;AAL;Removido;Alto da Alegria
 AAL0050032C;AAL;Removido;Alto da Alegria
 AAL0050039A;AAL;Removido;Alto da Alegria
-AAL0050040A;AAL;Removido;Alto da Alegria
-AAL0050040B;AAL;Removido;Alto da Alegria
-AAL0050041A;AAL;Removido;Alto da Alegria
 AAL0050041B;AAL;Removido;Alto da Alegria
 AAL0050041C;AAL;Removido;Alto da Alegria
 AAL0050042A;AAL;Removido;Alto da Alegria
 AAL0050043A;AAL;Removido;Alto da Alegria
 AAL0050044A;AAL;Removido;Alto da Alegria
-AAL0050045A;AAL;Removido;Alto da Alegria
-AAL0050046A;AAL;Removido;Alto da Alegria
 AAL0050047A;AAL;Removido;Alto da Alegria
 AAL0050047B;AAL;Removido;Alto da Alegria
-AAL0050048A;AAL;Removido;Alto da Alegria
 AAL0050049A;AAL;Removido;Alto da Alegria
-AAL0050050A;AAL;Removido;Alto da Alegria
-AAL0050051A;AAL;Removido;Alto da Alegria
-AAL0050051B;AAL;Removido;Alto da Alegria
-AAL0050051C;AAL;Removido;Alto da Alegria
 AAL0050052A;AAL;Removido;Alto da Alegria
 AAL0050052B;AAL;Removido;Alto da Alegria
 AAL0050052C;AAL;Removido;Alto da Alegria
 AAL0050052D;AAL;Removido;Alto da Alegria
 AAL0050053A;AAL;Removido;Alto da Alegria
-AAL0050054A;AAL;Removido;Alto da Alegria
-AAL0050074A;AAL;Removido;Alto da Alegria
-AAL0050075A;AAL;Removido;Alto da Alegria
-AAL0050076A;AAL;Removido;Alto da Alegria
 AAL0050081A;AAL;Removido;Alto da Alegria
 AAL0050081B;AAL;Removido;Alto da Alegria
 AAL0050081C;AAL;Removido;Alto da Alegria
@@ -10074,7 +10071,6 @@ AAL0050099A;AAL;Removido;Alto da Alegria
 AAL0050100A;AAL;Removido;Alto da Alegria
 AAL0050100B;AAL;Removido;Alto da Alegria
 AAL0050100C;AAL;Removido;Alto da Alegria
-AAL0050100D;AAL;Removido;Alto da Alegria
 AAL0050102A;AAL;Removido;Alto da Alegria
 AAL0050103A;AAL;Removido;Alto da Alegria
 AAL0050104A;AAL;Removido;Alto da Alegria
@@ -10106,7 +10102,13 @@ AAL0080014A;AAL;Removido;Alto da Alegria
 AAL0080015A;AAL;Removido;Alto da Alegria
 AAL0080018A;AAL;Removido;Alto da Alegria
 AAL0080019A;AAL;Removido;Alto da Alegria
-AAL0090009A;AAL;Removido;Alto da Alegria
+AAL0090013B;AAL;Removido;Alto da Alegria
+AAL0090014A;AAL;Removido;Alto da Alegria
+AAL0090014B;AAL;Removido;Alto da Alegria
+AAL0090015A;AAL;Removido;Alto da Alegria
+AAL0090016A;AAL;Removido;Alto da Alegria
+AAL0090016B;AAL;Removido;Alto da Alegria
+AAL0090017A;AAL;Removido;Alto da Alegria
 AAL0110012A;AAL;Removido;Alto da Alegria
 AAL0110012B;AAL;Removido;Alto da Alegria
 AAL0110014A;AAL;Removido;Alto da Alegria
@@ -10132,12 +10134,9 @@ AAL0110024B;AAL;Removido;Alto da Alegria
 AAL0110024C;AAL;Removido;Alto da Alegria
 AAL0110025A;AAL;Removido;Alto da Alegria
 AAL0110026A;AAL;Removido;Alto da Alegria
-AAL0110027A;AAL;Removido;Alto da Alegria
 AAL0110030A;AAL;Removido;Alto da Alegria
 AAL0110031A;AAL;Removido;Alto da Alegria
 AAL0110032A;AAL;Removido;Alto da Alegria
-AAL0110034A;AAL;Removido;Alto da Alegria
-AAL0110034B;AAL;Removido;Alto da Alegria
 AAL0110034C;AAL;Removido;Alto da Alegria
 AAL0120008A;AAL;Removido;Alto da Alegria
 AAL0120008B;AAL;Removido;Alto da Alegria
@@ -10182,7 +10181,6 @@ AAL0150010B;AAL;Removido;Alto da Alegria
 AAL0150011A;AAL;Removido;Alto da Alegria
 AAL0150011B;AAL;Removido;Alto da Alegria
 AAL0150011C;AAL;Removido;Alto da Alegria
-AAL0150012A;AAL;Removido;Alto da Alegria
 AAL0150013A;AAL;Removido;Alto da Alegria
 AAL0150016A;AAL;Removido;Alto da Alegria
 AAL0150017A;AAL;Removido;Alto da Alegria
@@ -10193,18 +10191,16 @@ AAL0150017E;AAL;Removido;Alto da Alegria
 AAL0150042A;AAL;Removido;Alto da Alegria
 AAL0150042B;AAL;Removido;Alto da Alegria
 AAL0150042C;AAL;Removido;Alto da Alegria
-AAL0150043E;AAL;Removido;Alto da Alegria
 AAL0150049A;AAL;Removido;Alto da Alegria
 AAL0150050A;AAL;Removido;Alto da Alegria
 AAL0150051A;AAL;Removido;Alto da Alegria
 AAL0150052A;AAL;Removido;Alto da Alegria
 AAL0150053A;AAL;Removido;Alto da Alegria
-AAL0150072B;AAL;Removido;Alto da Alegria
 AAL0150074A;AAL;Removido;Alto da Alegria
 AAL0150075A;AAL;Removido;Alto da Alegria
 AAL0150075B;AAL;Removido;Alto da Alegria
-AAL0150076A;AAL;Removido;Alto da Alegria
-AAL0150076B;AAL;Removido;Alto da Alegria
+;;Removido;Alto da Alegria
+;;Removido;Alto da Alegria
 JA20010001A;JA2;Removido;Jardim Ângela II
 JA20010001B;JA2;Removido;Jardim Ângela II
 JA20010001C;JA2;Removido;Jardim Ângela II
@@ -10904,6 +10900,7 @@ BPA0210011C;BPA;Removido;Boulevard da Paz
 BPA0210012A;BPA;Removido;Boulevard da Paz
 BPA0210012B;BPA;Removido;Boulevard da Paz
 BPA0210013A;BPA;Removido;Boulevard da Paz
+BPA0210014A;BPA;Removido;Boulevard da Paz
 BPA0210014B;BPA;Removido;Boulevard da Paz
 BPA0210014C;BPA;Removido;Boulevard da Paz
 BPA0210014D;BPA;Removido;Boulevard da Paz
@@ -14776,7 +14773,6 @@ AAL0090006A;AAL;Frente De Obras;Alto da Alegria
 AAL0090007A;AAL;Frente De Obras;Alto da Alegria
 AAL0090007B;AAL;Frente De Obras;Alto da Alegria
 AAL0090008A;AAL;Frente De Obras;Alto da Alegria
-AAL0090008B;AAL;Frente De Obras;Alto da Alegria
 AAL0090018A;AAL;Frente De Obras;Alto da Alegria
 AAL0090018B;AAL;Frente De Obras;Alto da Alegria
 AAL0090018C;AAL;Frente De Obras;Alto da Alegria
@@ -14812,9 +14808,6 @@ AAL0110013B;AAL;Frente De Obras;Alto da Alegria
 AAL0110013C;AAL;Frente De Obras;Alto da Alegria
 AAL0110013D;AAL;Frente De Obras;Alto da Alegria
 AAL0110013E;AAL;Frente De Obras;Alto da Alegria
-AAL0150014A;AAL;Frente De Obras;Alto da Alegria
-AAL0150015A;AAL;Frente De Obras;Alto da Alegria
-AAL0150015B;AAL;Frente De Obras;Alto da Alegria
 AAL0150043A;AAL;Frente De Obras;Alto da Alegria
 AAL0150043B;AAL;Frente De Obras;Alto da Alegria
 AAL0150043C;AAL;Frente De Obras;Alto da Alegria
@@ -14855,28 +14848,41 @@ AAL0150056F;AAL;Frente De Obras;Alto da Alegria
 AAL0150072A;AAL;Frente De Obras;Alto da Alegria
 AAL0150073A;AAL;Frente De Obras;Alto da Alegria
 AAL0150073B;AAL;Frente De Obras;Alto da Alegria
+AAL0090008B;AAL;Frente De Obras;Alto da Alegria
+AAL0050010A;AAL;;Alto da Alegria
+AAL0050010B;AAL;;Alto da Alegria
 AAL0050011A;AAL;Resistente;Alto da Alegria
+AAL0050040A;AAL;;Alto da Alegria
+AAL0050040B;AAL;;Alto da Alegria
+AAL0050041A;AAL;;Alto da Alegria
+AAL0050045A;AAL;;Alto da Alegria
 AAL0050045B;AAL;Resistente;Alto da Alegria
 AAL0050045C;AAL;Resistente;Alto da Alegria
+AAL0050046A;AAL;;Alto da Alegria
+AAL0050048A;AAL;;Alto da Alegria
+AAL0050050A;AAL;;Alto da Alegria
+AAL0050051A;AAL;;Alto da Alegria
+AAL0050051B;AAL;;Alto da Alegria
+AAL0050051C;AAL;;Alto da Alegria
 AAL0050053B;AAL;Resistente;Alto da Alegria
 AAL0050053C;AAL;Resistente;Alto da Alegria
+AAL0050054A;AAL;;Alto da Alegria
 AAL0050055A;AAL;Em Tratativas;Alto da Alegria
+AAL0050074A;AAL;;Alto da Alegria
 AAL0050074B;AAL;Resistente;Alto da Alegria
 AAL0050074C;AAL;Resistente;Alto da Alegria
-AAL0090008C;AAL;Em Tratativas;Alto da Alegria
+AAL0050075A;AAL;;Alto da Alegria
+AAL0050076A;AAL;;Alto da Alegria
+AAL0050100D;AAL;;Alto da Alegria
+AAL0090008B;AAL;Resistente;Alto da Alegria
+AAL0090008C;AAL;Resistente;Alto da Alegria
+AAL0090009A;AAL;;Alto da Alegria
 AAL0090010A;AAL;;Alto da Alegria
 AAL0090010B;AAL;;Alto da Alegria
 AAL0090011A;AAL;;Alto da Alegria
 AAL0090012A;AAL;;Alto da Alegria
 AAL0090013A;AAL;;Alto da Alegria
-AAL0090013B;AAL;;Alto da Alegria
-AAL0090014A;AAL;Em Tratativas;Alto da Alegria
-AAL0090014B;AAL;Em Tratativas;Alto da Alegria
-AAL0090015A;AAL;Em Tratativas;Alto da Alegria
 AAL0090015B;AAL;Em Tratativas;Alto da Alegria
-AAL0090016A;AAL;Em Tratativas;Alto da Alegria
-AAL0090016B;AAL;Em Tratativas;Alto da Alegria
-AAL0090017A;AAL;Em Tratativas;Alto da Alegria
 AAL0100012A;AAL;;Alto da Alegria
 AAL0100013A;AAL;;Alto da Alegria
 AAL0100013B;AAL;;Alto da Alegria
@@ -14887,12 +14893,23 @@ AAL0100017A;AAL;;Alto da Alegria
 AAL0100018A;AAL;;Alto da Alegria
 AAL0100019A;AAL;;Alto da Alegria
 AAL0100019B;AAL;;Alto da Alegria
+AAL0110027A;AAL;;Alto da Alegria
 AAL0110028A;AAL;;Alto da Alegria
 AAL0110029A;AAL;;Alto da Alegria
 AAL0110033A;AAL;Resistente;Alto da Alegria
-AAL0110034D;AAL;;Alto da Alegria
+AAL0110034A;AAL;;Alto da Alegria
+AAL0110034B;AAL;;Alto da Alegria
+AAL0110034D;AAL;Em Tratativas;Alto da Alegria
 AAL0110035A;AAL;;Alto da Alegria
 AAL0110036A;AAL;Resistente;Alto da Alegria
+AAL0150012A;AAL;;Alto da Alegria
+AAL0150014A;AAL;Em Tratativas;Alto da Alegria
+AAL0150015A;AAL;Em Tratativas;Alto da Alegria
+AAL0150015B;AAL;Em Tratativas;Alto da Alegria
+AAL0150043E;AAL;;Alto da Alegria
+AAL0150072B;AAL;;Alto da Alegria
+AAL0150076A;AAL;;Alto da Alegria
+AAL0150076B;AAL;;Alto da Alegria
 CCJ0010033A;CCJ;Em Tratativas;Chácara do Conde
 CCJ0010051A;CCJ;Em Tratativas;Chácara do Conde
 CCJ0010057B;CCJ;Em Tratativas;Chácara do Conde
@@ -15255,14 +15272,22 @@ LNL0010007A;LNL;Em Tratativas;Lar Novo Lar
 CHF0250006C;CHF;Em Tratativas;Chácara Flórida
 CHF0250033B;CHF;Em Tratativas;Chácara Flórida
 BDS0010015B;BDS;Em Tratativas;Bosque do Sol
+TMS0010002B;TMS;Em Tratativas;Tomás Sandrino
+TMS0010001A;TMS;Em Tratativas;Tomás Sandrino
+TMS0010002A;TMS;Em Tratativas;Tomás Sandrino
+TMS0010003A;TMS;Em Tratativas;Tomás Sandrino
+TMS0010003B;TMS;Em Tratativas;Tomás Sandrino
+TMS0010004A;TMS;Em Tratativas;Tomás Sandrino
+TMS0020001B;TMS;Em Tratativas;Tomás Sandrino
+TMS0020002B;TMS;Em Tratativas;Tomás Sandrino
+TMS0020001A;TMS;Em Tratativas;Tomás Sandrino
+TMS0020002A;TMS;Em Tratativas;Tomás Sandrino
+TMS0020002C;TMS;Em Tratativas;Tomás Sandrino
 TMS0030063A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030056A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030046A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030046B;TMS;Em Tratativas;Tomás Sandrino
 TMS0030047D;TMS;Em Tratativas;Tomás Sandrino
-TMS0010002B;TMS;Em Tratativas;Tomás Sandrino
-TMS0020001B;TMS;Em Tratativas;Tomás Sandrino
-TMS0020002B;TMS;Em Tratativas;Tomás Sandrino
 TMS0030047A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030047B;TMS;Em Tratativas;Tomás Sandrino
 TMS0030047C;TMS;Em Tratativas;Tomás Sandrino
@@ -15275,14 +15300,6 @@ TMS0030058A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030061A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030048A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030049A;TMS;Em Tratativas;Tomás Sandrino
-TMS0010001A;TMS;Em Tratativas;Tomás Sandrino
-TMS0010002A;TMS;Em Tratativas;Tomás Sandrino
-TMS0010003A;TMS;Em Tratativas;Tomás Sandrino
-TMS0010003B;TMS;Em Tratativas;Tomás Sandrino
-TMS0010004A;TMS;Em Tratativas;Tomás Sandrino
-TMS0020001A;TMS;Em Tratativas;Tomás Sandrino
-TMS0020002A;TMS;Em Tratativas;Tomás Sandrino
-TMS0020002C;TMS;Em Tratativas;Tomás Sandrino
 TMS0030059A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030062A;TMS;Em Tratativas;Tomás Sandrino
 TMS0030064A;TMS;Em Tratativas;Tomás Sandrino
@@ -15304,7 +15321,6 @@ BPA0140031A;BPA;Em Tratativas;Boulevard da Paz
 BPA0140031B;BPA;Em Tratativas;Boulevard da Paz
 BPA0140043B;BPA;Em Tratativas;Boulevard da Paz
 BPA0140048A;BPA;Em Tratativas;Boulevard da Paz
-BPA0210014A;BPA;Em Tratativas;Boulevard da Paz
 BPA0210014E;BPA;Em Tratativas;Boulevard da Paz
 BPA0210016A;BPA;Em Tratativas;Boulevard da Paz
 MVE0110022D;MVE;Em Tratativas;Monte Verde
@@ -15334,18 +15350,8 @@ MVE0160062B;MVE;Em Tratativas;Monte Verde
 MVE0170003A;MVE;Em Tratativas;Monte Verde
 PBP0070003A;PBP;Em Tratativas;Pabreu Prainha
 PBP0070004A;PBP;Em Tratativas;Pabreu Prainha
-FUM0010005A;FUM;Em Tratativas;Fumaça
 FUM0010007A;FUM;Em Tratativas;Fumaça
 FUM0010008A;FUM;Em Tratativas;Fumaça
-FUM0010013A;FUM;Em Tratativas;Fumaça
-FUM0010020A;FUM;Em Tratativas;Fumaça
-FUM0020009A;FUM;Em Tratativas;Fumaça
-FUM0020011A;FUM;Em Tratativas;Fumaça
-FUM0030009A;FUM;Em Tratativas;Fumaça
-FUM0030009B;FUM;Em Tratativas;Fumaça
-FUM0030009C;FUM;Em Tratativas;Fumaça
-FUM0030009D;FUM;Em Tratativas;Fumaça
-FUM0030025A;FUM;Em Tratativas;Fumaça
 CC10010007A;CC1;Em Tratativas;Cocaia I
 CC10010020A;CC1;Em Tratativas;Cocaia I
 CC10010026C;CC1;Em Tratativas;Cocaia I
